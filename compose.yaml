@@ -1,0 +1,7 @@
+﻿services:
+  frenchverbes:
+    image: frenchverbes
+    build:
+      context: .
+      dockerfile: FrenchVerbes/Dockerfile
+
