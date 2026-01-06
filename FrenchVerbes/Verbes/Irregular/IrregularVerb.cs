@@ -12,6 +12,13 @@ public class IrregularFrenchVerb : Verb
         _presentTense = presentTense;
     }
 
+    protected override string PastParticiple { get; }
+
+    protected override string GetStemForTense(string tense)
+    {
+        throw new NotImplementedException();
+    }
+
     public override void PrintSummary()
     {
         Console.WriteLine($"Verb: {Infinitive}");
@@ -22,5 +29,15 @@ public class IrregularFrenchVerb : Verb
         {
             Console.WriteLine($"{pronoun} {form}");
         }
+    }
+
+    protected override void PrintPresent()
+    {
+        throw new NotImplementedException();
+    }
+
+    protected override void PrintImperative()
+    {
+        throw new NotImplementedException();
     }
 }

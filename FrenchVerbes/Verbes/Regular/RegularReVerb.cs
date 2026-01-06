@@ -8,9 +8,6 @@ public class RegularReVerb : RegularVerb
     protected override string PastParticipleSuffix => "u";
     
     protected override string[] PresentTenseEndings => new[] { "s", "s", "", "ons", "ez", "ent" };
-    protected override string[] ImparfaitEndings => new[] { "ais", "ais", "ait", "ions", "iez", "aient" };
-    protected override string[] FuturSimpleEndings => new[] { "ai", "as", "a", "ons", "ez", "ont" };
-    protected override string[] ConditionnelPresentEndings => ImparfaitEndings;
     protected override string[] ImperativeEndings => new[] { "s", "ons", "ez" };
     
     protected override string GetStemForTense(string tense) =>

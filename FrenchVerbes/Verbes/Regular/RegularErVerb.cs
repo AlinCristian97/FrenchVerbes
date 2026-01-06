@@ -14,9 +14,6 @@ public class RegularErVerb : RegularVerb
     protected override string PastParticipleSuffix => "é";
     
     protected override string[] PresentTenseEndings => new[] { "e", "es", "e", "ons", "ez", "ent" };
-    protected override string[] ImparfaitEndings => new[] { "ais", "ais", "ait", "ions", "iez", "aient" };
-    protected override string[] FuturSimpleEndings => new[] { "ai", "as", "a", "ons", "ez", "ont" };
-    protected override string[] ConditionnelPresentEndings => ImparfaitEndings;
     protected override string[] ImperativeEndings => new[] { "e", "ons", "ez" };
     
     protected override string GetStemForTense(string tense)
@@ -96,4 +93,31 @@ public class RegularErVerb : RegularVerb
         }
     }
 
+    protected override void PrintImperative()
+    {
+        Console.WriteLine(Constants.Tenses.Imperative.ToHeadline());
+        string stem = GetStemForTense(Constants.Tenses.Present);
+        
+        // Pronoun indices for Imperative: 1 (Tu), 3 (Nous), 4 (Vous)
+        int[] indices = { 1, 3, 4 };
+        string[] labels = { Constants.Pronouns.Tu, Constants.Pronouns.Nous, Constants.Pronouns.Vous };
+
+        for (int i = 0; i < indices.Length; i++)
+        {
+            int pronounIndex = indices[i];
+            string adjustedStem = stem;
+
+            // Apply the same GER/CER rules as PrintPresent
+            if (Infinitive.EndsWith(specialGerEnding) && pronounIndex == 3) // "Nous" form
+                adjustedStem += "e";
+
+            if (Infinitive.EndsWith(specialCerEnding) && pronounIndex == 3) // "Nous" form
+                adjustedStem = adjustedStem[..^1] + Constants.FrenchSymbols.CedillaC;
+
+            Console.Write($"{labels[i]} {adjustedStem}");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(ImperativeEndings[i]);
+            Console.ResetColor();
+        }
+    }
 }
