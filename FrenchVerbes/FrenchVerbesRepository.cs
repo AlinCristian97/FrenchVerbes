@@ -6,6 +6,7 @@ public static class VerbRepository
 {
     private static readonly List<Verb> _verbs =
     [
+        // Irregular Verbes
         new IrregularFrenchVerb(
             Constants.Verbs.Etre,
             new Dictionary<string, string>
@@ -30,6 +31,7 @@ public static class VerbRepository
                 [Constants.Pronouns.IlsElles] = "ont"
             }),
 
+        // Regular Verbes
         new RegularErVerb(Constants.Verbs.Manger),
         new RegularIrVerb(Constants.Verbs.Finir),
         new RegularReVerb(Constants.Verbs.Vendre)

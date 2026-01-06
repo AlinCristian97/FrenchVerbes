@@ -3,6 +3,7 @@
 public abstract class Verb
 {
     public string Infinitive { get; }
+    public virtual bool UsesEtre => false;
 
     public Verb(string infinitive)
     {

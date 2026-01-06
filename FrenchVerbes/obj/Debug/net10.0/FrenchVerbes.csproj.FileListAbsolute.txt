@@ -12,3 +12,4 @@ E:\Dev\rider\FrenchVerbes\FrenchVerbes\obj\Debug\net10.0\refint\FrenchVerbes.dll
 E:\Dev\rider\FrenchVerbes\FrenchVerbes\obj\Debug\net10.0\FrenchVerbes.pdb
 E:\Dev\rider\FrenchVerbes\FrenchVerbes\obj\Debug\net10.0\FrenchVerbes.genruntimeconfig.cache
 E:\Dev\rider\FrenchVerbes\FrenchVerbes\obj\Debug\net10.0\ref\FrenchVerbes.dll
+E:\Dev\rider\FrenchVerbes\FrenchVerbes\obj\Debug\net10.0\FrenchVerbes.sourcelink.json

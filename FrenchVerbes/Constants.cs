@@ -22,6 +22,8 @@ public static class Constants
         public const string IlsElles = "Ils/Elles";
 
         public static readonly string[] All = { Je, Tu, IlElleOn, Nous, Vous, IlsElles };
+        
+        public const string Je_Contracted = "J'";
     }
 
     public static class Tenses
@@ -43,6 +45,42 @@ public static class Constants
             public static readonly string[] PasseCompose_AuxiliaryAvoir = { "ai", "as", "a", "avons", "avez", "ont" };
             public static readonly string[] PasseCompose_AuxiliaryEtre = { "suis", "es", "est", "sommes", "êtes", "sont" };
         }
+    }
 
+    public static class FrenchSymbols
+    {
+        // Accents aigus
+        public const string AiguE = "é";
+        public const string AiguA = "á";
+        public const string AiguI = "í";
+        public const string AiguO = "ó";
+        public const string AiguU = "ú";
+
+        // Accents graves
+        public const string GraveE = "è";
+        public const string GraveA = "à";
+        public const string GraveI = "ì";
+        public const string GraveO = "ò";
+        public const string GraveU = "ù";
+
+        // Accents circonflexes
+        public const string CircumflexE = "ê";
+        public const string CircumflexA = "â";
+        public const string CircumflexI = "î";
+        public const string CircumflexO = "ô";
+        public const string CircumflexU = "û";
+
+        // Tréma
+        public const string TremaE = "ë";
+        public const string TremaI = "ï";
+        public const string TremaU = "ü";
+        public const string TremaY = "ÿ";
+
+        // Cédille
+        public const string CedillaC = "ç";
+
+        // Ligatures
+        public const string AeLigature = "æ";
+        public const string OeLigature = "œ";
     }
 }

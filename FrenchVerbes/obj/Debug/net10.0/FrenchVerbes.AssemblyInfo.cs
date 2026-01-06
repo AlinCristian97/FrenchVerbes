@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FrenchVerbes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+556279920c439baea10e7321fac836b28f12d2e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("FrenchVerbes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FrenchVerbes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
