@@ -4,12 +4,30 @@ public static class Constants
 {
     public static class Verbs
     {
-        public const string Etre = "être";
-        public const string Avoir = "avoir";
-        public const string Aller = "aller";
-        public const string Manger = "manger";
-        public const string Finir = "finir";
-        public const string Vendre = "vendre";
+        public static class Irregular
+        {
+            public const string Etre = "être";
+            public const string Avoir = "avoir";
+            public const string Aller = "aller";
+        }
+
+        public static class Regular
+        {
+            public static class Er
+            {
+                public const string Manger = "manger";
+            }
+
+            public static class Ir
+            {
+                public const string Finir = "finir";
+            }
+
+            public static class Re
+            {
+                public const string Vendre = "vendre";
+            }
+        }
     }
 
     public static class Pronouns
@@ -83,4 +101,6 @@ public static class Constants
         public const string AeLigature = "æ";
         public const string OeLigature = "œ";
     }
+    
+    public static string Vowels = "aeiouéêëàâîïôûùh";
 }

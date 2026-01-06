@@ -98,26 +98,22 @@ public class RegularErVerb : RegularVerb
         Console.WriteLine(Constants.Tenses.Imperative.ToHeadline());
         string stem = GetStemForTense(Constants.Tenses.Present);
         
-        // Pronoun indices for Imperative: 1 (Tu), 3 (Nous), 4 (Vous)
+        // Indices in the full pronoun list: 1 (Tu), 3 (Nous), 4 (Vous)
         int[] indices = { 1, 3, 4 };
-        string[] labels = { Constants.Pronouns.Tu, Constants.Pronouns.Nous, Constants.Pronouns.Vous };
 
         for (int i = 0; i < indices.Length; i++)
         {
-            int pronounIndex = indices[i];
             string adjustedStem = stem;
+            int pronounIndex = indices[i];
 
-            // Apply the same GER/CER rules as PrintPresent
-            if (Infinitive.EndsWith(specialGerEnding) && pronounIndex == 3) // "Nous" form
-                adjustedStem += "e";
+            if (Infinitive.EndsWith(specialGerEnding) && pronounIndex == 3) adjustedStem += "e";
+            if (Infinitive.EndsWith(specialCerEnding) && pronounIndex == 3) adjustedStem = adjustedStem[..^1] + Constants.FrenchSymbols.CedillaC;
 
-            if (Infinitive.EndsWith(specialCerEnding) && pronounIndex == 3) // "Nous" form
-                adjustedStem = adjustedStem[..^1] + Constants.FrenchSymbols.CedillaC;
-
-            Console.Write($"{labels[i]} {adjustedStem}");
+            Console.Write(adjustedStem);
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine(ImperativeEndings[i]);
+            Console.Write(ImperativeEndings[i]);
             Console.ResetColor();
+            Console.WriteLine(" !");
         }
     }
 }

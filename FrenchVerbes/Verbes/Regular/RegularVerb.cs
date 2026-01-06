@@ -26,24 +26,27 @@ public abstract class RegularVerb : Verb
         _ => throw new Exception("Tense not found.")
     };
 
-    // todo: override to add type ending?
-    private void PrintGeneralInfo()
+    protected override void PrintGeneralInfo()
     {
+        base.PrintGeneralInfo();
         Console.WriteLine($"Type: Regular ('{Ending}'-verb)");
     }
     
     protected override void PrintImperative()
     {
         Console.WriteLine(Constants.Tenses.Imperative.ToHeadline());
-        string[] pronouns = { Constants.Pronouns.Tu, Constants.Pronouns.Nous, Constants.Pronouns.Vous };
-        for (int i = 0; i < pronouns.Length; i++)
+        string stem = GetStemForTense(Constants.Tenses.Present);
+
+        for (int i = 0; i < ImperativeEndings.Length; i++)
         {
-            Console.Write($"{pronouns[i]} {Infinitive[..^Ending.Length]}");
+            // No pronouns in Imperative!
+            Console.Write(stem);
 
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine(ImperativeEndings[i]);
-
+            Console.Write(ImperativeEndings[i]);
             Console.ResetColor();
+            
+            Console.WriteLine(" !");
         }
     }
 

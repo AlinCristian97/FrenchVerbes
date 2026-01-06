@@ -19,7 +19,7 @@ public abstract class Verb
 
     protected abstract string GetStemForTense(string tense);
     
-    public virtual void PrintSummary()
+    public void PrintSummary()
     {
         PrintGeneralInfo();
         Console.WriteLine();
@@ -40,7 +40,7 @@ public abstract class Verb
         PrintConditionnelPresent();
     }
     
-    private void PrintGeneralInfo()
+    protected virtual void PrintGeneralInfo()
     {
         Console.Write("Verb: ");
         Console.ForegroundColor = ConsoleColor.Green;
@@ -87,8 +87,24 @@ public abstract class Verb
             Console.Write($"{pronoun}{space}");
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write($"{aux[i]} ");
+            
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine(PastParticiple);
+            Console.Write(PastParticiple);
+
+            // Handle agreement if auxiliary is 'être'
+            if (UsesEtre)
+            {
+                // Index 0, 1, 2 are singular (Je, Tu, Il/Elle/On)
+                // Index 3, 5 are always plural (Nous, Ils/Elles)
+                // Index 4 (Vous) can be singular or plural, but usually shown as plural in charts
+                
+                if (i == 0 || i == 1) Console.Write("(e)");
+                else if (i == 2) Console.Write(Constants.Pronouns.All[i].Contains("Elle") ? "e" : "(e)");
+                else if (i == 3 || i == 4) Console.Write("(e)s");
+                else if (i == 5) Console.Write(Constants.Pronouns.All[i].Contains("Elles") ? "es" : "s");
+            }
+
+            Console.WriteLine();
             Console.ResetColor();
         }
     }
@@ -113,6 +129,13 @@ public abstract class Verb
     {
         Console.WriteLine(Constants.Tenses.PasseRecent.ToHeadline());
         string[] aux = Constants.Tenses.Auxiliaries.PasseRecent_Auxiliary;
+        string connector = "de";
+
+        // Contract 'de' to 'd'' if the infinitive starts with a vowel
+        if (Constants.Vowels.Contains(Infinitive[0]))
+        {
+            connector = "d'";
+        }
 
         for (int i = 0; i < Constants.Pronouns.All.Length; i++)
         {
@@ -120,19 +143,32 @@ public abstract class Verb
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write($"{aux[i]} ");
             Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.Write("de ");
+            
+            // If it's d', don't add a space
+            Console.Write(connector + (connector.EndsWith("'") ? "" : " "));
+            
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(Infinitive);
             Console.ResetColor();
         }
     }
     
-    // Helper to avoid repeating the for-loop everywhere
     private void PrintTense(string stem, string[] endings)
     {
         for (int i = 0; i < Constants.Pronouns.All.Length; i++)
         {
-            Console.Write($"{Constants.Pronouns.All[i]} ");
+            string pronoun = Constants.Pronouns.All[i];
+            string fullForm = stem + endings[i];
+
+            // Handle Je -> J' contraction
+            if (i == 0 && Constants.Vowels.Contains(fullForm[0]))
+            {
+                pronoun = Constants.Pronouns.Je_Contracted;
+            }
+
+            string space = pronoun.EndsWith("'") ? "" : " ";
+            Console.Write($"{pronoun}{space}");
+            
             Console.Write(stem);
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(endings[i]);
