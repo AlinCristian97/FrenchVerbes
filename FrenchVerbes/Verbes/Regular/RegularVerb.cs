@@ -1,6 +1,6 @@
 ﻿using FrenchVerbes.Extensions;
 
-namespace FrenchVerbes.Verbes;
+namespace FrenchVerbes.Verbes.Regular;
 
 public abstract class RegularVerb : Verb
 {

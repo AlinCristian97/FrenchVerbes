@@ -1,7 +1,7 @@
 ﻿
 using FrenchVerbes.Extensions;
 
-namespace FrenchVerbes.Verbes;
+namespace FrenchVerbes.Verbes.Irregular;
 
 public class IrregularFrenchVerb : Verb
 {

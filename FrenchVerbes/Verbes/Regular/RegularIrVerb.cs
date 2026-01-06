@@ -1,4 +1,4 @@
-﻿namespace FrenchVerbes.Verbes;
+﻿namespace FrenchVerbes.Verbes.Regular;
 
 public class RegularIrVerb : RegularVerb
 {

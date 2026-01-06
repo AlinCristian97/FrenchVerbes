@@ -1,6 +1,7 @@
-﻿using FrenchVerbes.Verbes;
+﻿using FrenchVerbes.Verbes.Irregular;
+using FrenchVerbes.Verbes.Regular;
 
-namespace FrenchVerbes;
+namespace FrenchVerbes.Verbes;
 
 public static class VerbRepository
 {
