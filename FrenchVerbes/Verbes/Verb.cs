@@ -23,21 +23,41 @@ public abstract class Verb
     {
         PrintGeneralInfo();
         Console.WriteLine();
-        PrintPresent();
+        PrintTenseWithExamples(Constants.Tenses.Present, PrintPresent);
         Console.WriteLine();
-        PrintImparfait();
+        PrintTenseWithExamples(Constants.Tenses.Imparfait, PrintImparfait);
         Console.WriteLine();
-        PrintFuturSimple();
+        PrintTenseWithExamples(Constants.Tenses.FuturSimple, PrintFuturSimple);
         Console.WriteLine();
-        PrintPasseCompose();
+        PrintTenseWithExamples(Constants.Tenses.PasseCompose, PrintPasseCompose);
         Console.WriteLine();
-        PrintFuturProche();
+        PrintTenseWithExamples(Constants.Tenses.FuturProche, PrintFuturProche);
         Console.WriteLine();
-        PrintPasseRecent();
+        PrintTenseWithExamples(Constants.Tenses.PasseRecent, PrintPasseRecent);
         Console.WriteLine();
-        PrintImperative();
+        PrintTenseWithExamples(Constants.Tenses.Imperative, PrintImperative);
         Console.WriteLine();
-        PrintConditionnelPresent();
+        PrintTenseWithExamples(Constants.Tenses.ConditionnelPresent, PrintConditionnelPresent);
+    }
+    
+    private void PrintTenseWithExamples(string tenseName, Action printAction)
+    {
+        printAction();
+
+        int count = 3;
+        
+        var examples = ExampleSentencesRepository.GetRandomSentences(Infinitive, tenseName, count);
+        if (examples.Any())
+        {
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("Exemples :");
+            foreach (var example in examples)
+            {
+                Console.WriteLine($"  • {example}");
+            }
+            Console.ResetColor();
+        }
     }
     
     protected virtual void PrintGeneralInfo()
