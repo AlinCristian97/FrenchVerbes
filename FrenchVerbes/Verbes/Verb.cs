@@ -16,10 +16,13 @@ public abstract class Verb
     protected virtual string[] ConditionnelPresentEndings => ImparfaitEndings;
     protected abstract string PastParticiple { get; }
 
-    public Verb(string infinitive, string description)
+    private NotesObject? TensesNotes { get; } = null;
+
+    public Verb(string infinitive, string description, NotesObject? tensesNotes = null)
     {
         Infinitive = infinitive.ToLowerInvariant();
         Description = description;
+        TensesNotes = tensesNotes;
     }
 
     protected abstract string GetStemForTense(string tense);
@@ -116,34 +119,73 @@ public abstract class Verb
         Console.ResetColor();
         PrintUtils.PrintSectionDivider();
     }
-    
-    protected abstract void PrintPresent();
-    protected abstract void PrintImperative();
+
+    protected void PrintNotesForTenseIfAny(string tense)
+    {
+        if (TensesNotes == null)
+            return;
+        
+        string? notes = TensesNotes.GetNotesForTense(tense);
+
+        if (string.IsNullOrWhiteSpace(notes))
+            return;
+
+        Console.ForegroundColor = ConsoleColor.DarkGray;
+        Console.WriteLine($"{Constants.FrenchSymbols.LeGuillementOuvrant}{notes}{Constants.FrenchSymbols.LeGuillementFermant}");
+        Console.ResetColor();
+    }
+
+    protected virtual void PrintPresent()
+    {
+        string tense = Constants.Tenses.Present;
+        PrintUtils.PrintHeadline(tense);
+        PrintNotesForTenseIfAny(tense);
+    }
+
+    protected virtual void PrintImperative()
+    {
+        string tense = Constants.Tenses.Imperative;
+
+        PrintUtils.PrintHeadline(tense);
+        PrintNotesForTenseIfAny(tense);
+    }
 
     protected virtual void PrintImparfait()
     {
-        PrintUtils.PrintHeadline(Constants.Tenses.Imparfait);
-        string stem = GetStemForTense(Constants.Tenses.Imparfait);
+        string tense = Constants.Tenses.Imparfait;
+
+        PrintUtils.PrintHeadline(tense);
+        PrintNotesForTenseIfAny(tense);
+        string stem = GetStemForTense(tense);
         PrintTense(stem, ImparfaitEndings);
     }
     
     private void PrintFuturSimple()
     {
-        PrintUtils.PrintHeadline(Constants.Tenses.FuturSimple);
-        string stem = GetStemForTense(Constants.Tenses.FuturSimple);
+        string tense = Constants.Tenses.FuturSimple;
+
+        PrintUtils.PrintHeadline(tense);
+        PrintNotesForTenseIfAny(tense);
+        string stem = GetStemForTense(tense);
         PrintTense(stem, FuturSimpleEndings);
     }
     
     private void PrintConditionnelPresent()
     {
-        PrintUtils.PrintHeadline(Constants.Tenses.ConditionnelPresent);
-        string stem = GetStemForTense(Constants.Tenses.ConditionnelPresent);
+        string tense = Constants.Tenses.ConditionnelPresent;
+
+        PrintUtils.PrintHeadline(tense);
+        PrintNotesForTenseIfAny(tense);
+        string stem = GetStemForTense(tense);
         PrintTense(stem, ConditionnelPresentEndings);
     }
     
     private void PrintPasseCompose()
     {
-        PrintUtils.PrintHeadline(Constants.Tenses.PasseCompose);
+        string tense = Constants.Tenses.PasseCompose;
+        
+        PrintUtils.PrintHeadline(tense);
+        PrintNotesForTenseIfAny(tense);
         string[] aux = UsesEtre 
             ? Constants.Tenses.Auxiliaries.PasseCompose_AuxiliaryEtre 
             : Constants.Tenses.Auxiliaries.PasseCompose_AuxiliaryAvoir;
@@ -192,7 +234,11 @@ public abstract class Verb
     
     private void PrintFuturProche()
     {
-        PrintUtils.PrintHeadline(Constants.Tenses.FuturProche);
+        string tense = Constants.Tenses.FuturProche;
+        
+        PrintUtils.PrintHeadline(tense);
+        PrintNotesForTenseIfAny(tense);
+        
         string[] aux = Constants.Tenses.Auxiliaries.FuturProche_Auxiliary;
 
         for (int i = 0; i < Constants.Pronouns.All.Length; i++)
@@ -208,7 +254,11 @@ public abstract class Verb
 
     private void PrintPasseRecent()
     {
-        PrintUtils.PrintHeadline(Constants.Tenses.PasseRecent);
+        string tense = Constants.Tenses.PasseRecent;
+        
+        PrintUtils.PrintHeadline(tense);
+        PrintNotesForTenseIfAny(tense);
+        
         string[] aux = Constants.Tenses.Auxiliaries.PasseRecent_Auxiliary;
         string connector = "de";
 

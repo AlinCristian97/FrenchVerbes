@@ -16,7 +16,7 @@ public static class PrintUtils
     
     public static void PrintHeadline(string headline)
     {
-        Console.ForegroundColor = ConsoleColor.Cyan;
+        Console.ForegroundColor = ConsoleColor.DarkCyan;
         Console.WriteLine(headline.ToHeadline());
         Console.ResetColor();
     }

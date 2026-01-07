@@ -6,8 +6,8 @@ public abstract class RegularVerb : Verb
 {
     protected override string VerbType => "regular  d^_^b";
 
-    protected RegularVerb(string infinitive, string description)
-        : base(infinitive, description)
+    protected RegularVerb(string infinitive, string description, NotesObject? tensesNotes)
+        : base(infinitive, description, tensesNotes)
     {
     }
     
@@ -30,7 +30,7 @@ public abstract class RegularVerb : Verb
     
     protected override void PrintImperative()
     {
-        PrintUtils.PrintHeadline(Constants.Tenses.Imperative);
+        base.PrintImperative();
         string stem = GetStemForTense(Constants.Tenses.Present);
 
         for (int i = 0; i < ImperativeEndings.Length; i++)
@@ -48,7 +48,7 @@ public abstract class RegularVerb : Verb
 
     protected override void PrintPresent()
     {
-        PrintUtils.PrintHeadline(Constants.Tenses.Present);
+        base.PrintPresent();
         string stem = GetStemForTense(Constants.Tenses.Present);
         
         for (int i = 0; i < Constants.Pronouns.All.Length; i++)

@@ -143,8 +143,12 @@ public static class Constants
         // Ligatures
         public const string AeLigature = "æ";
         public const string OeLigature = "œ";
+
+        public const string LeGuillementOuvrant = "«";
+        public const string LeGuillementFermant = "»";
     }
     
     public static string Vowels = "aeiouéêëàâîïôûùh";
     public static string SectionDivider = "--------------------------------------------------";
+    public static string SmallDivider = "---";
 }

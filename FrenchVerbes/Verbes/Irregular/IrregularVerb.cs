@@ -23,8 +23,9 @@ public class IrregularFrenchVerb : Verb
         Dictionary<string, string> stems,
         bool usesEtre = false,
         bool isModal = false,
-        bool supportsProgressive = true)
-        : base(infinitive, description)
+        bool supportsProgressive = true,
+        NotesObject? tensesNotes = null)
+        : base(infinitive, description, tensesNotes)
     {
         PastParticiple = pastParticiple;
         _presentTense = presentTense;
@@ -48,8 +49,7 @@ public class IrregularFrenchVerb : Verb
 
     protected override void PrintPresent()
     {
-        PrintUtils.PrintHeadline(Constants.Tenses.Present);
-        
+        base.PrintPresent();
         for (int i = 0; i < Constants.Pronouns.All.Length; i++)
         {
             string pronounLabel = Constants.Pronouns.All[i];
@@ -71,7 +71,7 @@ public class IrregularFrenchVerb : Verb
 
     protected override void PrintImperative()
     {
-        PrintUtils.PrintHeadline(Constants.Tenses.Imperative);
+        base.PrintImperative();
         
         if (_imperative == null)
         {
