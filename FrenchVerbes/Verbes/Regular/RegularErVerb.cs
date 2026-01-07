@@ -31,11 +31,14 @@ public class RegularErVerb : RegularVerb
 
         return stem;
     }
-    
+    // TODO: solve bug bruh (present tense twice for regular verbes...)
     protected override void PrintPresent()
     {
-        base.PrintPresent();
-        string stem = GetStemForTense(Constants.Tenses.Present);
+        string tense = Constants.Tenses.Present;
+        PrintUtils.PrintHeadline(tense);
+        PrintNotesForTenseIfAny(tense);
+        
+        string stem = GetStemForTense(tense);
 
         for (int i = 0; i < Constants.Pronouns.All.Length; i++)
         {
@@ -102,8 +105,10 @@ public class RegularErVerb : RegularVerb
 
     protected override void PrintImperative()
     {
-        base.PrintImperative();
-        string stem = GetStemForTense(Constants.Tenses.Present);
+        string tense = Constants.Tenses.Present;
+        PrintUtils.PrintHeadline(tense);
+        PrintNotesForTenseIfAny(tense);
+        string stem = GetStemForTense(tense);
         
         // Indices in the full pronoun list: 1 (Tu), 3 (Nous), 4 (Vous)
         int[] indices = { 1, 3, 4 };
