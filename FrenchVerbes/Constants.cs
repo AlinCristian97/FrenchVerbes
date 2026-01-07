@@ -20,6 +20,7 @@ public static class Constants
             public const string Prendre = "prendre";
             public const string Ecrire = "écrire"; // not implemented yet
             public const string Lire = "lire"; // not implemented yet
+            //... more to come
         }
 
         public static class Regular
@@ -27,16 +28,19 @@ public static class Constants
             public static class Er
             {
                 public const string Manger = "manger";
+                //... more to come
             }
 
             public static class Ir
             {
                 public const string Finir = "finir";
+                //... more to come
             }
 
             public static class Re
             {
                 public const string Vendre = "vendre";
+                //... more to come
             }
         }
     }
