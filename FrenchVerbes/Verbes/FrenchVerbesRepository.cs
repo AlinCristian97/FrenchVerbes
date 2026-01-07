@@ -44,6 +44,7 @@ public static class VerbRepository
         _verbs.Add(CreateVenir());
         _verbs.Add(CreateVoir());
         _verbs.Add(CreateDire());
+        _verbs.Add(CreatePrendre());
         
     }
 
@@ -64,6 +65,46 @@ public static class VerbRepository
 
     #region Irregular Verbs Factory Methods
 
+    private static IrregularFrenchVerb CreatePrendre()
+    {
+        return new IrregularFrenchVerb(
+            Constants.Verbs.Irregular.Prendre,
+            description: Constants.VerbDescriptions.Irregular.Prendre,
+            pastParticiple: "pris",
+            presentTense: new()
+            {
+                [Constants.Pronouns.Je] = "prends",
+                [Constants.Pronouns.Tu] = "prends",
+                [Constants.Pronouns.IlElleOn] = "prend",
+                [Constants.Pronouns.Nous] = "prenons",
+                [Constants.Pronouns.Vous] = "prenez",
+                [Constants.Pronouns.IlsElles] = "prennent"
+            },
+            imperative: new()
+            {
+                [Constants.Pronouns.Tu] = "prends",
+                [Constants.Pronouns.Nous] = "prenons",
+                [Constants.Pronouns.Vous] = "prenez"
+            },
+            stems: new()
+            {
+                [Constants.Tenses.Imparfait] = "pren",
+                [Constants.Tenses.FuturSimple] = "prendr",
+                [Constants.Tenses.ConditionnelPresent] = "prendr"
+            },
+            isModal: false,
+            supportsProgressive: true,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes = "Le présent exprime l'action de saisir, obtenir ou consommer actuellement : 'Je prends un café.'",
+                PasseComposeNotes = "Le passé composé indique que l'action a été accomplie : 'J'ai pris le train ce matin.'",
+                FuturSimpleNotes = "Le futur exprime ce que l'on prendra ou obtiendra : 'Tu prendras ta décision demain.'",
+                ConditionnelPresentNotes = "Le conditionnel exprime ce que l'on prendrait dans un contexte hypothétique : 'Il prendrait un jour de congé si possible.'",
+                ImperativeNotes = "L'impératif donne des instructions pour prendre ou saisir quelque chose : 'Prends ton temps !', 'Prenons cette décision ensemble !', 'Prenez ce livre !'"
+            }
+        );
+    }
+    
     private static IrregularFrenchVerb CreateDire()
     {
         return new IrregularFrenchVerb(
@@ -103,8 +144,6 @@ public static class VerbRepository
             }
         );
     }
-
-    
     
     private static IrregularFrenchVerb CreateVoir()
     {
@@ -145,7 +184,6 @@ public static class VerbRepository
             }
         );
     }
-
     
     private static IrregularFrenchVerb CreateVenir()
     {
@@ -187,8 +225,6 @@ public static class VerbRepository
             }
         );
     }
-
-    
     
     private static IrregularFrenchVerb CreateEtre()
     {
