@@ -10,7 +10,7 @@ public static class Constants
             public const string Avoir = "avoir";
             public const string Aller = "aller";
             public const string Faire = "faire";
-            public const string Pouvoir = "pouvoir"; // not implemented yet
+            public const string Pouvoir = "pouvoir";
             public const string Vouloir = "vouloir"; // not implemented yet
             public const string Devoir = "devoir"; // not implemented yet
             public const string Savoir = "savoir"; // not implemented yet
@@ -49,6 +49,8 @@ public static class Constants
             public const string Avoir = "Avoir exprime la possession. C'est aussi l'auxiliaire le plus utilisé pour former les temps composés.";
             public const string Aller = "Aller est un verbe de mouvement indispensable pour exprimer une destination ou le futur proche.";
             public const string Faire = "Faire est un verbe polyvalent qui exprime l'action de faire ou de fabriquer quelque chose. Il est aussi utilisé pour le temps météo, les sports et de nombreuses expressions idiomatiques.";
+            public const string Pouvoir = "Pouvoir est un verbe modal essentiel qui exprime la capacité, la possibilité ou la permission de faire quelque chose.";
+
         }
 
         public static class Regular

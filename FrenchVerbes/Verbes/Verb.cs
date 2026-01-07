@@ -8,6 +8,7 @@ public abstract class Verb
     public string Description { get; }
     protected abstract string VerbType { get; }
     public virtual bool UsesEtre => false;
+    public virtual bool IsModal { get; } = false;
     
     protected static readonly string[] ImparfaitEndings = { "ais", "ais", "ait", "ions", "iez", "aient" };
     protected static readonly string[] FuturSimpleEndings = { "ai", "as", "a", "ons", "ez", "ont" };
@@ -83,20 +84,30 @@ public abstract class Verb
         Console.ForegroundColor = ConsoleColor.DarkCyan;
         Console.WriteLine(PastParticiple);
         Console.ResetColor();
-        
-        Console.Write("Progressive: ");
-        Console.ForegroundColor = ConsoleColor.DarkCyan;
-        
-        string connector = "de";
-        if (Constants.Vowels.Contains(Infinitive[0]))
-        {
-            connector = "d'";
-        }
-        
-        string space = connector.EndsWith("'") ? "" : " ";
 
-        Console.WriteLine($"{Constants.Verbs.Irregular.Etre} en train {connector}{space}{Infinitive}");
-        Console.ResetColor();
+        if (IsModal)
+        {
+            Console.Write("Progressive: ");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("Ce verbe modal n'utilise pas la forme progressive.");
+            Console.ResetColor();
+        }
+        else
+        {
+            Console.Write("Progressive: ");
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+        
+            string connector = "de";
+            if (Constants.Vowels.Contains(Infinitive[0]))
+            {
+                connector = "d'";
+            }
+        
+            string space = connector.EndsWith("'") ? "" : " ";
+
+            Console.WriteLine($"{Constants.Verbs.Irregular.Etre} en train {connector}{space}{Infinitive}");
+            Console.ResetColor();
+        }
         
         Console.Write("Description: ");
         Console.ForegroundColor = ConsoleColor.DarkGray;

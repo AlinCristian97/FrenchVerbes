@@ -38,6 +38,7 @@ public static class VerbRepository
         _verbs.Add(CreateAvoir());
         _verbs.Add(CreateAller());
         _verbs.Add(CreateFaire());
+        _verbs.Add(CreatePouvoir());
     }
 
     private static void AddRegularErVerbs()
@@ -175,6 +176,32 @@ public static class VerbRepository
                 [Constants.Tenses.FuturSimple] = "fer",
                 [Constants.Tenses.ConditionnelPresent] = "fer"
             }
+        );
+    }
+    
+    private static IrregularFrenchVerb CreatePouvoir()
+    {
+        return new IrregularFrenchVerb(
+            Constants.Verbs.Irregular.Pouvoir,
+            description: Constants.VerbDescriptions.Irregular.Pouvoir,
+            pastParticiple: "pu",
+            presentTense: new()
+            {
+                [Constants.Pronouns.Je] = "peux",
+                [Constants.Pronouns.Tu] = "peux",
+                [Constants.Pronouns.IlElleOn] = "peut",
+                [Constants.Pronouns.Nous] = "pouvons",
+                [Constants.Pronouns.Vous] = "pouvez",
+                [Constants.Pronouns.IlsElles] = "peuvent"
+            },
+            imperative: null, // Pouvoir has no imperative form (modal verb)
+            stems: new()
+            {
+                [Constants.Tenses.Imparfait] = "pouv",
+                [Constants.Tenses.FuturSimple] = "pourr",
+                [Constants.Tenses.ConditionnelPresent] = "pourr"
+            },
+            isModal: true
         );
     }
 

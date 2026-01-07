@@ -6,20 +6,22 @@ public class IrregularFrenchVerb : Verb
     protected override string VerbType => "irregular  d-_-b";
     
     private readonly Dictionary<string, string> _presentTense;
-    private readonly Dictionary<string, string> _imperative;
+    private readonly Dictionary<string, string>? _imperative;
     private readonly Dictionary<string, string> _stems;
 
     protected override string PastParticiple { get; }
     public override bool UsesEtre { get; }
+    public override bool IsModal { get; }
 
     public IrregularFrenchVerb(
         string infinitive,
         string description,
         string pastParticiple,
         Dictionary<string, string> presentTense,
-        Dictionary<string, string> imperative,
+        Dictionary<string, string>? imperative,
         Dictionary<string, string> stems,
-        bool usesEtre = false)
+        bool usesEtre = false,
+        bool isModal = false)
         : base(infinitive, description)
     {
         PastParticiple = pastParticiple;
@@ -27,6 +29,7 @@ public class IrregularFrenchVerb : Verb
         _imperative = imperative;
         _stems = stems;
         UsesEtre = usesEtre;
+        IsModal = isModal;
     }
 
     protected override string GetStemForTense(string tense)
@@ -66,6 +69,12 @@ public class IrregularFrenchVerb : Verb
     protected override void PrintImperative()
     {
         PrintUtils.PrintHeadline(Constants.Tenses.Imperative);
+        
+        if (_imperative == null)
+        {
+            Console.WriteLine("Ce verbe n'a pas de forme impérative. On utilise plutôt le subjonctif ou d'autres verbes.");
+            return;
+        }
         
         string[] labels = { Constants.Pronouns.Tu, Constants.Pronouns.Nous, Constants.Pronouns.Vous };
 
