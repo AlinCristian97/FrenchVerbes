@@ -45,6 +45,7 @@ public static class VerbRepository
         _verbs.Add(CreateVoir());
         _verbs.Add(CreateDire());
         _verbs.Add(CreatePrendre());
+        _verbs.Add(CreateDevoir());
         
     }
 
