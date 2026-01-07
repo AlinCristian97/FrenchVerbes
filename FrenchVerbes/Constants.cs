@@ -14,7 +14,7 @@ public static class Constants
             public const string Vouloir = "vouloir";
             public const string Devoir = "devoir";
             public const string Savoir = "savoir";
-            public const string Venir = "venir"; // not implemented yet
+            public const string Venir = "venir";
             public const string Voir = "voir"; // not implemented yet
             public const string Dire = "dire"; // not implemented yet
             public const string Prendre = "prendre"; // not implemented yet
@@ -53,6 +53,7 @@ public static class Constants
             public const string Vouloir = "Vouloir est un verbe modal fondamental qui exprime le désir, la volonté ou l'intention. Sa forme conditionnelle 'je voudrais' est utilisée pour les demandes polies.";
             public const string Devoir = "Devoir est un verbe modal exprimant l'obligation, la nécessité ou le devoir moral. Il sert à indiquer ce qu’il faut faire ou ce qui est attendu.";
             public const string Savoir = "Savoir est un verbe fondamental qui exprime la connaissance, la compétence ou la capacité à faire quelque chose. Il sert aussi à indiquer qu'on connaît un fait ou une information.";
+            public const string Venir = "Venir est un verbe de mouvement fondamental qui exprime l'action de se déplacer vers un lieu. Il est également utilisé pour former le passé récent ('venir de') et diverses expressions idiomatiques.";
 
         }
 

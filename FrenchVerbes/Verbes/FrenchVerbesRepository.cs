@@ -41,6 +41,7 @@ public static class VerbRepository
         _verbs.Add(CreatePouvoir());
         _verbs.Add(CreateVouloir());
         _verbs.Add(CreateSavoir());
+        _verbs.Add(CreateVenir());
         
     }
 
@@ -61,6 +62,49 @@ public static class VerbRepository
 
     #region Irregular Verbs Factory Methods
 
+    private static IrregularFrenchVerb CreateVenir()
+    {
+        return new IrregularFrenchVerb(
+            Constants.Verbs.Irregular.Venir,
+            description: Constants.VerbDescriptions.Irregular.Venir,
+            pastParticiple: "venu",
+            presentTense: new()
+            {
+                [Constants.Pronouns.Je] = "viens",
+                [Constants.Pronouns.Tu] = "viens",
+                [Constants.Pronouns.IlElleOn] = "vient",
+                [Constants.Pronouns.Nous] = "venons",
+                [Constants.Pronouns.Vous] = "venez",
+                [Constants.Pronouns.IlsElles] = "viennent"
+            },
+            imperative: new()
+            {
+                [Constants.Pronouns.Tu] = "viens",
+                [Constants.Pronouns.Nous] = "venons",
+                [Constants.Pronouns.Vous] = "venez"
+            },
+            stems: new()
+            {
+                [Constants.Tenses.Imparfait] = "ven",
+                [Constants.Tenses.FuturSimple] = "viendr",
+                [Constants.Tenses.ConditionnelPresent] = "viendr"
+            },
+            usesEtre: true,
+            isModal: false,
+            supportsProgressive: true,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes = "Le présent exprime l'action de venir maintenant ou régulièrement : 'Je viens à la réunion chaque semaine.'",
+                PasseComposeNotes = "Le passé composé indique que le mouvement est déjà effectué : 'Je suis venu hier.'",
+                FuturSimpleNotes = "Le futur exprime un déplacement à venir : 'Tu viendras demain.'",
+                ConditionnelPresentNotes = "Le conditionnel exprime une arrivée hypothétique ou polie : 'Il viendrait si vous l’invitiez.'",
+                ImperativeNotes = "L'impératif donne des instructions concernant le mouvement : 'Viens ici !', 'Venez rapidement !'"
+            }
+        );
+    }
+
+    
+    
     private static IrregularFrenchVerb CreateEtre()
     {
         return new IrregularFrenchVerb(
