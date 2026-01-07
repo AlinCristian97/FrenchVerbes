@@ -39,6 +39,7 @@ public static class VerbRepository
         _verbs.Add(CreateAller());
         _verbs.Add(CreateFaire());
         _verbs.Add(CreatePouvoir());
+        _verbs.Add(CreateVouloir());
     }
 
     private static void AddRegularErVerbs()
@@ -84,7 +85,8 @@ public static class VerbRepository
                 [Constants.Tenses.Imparfait] = "ét",
                 [Constants.Tenses.FuturSimple] = "ser",
                 [Constants.Tenses.ConditionnelPresent] = "ser"
-            }
+            },
+            supportsProgressive: false
         );
     }
 
@@ -114,7 +116,8 @@ public static class VerbRepository
                 [Constants.Tenses.Imparfait] = "av",
                 [Constants.Tenses.FuturSimple] = "aur",
                 [Constants.Tenses.ConditionnelPresent] = "aur"
-            }
+            },
+            supportsProgressive: false
         );
     }
 
@@ -145,7 +148,8 @@ public static class VerbRepository
                 [Constants.Tenses.FuturSimple] = "ir",
                 [Constants.Tenses.ConditionnelPresent] = "ir"
             },
-            usesEtre: true
+            usesEtre: true,
+            supportsProgressive: false
         );
     }
     
@@ -201,7 +205,40 @@ public static class VerbRepository
                 [Constants.Tenses.FuturSimple] = "pourr",
                 [Constants.Tenses.ConditionnelPresent] = "pourr"
             },
-            isModal: true
+            isModal: true,
+            supportsProgressive: false
+        );
+    }
+    
+    private static IrregularFrenchVerb CreateVouloir()
+    {
+        return new IrregularFrenchVerb(
+            Constants.Verbs.Irregular.Vouloir,
+            description: Constants.VerbDescriptions.Irregular.Vouloir,
+            pastParticiple: "voulu",
+            presentTense: new()
+            {
+                [Constants.Pronouns.Je] = "veux",
+                [Constants.Pronouns.Tu] = "veux",
+                [Constants.Pronouns.IlElleOn] = "veut",
+                [Constants.Pronouns.Nous] = "voulons",
+                [Constants.Pronouns.Vous] = "voulez",
+                [Constants.Pronouns.IlsElles] = "veulent"
+            },
+            imperative: new()
+            {
+                [Constants.Pronouns.Tu] = "veuille",
+                [Constants.Pronouns.Nous] = "veuillons",
+                [Constants.Pronouns.Vous] = "veuillez"
+            },
+            stems: new()
+            {
+                [Constants.Tenses.Imparfait] = "voul",
+                [Constants.Tenses.FuturSimple] = "voudr",
+                [Constants.Tenses.ConditionnelPresent] = "voudr"
+            },
+            isModal: true,
+            supportsProgressive: false
         );
     }
 

@@ -12,6 +12,7 @@ public class IrregularFrenchVerb : Verb
     protected override string PastParticiple { get; }
     public override bool UsesEtre { get; }
     public override bool IsModal { get; }
+    public override bool SupportsProgressive { get; }
 
     public IrregularFrenchVerb(
         string infinitive,
@@ -21,7 +22,8 @@ public class IrregularFrenchVerb : Verb
         Dictionary<string, string>? imperative,
         Dictionary<string, string> stems,
         bool usesEtre = false,
-        bool isModal = false)
+        bool isModal = false,
+        bool supportsProgressive = true)
         : base(infinitive, description)
     {
         PastParticiple = pastParticiple;
@@ -30,6 +32,7 @@ public class IrregularFrenchVerb : Verb
         _stems = stems;
         UsesEtre = usesEtre;
         IsModal = isModal;
+        SupportsProgressive = supportsProgressive;
     }
 
     protected override string GetStemForTense(string tense)

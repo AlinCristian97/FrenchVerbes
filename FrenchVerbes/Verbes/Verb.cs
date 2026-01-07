@@ -9,6 +9,7 @@ public abstract class Verb
     protected abstract string VerbType { get; }
     public virtual bool UsesEtre => false;
     public virtual bool IsModal { get; } = false;
+    public virtual bool SupportsProgressive { get; } = true;
     
     protected static readonly string[] ImparfaitEndings = { "ais", "ais", "ait", "ions", "iez", "aient" };
     protected static readonly string[] FuturSimpleEndings = { "ai", "as", "a", "ons", "ez", "ont" };
@@ -83,13 +84,13 @@ public abstract class Verb
         Console.Write("Past Participle: ");
         Console.ForegroundColor = ConsoleColor.DarkCyan;
         Console.WriteLine(PastParticiple);
-        Console.ResetColor();
+        Console.ResetColor(); 
 
-        if (IsModal)
+        if (!SupportsProgressive)
         {
             Console.Write("Progressive: ");
             Console.ForegroundColor = ConsoleColor.DarkGray;
-            Console.WriteLine("Ce verbe modal n'utilise pas la forme progressive.");
+            Console.WriteLine("Ce verbe n'utilise pas la forme progressive.");
             Console.ResetColor();
         }
         else
