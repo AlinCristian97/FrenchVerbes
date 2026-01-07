@@ -42,6 +42,7 @@ public static class VerbRepository
         _verbs.Add(CreateVouloir());
         _verbs.Add(CreateSavoir());
         _verbs.Add(CreateVenir());
+        _verbs.Add(CreateVoir());
         
     }
 
@@ -62,6 +63,47 @@ public static class VerbRepository
 
     #region Irregular Verbs Factory Methods
 
+    private static IrregularFrenchVerb CreateVoir()
+    {
+        return new IrregularFrenchVerb(
+            Constants.Verbs.Irregular.Voir,
+            description: Constants.VerbDescriptions.Irregular.Voir,
+            pastParticiple: "vu",
+            presentTense: new()
+            {
+                [Constants.Pronouns.Je] = "vois",
+                [Constants.Pronouns.Tu] = "vois",
+                [Constants.Pronouns.IlElleOn] = "voit",
+                [Constants.Pronouns.Nous] = "voyons",
+                [Constants.Pronouns.Vous] = "voyez",
+                [Constants.Pronouns.IlsElles] = "voient"
+            },
+            imperative: new()
+            {
+                [Constants.Pronouns.Tu] = "vois",
+                [Constants.Pronouns.Nous] = "voyons",
+                [Constants.Pronouns.Vous] = "voyez"
+            },
+            stems: new()
+            {
+                [Constants.Tenses.Imparfait] = "voy",
+                [Constants.Tenses.FuturSimple] = "verr",
+                [Constants.Tenses.ConditionnelPresent] = "verr"
+            },
+            isModal: false,
+            supportsProgressive: true,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes = "Le présent exprime la perception ou la connaissance actuelle : 'Je vois la situation clairement.'",
+                PasseComposeNotes = "Le passé composé indique une action de perception ou de constatation achevée : 'J'ai vu le film hier.'",
+                FuturSimpleNotes = "Le futur exprime qu'on percevra ou constatera quelque chose à l'avenir : 'Tu verras le résultat demain.'",
+                ConditionnelPresentNotes = "Le conditionnel exprime une perception hypothétique ou polie : 'Il verrait mieux avec des lunettes.'",
+                ImperativeNotes = "L'impératif donne des instructions concernant la perception ou l'observation : 'Vois ce qui se passe !', 'Voyez le problème clairement !'"
+            }
+        );
+    }
+
+    
     private static IrregularFrenchVerb CreateVenir()
     {
         return new IrregularFrenchVerb(
