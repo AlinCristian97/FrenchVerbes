@@ -16,7 +16,7 @@ public static class Constants
             public const string Savoir = "savoir";
             public const string Venir = "venir";
             public const string Voir = "voir";
-            public const string Dire = "dire"; // not implemented yet
+            public const string Dire = "dire";
             public const string Prendre = "prendre"; // not implemented yet
             public const string Ecrire = "écrire"; // not implemented yet
             public const string Lire = "lire"; // not implemented yet
@@ -55,6 +55,7 @@ public static class Constants
             public const string Savoir = "Savoir est un verbe fondamental qui exprime la connaissance, la compétence ou la capacité à faire quelque chose. Il sert aussi à indiquer qu'on connaît un fait ou une information.";
             public const string Venir = "Venir est un verbe de mouvement fondamental qui exprime l'action de se déplacer vers un lieu. Il est également utilisé pour former le passé récent ('venir de') et diverses expressions idiomatiques.";
             public const string Voir = "Voir est un verbe fondamental exprimant la perception visuelle ou la compréhension. Il est également utilisé dans de nombreuses expressions idiomatiques et au sens figuré pour indiquer la connaissance ou la constatation.";
+            public const string Dire = "Dire est un verbe fondamental exprimant l'action de prononcer, raconter ou communiquer quelque chose. Il est également utilisé dans de nombreuses expressions idiomatiques et pour rapporter des paroles.";
 
         }
 

@@ -43,6 +43,7 @@ public static class VerbRepository
         _verbs.Add(CreateSavoir());
         _verbs.Add(CreateVenir());
         _verbs.Add(CreateVoir());
+        _verbs.Add(CreateDire());
         
     }
 
@@ -63,6 +64,48 @@ public static class VerbRepository
 
     #region Irregular Verbs Factory Methods
 
+    private static IrregularFrenchVerb CreateDire()
+    {
+        return new IrregularFrenchVerb(
+            Constants.Verbs.Irregular.Dire,
+            description: Constants.VerbDescriptions.Irregular.Dire,
+            pastParticiple: "dit",
+            presentTense: new()
+            {
+                [Constants.Pronouns.Je] = "dis",
+                [Constants.Pronouns.Tu] = "dis",
+                [Constants.Pronouns.IlElleOn] = "dit",
+                [Constants.Pronouns.Nous] = "disons",
+                [Constants.Pronouns.Vous] = "dites",
+                [Constants.Pronouns.IlsElles] = "disent"
+            },
+            imperative: new()
+            {
+                [Constants.Pronouns.Tu] = "dis",
+                [Constants.Pronouns.Nous] = "disons",
+                [Constants.Pronouns.Vous] = "dites"
+            },
+            stems: new()
+            {
+                [Constants.Tenses.Imparfait] = "dis",
+                [Constants.Tenses.FuturSimple] = "dir",
+                [Constants.Tenses.ConditionnelPresent] = "dir"
+            },
+            isModal: false,
+            supportsProgressive: true,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes = "Le présent exprime l'action de dire maintenant ou régulièrement : 'Je dis la vérité.'",
+                PasseComposeNotes = "Le passé composé indique que l'action de dire a été accomplie : 'J'ai dit ce que je pensais.'",
+                FuturSimpleNotes = "Le futur exprime ce que l'on dira dans l'avenir : 'Tu diras ton opinion demain.'",
+                ConditionnelPresentNotes = "Le conditionnel exprime ce qu'on dirait dans un contexte hypothétique ou poli : 'Il dirait la même chose si vous lui demandiez.'",
+                ImperativeNotes = "L'impératif donne des instructions ou ordres concernant le fait de dire : 'Dis la vérité !', 'Dites ce que vous pensez !'"
+            }
+        );
+    }
+
+    
+    
     private static IrregularFrenchVerb CreateVoir()
     {
         return new IrregularFrenchVerb(
