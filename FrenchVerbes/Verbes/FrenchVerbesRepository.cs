@@ -40,6 +40,8 @@ public static class VerbRepository
         _verbs.Add(CreateFaire());
         _verbs.Add(CreatePouvoir());
         _verbs.Add(CreateVouloir());
+        _verbs.Add(CreateDevoir());
+        
     }
 
     private static void AddRegularErVerbs()
@@ -245,6 +247,48 @@ public static class VerbRepository
             }
         );
     }
+    
+    private static IrregularFrenchVerb CreateDevoir()
+    {
+        return new IrregularFrenchVerb(
+            Constants.Verbs.Irregular.Devoir,
+            description: Constants.VerbDescriptions.Irregular.Devoir,
+            pastParticiple: "dû",
+            presentTense: new()
+            {
+                [Constants.Pronouns.Je] = "dois",
+                [Constants.Pronouns.Tu] = "dois",
+                [Constants.Pronouns.IlElleOn] = "doit",
+                [Constants.Pronouns.Nous] = "devons",
+                [Constants.Pronouns.Vous] = "devez",
+                [Constants.Pronouns.IlsElles] = "doivent"
+            },
+            imperative: new()
+            {
+                [Constants.Pronouns.Tu] = "dois",
+                [Constants.Pronouns.Nous] = "devons",
+                [Constants.Pronouns.Vous] = "devez"
+            },
+            stems: new()
+            {
+                [Constants.Tenses.Imparfait] = "dev",
+                [Constants.Tenses.FuturSimple] = "devr",
+                [Constants.Tenses.ConditionnelPresent] = "devr"
+            },
+            isModal: true,
+            supportsProgressive: false,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes = "Le présent de 'devoir' exprime la nécessité ou l'obligation immédiate : 'Je dois partir maintenant.'",
+                ImparfaitNotes = "L'imparfait indique une obligation ou un devoir répété dans le passé : 'Quand j'étais enfant, je devais ranger ma chambre tous les jours.'",
+                FuturSimpleNotes = "Le futur simple exprime une obligation à venir : 'Tu devras finir ce travail demain.'",
+                PasseComposeNotes = "Le passé composé indique qu'une obligation a été remplie ou accomplie : 'J'ai dû annuler le rendez-vous.'",
+                ImperativeNotes = "L'impératif de 'devoir' est rare et utilisé dans des contextes très formels ou directives : 'Devez suivre les règles.'",
+                ConditionnelPresentNotes = "Le conditionnel exprime une obligation hypothétique ou polie : 'Vous devriez consulter un médecin.'"
+            }
+        );
+    }
+
 
     #endregion
     

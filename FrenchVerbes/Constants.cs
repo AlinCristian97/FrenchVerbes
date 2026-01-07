@@ -12,7 +12,7 @@ public static class Constants
             public const string Faire = "faire";
             public const string Pouvoir = "pouvoir";
             public const string Vouloir = "vouloir";
-            public const string Devoir = "devoir"; // not implemented yet
+            public const string Devoir = "devoir";
             public const string Savoir = "savoir"; // not implemented yet
             public const string Venir = "venir"; // not implemented yet
             public const string Voir = "voir"; // not implemented yet
@@ -51,6 +51,7 @@ public static class Constants
             public const string Faire = "Faire est un verbe polyvalent qui exprime l'action de faire ou de fabriquer quelque chose. Il est aussi utilisé pour le temps météo, les sports et de nombreuses expressions idiomatiques.";
             public const string Pouvoir = "Pouvoir est un verbe modal essentiel qui exprime la capacité, la possibilité ou la permission de faire quelque chose.";
             public const string Vouloir = "Vouloir est un verbe modal fondamental qui exprime le désir, la volonté ou l'intention. Sa forme conditionnelle 'je voudrais' est utilisée pour les demandes polies.";
+            public const string Devoir = "Devoir est un verbe modal exprimant l'obligation, la nécessité ou le devoir moral. Il sert à indiquer ce qu’il faut faire ou ce qui est attendu.";
 
         }
 
