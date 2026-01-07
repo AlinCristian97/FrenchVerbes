@@ -409,6 +409,7 @@ public static class VerbRepository
             supportsProgressive: false,
             tensesNotes: new NotesObject
             {
+                PasseRecentNotes = "C’est grammaticalement possible, mais très peu naturel en français moderne.",
                 ImperativeNotes = "'Vouloir' a une forme impérative rare et archaïque. Elle n’est utilisée que dans des expressions figées ou dans un registre littéraire ancien, notamment pour exprimer un ordre solennel ou une injonction formelle, par exemple : 'Veuillez patienter', 'Veuillez agréer…'. En français moderne courant, on évite l’impératif de vouloir et on lui préfère des tournures plus naturelles."
             }
         );
