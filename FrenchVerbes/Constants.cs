@@ -13,7 +13,7 @@ public static class Constants
             public const string Pouvoir = "pouvoir";
             public const string Vouloir = "vouloir";
             public const string Devoir = "devoir";
-            public const string Savoir = "savoir"; // not implemented yet
+            public const string Savoir = "savoir";
             public const string Venir = "venir"; // not implemented yet
             public const string Voir = "voir"; // not implemented yet
             public const string Dire = "dire"; // not implemented yet
@@ -52,6 +52,7 @@ public static class Constants
             public const string Pouvoir = "Pouvoir est un verbe modal essentiel qui exprime la capacité, la possibilité ou la permission de faire quelque chose.";
             public const string Vouloir = "Vouloir est un verbe modal fondamental qui exprime le désir, la volonté ou l'intention. Sa forme conditionnelle 'je voudrais' est utilisée pour les demandes polies.";
             public const string Devoir = "Devoir est un verbe modal exprimant l'obligation, la nécessité ou le devoir moral. Il sert à indiquer ce qu’il faut faire ou ce qui est attendu.";
+            public const string Savoir = "Savoir est un verbe fondamental qui exprime la connaissance, la compétence ou la capacité à faire quelque chose. Il sert aussi à indiquer qu'on connaît un fait ou une information.";
 
         }
 
