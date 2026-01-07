@@ -37,6 +37,7 @@ public static class VerbRepository
         _verbs.Add(CreateEtre());
         _verbs.Add(CreateAvoir());
         _verbs.Add(CreateAller());
+        _verbs.Add(CreateFaire());
     }
 
     private static void AddRegularErVerbs()
@@ -144,6 +145,36 @@ public static class VerbRepository
                 [Constants.Tenses.ConditionnelPresent] = "ir"
             },
             usesEtre: true
+        );
+    }
+    
+    private static IrregularFrenchVerb CreateFaire()
+    {
+        return new IrregularFrenchVerb(
+            Constants.Verbs.Irregular.Faire,
+            description: Constants.VerbDescriptions.Irregular.Faire,
+            pastParticiple: "fait",
+            presentTense: new()
+            {
+                [Constants.Pronouns.Je] = "fais",
+                [Constants.Pronouns.Tu] = "fais",
+                [Constants.Pronouns.IlElleOn] = "fait",
+                [Constants.Pronouns.Nous] = "faisons",
+                [Constants.Pronouns.Vous] = "faites",
+                [Constants.Pronouns.IlsElles] = "font"
+            },
+            imperative: new()
+            {
+                [Constants.Pronouns.Tu] = "fais",
+                [Constants.Pronouns.Nous] = "faisons",
+                [Constants.Pronouns.Vous] = "faites"
+            },
+            stems: new()
+            {
+                [Constants.Tenses.Imparfait] = "fais",
+                [Constants.Tenses.FuturSimple] = "fer",
+                [Constants.Tenses.ConditionnelPresent] = "fer"
+            }
         );
     }
 

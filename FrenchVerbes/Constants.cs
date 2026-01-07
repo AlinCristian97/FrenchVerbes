@@ -9,6 +9,17 @@ public static class Constants
             public const string Etre = "être";
             public const string Avoir = "avoir";
             public const string Aller = "aller";
+            public const string Faire = "faire";
+            public const string Pouvoir = "pouvoir"; // not implemented yet
+            public const string Vouloir = "vouloir"; // not implemented yet
+            public const string Devoir = "devoir"; // not implemented yet
+            public const string Savoir = "savoir"; // not implemented yet
+            public const string Venir = "venir"; // not implemented yet
+            public const string Voir = "voir"; // not implemented yet
+            public const string Dire = "dire"; // not implemented yet
+            public const string Prendre = "prendre"; // not implemented yet
+            public const string Ecrire = "écrire"; // not implemented yet
+            public const string Lire = "lire"; // not implemented yet
         }
 
         public static class Regular
@@ -37,6 +48,7 @@ public static class Constants
             public const string Etre = "Être est le verbe le plus fondamental. Il exprime l'état, l'identité et sert d'auxiliaire pour de nombreux temps.";
             public const string Avoir = "Avoir exprime la possession. C'est aussi l'auxiliaire le plus utilisé pour former les temps composés.";
             public const string Aller = "Aller est un verbe de mouvement indispensable pour exprimer une destination ou le futur proche.";
+            public const string Faire = "Faire est un verbe polyvalent qui exprime l'action de faire ou de fabriquer quelque chose. Il est aussi utilisé pour le temps météo, les sports et de nombreuses expressions idiomatiques.";
         }
 
         public static class Regular
