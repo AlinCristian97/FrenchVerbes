@@ -2,7 +2,7 @@
 
 public class RegularReVerb : RegularVerb
 {
-    public RegularReVerb(string infinitive) : base(infinitive) { }
+    public RegularReVerb(string infinitive, string description) : base(infinitive, description) { }
 
     protected override string Ending => "re";
     protected override string PastParticipleSuffix => "u";

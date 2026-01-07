@@ -1,10 +1,10 @@
 ﻿
-using FrenchVerbes.Extensions;
-
 namespace FrenchVerbes.Verbes.Irregular;
 
 public class IrregularFrenchVerb : Verb
 {
+    protected override string VerbType => "irregular  d-_-b";
+    
     private readonly Dictionary<string, string> _presentTense;
     private readonly Dictionary<string, string> _imperative;
     private readonly Dictionary<string, string> _stems;
@@ -14,12 +14,13 @@ public class IrregularFrenchVerb : Verb
 
     public IrregularFrenchVerb(
         string infinitive,
+        string description,
         string pastParticiple,
         Dictionary<string, string> presentTense,
         Dictionary<string, string> imperative,
         Dictionary<string, string> stems,
         bool usesEtre = false)
-        : base(infinitive)
+        : base(infinitive, description)
     {
         PastParticiple = pastParticiple;
         _presentTense = presentTense;
@@ -41,7 +42,8 @@ public class IrregularFrenchVerb : Verb
 
     protected override void PrintPresent()
     {
-        Console.WriteLine(Constants.Tenses.Present.ToHeadline());
+        PrintUtils.PrintHeadline(Constants.Tenses.Present);
+        
         for (int i = 0; i < Constants.Pronouns.All.Length; i++)
         {
             string pronounLabel = Constants.Pronouns.All[i];
@@ -63,7 +65,8 @@ public class IrregularFrenchVerb : Verb
 
     protected override void PrintImperative()
     {
-        Console.WriteLine(Constants.Tenses.Imperative.ToHeadline());
+        PrintUtils.PrintHeadline(Constants.Tenses.Imperative);
+        
         string[] labels = { Constants.Pronouns.Tu, Constants.Pronouns.Nous, Constants.Pronouns.Vous };
 
         foreach (var label in labels)
@@ -74,11 +77,5 @@ public class IrregularFrenchVerb : Verb
                 Console.WriteLine($"{form} !");
             }
         }
-    }
-
-    protected override void PrintGeneralInfo()
-    {
-        base.PrintGeneralInfo();
-        Console.WriteLine("irregular");
     }
 }

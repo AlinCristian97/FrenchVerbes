@@ -4,7 +4,7 @@ namespace FrenchVerbes.Verbes.Regular;
 
 public class RegularErVerb : RegularVerb
 {
-    public RegularErVerb(string infinitive) : base(infinitive) { }
+    public RegularErVerb(string infinitive, string description) : base(infinitive, description) { }
 
     protected override string Ending => "er";
     
@@ -30,7 +30,8 @@ public class RegularErVerb : RegularVerb
     
     protected override void PrintPresent()
     {
-        Console.WriteLine(Constants.Tenses.Present.ToHeadline());
+        PrintUtils.PrintHeadline(Constants.Tenses.Present);
+        
         string stem = GetStemForTense(Constants.Tenses.Present);
 
         for (int i = 0; i < Constants.Pronouns.All.Length; i++)
@@ -59,7 +60,7 @@ public class RegularErVerb : RegularVerb
 
     protected override void PrintImparfait()
     {
-        Console.WriteLine(Constants.Tenses.Imparfait.ToHeadline());
+        PrintUtils.PrintHeadline(Constants.Tenses.Imparfait);
         string stem = GetStemForTense(Constants.Tenses.Imparfait);
 
         for (int i = 0; i < Constants.Pronouns.All.Length; i++)
@@ -95,7 +96,7 @@ public class RegularErVerb : RegularVerb
 
     protected override void PrintImperative()
     {
-        Console.WriteLine(Constants.Tenses.Imperative.ToHeadline());
+        PrintUtils.PrintHeadline(Constants.Tenses.Imperative);
         string stem = GetStemForTense(Constants.Tenses.Present);
         
         // Indices in the full pronoun list: 1 (Tu), 3 (Nous), 4 (Vous)

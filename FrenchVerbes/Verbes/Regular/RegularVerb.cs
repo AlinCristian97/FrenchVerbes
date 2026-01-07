@@ -4,8 +4,10 @@ namespace FrenchVerbes.Verbes.Regular;
 
 public abstract class RegularVerb : Verb
 {
-    protected RegularVerb(string infinitive)
-        : base(infinitive)
+    protected override string VerbType => "regular  d^_^b";
+
+    protected RegularVerb(string infinitive, string description)
+        : base(infinitive, description)
     {
     }
     
@@ -25,16 +27,10 @@ public abstract class RegularVerb : Verb
         Constants.Tenses.ConditionnelPresent => Infinitive,
         _ => throw new Exception("Tense not found.")
     };
-
-    protected override void PrintGeneralInfo()
-    {
-        base.PrintGeneralInfo();
-        Console.WriteLine($"Type: Regular ('{Ending}'-verb)");
-    }
     
     protected override void PrintImperative()
     {
-        Console.WriteLine(Constants.Tenses.Imperative.ToHeadline());
+        PrintUtils.PrintHeadline(Constants.Tenses.Imperative);
         string stem = GetStemForTense(Constants.Tenses.Present);
 
         for (int i = 0; i < ImperativeEndings.Length; i++)
@@ -52,7 +48,7 @@ public abstract class RegularVerb : Verb
 
     protected override void PrintPresent()
     {
-        Console.WriteLine(Constants.Tenses.Present.ToHeadline());
+        PrintUtils.PrintHeadline(Constants.Tenses.Present);
         string stem = GetStemForTense(Constants.Tenses.Present);
         
         for (int i = 0; i < Constants.Pronouns.All.Length; i++)

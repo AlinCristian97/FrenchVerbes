@@ -41,17 +41,17 @@ public static class VerbRepository
 
     private static void AddRegularErVerbs()
     {
-        _verbs.Add(new RegularErVerb(Constants.Verbs.Regular.Er.Manger));
+        _verbs.Add(new RegularErVerb(Constants.Verbs.Regular.Er.Manger, Constants.VerbDescriptions.Regular.Er.Manger));
     }
 
     private static void AddRegularIrVerbs()
     {
-        _verbs.Add(new RegularIrVerb(Constants.Verbs.Regular.Ir.Finir));
+        _verbs.Add(new RegularIrVerb(Constants.Verbs.Regular.Ir.Finir, Constants.VerbDescriptions.Regular.Ir.Finir));
     }
 
     private static void AddRegularReVerbs()
     {
-        _verbs.Add(new RegularReVerb(Constants.Verbs.Regular.Re.Vendre));
+        _verbs.Add(new RegularReVerb(Constants.Verbs.Regular.Re.Vendre, Constants.VerbDescriptions.Regular.Re.Vendre));
     }
 
     #region Irregular Verbs Factory Methods
@@ -60,6 +60,7 @@ public static class VerbRepository
     {
         return new IrregularFrenchVerb(
             Constants.Verbs.Irregular.Etre,
+            description: Constants.VerbDescriptions.Irregular.Etre,
             pastParticiple: "été",
             presentTense: new()
             {
@@ -89,6 +90,7 @@ public static class VerbRepository
     {
         return new IrregularFrenchVerb(
             Constants.Verbs.Irregular.Avoir,
+            description: Constants.VerbDescriptions.Irregular.Avoir,
             pastParticiple: "eu",
             presentTense: new()
             {
@@ -118,6 +120,7 @@ public static class VerbRepository
     {
         return new IrregularFrenchVerb(
             Constants.Verbs.Irregular.Aller,
+            description: Constants.VerbDescriptions.Irregular.Aller,
             pastParticiple: "allé",
             presentTense: new()
             {

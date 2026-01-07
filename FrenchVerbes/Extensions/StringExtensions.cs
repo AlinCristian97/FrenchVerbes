@@ -11,7 +11,7 @@
             if (string.IsNullOrWhiteSpace(text))
                 return string.Empty;
 
-            return $"*** {text.ToUpper()} ***";
+            return $"{text}";
         }
         
         /// <summary>

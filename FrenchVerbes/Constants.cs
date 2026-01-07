@@ -29,6 +29,34 @@ public static class Constants
             }
         }
     }
+    
+    public static class VerbDescriptions
+    {
+        public static class Irregular
+        {
+            public const string Etre = "Être est le verbe le plus fondamental. Il exprime l'état, l'identité et sert d'auxiliaire pour de nombreux temps.";
+            public const string Avoir = "Avoir exprime la possession. C'est aussi l'auxiliaire le plus utilisé pour former les temps composés.";
+            public const string Aller = "Aller est un verbe de mouvement indispensable pour exprimer une destination ou le futur proche.";
+        }
+
+        public static class Regular
+        {
+            public static class Er
+            {
+                public const string Manger = "Utilisé pour l'action de consommer de la nourriture. Attention à la prononciation douce du 'g' dans toutes ses formes.";
+            }
+
+            public static class Ir
+            {
+                public const string Finir = "Exprime l'aboutissement d'une action, la fin d'une tâche ou l'achèvement d'un processus commencé plus tôt.";
+            }
+
+            public static class Re
+            {
+                public const string Vendre = "Le verbe de base pour le commerce, signifiant l'échange d'un bien ou d'un service contre une rémunération.";
+            }
+        }
+    }
 
     public static class Pronouns
     {
@@ -103,4 +131,5 @@ public static class Constants
     }
     
     public static string Vowels = "aeiouéêëàâîïôûùh";
+    public static string SectionDivider = "--------------------------------------------------";
 }

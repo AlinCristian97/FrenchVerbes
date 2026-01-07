@@ -5,6 +5,8 @@ namespace FrenchVerbes.Verbes;
 public abstract class Verb
 {
     public string Infinitive { get; }
+    public string Description { get; }
+    protected abstract string VerbType { get; }
     public virtual bool UsesEtre => false;
     
     protected static readonly string[] ImparfaitEndings = { "ais", "ais", "ait", "ions", "iez", "aient" };
@@ -12,9 +14,10 @@ public abstract class Verb
     protected virtual string[] ConditionnelPresentEndings => ImparfaitEndings;
     protected abstract string PastParticiple { get; }
 
-    public Verb(string infinitive)
+    public Verb(string infinitive, string description)
     {
         Infinitive = infinitive.ToLowerInvariant();
+        Description = description;
     }
 
     protected abstract string GetStemForTense(string tense);
@@ -22,22 +25,22 @@ public abstract class Verb
     public void PrintSummary()
     {
         PrintGeneralInfo();
-        Console.WriteLine();
         PrintTenseWithExamples(Constants.Tenses.Present, PrintPresent);
-        Console.WriteLine();
+        PrintUtils.PrintSectionDivider();
         PrintTenseWithExamples(Constants.Tenses.Imparfait, PrintImparfait);
-        Console.WriteLine();
+        PrintUtils.PrintSectionDivider();
         PrintTenseWithExamples(Constants.Tenses.FuturSimple, PrintFuturSimple);
-        Console.WriteLine();
+        PrintUtils.PrintSectionDivider();
         PrintTenseWithExamples(Constants.Tenses.PasseCompose, PrintPasseCompose);
-        Console.WriteLine();
+        PrintUtils.PrintSectionDivider();
         PrintTenseWithExamples(Constants.Tenses.FuturProche, PrintFuturProche);
-        Console.WriteLine();
+        PrintUtils.PrintSectionDivider();
         PrintTenseWithExamples(Constants.Tenses.PasseRecent, PrintPasseRecent);
-        Console.WriteLine();
+        PrintUtils.PrintSectionDivider();
         PrintTenseWithExamples(Constants.Tenses.Imperative, PrintImperative);
-        Console.WriteLine();
+        PrintUtils.PrintSectionDivider();
         PrintTenseWithExamples(Constants.Tenses.ConditionnelPresent, PrintConditionnelPresent);
+        PrintUtils.PrintSectionDivider();
     }
     
     private void PrintTenseWithExamples(string tenseName, Action printAction)
@@ -49,23 +52,57 @@ public abstract class Verb
         var examples = ExampleSentencesRepository.GetRandomSentences(Infinitive, tenseName, count);
         if (examples.Any())
         {
-            Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.DarkGray;
-            Console.WriteLine("Exemples :");
             foreach (var example in examples)
             {
-                Console.WriteLine($"  • {example}");
+                Console.WriteLine(example);
             }
             Console.ResetColor();
         }
     }
     
-    protected virtual void PrintGeneralInfo()
+    private void PrintGeneralInfo()
     {
+        PrintUtils.PrintSectionDivider();
         Console.Write("Verb: ");
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine(Infinitive);
         Console.ResetColor();
+
+        Console.Write("Type: ");
+        Console.ForegroundColor = ConsoleColor.DarkCyan;
+        Console.WriteLine(VerbType);
+        Console.ResetColor();
+        
+        Console.Write("Auxiliary: ");
+        Console.ForegroundColor = ConsoleColor.DarkCyan;
+        Console.WriteLine(UsesEtre ? Constants.Verbs.Irregular.Etre : Constants.Verbs.Irregular.Avoir);
+        Console.ResetColor();
+        
+        Console.Write("Past Participle: ");
+        Console.ForegroundColor = ConsoleColor.DarkCyan;
+        Console.WriteLine(PastParticiple);
+        Console.ResetColor();
+        
+        Console.Write("Progressive: ");
+        Console.ForegroundColor = ConsoleColor.DarkCyan;
+        
+        string connector = "de";
+        if (Constants.Vowels.Contains(Infinitive[0]))
+        {
+            connector = "d'";
+        }
+        
+        string space = connector.EndsWith("'") ? "" : " ";
+
+        Console.WriteLine($"{Constants.Verbs.Irregular.Etre} en train {connector}{space}{Infinitive}");
+        Console.ResetColor();
+        
+        Console.Write("Description: ");
+        Console.ForegroundColor = ConsoleColor.DarkGray;
+        Console.WriteLine(Description);
+        Console.ResetColor();
+        PrintUtils.PrintSectionDivider();
     }
     
     protected abstract void PrintPresent();
@@ -73,28 +110,28 @@ public abstract class Verb
 
     protected virtual void PrintImparfait()
     {
-        Console.WriteLine(Constants.Tenses.Imparfait.ToHeadline());
+        PrintUtils.PrintHeadline(Constants.Tenses.Imparfait);
         string stem = GetStemForTense(Constants.Tenses.Imparfait);
         PrintTense(stem, ImparfaitEndings);
     }
     
     private void PrintFuturSimple()
     {
-        Console.WriteLine(Constants.Tenses.FuturSimple.ToHeadline());
+        PrintUtils.PrintHeadline(Constants.Tenses.FuturSimple);
         string stem = GetStemForTense(Constants.Tenses.FuturSimple);
         PrintTense(stem, FuturSimpleEndings);
     }
     
     private void PrintConditionnelPresent()
     {
-        Console.WriteLine(Constants.Tenses.ConditionnelPresent.ToHeadline());
+        PrintUtils.PrintHeadline(Constants.Tenses.ConditionnelPresent);
         string stem = GetStemForTense(Constants.Tenses.ConditionnelPresent);
         PrintTense(stem, ConditionnelPresentEndings);
     }
     
     private void PrintPasseCompose()
     {
-        Console.WriteLine(Constants.Tenses.PasseCompose.ToHeadline());
+        PrintUtils.PrintHeadline(Constants.Tenses.PasseCompose);
         string[] aux = UsesEtre 
             ? Constants.Tenses.Auxiliaries.PasseCompose_AuxiliaryEtre 
             : Constants.Tenses.Auxiliaries.PasseCompose_AuxiliaryAvoir;
@@ -114,14 +151,26 @@ public abstract class Verb
             // Handle agreement if auxiliary is 'être'
             if (UsesEtre)
             {
-                // Index 0, 1, 2 are singular (Je, Tu, Il/Elle/On)
-                // Index 3, 5 are always plural (Nous, Ils/Elles)
-                // Index 4 (Vous) can be singular or plural, but usually shown as plural in charts
-                
-                if (i == 0 || i == 1) Console.Write("(e)");
-                else if (i == 2) Console.Write(Constants.Pronouns.All[i].Contains("Elle") ? "e" : "(e)");
-                else if (i == 3 || i == 4) Console.Write("(e)s");
-                else if (i == 5) Console.Write(Constants.Pronouns.All[i].Contains("Elles") ? "es" : "s");
+                // i = 0 (Je), 1 (Tu) -> optional (e)
+                if (i == 0 || i == 1) 
+                {
+                    Console.Write("(e)");
+                }
+                // i = 2 (Il/Elle/On) -> Il/On is masc, Elle is fem
+                else if (i == 2) 
+                {
+                    Console.Write("(e)"); // Shown as (e) because of the shared line Il/Elle/On
+                }
+                // i = 3 (Nous), 4 (Vous) -> always plural 's', optional feminine 'e'
+                else if (i == 3 || i == 4) 
+                {
+                    Console.Write("(e)s");
+                }
+                // i = 5 (Ils/Elles) -> Ils is 's', Elles is 'es'
+                else if (i == 5) 
+                {
+                    Console.Write(Constants.Pronouns.All[i].Contains("Elles") ? "es" : "s");
+                }
             }
 
             Console.WriteLine();
@@ -131,7 +180,7 @@ public abstract class Verb
     
     private void PrintFuturProche()
     {
-        Console.WriteLine(Constants.Tenses.FuturProche.ToHeadline());
+        PrintUtils.PrintHeadline(Constants.Tenses.FuturProche);
         string[] aux = Constants.Tenses.Auxiliaries.FuturProche_Auxiliary;
 
         for (int i = 0; i < Constants.Pronouns.All.Length; i++)
@@ -147,7 +196,7 @@ public abstract class Verb
 
     private void PrintPasseRecent()
     {
-        Console.WriteLine(Constants.Tenses.PasseRecent.ToHeadline());
+        PrintUtils.PrintHeadline(Constants.Tenses.PasseRecent);
         string[] aux = Constants.Tenses.Auxiliaries.PasseRecent_Auxiliary;
         string connector = "de";
 

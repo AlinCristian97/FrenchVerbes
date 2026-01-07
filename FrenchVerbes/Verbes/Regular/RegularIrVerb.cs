@@ -2,7 +2,7 @@
 
 public class RegularIrVerb : RegularVerb
 {
-    public RegularIrVerb(string infinitive) : base(infinitive) { }
+    public RegularIrVerb(string infinitive, string description) : base(infinitive, description) { }
 
     private const string StemSuffix = "iss";
     
