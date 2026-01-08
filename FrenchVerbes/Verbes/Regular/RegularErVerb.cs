@@ -1,6 +1,4 @@
-﻿using FrenchVerbes.Extensions;
-
-namespace FrenchVerbes.Verbes.Regular;
+﻿namespace FrenchVerbes.Verbes.Regular;
 
 public class RegularErVerb : RegularVerb
 {
@@ -93,7 +91,7 @@ public class RegularErVerb : RegularVerb
         {
             string adjustedStem = GetAdjustedStem(stem, tense, i);
 
-            Console.Write($"{Constants.Pronouns.All[i]} ");
+            PrintUtils.PrintPronoun(i, adjustedStem);
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write(adjustedStem);
             Console.ResetColor();
@@ -116,7 +114,7 @@ public class RegularErVerb : RegularVerb
         {
             string adjustedStem = GetAdjustedStem(stem, tense, i);
 
-            Console.Write($"{Constants.Pronouns.All[i]} ");
+            PrintUtils.PrintPronoun(i, adjustedStem);
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write(adjustedStem);
             Console.ResetColor();

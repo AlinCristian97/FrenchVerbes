@@ -53,6 +53,7 @@ public static class VerbRepository
     {
         _verbs.Add(CreateManger());
         _verbs.Add(CreateAcheter());
+        _verbs.Add(CreateAimer());
         
     }
 
@@ -74,9 +75,11 @@ public static class VerbRepository
 
     private static RegularErVerb CreateManger()
     {
+        string verb = Constants.Verbs.Regular.Er.Manger;
+        
         return new RegularErVerb(
-            Constants.Verbs.Regular.Er.Manger,
-            Constants.VerbDescriptions.Regular.Er.Manger,
+            verb,
+            verb,
             tensesNotes: new NotesObject
             {
                 PresentNotes = "Manger ajoute un 'e' devant la terminaison au présent avec 'nous' pour conserver le son doux du 'g' : nous mangeons."
@@ -85,14 +88,23 @@ public static class VerbRepository
 
     private static RegularErVerb CreateAcheter()
     {
+        string verb = Constants.Verbs.Regular.Er.Acheter;
+        
         return new RegularErVerb(
-            Constants.Verbs.Regular.Er.Acheter,
-            Constants.VerbDescriptions.Regular.Er.Acheter,
+            verb,
+            verb,
             tensesNotes: new NotesObject
             {
                 PresentNotes = "Acheter change de radical au présent pour certaines personnes : j'achète, tu achètes, il achète, mais nous achetons.",
                 FuturSimpleNotes = "Au futur et au conditionnel, acheter utilise le radical 'achèter-' : j'achèterai, j'achèterais."
             });
+    }
+
+    private static RegularErVerb CreateAimer()
+    {
+        string verb = Constants.Verbs.Regular.Er.Aimer;
+
+        return new RegularErVerb(verb, verb);
     }
 
     #endregion
@@ -121,9 +133,11 @@ public static class VerbRepository
 
     private static IrregularFrenchVerb CreatePrendre()
     {
+        string verb = Constants.Verbs.Irregular.Prendre;
+        
         return new IrregularFrenchVerb(
-            Constants.Verbs.Irregular.Prendre,
-            description: Constants.VerbDescriptions.Irregular.Prendre,
+            verb,
+            description: verb,
             pastParticiple: "pris",
             presentTense: new()
             {
@@ -161,9 +175,11 @@ public static class VerbRepository
     
     private static IrregularFrenchVerb CreateDire()
     {
+        string verb = Constants.Verbs.Irregular.Dire;
+        
         return new IrregularFrenchVerb(
-            Constants.Verbs.Irregular.Dire,
-            description: Constants.VerbDescriptions.Irregular.Dire,
+            verb,
+            description: verb,
             pastParticiple: "dit",
             presentTense: new()
             {
@@ -201,9 +217,11 @@ public static class VerbRepository
     
     private static IrregularFrenchVerb CreateVoir()
     {
+        string verb = Constants.Verbs.Irregular.Voir;
+        
         return new IrregularFrenchVerb(
-            Constants.Verbs.Irregular.Voir,
-            description: Constants.VerbDescriptions.Irregular.Voir,
+            verb,
+            description: verb,
             pastParticiple: "vu",
             presentTense: new()
             {
@@ -241,9 +259,11 @@ public static class VerbRepository
     
     private static IrregularFrenchVerb CreateVenir()
     {
+        string verb = Constants.Verbs.Irregular.Venir;
+        
         return new IrregularFrenchVerb(
-            Constants.Verbs.Irregular.Venir,
-            description: Constants.VerbDescriptions.Irregular.Venir,
+            verb,
+            description: verb,
             pastParticiple: "venu",
             presentTense: new()
             {
@@ -282,9 +302,11 @@ public static class VerbRepository
     
     private static IrregularFrenchVerb CreateEtre()
     {
+        string verb = Constants.Verbs.Irregular.Etre;
+        
         return new IrregularFrenchVerb(
-            Constants.Verbs.Irregular.Etre,
-            description: Constants.VerbDescriptions.Irregular.Etre,
+            verb,
+            description: verb,
             pastParticiple: "été",
             presentTense: new()
             {
@@ -318,9 +340,11 @@ public static class VerbRepository
 
     private static IrregularFrenchVerb CreateAvoir()
     {
+        string verb = Constants.Verbs.Irregular.Avoir;
+        
         return new IrregularFrenchVerb(
-            Constants.Verbs.Irregular.Avoir,
-            description: Constants.VerbDescriptions.Irregular.Avoir,
+            verb,
+            description: verb,
             pastParticiple: "eu",
             presentTense: new()
             {
@@ -354,9 +378,11 @@ public static class VerbRepository
 
     private static IrregularFrenchVerb CreateAller()
     {
+        string verb = Constants.Verbs.Irregular.Aller;
+        
         return new IrregularFrenchVerb(
-            Constants.Verbs.Irregular.Aller,
-            description: Constants.VerbDescriptions.Irregular.Aller,
+            verb,
+            description: verb,
             pastParticiple: "allé",
             presentTense: new()
             {
@@ -386,9 +412,11 @@ public static class VerbRepository
     
     private static IrregularFrenchVerb CreateFaire()
     {
+        string verb = Constants.Verbs.Irregular.Faire;
+        
         return new IrregularFrenchVerb(
-            Constants.Verbs.Irregular.Faire,
-            description: Constants.VerbDescriptions.Irregular.Faire,
+            verb,
+            description: verb,
             pastParticiple: "fait",
             presentTense: new()
             {
@@ -416,9 +444,11 @@ public static class VerbRepository
     
     private static IrregularFrenchVerb CreatePouvoir()
     {
+        string verb = Constants.Verbs.Irregular.Pouvoir;
+        
         return new IrregularFrenchVerb(
-            Constants.Verbs.Irregular.Pouvoir,
-            description: Constants.VerbDescriptions.Irregular.Pouvoir,
+            verb,
+            description: verb,
             pastParticiple: "pu",
             presentTense: new()
             {
@@ -448,9 +478,11 @@ public static class VerbRepository
     
     private static IrregularFrenchVerb CreateVouloir()
     {
+        string verb = Constants.Verbs.Irregular.Vouloir;
+        
         return new IrregularFrenchVerb(
-            Constants.Verbs.Irregular.Vouloir,
-            description: Constants.VerbDescriptions.Irregular.Vouloir,
+            verb,
+            description: verb,
             pastParticiple: "voulu",
             presentTense: new()
             {
@@ -485,9 +517,11 @@ public static class VerbRepository
     
     private static IrregularFrenchVerb CreateDevoir()
     {
+        string verb = Constants.Verbs.Irregular.Devoir;
+        
         return new IrregularFrenchVerb(
-            Constants.Verbs.Irregular.Devoir,
-            description: Constants.VerbDescriptions.Irregular.Devoir,
+            verb,
+            description: verb,
             pastParticiple: "dû",
             presentTense: new()
             {
@@ -526,9 +560,11 @@ public static class VerbRepository
 
     private static IrregularFrenchVerb CreateSavoir()
     {
+        string verb = Constants.Verbs.Irregular.Savoir;
+        
         return new IrregularFrenchVerb(
-            Constants.Verbs.Irregular.Savoir,
-            description: Constants.VerbDescriptions.Irregular.Savoir,
+            verb,
+            description: verb,
             pastParticiple: "su",
             presentTense: new()
             {

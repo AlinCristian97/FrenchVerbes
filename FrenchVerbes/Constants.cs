@@ -151,7 +151,8 @@ public static class Constants
             public static class Er
             {
                 public const string Acheter = "Acheter est un verbe courant qui exprime l'action d'acquérir quelque chose en échange d'argent. Il est très utilisé dans la vie quotidienne, notamment pour parler de courses, de biens et de services.";
-
+                public const string Aimer = "Aimer est un verbe régulier en -er qui exprime le sentiment d'affection, de goût ou de préférence. Très utilisé en français courant, il peut être suivi d'une personne, d'une chose ou d'une activité.";
+                
                 public const string Manger = "Utilisé pour l'action de consommer de la nourriture. Attention à la prononciation douce du 'g' dans toutes ses formes.";
             }
 

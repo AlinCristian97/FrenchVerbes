@@ -55,16 +55,8 @@ public class IrregularFrenchVerb : Verb
             string pronounLabel = Constants.Pronouns.All[i];
             if (_presentTense.TryGetValue(pronounLabel, out var form))
             {
-                string displayPronoun = pronounLabel;
-
-                // Handle Je -> J' contraction for irregular forms
-                if (i == 0 && Constants.Vowels.Contains(form[0]))
-                {
-                    displayPronoun = Constants.Pronouns.Je_Contracted;
-                }
-
-                string space = displayPronoun.EndsWith("'") ? "" : " ";
-                Console.WriteLine($"{displayPronoun}{space}{form}");
+                PrintUtils.PrintPronoun(i, form);
+                Console.WriteLine($"{form}");
             }
         }
     }

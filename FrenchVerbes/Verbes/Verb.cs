@@ -192,10 +192,7 @@ public abstract class Verb
 
         for (int i = 0; i < Constants.Pronouns.All.Length; i++)
         {
-            string pronoun = Constants.Pronouns.All[i].ContractJe(aux[i]);
-            string space = pronoun.EndsWith("'") ? "" : " ";
-            
-            Console.Write($"{pronoun}{space}");
+            PrintUtils.PrintPronoun(i, aux[i]);
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write($"{aux[i]} ");
             
@@ -288,18 +285,9 @@ public abstract class Verb
     {
         for (int i = 0; i < Constants.Pronouns.All.Length; i++)
         {
-            string pronoun = Constants.Pronouns.All[i];
             string fullForm = stem + endings[i];
 
-            // Handle Je -> J' contraction
-            if (i == 0 && Constants.Vowels.Contains(fullForm[0]))
-            {
-                pronoun = Constants.Pronouns.Je_Contracted;
-            }
-
-            string space = pronoun.EndsWith("'") ? "" : " ";
-            Console.Write($"{pronoun}{space}");
-            
+            PrintUtils.PrintPronoun(i, fullForm);
             Console.Write(stem);
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(endings[i]);
