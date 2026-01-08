@@ -73,49 +73,81 @@ public static class VerbRepository
     
     private static void AddIrregularVerbs()
     {
-        _verbs.Add(CreateEtre());
+        // A
         _verbs.Add(CreateAvoir());
         _verbs.Add(CreateAller());
+        
+        // C
+        _verbs.Add(CreateConduire());
+        
+        // D
+        _verbs.Add(CreateDevoir());
+        _verbs.Add(CreateDire());
+        
+        // E
+        _verbs.Add(CreateEtre());
+        
+        // F
         _verbs.Add(CreateFaire());
+        
+        // P
         _verbs.Add(CreatePouvoir());
-        _verbs.Add(CreateVouloir());
+        _verbs.Add(CreatePrendre());
+        
+        // S
         _verbs.Add(CreateSavoir());
+        
+        // V
         _verbs.Add(CreateVenir());
         _verbs.Add(CreateVoir());
-        _verbs.Add(CreateDire());
-        _verbs.Add(CreatePrendre());
-        _verbs.Add(CreateDevoir());
-        _verbs.Add(CreateConduire());
+        _verbs.Add(CreateVouloir());
         
     }
 
     private static void AddRegularErVerbs()
     {
-        _verbs.Add(CreateManger());
+        // A
         _verbs.Add(CreateAcheter());
         _verbs.Add(CreateAimer());
         _verbs.Add(CreateAppeler());
         _verbs.Add(CreateArriver());
         
+        // M
+        _verbs.Add(CreateManger());
+        
     }
 
     private static void AddRegularIrVerbs()
     {
-        _verbs.Add(CreateFinir());
+        // A
         _verbs.Add(CreateAgrandir());
         _verbs.Add(CreateApplaudir());
+        
+        // B
         _verbs.Add(CreateBatir());
+        
+        // C
         _verbs.Add(CreateChoisir());
+        
+        // F
+        _verbs.Add(CreateFinir());
         
     }
 
     private static void AddRegularReVerbs()
     {
-        _verbs.Add(CreateVendre());
+        // A
         _verbs.Add(CreateAttendre());
+        
+        // C
         _verbs.Add(CreateComprendre());
         _verbs.Add(CreateConfondre());
+        
+        // D
         _verbs.Add(CreateDescendre());
+        
+        // V
+        _verbs.Add(CreateVendre());
         
     }
 

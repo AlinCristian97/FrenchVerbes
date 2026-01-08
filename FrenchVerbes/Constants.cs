@@ -66,7 +66,7 @@ public static class Constants
                 public const string Donner = "donner";
                 public const string Détester = "détester";
 
-                // É / E
+                // E
                 public const string Écouter = "écouter";
                 public const string Entrer = "entrer";
                 public const string Espérer = "espérer";
