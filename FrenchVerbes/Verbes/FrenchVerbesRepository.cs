@@ -111,6 +111,7 @@ public static class VerbRepository
         _verbs.Add(CreateVendre());
         _verbs.Add(CreateAttendre());
         _verbs.Add(CreateComprendre());
+        _verbs.Add(CreateConfondre());
         
     }
 
@@ -213,6 +214,13 @@ public static class VerbRepository
         return new RegularReVerb(
             Constants.Verbs.Regular.Re.Comprendre,
             Constants.VerbDescriptions.Regular.Re.Comprendre);
+    }
+    
+    private static RegularReVerb CreateConfondre()
+    {
+        return new RegularReVerb(
+            Constants.Verbs.Regular.Re.Confondre,
+            Constants.VerbDescriptions.Regular.Re.Confondre);
     }
 
     #endregion
