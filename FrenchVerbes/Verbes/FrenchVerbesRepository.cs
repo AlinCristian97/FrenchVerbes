@@ -113,6 +113,9 @@ public static class VerbRepository
         _verbs.Add(CreateAppeler());
         _verbs.Add(CreateArriver());
         
+        // H
+        _verbs.Add(CreateHabiter());
+        
         // M
         _verbs.Add(CreateManger());
         
@@ -208,6 +211,18 @@ public static class VerbRepository
             {
                 PasseComposeNotes = "Arriver se conjugue avec l'auxiliaire 'être' au passé composé : je suis arrivé(e). Le participe passé s'accorde en genre et en nombre avec le sujet.",
                 PresentNotes = "Arriver est régulier au présent : j'arrive, tu arrives, il/elle arrive, nous arrivons, vous arrivez, ils/elles arrivent."
+            });
+    }
+
+    private static RegularErVerb CreateHabiter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Habiter,
+            Constants.VerbDescriptions.Regular.Er.Habiter,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes =
+                    "Habiter est un verbe régulier en -er. Il se conjugue de manière régulière à tous les temps sans changement de radical."
             });
     }
 

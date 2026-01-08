@@ -87,7 +87,8 @@ internal class Program
             return;
         }
 
-        var verb = VerbRepository.GetByInfinitive(input);
+        string normalizedInput = input.Replace(" ", "").Trim();
+        var verb = VerbRepository.GetByInfinitive(normalizedInput);
 
         if (verb is null)
         {

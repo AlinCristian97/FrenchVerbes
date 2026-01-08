@@ -249,6 +249,9 @@ public static class Constants
                 public const string Appeler = "Appeler est un verbe régulier en -er avec un changement orthographique : le 'l' se double pour certaines personnes afin de préserver le son [ɛ]. Il exprime l'action de nommer quelqu'un ou de téléphoner à quelqu'un.";
                 public const string Arriver = "Arriver est un verbe régulier en -er qui signifie atteindre un lieu, venir ou se produire. En français, il se conjugue avec l'auxiliaire 'être' aux temps composés.";
 
+                // H
+                public const string Habiter = "Habiter exprime le fait de vivre ou de résider dans un lieu de manière habituelle.";
+                
                 // M
                 public const string Manger = "Utilisé pour l'action de consommer de la nourriture. Attention à la prononciation douce du 'g' dans toutes ses formes.";
             }
