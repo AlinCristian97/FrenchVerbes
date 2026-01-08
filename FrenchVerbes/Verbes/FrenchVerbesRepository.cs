@@ -106,6 +106,7 @@ public static class VerbRepository
     private static void AddRegularReVerbs()
     {
         _verbs.Add(CreateVendre());
+        _verbs.Add(CreateAttendre());
         
     }
 
@@ -166,6 +167,13 @@ public static class VerbRepository
     private static RegularReVerb CreateVendre()
     {
         return new RegularReVerb(Constants.Verbs.Regular.Re.Vendre, Constants.VerbDescriptions.Regular.Re.Vendre);
+    }
+
+    private static RegularReVerb CreateAttendre()
+    {
+        return new RegularReVerb(
+            Constants.Verbs.Regular.Re.Attendre,
+            Constants.VerbDescriptions.Regular.Re.Attendre);
     }
 
     #endregion

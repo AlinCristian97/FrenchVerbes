@@ -228,6 +228,10 @@ public static class Constants
 
             public static class Re
             {
+                // A
+                public const string Attendre = "Attendre est un verbe régulier en -re qui exprime l'action de rester quelque part jusqu'à ce que quelque chose se produise ou que quelqu'un arrive. Il est utilisé pour parler de patience, de délai ou d'attente d'événements.";
+                
+                // V
                 public const string Vendre = "Le verbe de base pour le commerce, signifiant l'échange d'un bien ou d'un service contre une rémunération.";
             }
         }
