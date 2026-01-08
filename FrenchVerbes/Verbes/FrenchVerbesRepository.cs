@@ -51,19 +51,72 @@ public static class VerbRepository
 
     private static void AddRegularErVerbs()
     {
-        _verbs.Add(new RegularErVerb(Constants.Verbs.Regular.Er.Manger, Constants.VerbDescriptions.Regular.Er.Manger));
+        _verbs.Add(CreateManger());
+        _verbs.Add(CreateAcheter());
+        
     }
 
     private static void AddRegularIrVerbs()
     {
-        _verbs.Add(new RegularIrVerb(Constants.Verbs.Regular.Ir.Finir, Constants.VerbDescriptions.Regular.Ir.Finir));
+        _verbs.Add(CreateFinir());
+        
     }
 
     private static void AddRegularReVerbs()
     {
-        _verbs.Add(new RegularReVerb(Constants.Verbs.Regular.Re.Vendre, Constants.VerbDescriptions.Regular.Re.Vendre));
+        _verbs.Add(CreateVendre());
+        
     }
 
+    #region Regular Verbs Factory Methods
+
+    #region Ending in ER
+
+    private static RegularErVerb CreateManger()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Manger,
+            Constants.VerbDescriptions.Regular.Er.Manger,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes = "Manger ajoute un 'e' devant la terminaison au présent avec 'nous' pour conserver le son doux du 'g' : nous mangeons."
+            });
+    }
+
+    private static RegularErVerb CreateAcheter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Acheter,
+            Constants.VerbDescriptions.Regular.Er.Acheter,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes = "Acheter change de radical au présent pour certaines personnes : j'achète, tu achètes, il achète, mais nous achetons.",
+                FuturSimpleNotes = "Au futur et au conditionnel, acheter utilise le radical 'achèter-' : j'achèterai, j'achèterais."
+            });
+    }
+
+    #endregion
+
+    #region Ending in IR
+
+    private static RegularIrVerb CreateFinir()
+    {
+        return new RegularIrVerb(Constants.Verbs.Regular.Ir.Finir, Constants.VerbDescriptions.Regular.Ir.Finir);
+    }
+
+    #endregion
+
+    #region Ending in RE
+
+    private static RegularReVerb CreateVendre()
+    {
+        return new RegularReVerb(Constants.Verbs.Regular.Re.Vendre, Constants.VerbDescriptions.Regular.Re.Vendre);
+    }
+
+    #endregion
+    
+    #endregion
+    
     #region Irregular Verbs Factory Methods
 
     private static IrregularFrenchVerb CreatePrendre()
