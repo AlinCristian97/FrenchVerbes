@@ -100,6 +100,7 @@ public static class VerbRepository
     {
         _verbs.Add(CreateFinir());
         _verbs.Add(CreateAgrandir());
+        _verbs.Add(CreateApplaudir());
         
     }
 
@@ -150,7 +151,9 @@ public static class VerbRepository
 
     private static RegularIrVerb CreateFinir()
     {
-        return new RegularIrVerb(Constants.Verbs.Regular.Ir.Finir, Constants.VerbDescriptions.Regular.Ir.Finir);
+        return new RegularIrVerb(
+            Constants.Verbs.Regular.Ir.Finir,
+            Constants.VerbDescriptions.Regular.Ir.Finir);
     }
 
     private static RegularIrVerb CreateAgrandir()
@@ -158,6 +161,13 @@ public static class VerbRepository
         return new RegularIrVerb(
             Constants.Verbs.Regular.Ir.Agrandir,
             Constants.VerbDescriptions.Regular.Ir.Agrandir);
+    }
+
+    private static RegularIrVerb CreateApplaudir()
+    {
+        return new RegularIrVerb(
+            Constants.Verbs.Regular.Ir.Applaudir,
+            Constants.VerbDescriptions.Regular.Ir.Applaudir);
     }
 
     #endregion

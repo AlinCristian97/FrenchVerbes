@@ -220,6 +220,7 @@ public static class Constants
             {
                 // A
                 public const string Agrandir = "Agrandir est un verbe régulier en -ir qui exprime l'action de rendre plus grand ou plus spacieux. Il est utilisé pour parler d'objets, de lieux ou de concepts qui prennent de l'ampleur.";
+                public const string Applaudir = "Applaudir est un verbe régulier en -ir qui exprime l'action de frapper dans ses mains pour montrer son approbation ou son admiration, généralement après un spectacle ou une performance.";
 
                 
                 // F
