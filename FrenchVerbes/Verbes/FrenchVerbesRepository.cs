@@ -104,6 +104,7 @@ public static class VerbRepository
         _verbs.Add(CreateAgrandir());
         _verbs.Add(CreateApplaudir());
         _verbs.Add(CreateBatir());
+        _verbs.Add(CreateChoisir());
         
     }
 
@@ -207,6 +208,13 @@ public static class VerbRepository
             Constants.VerbDescriptions.Regular.Ir.Batir);
     }
 
+    private static RegularIrVerb CreateChoisir()
+    {
+        return new RegularIrVerb(
+            Constants.Verbs.Regular.Ir.Choisir,
+            Constants.VerbDescriptions.Regular.Ir.Choisir);
+    }
+    
     #endregion
 
     #region Ending in RE

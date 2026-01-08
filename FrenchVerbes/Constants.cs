@@ -226,6 +226,9 @@ public static class Constants
                 // B
                 public const string Batir = "Bâtir est un verbe régulier en -ir qui signifie construire, édifier ou élaborer quelque chose, souvent un bâtiment, un projet ou une idée.";
 
+                // C
+                public const string Choisir = "Choisir est un verbe régulier en -ir qui signifie faire un choix, opter pour une option ou décider entre plusieurs possibilités.";
+                
                 
                 // F
                 public const string Finir = "Exprime l'aboutissement d'une action, la fin d'une tâche ou l'achèvement d'un processus commencé plus tôt.";
