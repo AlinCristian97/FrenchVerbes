@@ -102,6 +102,7 @@ public static class VerbRepository
         _verbs.Add(CreateFinir());
         _verbs.Add(CreateAgrandir());
         _verbs.Add(CreateApplaudir());
+        _verbs.Add(CreateBatir());
         
     }
 
@@ -182,6 +183,13 @@ public static class VerbRepository
         return new RegularIrVerb(
             Constants.Verbs.Regular.Ir.Applaudir,
             Constants.VerbDescriptions.Regular.Ir.Applaudir);
+    }
+    
+    private static RegularIrVerb CreateBatir()
+    {
+        return new RegularIrVerb(
+            Constants.Verbs.Regular.Ir.Batir,
+            Constants.VerbDescriptions.Regular.Ir.Batir);
     }
 
     #endregion

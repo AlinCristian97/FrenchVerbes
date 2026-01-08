@@ -120,7 +120,7 @@ public static class Constants
                 public const string Applaudir = "applaudir";
 
                 // B
-                public const string Bâtir = "bâtir";
+                public const string Batir = "bâtir";
 
                 // C
                 public const string Choisir = "choisir";
@@ -221,6 +221,9 @@ public static class Constants
                 // A
                 public const string Agrandir = "Agrandir est un verbe régulier en -ir qui exprime l'action de rendre plus grand ou plus spacieux. Il est utilisé pour parler d'objets, de lieux ou de concepts qui prennent de l'ampleur.";
                 public const string Applaudir = "Applaudir est un verbe régulier en -ir qui exprime l'action de frapper dans ses mains pour montrer son approbation ou son admiration, généralement après un spectacle ou une performance.";
+
+                // B
+                public const string Batir = "Bâtir est un verbe régulier en -ir qui signifie construire, édifier ou élaborer quelque chose, souvent un bâtiment, un projet ou une idée.";
 
                 
                 // F
