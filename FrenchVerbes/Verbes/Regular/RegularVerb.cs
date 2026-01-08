@@ -53,7 +53,7 @@ public abstract class RegularVerb : Verb
         
         for (int i = 0; i < Constants.Pronouns.All.Length; i++)
         {
-            Console.Write($"{Constants.Pronouns.All[i]} ");
+            PrintUtils.PrintPronoun(i, stem);
             Console.Write(stem);
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(PresentTenseEndings[i]);

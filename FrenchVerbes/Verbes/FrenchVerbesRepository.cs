@@ -99,6 +99,7 @@ public static class VerbRepository
     private static void AddRegularIrVerbs()
     {
         _verbs.Add(CreateFinir());
+        _verbs.Add(CreateAgrandir());
         
     }
 
@@ -149,6 +150,13 @@ public static class VerbRepository
     private static RegularIrVerb CreateFinir()
     {
         return new RegularIrVerb(Constants.Verbs.Regular.Ir.Finir, Constants.VerbDescriptions.Regular.Ir.Finir);
+    }
+
+    private static RegularIrVerb CreateAgrandir()
+    {
+        return new RegularIrVerb(
+            Constants.Verbs.Regular.Ir.Agrandir,
+            Constants.VerbDescriptions.Regular.Ir.Agrandir);
     }
 
     #endregion

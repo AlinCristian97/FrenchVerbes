@@ -115,13 +115,71 @@ public static class Constants
 
             public static class Ir
             {
+                // A
+                public const string Agrandir = "agrandir";
+                public const string Applaudir = "applaudir";
+
+                // B
+                public const string Bâtir = "bâtir";
+
+                // C
+                public const string Choisir = "choisir";
+
+                // F
                 public const string Finir = "finir";
+
+                // G
+                public const string Grandir = "grandir";
+                public const string Grossir = "grossir";
+
+                // N
+                public const string Nourrir = "nourrir";
+
+                // O
+                public const string Obéir = "obéir";
+
+                // P
+                public const string Punir = "punir";
+
+                // R
+                public const string Réfléchir = "réfléchir";
+                public const string Réussir = "réussir";
+                public const string Remplir = "remplir";
+                public const string Rougir = "rougir";
+
+                // V
+                public const string Vieillir = "vieillir";
+                
                 //... more to come
             }
 
             public static class Re
             {
+                // A
+                public const string Attendre = "attendre";
+                public const string Appartenir = "appartenir";
+
+                // C
+                public const string Comprendre = "comprendre";
+                public const string Confondre = "confondre";
+                public const string Conduire = "conduire"; // note: slightly irregular in forms, still common
+
+                // D
+                public const string Descendre = "descendre";
+                public const string Défendre = "défendre";
+
+                // P
+                public const string Perdre = "perdre";
+                public const string Prétendre = "prétendre";
+
+                // R
+                public const string Rendre = "rendre";
+                public const string Répondre = "répondre";
+                public const string Rejoindre = "rejoindre";
+
+                // V
                 public const string Vendre = "vendre";
+                
                 //... more to come
             }
         }
@@ -150,14 +208,21 @@ public static class Constants
         {
             public static class Er
             {
+                // A
                 public const string Acheter = "Acheter est un verbe courant qui exprime l'action d'acquérir quelque chose en échange d'argent. Il est très utilisé dans la vie quotidienne, notamment pour parler de courses, de biens et de services.";
                 public const string Aimer = "Aimer est un verbe régulier en -er qui exprime le sentiment d'affection, de goût ou de préférence. Très utilisé en français courant, il peut être suivi d'une personne, d'une chose ou d'une activité.";
                 
+                // M
                 public const string Manger = "Utilisé pour l'action de consommer de la nourriture. Attention à la prononciation douce du 'g' dans toutes ses formes.";
             }
 
             public static class Ir
             {
+                // A
+                public const string Agrandir = "Agrandir est un verbe régulier en -ir qui exprime l'action de rendre plus grand ou plus spacieux. Il est utilisé pour parler d'objets, de lieux ou de concepts qui prennent de l'ampleur.";
+
+                
+                // F
                 public const string Finir = "Exprime l'aboutissement d'une action, la fin d'une tâche ou l'achèvement d'un processus commencé plus tôt.";
             }
 
