@@ -99,6 +99,7 @@ public static class VerbRepository
         
         // V
         _verbs.Add(CreateVenir());
+        _verbs.Add(CreateVivre());
         _verbs.Add(CreateVoir());
         _verbs.Add(CreateVouloir());
         
@@ -298,6 +299,48 @@ public static class VerbRepository
     
     #region Irregular Verbs Factory Methods
 
+    private static IrregularFrenchVerb CreateVivre()
+    {
+        return new IrregularFrenchVerb(
+            Constants.Verbs.Irregular.Vivre,
+            description: Constants.VerbDescriptions.Irregular.Vivre,
+            pastParticiple: "vécu",
+            presentTense: new()
+            {
+                [Constants.Pronouns.Je] = "vis",
+                [Constants.Pronouns.Tu] = "vis",
+                [Constants.Pronouns.IlElleOn] = "vit",
+                [Constants.Pronouns.Nous] = "vivons",
+                [Constants.Pronouns.Vous] = "vivez",
+                [Constants.Pronouns.IlsElles] = "vivent"
+            },
+            imperative: new()
+            {
+                [Constants.Pronouns.Tu] = "vis",
+                [Constants.Pronouns.Nous] = "vivons",
+                [Constants.Pronouns.Vous] = "vivez"
+            },
+            stems: new()
+            {
+                [Constants.Tenses.Imparfait] = "viv",
+                [Constants.Tenses.FuturSimple] = "vivr",
+                [Constants.Tenses.ConditionnelPresent] = "vivr"
+            },
+            usesEtre: false,
+            isModal: false,
+            supportsProgressive: true,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes = "Le présent de 'vivre' est irrégulier pour je/tu/il/ils : 'je vis', 'il vit', mais 'nous vivons'.",
+                PasseComposeNotes = "Le passé composé se forme avec 'avoir' et le participe passé 'vécu' : 'J'ai vécu à Paris.'",
+                FuturSimpleNotes = "Le futur utilise le radical 'vivr-' : 'Je vivrai à l'étranger un jour.'",
+                ConditionnelPresentNotes = "Le conditionnel exprime une situation hypothétique ou un souhait : 'Je vivrais ailleurs si je pouvais.'",
+                ImperativeNotes = "L'impératif de 'vivre' est rare mais possible, souvent avec une valeur expressive : 'Vis pleinement !'"
+            }
+        );
+    }
+
+    
     private static IrregularFrenchVerb CreatePrendre()
     {
         return new IrregularFrenchVerb(
