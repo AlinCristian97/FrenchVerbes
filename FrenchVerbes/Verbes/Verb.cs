@@ -160,7 +160,7 @@ public abstract class Verb
         PrintTense(stem, ImparfaitEndings);
     }
     
-    private void PrintFuturSimple()
+    protected virtual void PrintFuturSimple()
     {
         string tense = Constants.Tenses.FuturSimple;
 
@@ -170,7 +170,7 @@ public abstract class Verb
         PrintTense(stem, FuturSimpleEndings);
     }
     
-    private void PrintConditionnelPresent()
+    protected virtual void PrintConditionnelPresent()
     {
         string tense = Constants.Tenses.ConditionnelPresent;
 

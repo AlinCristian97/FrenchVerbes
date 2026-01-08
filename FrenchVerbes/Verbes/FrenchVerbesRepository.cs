@@ -93,6 +93,7 @@ public static class VerbRepository
         _verbs.Add(CreateManger());
         _verbs.Add(CreateAcheter());
         _verbs.Add(CreateAimer());
+        _verbs.Add(CreateAppeler());
         
     }
 
@@ -144,6 +145,18 @@ public static class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Aimer,
             Constants.VerbDescriptions.Regular.Er.Aimer);
+    }
+    
+    private static RegularErVerb CreateAppeler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Appeler,
+            Constants.VerbDescriptions.Regular.Er.Appeler,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes = "Au présent, le 'l' se double pour certaines personnes : j'appelle, tu appelles, il/elle appelle, mais nous appelons, vous appelez.",
+                FuturSimpleNotes = "Au futur et au conditionnel, le radical prend également un 'l' doublé : j'appellerai, je appellerais."
+            });
     }
 
     #endregion

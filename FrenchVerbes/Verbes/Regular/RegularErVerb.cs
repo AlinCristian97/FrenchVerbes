@@ -44,7 +44,29 @@ public class RegularErVerb : RegularVerb
                     stem += "e";
             }
             return stem;
-        }
+        },
+        
+        [Constants.Verbs.Regular.Er.Appeler] = (stem, tense, pronounIndex) =>
+        {
+            bool doubleL = tense switch
+            {
+                Constants.Tenses.Present => pronounIndex != 3 && pronounIndex != 4, // Je/Tu/Il/Elle/On/Ils/Elles
+                Constants.Tenses.FuturSimple => true,   // all persons
+                Constants.Tenses.ConditionnelPresent => true, // all persons
+                Constants.Tenses.Imperative => pronounIndex == 1, // Tu imperative
+                _ => false
+            };
+
+            if (doubleL)
+            {
+                int lastL = stem.LastIndexOf("l");
+                if (lastL >= 0)
+                    stem = stem.Substring(0, lastL) + "ll" + stem.Substring(lastL + 1);
+            }
+
+            return stem;
+        },
+        
     };
     
     private string GetAdjustedStem(string stem, string tense, int pronounIndex)
@@ -101,6 +123,8 @@ public class RegularErVerb : RegularVerb
             Console.ResetColor();
         }
     }
+    
+    
 
     protected override void PrintImparfait()
     {
@@ -121,6 +145,52 @@ public class RegularErVerb : RegularVerb
 
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(ImparfaitEndings[i]);
+            Console.ResetColor();
+        }
+    }
+    
+    protected override void PrintFuturSimple()
+    {
+        string tense = Constants.Tenses.FuturSimple;
+        PrintUtils.PrintHeadline(tense);
+        PrintNotesForTenseIfAny(tense);
+
+        string stem = GetStemForTense(tense);
+
+        for (int i = 0; i < Constants.Pronouns.All.Length; i++)
+        {
+            string adjustedStem = GetAdjustedStem(stem, tense, i);
+
+            PrintUtils.PrintPronoun(i, adjustedStem);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write(adjustedStem);
+            Console.ResetColor();
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(FuturSimpleEndings[i]);
+            Console.ResetColor();
+        }
+    }
+
+    protected override void PrintConditionnelPresent()
+    {
+        string tense = Constants.Tenses.ConditionnelPresent;
+        PrintUtils.PrintHeadline(tense);
+        PrintNotesForTenseIfAny(tense);
+
+        string stem = GetStemForTense(tense);
+
+        for (int i = 0; i < Constants.Pronouns.All.Length; i++)
+        {
+            string adjustedStem = GetAdjustedStem(stem, tense, i);
+
+            PrintUtils.PrintPronoun(i, adjustedStem);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write(adjustedStem);
+            Console.ResetColor();
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(ConditionnelPresentEndings[i]);
             Console.ResetColor();
         }
     }
