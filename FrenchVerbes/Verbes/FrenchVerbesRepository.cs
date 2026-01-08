@@ -254,7 +254,12 @@ public static class VerbRepository
                 [Constants.Tenses.FuturSimple] = "ser",
                 [Constants.Tenses.ConditionnelPresent] = "ser"
             },
-            supportsProgressive: false
+            supportsProgressive: false,
+            tensesNotes: new NotesObject
+            {
+                ImperativeNotes = "C'est grammaticalement correct, mais son usage est très rare dans la langue parlée.",
+                PasseRecentNotes = "Grammaticalement correct, mais cela exprime un état et non une action ponctuelle."
+            }
         );
     }
 
@@ -285,7 +290,12 @@ public static class VerbRepository
                 [Constants.Tenses.FuturSimple] = "aur",
                 [Constants.Tenses.ConditionnelPresent] = "aur"
             },
-            supportsProgressive: false
+            supportsProgressive: false,
+            tensesNotes: new NotesObject
+            {
+                ImperativeNotes = "C'est grammaticalement correct, mais son usage est très rare dans la langue parlée.",
+                PasseRecentNotes = "Grammaticalement correct, mais cela décrit un état, pas un événement récent."
+            }
         );
     }
 
@@ -374,7 +384,12 @@ public static class VerbRepository
                 [Constants.Tenses.ConditionnelPresent] = "pourr"
             },
             isModal: true,
-            supportsProgressive: false
+            supportsProgressive: false,
+            tensesNotes: new NotesObject
+            {
+                ImperativeNotes = "C'est grammaticalement correct, mais son usage est très rare dans la langue parlée.",
+                PasseRecentNotes = "Grammaticalement correct, mais la capacité n’est pas une action ponctuelle."
+            }
         );
     }
     
@@ -409,7 +424,7 @@ public static class VerbRepository
             supportsProgressive: false,
             tensesNotes: new NotesObject
             {
-                PasseRecentNotes = "C’est grammaticalement possible, mais très peu naturel en français moderne.",
+                PasseRecentNotes = "Grammaticalement correct, mais le désir n’est pas une action achevée.",
                 ImperativeNotes = "'Vouloir' a une forme impérative rare et archaïque. Elle n’est utilisée que dans des expressions figées ou dans un registre littéraire ancien, notamment pour exprimer un ordre solennel ou une injonction formelle, par exemple : 'Veuillez patienter', 'Veuillez agréer…'. En français moderne courant, on évite l’impératif de vouloir et on lui préfère des tournures plus naturelles."
             }
         );
@@ -491,7 +506,8 @@ public static class VerbRepository
                 PasseComposeNotes = "Le passé composé indique qu'une connaissance ou compétence a été acquise : 'J'ai su la vérité hier.'",
                 FuturSimpleNotes = "Le futur exprime qu'on saura quelque chose ou pourra faire quelque chose dans l'avenir : 'Tu sauras gérer cette situation demain.'",
                 ConditionnelPresentNotes = "Le conditionnel exprime une connaissance ou capacité hypothétique ou polie : 'Vous sauriez répondre si vous étiez informés.'",
-                ImperativeNotes = "L'impératif est utilisé pour donner des instructions ou conseils concernant la connaissance : 'Sache la vérité !', 'Sachez respecter les règles !'"
+                ImperativeNotes = "L'impératif est utilisé pour donner des instructions ou conseils concernant la connaissance : 'Sache la vérité !', 'Sachez respecter les règles !'. C'est grammaticalement correct, mais son usage est très rare dans la langue parlée.",
+                PasseRecentNotes = "Grammaticalement correct, mais le savoir n’est pas instantané."
             }
         );
     }
