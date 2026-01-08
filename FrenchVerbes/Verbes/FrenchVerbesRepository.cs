@@ -94,6 +94,7 @@ public static class VerbRepository
         _verbs.Add(CreateAcheter());
         _verbs.Add(CreateAimer());
         _verbs.Add(CreateAppeler());
+        _verbs.Add(CreateArriver());
         
     }
 
@@ -158,6 +159,19 @@ public static class VerbRepository
             {
                 PresentNotes = "Au présent, le 'l' se double pour certaines personnes : j'appelle, tu appelles, il/elle appelle, mais nous appelons, vous appelez.",
                 FuturSimpleNotes = "Au futur et au conditionnel, le radical prend également un 'l' doublé : j'appellerai, je appellerais."
+            });
+    }
+    
+    private static RegularErVerb CreateArriver()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Arriver,
+            Constants.VerbDescriptions.Regular.Er.Arriver,
+            usesEtre: true,
+            tensesNotes: new NotesObject
+            {
+                PasseComposeNotes = "Arriver se conjugue avec l'auxiliaire 'être' au passé composé : je suis arrivé(e). Le participe passé s'accorde en genre et en nombre avec le sujet.",
+                PresentNotes = "Arriver est régulier au présent : j'arrive, tu arrives, il/elle arrive, nous arrivons, vous arrivez, ils/elles arrivent."
             });
     }
 

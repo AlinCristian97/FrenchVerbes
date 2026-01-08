@@ -2,8 +2,8 @@
 
 public class RegularReVerb : RegularVerb
 {
-    public RegularReVerb(string infinitive, string description, NotesObject? tensesNotes = null) : base(infinitive,
-        description, tensesNotes)
+    public RegularReVerb(string infinitive, string description, bool usesEtre = false, NotesObject? tensesNotes = null) : base(infinitive,
+        description, usesEtre, tensesNotes)
     {
         
     }

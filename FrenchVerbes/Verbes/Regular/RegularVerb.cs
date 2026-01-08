@@ -5,10 +5,12 @@ namespace FrenchVerbes.Verbes.Regular;
 public abstract class RegularVerb : Verb
 {
     protected override string VerbType => Constants.VerbTypes.Regular;
+    public override bool UsesEtre { get; }
 
-    protected RegularVerb(string infinitive, string description, NotesObject? tensesNotes)
+    protected RegularVerb(string infinitive, string description, bool usesEtre = false, NotesObject? tensesNotes = null)
         : base(infinitive, description, tensesNotes)
     {
+        UsesEtre = usesEtre;
     }
     
     protected abstract string Ending { get; }
