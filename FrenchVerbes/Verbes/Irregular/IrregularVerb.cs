@@ -3,7 +3,7 @@ namespace FrenchVerbes.Verbes.Irregular;
 
 public class IrregularFrenchVerb : Verb
 {
-    protected override string VerbType => "irregular  d-_-b";
+    protected override string VerbType => Constants.VerbTypes.Irregular;
     
     private readonly Dictionary<string, string> _presentTense;
     private readonly Dictionary<string, string>? _imperative;

@@ -243,7 +243,20 @@ public static class Constants
         public const string LeGuillementFermant = "»";
     }
     
-    public static string Vowels = "aeiouéêëàâîïôûùh";
-    public static string SectionDivider = "--------------------------------------------------";
-    public static string SmallDivider = "---";
+    public const string Vowels = "aeiouéêëàâîïôûùh";
+    public const string SectionDivider = "--------------------------------------------------";
+    public const string SmallDivider = "---";
+
+    public static class VerbTypes
+    {
+        public const string Irregular = "irregular";
+        public const string Regular = "regular";
+
+        public static class RegularTypes
+        {
+            public const string Er = "er";
+            public const string Ir = "ir";
+            public const string Re = "re";
+        }
+    }
 }

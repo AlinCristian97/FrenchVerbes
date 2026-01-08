@@ -12,7 +12,12 @@ internal class Program
 
             Console.WriteLine("Choose a verb to summarize:");
             Console.WriteLine("1. Specific Verb");
-            Console.WriteLine("2. Random Verb");
+            Console.WriteLine("2. Random Regular ER Verb");
+            Console.WriteLine("3. Random Regular IR Verb");
+            Console.WriteLine("4. Random Regular RE Verb");
+            Console.WriteLine("5. Random Regular Verb");
+            Console.WriteLine("6. Random Irregular Verb");
+            Console.WriteLine("7. Random Verb");
             Console.WriteLine("Q. Quit");
             Console.Write("Your choice: ");
 
@@ -33,7 +38,27 @@ internal class Program
                     break;
 
                 case "2":
-                    HandleRandomVerb();
+                    HandleRandomVerb(Constants.VerbTypes.RegularTypes.Er);
+                    break;
+
+                case "3":
+                    HandleRandomVerb(Constants.VerbTypes.RegularTypes.Ir);
+                    break;
+
+                case "4":
+                    HandleRandomVerb(Constants.VerbTypes.RegularTypes.Re);
+                    break;
+
+                case "5":
+                    HandleRandomVerb(Constants.VerbTypes.Regular);
+                    break;
+
+                case "6":
+                    HandleRandomVerb(Constants.VerbTypes.Irregular);
+                    break;
+
+                case "7":
+                    HandleRandomVerb(null); // no filter
                     break;
 
                 default:
@@ -74,9 +99,18 @@ internal class Program
         verb.PrintSummary();
     }
 
-    private static void HandleRandomVerb()
+    private static void HandleRandomVerb(string? type)
     {
-        var verb = VerbRepository.GetRandom();
+        Verb verb = type switch
+        {
+            Constants.VerbTypes.RegularTypes.Er => VerbRepository.GetRandomRegularByGroup(Constants.VerbTypes.RegularTypes.Er),
+            Constants.VerbTypes.RegularTypes.Ir => VerbRepository.GetRandomRegularByGroup(Constants.VerbTypes.RegularTypes.Ir),
+            Constants.VerbTypes.RegularTypes.Re => VerbRepository.GetRandomRegularByGroup(Constants.VerbTypes.RegularTypes.Re),
+            Constants.VerbTypes.Regular => VerbRepository.GetRandomRegular(),
+            Constants.VerbTypes.Irregular => VerbRepository.GetRandomIrregular(),
+            _ => VerbRepository.GetRandom()
+        };
+
         verb.PrintSummary();
     }
 }

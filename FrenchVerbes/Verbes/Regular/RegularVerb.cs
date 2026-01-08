@@ -4,7 +4,7 @@ namespace FrenchVerbes.Verbes.Regular;
 
 public abstract class RegularVerb : Verb
 {
-    protected override string VerbType => "regular  d^_^b";
+    protected override string VerbType => Constants.VerbTypes.Regular;
 
     protected RegularVerb(string infinitive, string description, NotesObject? tensesNotes)
         : base(infinitive, description, tensesNotes)

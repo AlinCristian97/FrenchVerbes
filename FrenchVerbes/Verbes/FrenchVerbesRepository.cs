@@ -29,6 +29,45 @@ public static class VerbRepository
         var random = new Random();
         return _verbs[random.Next(_verbs.Count)];
     }
+    
+    public static Verb GetRandomRegularByGroup(string group)
+    {
+        List<Verb> filtered = group switch
+        {
+            Constants.VerbTypes.RegularTypes.Er => _verbs.OfType<RegularErVerb>().Cast<Verb>().ToList(),
+            Constants.VerbTypes.RegularTypes.Ir => _verbs.OfType<RegularIrVerb>().Cast<Verb>().ToList(),
+            Constants.VerbTypes.RegularTypes.Re => _verbs.OfType<RegularReVerb>().Cast<Verb>().ToList(),
+            _ => new List<Verb>()
+        };
+
+        if (!filtered.Any())
+            throw new InvalidOperationException($"No verbs found for group {group}");
+
+        var random = new Random();
+        return filtered[random.Next(filtered.Count)];
+    }
+
+    public static Verb GetRandomRegular()
+    {
+        var filtered = _verbs.OfType<RegularVerb>().ToList();
+
+        if (!filtered.Any())
+            throw new InvalidOperationException("No regular verbs found");
+
+        var random = new Random();
+        return filtered[random.Next(filtered.Count)];
+    }
+
+    public static Verb GetRandomIrregular()
+    {
+        var filtered = _verbs.OfType<IrregularFrenchVerb>().ToList();
+
+        if (!filtered.Any())
+            throw new InvalidOperationException("No irregular verbs found");
+
+        var random = new Random();
+        return filtered[random.Next(filtered.Count)];
+    }
 
     #region Private Methods
     
