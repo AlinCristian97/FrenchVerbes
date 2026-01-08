@@ -6,20 +6,39 @@ public static class Constants
     {
         public static class Irregular
         {
-            public const string Etre = "être";
-            public const string Avoir = "avoir";
+            // A
             public const string Aller = "aller";
-            public const string Faire = "faire";
-            public const string Pouvoir = "pouvoir";
-            public const string Vouloir = "vouloir";
+            public const string Avoir = "avoir";
+
+            // C
+            public const string Conduire = "conduire";
+
+            // D
             public const string Devoir = "devoir";
+            public const string Dire = "dire";
+
+            // E
+            public const string Ecrire = "écrire";
+            public const string Etre = "être";
+
+            // F
+            public const string Faire = "faire";
+
+            // L
+            public const string Lire = "lire";
+
+            // P
+            public const string Pouvoir = "pouvoir";
+            public const string Prendre = "prendre";
+
+            // S
             public const string Savoir = "savoir";
+
+            // V
             public const string Venir = "venir";
             public const string Voir = "voir";
-            public const string Dire = "dire";
-            public const string Prendre = "prendre";
-            public const string Ecrire = "écrire";
-            public const string Lire = "lire";
+            public const string Vouloir = "vouloir";
+
             //... more to come
         }
 
@@ -79,7 +98,6 @@ public static class Constants
                 // O
                 public const string Organiser = "organiser";
                 public const string Oublier = "oublier";
-                public const string Ouvrir = "ouvrir";
 
                 // P
                 public const string Parler = "parler";
@@ -161,7 +179,6 @@ public static class Constants
                 // C
                 public const string Comprendre = "comprendre";
                 public const string Confondre = "confondre";
-                public const string Conduire = "conduire"; // note: slightly irregular in forms, still common
 
                 // D
                 public const string Descendre = "descendre";
@@ -188,18 +205,34 @@ public static class Constants
     {
         public static class Irregular
         {
-            public const string Etre = "Être est le verbe le plus fondamental. Il exprime l'état, l'identité et sert d'auxiliaire pour de nombreux temps.";
+            // A
             public const string Avoir = "Avoir exprime la possession. C'est aussi l'auxiliaire le plus utilisé pour former les temps composés.";
             public const string Aller = "Aller est un verbe de mouvement indispensable pour exprimer une destination ou le futur proche.";
-            public const string Faire = "Faire est un verbe polyvalent qui exprime l'action de faire ou de fabriquer quelque chose. Il est aussi utilisé pour le temps météo, les sports et de nombreuses expressions idiomatiques.";
-            public const string Pouvoir = "Pouvoir est un verbe modal essentiel qui exprime la capacité, la possibilité ou la permission de faire quelque chose.";
-            public const string Vouloir = "Vouloir est un verbe modal fondamental qui exprime le désir, la volonté ou l'intention. Sa forme conditionnelle 'je voudrais' est utilisée pour les demandes polies.";
+            
+            // C
+            
+            // D
             public const string Devoir = "Devoir est un verbe modal exprimant l'obligation, la nécessité ou le devoir moral. Il sert à indiquer ce qu’il faut faire ou ce qui est attendu.";
+            public const string Dire = "Dire est un verbe fondamental exprimant l'action de prononcer, raconter ou communiquer quelque chose. Il est également utilisé dans de nombreuses expressions idiomatiques et pour rapporter des paroles.";
+            
+            // E
+            public const string Etre = "Être est le verbe le plus fondamental. Il exprime l'état, l'identité et sert d'auxiliaire pour de nombreux temps.";
+            
+            // F
+            public const string Faire = "Faire est un verbe polyvalent qui exprime l'action de faire ou de fabriquer quelque chose. Il est aussi utilisé pour le temps météo, les sports et de nombreuses expressions idiomatiques.";
+            
+            // P
+            public const string Pouvoir = "Pouvoir est un verbe modal essentiel qui exprime la capacité, la possibilité ou la permission de faire quelque chose.";
+            public const string Prendre = "Prendre est un verbe fondamental exprimant l'action de saisir, obtenir ou consommer quelque chose. Il est également utilisé dans de nombreuses expressions idiomatiques et constructions figurées.";
+            
+            // S
             public const string Savoir = "Savoir est un verbe fondamental qui exprime la connaissance, la compétence ou la capacité à faire quelque chose. Il sert aussi à indiquer qu'on connaît un fait ou une information.";
+            
+            // V
             public const string Venir = "Venir est un verbe de mouvement fondamental qui exprime l'action de se déplacer vers un lieu. Il est également utilisé pour former le passé récent ('venir de') et diverses expressions idiomatiques.";
             public const string Voir = "Voir est un verbe fondamental exprimant la perception visuelle ou la compréhension. Il est également utilisé dans de nombreuses expressions idiomatiques et au sens figuré pour indiquer la connaissance ou la constatation.";
-            public const string Dire = "Dire est un verbe fondamental exprimant l'action de prononcer, raconter ou communiquer quelque chose. Il est également utilisé dans de nombreuses expressions idiomatiques et pour rapporter des paroles.";
-            public const string Prendre = "Prendre est un verbe fondamental exprimant l'action de saisir, obtenir ou consommer quelque chose. Il est également utilisé dans de nombreuses expressions idiomatiques et constructions figurées.";
+            public const string Vouloir = "Vouloir est un verbe modal fondamental qui exprime le désir, la volonté ou l'intention. Sa forme conditionnelle 'je voudrais' est utilisée pour les demandes polies.";
+            
 
         }
 
@@ -243,6 +276,9 @@ public static class Constants
                 public const string Comprendre = "Comprendre est un verbe irrégulier en -re qui exprime l'action de saisir intellectuellement quelque chose, de percevoir le sens ou la signification. Il est construit comme 'prendre' pour ses conjugaisons.";
                 public const string Confondre = "Confondre est un verbe régulier en -re qui signifie mélanger, ne pas distinguer ou prendre une chose pour une autre. Il exprime la confusion ou l'erreur de perception.";
 
+                // D
+                public const string Descendre = "Descendre est un verbe régulier en -re qui signifie aller vers le bas, descendre d'un endroit ou réduire quelque chose. Il se conjugue avec l'auxiliaire 'être' au passé composé pour un déplacement sans complément et avec 'avoir' lorsqu'il est transitif.";
+                
                 
                 // V
                 public const string Vendre = "Le verbe de base pour le commerce, signifiant l'échange d'un bien ou d'un service contre une rémunération.";

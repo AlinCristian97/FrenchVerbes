@@ -114,6 +114,7 @@ public static class VerbRepository
         _verbs.Add(CreateAttendre());
         _verbs.Add(CreateComprendre());
         _verbs.Add(CreateConfondre());
+        _verbs.Add(CreateDescendre());
         
     }
 
@@ -244,7 +245,20 @@ public static class VerbRepository
             Constants.Verbs.Regular.Re.Confondre,
             Constants.VerbDescriptions.Regular.Re.Confondre);
     }
-
+    
+    private static RegularReVerb CreateDescendre()
+    {
+        return new RegularReVerb(
+            Constants.Verbs.Regular.Re.Descendre,
+            Constants.VerbDescriptions.Regular.Re.Descendre,
+            usesEtre: true,
+            tensesNotes: new NotesObject
+            {
+                PasseComposeNotes = "Descendre se conjugue généralement avec l'auxiliaire 'être' au passé composé pour exprimer un mouvement : je suis descendu(e). Si le verbe a un complément direct, on utilise 'avoir' : j'ai descendu les escaliers.",
+                PresentNotes = "Descendre est régulier au présent : je descends, tu descends, il descend, nous descendons, vous descendez, ils descendent."
+            });
+    }
+    
     #endregion
     
     #endregion

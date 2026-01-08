@@ -220,7 +220,7 @@ public abstract class Verb
                 // i = 5 (Ils/Elles) -> Ils is 's', Elles is 'es'
                 else if (i == 5) 
                 {
-                    Console.Write(Constants.Pronouns.All[i].Contains("Elles") ? "es" : "s");
+                    Console.Write(Constants.Pronouns.All[i].Contains("Elles") ? "(e)s" : "s");
                 }
             }
 
