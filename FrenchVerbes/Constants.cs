@@ -210,7 +210,8 @@ public static class Constants
             public const string Aller = "Aller est un verbe de mouvement indispensable pour exprimer une destination ou le futur proche.";
             
             // C
-            
+            public const string Conduire = "Conduire est un verbe irrégulier en -re qui signifie diriger un véhicule ou guider une action. Il suit le même modèle que les verbes du type 'produire' ou 'traduire'.";
+
             // D
             public const string Devoir = "Devoir est un verbe modal exprimant l'obligation, la nécessité ou le devoir moral. Il sert à indiquer ce qu’il faut faire ou ce qui est attendu.";
             public const string Dire = "Dire est un verbe fondamental exprimant l'action de prononcer, raconter ou communiquer quelque chose. Il est également utilisé dans de nombreuses expressions idiomatiques et pour rapporter des paroles.";
