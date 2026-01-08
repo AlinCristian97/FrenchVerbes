@@ -80,12 +80,12 @@ public abstract class Verb
         Console.ResetColor();
         
         Console.Write("Auxiliary: ");
-        Console.ForegroundColor = ConsoleColor.DarkCyan;
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine(UsesEtre ? Constants.Verbs.Irregular.Etre : Constants.Verbs.Irregular.Avoir);
         Console.ResetColor();
         
         Console.Write("Past Participle: ");
-        Console.ForegroundColor = ConsoleColor.DarkCyan;
+        Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine(PastParticiple);
         Console.ResetColor(); 
 

@@ -157,7 +157,6 @@ public static class Constants
             {
                 // A
                 public const string Attendre = "attendre";
-                public const string Appartenir = "appartenir";
 
                 // C
                 public const string Comprendre = "comprendre";
@@ -231,6 +230,10 @@ public static class Constants
             {
                 // A
                 public const string Attendre = "Attendre est un verbe régulier en -re qui exprime l'action de rester quelque part jusqu'à ce que quelque chose se produise ou que quelqu'un arrive. Il est utilisé pour parler de patience, de délai ou d'attente d'événements.";
+                
+                // C
+                public const string Comprendre = "Comprendre est un verbe irrégulier en -re qui exprime l'action de saisir intellectuellement quelque chose, de percevoir le sens ou la signification. Il est construit comme 'prendre' pour ses conjugaisons.";
+
                 
                 // V
                 public const string Vendre = "Le verbe de base pour le commerce, signifiant l'échange d'un bien ou d'un service contre une rémunération.";

@@ -23,4 +23,43 @@ public class RegularReVerb : RegularVerb
             Constants.Tenses.ConditionnelPresent => Infinitive[..^1],
             _ => Infinitive
         };
+    
+    protected override string PastParticiple => Infinitive switch
+    {
+        Constants.Verbs.Regular.Re.Comprendre => "compris",
+        "apprendre"  => "appris", // use const
+        "reprendre"  => "repris", // use const
+        _ => Infinitive[..^Ending.Length] + PastParticipleSuffix
+    };
+    
+    private static readonly Dictionary<string, string[]> PresentStemExceptions = new()
+    {
+        [Constants.Verbs.Regular.Re.Comprendre] = new[] { "comprends", "comprends", "comprend", "comprenons", "comprenez", "comprennent" },
+        ["apprendre"]  = new[] { "apprends", "apprends", "apprend", "apprenons", "apprenez", "apprennent" },
+        ["reprendre"]  = new[] { "reprends", "reprends", "reprend", "reprenons", "reprenez", "reprennent" }
+    };
+    
+    protected string GetPresentForm(int pronounIndex)
+    {
+        if (PresentStemExceptions.TryGetValue(Infinitive, out var forms))
+            return forms[pronounIndex];
+
+        // fallback to regular -re rules
+        string stem = Infinitive[..^Ending.Length];
+        return stem + PresentTenseEndings[pronounIndex];
+    }
+    
+    protected override void PrintPresent()
+    {
+        string tense = Constants.Tenses.Present;
+        PrintUtils.PrintHeadline(tense);
+        PrintNotesForTenseIfAny(tense);
+
+        for (int i = 0; i < Constants.Pronouns.All.Length; i++)
+        {
+            string form = GetPresentForm(i);
+            PrintUtils.PrintPronoun(i, form);
+            Console.WriteLine(form);
+        }
+    }
 }
