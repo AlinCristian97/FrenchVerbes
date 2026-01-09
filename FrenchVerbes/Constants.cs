@@ -12,6 +12,7 @@ public static class Constants
 
             // C
             public const string Conduire = "conduire";
+            public const string Croire = "croire";
 
             // D
             public const string Devoir = "devoir";
@@ -33,6 +34,7 @@ public static class Constants
 
             // S
             public const string Savoir = "savoir";
+            public const string Sentir = "sentir";
 
             // V
             public const string Venir = "venir";
@@ -70,6 +72,7 @@ public static class Constants
                 // E
                 public const string Écouter = "écouter";
                 public const string Entrer = "entrer";
+                public const string Eparpiller = "éparpiller";
                 public const string Espérer = "espérer";
                 public const string Essayer = "essayer";
                 public const string Étudier = "étudier";
@@ -95,6 +98,9 @@ public static class Constants
                 public const string Marcher = "marcher";
                 public const string Manger = "manger";
                 public const string Montrer = "montrer";
+                
+                // N
+                public const string Nager = "nager";
 
                 // O
                 public const string Organiser = "organiser";
