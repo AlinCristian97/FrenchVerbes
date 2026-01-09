@@ -8,6 +8,7 @@ public static class Constants
         {
             // A
             public const string Aller = "aller";
+            public const string Atteindre = "atteindre";
             public const string Avoir = "avoir";
 
             // C
@@ -59,6 +60,7 @@ public static class Constants
                 // C
                 public const string Changer = "changer";
                 public const string Chercher = "chercher";
+                public const string Cliquer = "cliquer";
                 public const string Commencer = "commencer";
                 public const string Continuer = "continuer";
                 public const string Créer = "créer";
@@ -114,6 +116,7 @@ public static class Constants
                 public const string Porter = "porter";
                 public const string Préparer = "préparer";
                 public const string Préférer = "préférer";
+                public const string Prier = "prier";
 
                 // R
                 public const string Raconter = "raconter";
