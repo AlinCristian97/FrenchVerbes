@@ -112,6 +112,9 @@ public static class VerbRepository
         _verbs.Add(CreateAimer());
         _verbs.Add(CreateAppeler());
         _verbs.Add(CreateArriver());
+
+        // C
+        _verbs.Add(CreateChanger());
         
         // H
         _verbs.Add(CreateHabiter());
@@ -218,12 +221,14 @@ public static class VerbRepository
     {
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Habiter,
-            Constants.VerbDescriptions.Regular.Er.Habiter,
-            tensesNotes: new NotesObject
-            {
-                PresentNotes =
-                    "Habiter est un verbe régulier en -er. Il se conjugue de manière régulière à tous les temps sans changement de radical."
-            });
+            Constants.VerbDescriptions.Regular.Er.Habiter);
+    }
+
+    private static RegularErVerb CreateChanger()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Changer,
+            Constants.VerbDescriptions.Regular.Er.Changer);
     }
 
     #endregion

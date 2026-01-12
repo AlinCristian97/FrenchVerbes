@@ -55,7 +55,6 @@ public static class Constants
                 public const string Aimer = "aimer";
                 public const string Appeler = "appeler";
                 public const string Arriver = "arriver";
-                public const string Attendre = "attendre";
 
                 // C
                 public const string Changer = "changer";
@@ -257,6 +256,9 @@ public static class Constants
                 public const string Aimer = "Aimer est un verbe régulier en -er qui exprime le sentiment d'affection, de goût ou de préférence. Très utilisé en français courant, il peut être suivi d'une personne, d'une chose ou d'une activité.";
                 public const string Appeler = "Appeler est un verbe régulier en -er avec un changement orthographique : le 'l' se double pour certaines personnes afin de préserver le son [ɛ]. Il exprime l'action de nommer quelqu'un ou de téléphoner à quelqu'un.";
                 public const string Arriver = "Arriver est un verbe régulier en -er qui signifie atteindre un lieu, venir ou se produire. En français, il se conjugue avec l'auxiliaire 'être' aux temps composés.";
+
+                // C
+                public const string Changer = "Changer est un verbe régulier du premier groupe (-er) qui exprime le fait de modifier, transformer ou remplacer quelque chose ou une situation.";
 
                 // H
                 public const string Habiter = "Habiter exprime le fait de vivre ou de résider dans un lieu de manière habituelle.";

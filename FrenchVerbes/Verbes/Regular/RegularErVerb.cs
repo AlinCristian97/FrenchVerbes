@@ -82,8 +82,19 @@ public class RegularErVerb : RegularVerb
         // Only apply generic CER/GER rules if special rule didn't already do it
         if (!specialHandled)
         {
-            if (Infinitive.EndsWith(specialGerEnding) && pronounIndex == 3) stem += "e";
-            if (Infinitive.EndsWith(specialCerEnding) && pronounIndex == 3) stem = stem[..^1] + Constants.FrenchSymbols.CedillaC;
+            if (Infinitive.EndsWith(specialGerEnding) &&
+                pronounIndex == 3 &&
+                (tense == Constants.Tenses.Present || tense == Constants.Tenses.Imperative))
+            {
+                stem += "e";
+            }
+
+            if (Infinitive.EndsWith(specialCerEnding) &&
+                pronounIndex == 3 &&
+                tense == Constants.Tenses.Present)
+            {
+                stem = stem[..^1] + Constants.FrenchSymbols.CedillaC;
+            }
         }
 
         return stem;
