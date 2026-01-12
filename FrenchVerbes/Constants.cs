@@ -36,6 +36,7 @@ public static class Constants
             // S
             public const string Savoir = "savoir";
             public const string Sentir = "sentir";
+            public const string Suivre = "suivre";
 
             // V
             public const string Venir = "venir";
