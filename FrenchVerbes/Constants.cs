@@ -22,6 +22,7 @@ public static class Constants
             // E
             public const string Ecrire = "écrire";
             public const string Etre = "être";
+            public const string Éteindre = "éteindre";
 
             // F
             public const string Faire = "faire";
