@@ -29,6 +29,9 @@ public static class Constants
 
             // L
             public const string Lire = "lire";
+            
+            // N
+            public const string Naitre = "naître";
 
             // P
             public const string Pouvoir = "pouvoir";
