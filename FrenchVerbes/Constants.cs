@@ -284,6 +284,9 @@ public static class Constants
                 
                 // F
                 public const string Finir = "Exprime l'aboutissement d'une action, la fin d'une tâche ou l'achèvement d'un processus commencé plus tôt.";
+
+                // G
+                public const string Grandir = "Grandir exprime le fait de croître, de devenir plus grand ou de se développer physiquement ou mentalement.";
             }
 
             public static class Re

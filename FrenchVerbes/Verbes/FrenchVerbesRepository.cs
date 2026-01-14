@@ -138,7 +138,10 @@ public static class VerbRepository
         
         // F
         _verbs.Add(CreateFinir());
-        
+
+        // G
+        _verbs.Add(CreateGrandir());
+
     }
 
     private static void AddRegularReVerbs()
@@ -234,6 +237,13 @@ public static class VerbRepository
     #endregion
 
     #region Ending in IR
+
+    private static RegularIrVerb CreateGrandir()
+    {
+        return new RegularIrVerb(
+            Constants.Verbs.Regular.Ir.Grandir,
+            Constants.VerbDescriptions.Regular.Ir.Grandir);
+    }
 
     private static RegularIrVerb CreateFinir()
     {
