@@ -200,10 +200,16 @@ public static class Constants
 
                 // P
                 public const string Perdre = "perdre";
+                public const string Se_Perdre = "se perdre";
+                
+                public const string Se_Prendre = "se prendre";
+                
                 public const string Prétendre = "prétendre";
 
                 // R
                 public const string Rendre = "rendre";
+                public const string Se_Rendre = "se rendre";
+                
                 public const string Répondre = "répondre";
                 public const string Rejoindre = "rejoindre";
 
