@@ -100,6 +100,9 @@ public static class Constants
                 // J
                 public const string Jouer = "jouer";
 
+                // L
+                public const string Lancer = "lancer";
+
                 // M
                 public const string Marcher = "marcher";
                 public const string Manger = "manger";
