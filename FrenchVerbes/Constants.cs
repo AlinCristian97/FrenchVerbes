@@ -77,6 +77,10 @@ public static class Constants
 
                 // E
                 public const string Écouter = "écouter";
+                public const string Ennuyer = "ennuyer";
+                public const string Se_Ennuyer = "s'ennuyer";
+                public const string Énerver = "énerver";
+                public const string Se_Énerver = "s'énerver";
                 public const string Entrer = "entrer";
                 public const string Eparpiller = "éparpiller";
                 public const string Espérer = "espérer";
