@@ -90,11 +90,22 @@ public class RegularErVerb : RegularVerb
                 stem += "e";
             }
 
-            if (Infinitive.EndsWith(specialCerEnding) &&
-                pronounIndex == 3 &&
-                tense == Constants.Tenses.Present)
+            if (Infinitive.EndsWith(specialCerEnding))
             {
-                stem = stem[..^1] + Constants.FrenchSymbols.CedillaC;
+                if (pronounIndex == 3 && tense == Constants.Tenses.Present)
+                {
+                    stem = stem[..^1] + Constants.FrenchSymbols.CedillaC;
+                }
+
+                if (tense == Constants.Tenses.Imparfait && pronounIndex != 3 && pronounIndex != 4)
+                {
+                    stem = stem[..^1] + Constants.FrenchSymbols.CedillaC;
+                }
+
+                if (tense == Constants.Tenses.Imperative && pronounIndex == 3)
+                {
+                    stem = stem[..^1] + Constants.FrenchSymbols.CedillaC;
+                }
             }
         }
 

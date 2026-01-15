@@ -270,6 +270,7 @@ public static class Constants
 
                 // C
                 public const string Changer = "Changer est un verbe régulier du premier groupe (-er) qui exprime le fait de modifier, transformer ou remplacer quelque chose ou une situation.";
+                public const string Commencer = "Commencer exprime le fait d’initier ou de débuter une action. C’est un verbe régulier en -er avec un changement orthographique devant certaines terminaisons.";
 
                 // H
                 public const string Habiter = "Habiter exprime le fait de vivre ou de résider dans un lieu de manière habituelle.";
