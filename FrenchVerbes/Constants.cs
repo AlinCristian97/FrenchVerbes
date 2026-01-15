@@ -60,6 +60,7 @@ public static class Constants
                 public const string Aimer = "aimer";
                 public const string Appeler = "appeler";
                 public const string Arriver = "arriver";
+                public const string Attraper = "attraper";
 
                 // C
                 public const string Changer = "changer";
