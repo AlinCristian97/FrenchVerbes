@@ -71,6 +71,7 @@ public static class Constants
 
                 // D
                 public const string Demander = "demander";
+                public const string Dessiner = "dessiner";
                 public const string Discuter = "discuter";
                 public const string Donner = "donner";
                 public const string Détester = "détester";
