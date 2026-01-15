@@ -33,11 +33,12 @@ public class RegularErVerb : RegularVerb
             return stem;
         },
 
-        // manger: add 'e' before 'ons' for Nous
+        // manger: add 'e' before 'ons' for Nous and provide 'e' for Imparfait (mangeais, etc.)
         [Constants.Verbs.Regular.Er.Manger] = (stem, tense, pronounIndex) =>
         {
-            // Only add 'e' if it is NOT already there
-            if ((tense == Constants.Tenses.Present && pronounIndex == 3) ||  // Nous
+            // Add 'e' for Nous present/imperative and for all persons in Imparfait
+            if ((tense == Constants.Tenses.Present && pronounIndex == 3) ||  // Nous present
+                (tense == Constants.Tenses.Imparfait) ||                      // all persons in imparfait
                 (tense == Constants.Tenses.Imperative && pronounIndex == 3)) // Nous imperative
             {
                 if (!stem.EndsWith("e"))
@@ -45,7 +46,7 @@ public class RegularErVerb : RegularVerb
             }
             return stem;
         },
-        
+
         [Constants.Verbs.Regular.Er.Appeler] = (stem, tense, pronounIndex) =>
         {
             bool doubleL = tense switch
