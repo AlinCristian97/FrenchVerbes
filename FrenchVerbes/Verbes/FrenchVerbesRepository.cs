@@ -143,6 +143,9 @@ public static class VerbRepository
         // G
         _verbs.Add(CreateGrandir());
 
+        // N
+        _verbs.Add(CreateNourrir());
+
     }
 
     private static void AddRegularReVerbs()
@@ -252,6 +255,14 @@ public static class VerbRepository
     #endregion
 
     #region Ending in IR
+
+    private static RegularIrVerb CreateNourrir()
+    {
+        return new RegularIrVerb(
+            Constants.Verbs.Regular.Ir.Nourrir,
+            Constants.VerbDescriptions.Regular.Ir.Nourrir
+        );
+    }
 
     private static RegularIrVerb CreateGrandir()
     {
