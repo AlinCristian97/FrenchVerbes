@@ -35,6 +35,7 @@ public static class Constants
             public const string Naitre = "naître";
 
             // P
+            public const string Partir = "partir";
             public const string Pouvoir = "pouvoir";
             public const string Prendre = "prendre";
 
