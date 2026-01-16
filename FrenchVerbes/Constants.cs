@@ -22,7 +22,7 @@ public static class Constants
             // E
             public const string Ecrire = "écrire";
             public const string Etre = "être";
-            public const string Éteindre = "éteindre";
+            public const string Eteindre = "éteindre";
 
             // F
             public const string Faire = "faire";
@@ -78,16 +78,16 @@ public static class Constants
                 public const string Détester = "détester";
 
                 // E
-                public const string Écouter = "écouter";
+                public const string Ecouter = "écouter";
                 public const string Ennuyer = "ennuyer";
                 public const string Se_Ennuyer = "s'ennuyer";
-                public const string Énerver = "énerver";
-                public const string Se_Énerver = "s'énerver";
+                public const string Enerver = "énerver";
+                public const string Se_Enerver = "s'énerver";
                 public const string Entrer = "entrer";
                 public const string Eparpiller = "éparpiller";
                 public const string Espérer = "espérer";
                 public const string Essayer = "essayer";
-                public const string Étudier = "étudier";
+                public const string Etudier = "étudier";
                 public const string Expliquer = "expliquer";
 
                 // F
@@ -168,6 +168,9 @@ public static class Constants
                 
                 // C
                 public const string Choisir = "choisir";
+                
+                // E
+                public const string Etablir = "établir";
 
                 // F
                 public const string Finir = "finir";
