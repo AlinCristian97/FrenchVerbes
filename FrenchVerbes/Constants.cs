@@ -157,6 +157,7 @@ public static class Constants
             public static class Ir
             {
                 // A
+                public const string Accomplir = "accomplir";
                 public const string Agrandir = "agrandir";
                 public const string Applaudir = "applaudir";
 
@@ -172,6 +173,7 @@ public static class Constants
                 // G
                 public const string Grandir = "grandir";
                 public const string Grossir = "grossir";
+                public const string Guerir = "guérir";
 
                 // N
                 public const string Nourrir = "nourrir";
