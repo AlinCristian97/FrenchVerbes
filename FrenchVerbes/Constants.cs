@@ -158,12 +158,14 @@ public static class Constants
             {
                 // A
                 public const string Accomplir = "accomplir";
+                public const string Agir = "agir";
                 public const string Agrandir = "agrandir";
                 public const string Applaudir = "applaudir";
 
                 // B
                 public const string Batir = "bâtir";
-
+                public const string Blottir = "blottir";
+                
                 // C
                 public const string Choisir = "choisir";
 
@@ -175,6 +177,12 @@ public static class Constants
                 public const string Grossir = "grossir";
                 public const string Guerir = "guérir";
 
+                // J
+                public const string Jaunir = "jaunir";
+                
+                // M
+                public const string Maigrir = "maigrir";
+                
                 // N
                 public const string Nourrir = "nourrir";
 
@@ -183,6 +191,7 @@ public static class Constants
 
                 // P
                 public const string Punir = "punir";
+                public const string Polir = "polir";
 
                 // R
                 public const string Réfléchir = "réfléchir";
