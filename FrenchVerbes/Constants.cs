@@ -18,6 +18,7 @@ public static class Constants
             // D
             public const string Devoir = "devoir";
             public const string Dire = "dire";
+            public const string Dormir = "dormir";
 
             // E
             public const string Ecrire = "écrire";
