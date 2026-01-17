@@ -158,6 +158,7 @@ public static class VerbRepository
         _verbs.Add(CreateConfondre());
         
         // D
+        _verbs.Add(CreateDefendre());
         _verbs.Add(CreateDescendre());
         
         // V
@@ -310,6 +311,14 @@ public static class VerbRepository
 
     #region Ending in RE
 
+    private static RegularReVerb CreateDefendre()
+    {
+        return new RegularReVerb(
+            Constants.Verbs.Regular.Re.Defendre,
+            Constants.VerbDescriptions.Regular.Re.Defendre
+        );
+    }
+    
     private static RegularReVerb CreateVendre()
     {
         return new RegularReVerb(Constants.Verbs.Regular.Re.Vendre, Constants.VerbDescriptions.Regular.Re.Vendre);

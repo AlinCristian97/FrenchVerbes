@@ -220,8 +220,8 @@ public static class Constants
                 public const string Confondre = "confondre";
 
                 // D
+                public const string Defendre = "défendre";
                 public const string Descendre = "descendre";
-                public const string Défendre = "défendre";
 
                 // P
                 public const string Perdre = "perdre";
@@ -337,8 +337,9 @@ public static class Constants
                 public const string Confondre = "Confondre est un verbe régulier en -re qui signifie mélanger, ne pas distinguer ou prendre une chose pour une autre. Il exprime la confusion ou l'erreur de perception.";
 
                 // D
+                public const string Defendre = "Défendre est un verbe du 3ᵉ groupe qui signifie protéger, soutenir ou s’opposer à une attaque, une critique ou une injustice.";
                 public const string Descendre = "Descendre est un verbe régulier en -re qui signifie aller vers le bas, descendre d'un endroit ou réduire quelque chose. Il se conjugue avec l'auxiliaire 'être' au passé composé pour un déplacement sans complément et avec 'avoir' lorsqu'il est transitif.";
-                
+
                 
                 // V
                 public const string Vendre = "Le verbe de base pour le commerce, signifiant l'échange d'un bien ou d'un service contre une rémunération.";
