@@ -88,7 +88,7 @@ public static class Constants
                 public const string Se_Enerver = "s'énerver";
                 public const string Entrer = "entrer";
                 public const string Eparpiller = "éparpiller";
-                public const string Espérer = "espérer";
+                public const string Esperer = "espérer";
                 public const string Essayer = "essayer";
                 public const string Etudier = "étudier";
                 public const string Expliquer = "expliquer";
@@ -130,8 +130,8 @@ public static class Constants
                 public const string Payer = "payer";
                 public const string Penser = "penser";
                 public const string Porter = "porter";
-                public const string Préparer = "préparer";
-                public const string Préférer = "préférer";
+                public const string Preparer = "préparer";
+                public const string Preferer = "préférer";
                 public const string Prier = "prier";
 
                 // R
