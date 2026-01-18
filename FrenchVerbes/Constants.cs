@@ -58,6 +58,7 @@ public static class Constants
             public static class Er
             {
                 // A
+                public const string Acceder = "accéder";
                 public const string Acheter = "acheter";
                 public const string Aimer = "aimer";
                 public const string Appeler = "appeler";
