@@ -70,14 +70,15 @@ public static class Constants
                 public const string Cliquer = "cliquer";
                 public const string Commencer = "commencer";
                 public const string Continuer = "continuer";
-                public const string Créer = "créer";
+                public const string Creer = "créer";
 
                 // D
                 public const string Demander = "demander";
-                public const string Dessiner = "dessiner";
                 public const string Discuter = "discuter";
                 public const string Donner = "donner";
-                public const string Détester = "détester";
+                public const string Deplacer = "déplacer";
+                public const string Dessiner = "dessiner";
+                public const string Detester = "détester";
 
                 // E
                 public const string Ecouter = "écouter";
