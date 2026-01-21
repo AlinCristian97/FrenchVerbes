@@ -138,6 +138,8 @@ public static class Constants
                 public const string Porter = "porter";
                 public const string Preparer = "préparer";
                 public const string Preferer = "préférer";
+                public const string Preter = "prêter";
+                public const string Se_Preter = "se prêter";
                 public const string Prier = "prier";
                 public const string Promener = "promener";
                 public const string Se_Promener = "se promener";
