@@ -134,6 +134,8 @@ public static class Constants
                 public const string Preparer = "préparer";
                 public const string Preferer = "préférer";
                 public const string Prier = "prier";
+                public const string Promener = "promener";
+                public const string Se_Promener = "se promener";
 
                 // R
                 public const string Raconter = "raconter";
