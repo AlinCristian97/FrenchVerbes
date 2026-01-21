@@ -11,6 +11,9 @@ public static class Constants
             public const string Atteindre = "atteindre";
             public const string Avoir = "avoir";
 
+            // B
+            public const string Boire = "boire";
+            
             // C
             public const string Conduire = "conduire";
             public const string Croire = "croire";
@@ -257,6 +260,9 @@ public static class Constants
             // A
             public const string Avoir = "Avoir exprime la possession. C'est aussi l'auxiliaire le plus utilisé pour former les temps composés.";
             public const string Aller = "Aller est un verbe de mouvement indispensable pour exprimer une destination ou le futur proche.";
+            
+            // B
+            public const string Boire = "Boire est un verbe irrégulier qui signifie consommer un liquide. Il appartient au groupe des verbes irréguliers et présente des formes différentes selon les temps, notamment au présent avec 'bois', 'buvons' et 'boivent'.";
             
             // C
             public const string Conduire = "Conduire est un verbe irrégulier en -re qui signifie diriger un véhicule ou guider une action. Il suit le même modèle que les verbes du type 'produire' ou 'traduire'.";
