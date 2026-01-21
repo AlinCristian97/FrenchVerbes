@@ -112,6 +112,7 @@ public static class Constants
                 public const string Inviter = "inviter";
 
                 // J
+                public const string Jeter = "jeter";
                 public const string Jouer = "jouer";
 
                 // L
