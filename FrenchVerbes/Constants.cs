@@ -17,6 +17,7 @@ public static class Constants
             // C
             public const string Conduire = "conduire";
             public const string Croire = "croire";
+            public const string Courir = "courir";
 
             // D
             public const string Devoir = "devoir";
