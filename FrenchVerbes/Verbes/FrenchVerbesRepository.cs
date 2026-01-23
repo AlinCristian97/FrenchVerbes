@@ -75,6 +75,7 @@ public static class VerbRepository
     {
         // A
         _verbs.Add(CreateAvoir());
+        _verbs.Add(CreateAtteindre());
         _verbs.Add(CreateAller());
         
         // B
@@ -674,6 +675,46 @@ public static class VerbRepository
         );
     }
     
+    private static IrregularFrenchVerb CreateAtteindre()
+    {
+        return new IrregularFrenchVerb(
+            Constants.Verbs.Irregular.Atteindre,
+            description: Constants.VerbDescriptions.Irregular.Atteindre,
+            pastParticiple: "atteint",
+            presentTense: new()
+            {
+                [Constants.Pronouns.Je] = "atteins",
+                [Constants.Pronouns.Tu] = "atteins",
+                [Constants.Pronouns.IlElleOn] = "atteint",
+                [Constants.Pronouns.Nous] = "atteignons",
+                [Constants.Pronouns.Vous] = "atteignez",
+                [Constants.Pronouns.IlsElles] = "atteignent"
+            },
+            imperative: new()
+            {
+                [Constants.Pronouns.Tu] = "atteins",
+                [Constants.Pronouns.Nous] = "atteignons",
+                [Constants.Pronouns.Vous] = "atteignez"
+            },
+            stems: new()
+            {
+                [Constants.Tenses.Imparfait] = "atteign",
+                [Constants.Tenses.FuturSimple] = "atteindr",
+                [Constants.Tenses.ConditionnelPresent] = "atteindr"
+            },
+            isModal: false,
+            supportsProgressive: true,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes = "Le présent exprime l'action d'atteindre un objectif ou un point précis : 'J'atteins mon but.'",
+                PasseComposeNotes = "Le passé composé indique qu'un objectif a été atteint : 'Nous avons atteint la destination.'",
+                FuturSimpleNotes = "Le futur exprime un objectif à atteindre plus tard : 'Il atteindra le sommet demain.'",
+                ConditionnelPresentNotes = "Le conditionnel exprime une action hypothétique : 'J'atteindrais mon objectif avec plus de temps.'",
+                ImperativeNotes = "L'impératif sert à encourager ou donner des instructions : 'Atteins ton objectif !', 'Atteignons le but !', 'Atteignez la destination !'"
+            }
+        );
+    }
+
     private static IrregularFrenchVerb CreateFaire()
     {
         return new IrregularFrenchVerb(
