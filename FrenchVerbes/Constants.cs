@@ -76,6 +76,7 @@ public static class Constants
                 public const string Cliquer = "cliquer";
                 public const string Commencer = "commencer";
                 public const string Continuer = "continuer";
+                public const string Couter = "coûter";
                 public const string Creer = "créer";
 
                 // D
