@@ -64,6 +64,7 @@ public static class Constants
                 // A
                 public const string Acceder = "accéder";
                 public const string Acheter = "acheter";
+                public const string Adapter = "adapter";
                 public const string Aimer = "aimer";
                 public const string Appeler = "appeler";
                 public const string Arriver = "arriver";
