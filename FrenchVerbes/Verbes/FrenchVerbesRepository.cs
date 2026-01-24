@@ -77,6 +77,7 @@ public static class VerbRepository
         _verbs.Add(CreateAvoir());
         _verbs.Add(CreateAtteindre());
         _verbs.Add(CreateAller());
+        _verbs.Add(CreateCourir());
         
         // B
         _verbs.Add(CreateBoire());
@@ -643,6 +644,46 @@ public static class VerbRepository
         );
     }
 
+    private static IrregularFrenchVerb CreateCourir()
+    {
+        return new IrregularFrenchVerb(
+            Constants.Verbs.Irregular.Courir,
+            description: Constants.VerbDescriptions.Irregular.Courir,
+            pastParticiple: "couru",
+            presentTense: new()
+            {
+                [Constants.Pronouns.Je] = "cours",
+                [Constants.Pronouns.Tu] = "cours",
+                [Constants.Pronouns.IlElleOn] = "court",
+                [Constants.Pronouns.Nous] = "courons",
+                [Constants.Pronouns.Vous] = "courez",
+                [Constants.Pronouns.IlsElles] = "courent"
+            },
+            imperative: new()
+            {
+                [Constants.Pronouns.Tu] = "cours",
+                [Constants.Pronouns.Nous] = "courons",
+                [Constants.Pronouns.Vous] = "courez"
+            },
+            stems: new()
+            {
+                [Constants.Tenses.Imparfait] = "cour",
+                [Constants.Tenses.FuturSimple] = "courr",
+                [Constants.Tenses.ConditionnelPresent] = "courr"
+            },
+            isModal: false,
+            supportsProgressive: true,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes = "Le présent exprime une action de courir en cours ou habituelle : 'Je cours tous les matins.'",
+                PasseComposeNotes = "Le passé composé indique une action de courir terminée : 'Ils ont couru pendant une heure.'",
+                FuturSimpleNotes = "Le futur exprime une action à venir : 'Tu courras demain matin.'",
+                ConditionnelPresentNotes = "Le conditionnel exprime une action hypothétique : 'Je courrais plus souvent si j'avais le temps.'",
+                ImperativeNotes = "L'impératif sert à donner des instructions ou encouragements : 'Cours vite !', 'Courons ensemble !', 'Courez prudemment !'"
+            }
+        );
+    }
+    
     private static IrregularFrenchVerb CreateAller()
     {
         return new IrregularFrenchVerb(

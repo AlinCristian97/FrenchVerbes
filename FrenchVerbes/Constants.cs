@@ -4,6 +4,8 @@ public static class Constants
 {
     public static class Verbs
     {
+        #region  Irregular
+
         public static class Irregular
         {
             // A
@@ -59,7 +61,11 @@ public static class Constants
 
             //... more to come
         }
+        
+        #endregion
 
+        #region Regular
+        
         public static class Regular
         {
             public static class Er
@@ -260,10 +266,14 @@ public static class Constants
                 //... more to come
             }
         }
+        
+        #endregion
     }
     
     public static class VerbDescriptions
     {
+        #region  Irreguloar
+
         public static class Irregular
         {
             // A
@@ -276,6 +286,7 @@ public static class Constants
             
             // C
             public const string Conduire = "Conduire est un verbe irrégulier en -re qui signifie diriger un véhicule ou guider une action. Il suit le même modèle que les verbes du type 'produire' ou 'traduire'.";
+            public const string Courir = "Courir est un verbe irrégulier qui signifie se déplacer rapidement à pied ou fonctionner rapidement par extension. Il présente des formes irrégulières au présent avec 'cours', 'courons' et 'courent'.";
 
             // D
             public const string Devoir = "Devoir est un verbe modal exprimant l'obligation, la nécessité ou le devoir moral. Il sert à indiquer ce qu’il faut faire ou ce qui est attendu.";
@@ -299,10 +310,14 @@ public static class Constants
             public const string Vivre = "Vivre est un verbe irrégulier signifiant exister, résider ou faire l'expérience de quelque chose. Il est souvent utilisé pour parler de la vie quotidienne, d’une période de vie ou d’une expérience vécue.";
             public const string Voir = "Voir est un verbe fondamental exprimant la perception visuelle ou la compréhension. Il est également utilisé dans de nombreuses expressions idiomatiques et au sens figuré pour indiquer la connaissance ou la constatation.";
             public const string Vouloir = "Vouloir est un verbe modal fondamental qui exprime le désir, la volonté ou l'intention. Sa forme conditionnelle 'je voudrais' est utilisée pour les demandes polies.";
-
-
+            
         }
 
+        
+        #endregion
+
+        #region Regular
+        
         public static class Regular
         {
             public static class Er
@@ -365,6 +380,8 @@ public static class Constants
                 public const string Vendre = "Le verbe de base pour le commerce, signifiant l'échange d'un bien ou d'un service contre une rémunération.";
             }
         }
+        
+        #endregion
     }
 
     public static class Pronouns
