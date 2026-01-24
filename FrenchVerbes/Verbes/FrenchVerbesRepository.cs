@@ -114,6 +114,7 @@ public static class VerbRepository
     {
         // A
         _verbs.Add(CreateAcheter());
+        _verbs.Add(CreateAdapter());
         _verbs.Add(CreateAimer());
         _verbs.Add(CreateAppeler());
         _verbs.Add(CreateArriver());
@@ -184,6 +185,13 @@ public static class VerbRepository
             {
                 PresentNotes = "Manger ajoute un 'e' devant la terminaison au présent avec 'nous' pour conserver le son doux du 'g' : nous mangeons."
             });
+    }
+    
+    private static RegularErVerb CreateAdapter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Adapter,
+            Constants.VerbDescriptions.Regular.Er.Adapter);
     }
 
     private static RegularErVerb CreateAcheter()
