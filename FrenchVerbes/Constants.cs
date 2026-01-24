@@ -167,6 +167,7 @@ public static class Constants
                 public const string Rencontrer = "rencontrer";
                 public const string Rester = "rester";
                 public const string Retourner = "retourner";
+                public const string Rentrer = "rentrer";
 
                 // S
                 public const string Saluer = "saluer";
