@@ -134,6 +134,7 @@ public static class VerbRepository
     private static void AddRegularIrVerbs()
     {
         // A
+        _verbs.Add(CreateAccomplir());
         _verbs.Add(CreateAgrandir());
         _verbs.Add(CreateApplaudir());
         
@@ -292,6 +293,13 @@ public static class VerbRepository
             Constants.VerbDescriptions.Regular.Ir.Finir);
     }
 
+    private static RegularIrVerb CreateAccomplir()
+    {
+        return new RegularIrVerb(
+            Constants.Verbs.Regular.Ir.Accomplir,
+            Constants.VerbDescriptions.Regular.Ir.Accomplir);
+    }
+    
     private static RegularIrVerb CreateAgrandir()
     {
         return new RegularIrVerb(
