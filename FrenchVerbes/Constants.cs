@@ -35,6 +35,9 @@ public static class Constants
             // L
             public const string Lire = "lire";
             
+            // M
+            public const string Mentir = "mentir";
+            
             // N
             public const string Naitre = "naître";
 
