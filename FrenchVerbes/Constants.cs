@@ -9,6 +9,7 @@ public static class Constants
         public static class Irregular
         {
             // A
+            public const string Acceder = "accéder";
             public const string Aller = "aller";
             public const string Avoir = "avoir";
             public const string Atteindre = "atteindre";
@@ -71,7 +72,6 @@ public static class Constants
             public static class Er
             {
                 // A
-                public const string Acceder = "accéder";
                 public const string Acheter = "acheter";
                 public const string Adapter = "adapter";
                 public const string Aimer = "aimer";
