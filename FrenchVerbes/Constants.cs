@@ -46,8 +46,12 @@ public static class Constants
 
             // P
             public const string Partir = "partir";
+            public const string Perdre = "perdre";
+            public const string Se_Perdre = "se perdre";
             public const string Pouvoir = "pouvoir";
             public const string Prendre = "prendre";
+            public const string Se_Prendre = "se prendre";
+            public const string Prétendre = "prétendre";
 
             // S
             public const string Savoir = "savoir";
@@ -244,15 +248,7 @@ public static class Constants
                 // D
                 public const string Defendre = "défendre";
                 public const string Descendre = "descendre";
-
-                // P
-                public const string Perdre = "perdre";
-                public const string Se_Perdre = "se perdre";
                 
-                public const string Se_Prendre = "se prendre";
-                
-                public const string Prétendre = "prétendre";
-
                 // R
                 public const string Rendre = "rendre";
                 public const string Se_Rendre = "se rendre";
@@ -377,6 +373,8 @@ public static class Constants
                 public const string Defendre = "Défendre est un verbe du 3ᵉ groupe qui signifie protéger, soutenir ou s’opposer à une attaque, une critique ou une injustice.";
                 public const string Descendre = "Descendre est un verbe régulier en -re qui signifie aller vers le bas, descendre d'un endroit ou réduire quelque chose. Il se conjugue avec l'auxiliaire 'être' au passé composé pour un déplacement sans complément et avec 'avoir' lorsqu'il est transitif.";
 
+                // R
+                public const string Rendre = "Rendre est un verbe régulier du troisième groupe (-re) qui signifie donner, restituer, ou faire revenir quelque chose à son état initial ou à son propriétaire.";
                 
                 // V
                 public const string Vendre = "Le verbe de base pour le commerce, signifiant l'échange d'un bien ou d'un service contre une rémunération.";

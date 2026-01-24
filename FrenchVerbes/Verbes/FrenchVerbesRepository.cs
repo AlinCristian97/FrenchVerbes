@@ -168,6 +168,9 @@ public static class VerbRepository
         _verbs.Add(CreateDefendre());
         _verbs.Add(CreateDescendre());
         
+        // R
+        _verbs.Add(CreateRendre());
+        
         // V
         _verbs.Add(CreateVendre());
         
@@ -338,6 +341,13 @@ public static class VerbRepository
             Constants.Verbs.Regular.Re.Defendre,
             Constants.VerbDescriptions.Regular.Re.Defendre
         );
+    }
+    
+    private static RegularReVerb CreateRendre()
+    {
+        return new RegularReVerb(
+            Constants.Verbs.Regular.Re.Rendre,
+            Constants.VerbDescriptions.Regular.Re.Rendre);
     }
     
     private static RegularReVerb CreateVendre()
