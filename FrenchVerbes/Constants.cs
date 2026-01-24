@@ -160,6 +160,8 @@ public static class Constants
                 public const string Prier = "prier";
                 public const string Promener = "promener";
                 public const string Se_Promener = "se promener";
+                public const string Pleurer = "pleurer";
+                public const string Se_Pleurer = "se pleurer";
 
                 // R
                 public const string Raconter = "raconter";
