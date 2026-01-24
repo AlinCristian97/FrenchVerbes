@@ -122,6 +122,7 @@ public static class Constants
 
                 // H
                 public const string Habiter = "habiter";
+                public const string Hurler = "hurler";
 
                 // I
                 public const string Imaginer = "imaginer";
