@@ -139,6 +139,8 @@ public static class Constants
                 public const string Marcher = "marcher";
                 public const string Manger = "manger";
                 public const string Montrer = "montrer";
+                public const string Monter = "monter";
+                public const string Se_Monter = "se monter";
                 
                 // N
                 public const string Nager = "nager";
@@ -152,6 +154,7 @@ public static class Constants
                 public const string Passer = "passer";
                 public const string Payer = "payer";
                 public const string Penser = "penser";
+                public const string Peter = "péter";
                 public const string Porter = "porter";
                 public const string Preparer = "préparer";
                 public const string Preferer = "préférer";
