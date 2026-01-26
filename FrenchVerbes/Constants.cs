@@ -35,6 +35,9 @@ public static class Constants
             // F
             public const string Faire = "faire";
 
+            // I
+            public const string Interrompre = "interrompre";
+            
             // L
             public const string Lire = "lire";
             
