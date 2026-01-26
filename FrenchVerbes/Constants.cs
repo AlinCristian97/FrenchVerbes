@@ -107,6 +107,7 @@ public static class Constants
                 public const string Detester = "détester";
                 public const string Divertir = "divertir";
                 public const string Se_Divertir = "se divertir";
+                public const string Durer = "durer";
 
                 // E
                 public const string Ecouter = "écouter";
