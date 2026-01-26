@@ -113,6 +113,10 @@ public static class Constants
                 public const string Copier = "copier";
                 public const string Corriger = "corriger";
                 public const string Couronner = "couronner";
+                public const string Cultiver = "cultiver";
+                public const string Coordonner = "coordonner";
+                public const string Collaborer = "collaborer";
+                public const string Combiner = "combiner";
 
                 // D
                 public const string Demander = "demander";
