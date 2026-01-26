@@ -41,6 +41,7 @@ public static class Constants
             public const string Eteindre = "éteindre";
             public const string Exclure = "exclure";
             public const string Elimer = "élimer";
+            public const string Emmener = "emmener";
 
             // F
             public const string Faire = "faire";
@@ -188,6 +189,12 @@ public static class Constants
                 public const string Eprouver = "éprouver";
                 public const string Eviter = "éviter";
                 public const string Evoluer = "évoluer";
+                public const string Elaborer = "élaborer";
+                public const string Elargir = "élargir";
+                public const string Emporter = "emporter";
+                public const string Emprunter = "emprunter";
+                public const string Enregistrer = "enregistrer";
+                public const string Enlever = "enlever";
 
                 // F
                 public const string Fermer = "fermer";
