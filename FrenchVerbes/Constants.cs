@@ -182,10 +182,12 @@ public static class Constants
                 public const string Rester = "rester";
                 public const string Retourner = "retourner";
                 public const string Rentrer = "rentrer";
+                public const string Ramasser = "ramasser";
 
                 // S
                 public const string Saluer = "saluer";
                 public const string Souhaiter = "souhaiter";
+                public const string Stocker = "stocker";
 
                 // T
                 public const string Travailler = "travailler";
