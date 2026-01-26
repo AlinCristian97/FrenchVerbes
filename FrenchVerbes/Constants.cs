@@ -116,6 +116,7 @@ public static class Constants
 
                 // F
                 public const string Fermer = "fermer";
+                public const string Freiner = "freiner";
 
                 // G
                 public const string Garder = "garder";
@@ -187,6 +188,8 @@ public static class Constants
 
                 // V
                 public const string Voyager = "voyager";
+                public const string Voler = "voler";
+
                 //... more to come
             }
 
