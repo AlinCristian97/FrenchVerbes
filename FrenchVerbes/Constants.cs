@@ -210,6 +210,11 @@ public static class Constants
                 // H
                 public const string Habiter = "habiter";
                 public const string Hurler = "hurler";
+                public const string Hésiter = "hésiter";
+                public const string Honorer = "honorer";
+                public const string Hériter = "hériter";
+                public const string Harmoniser = "harmoniser";
+                public const string Happer = "happer";
 
                 // I
                 public const string Imaginer = "imaginer";
