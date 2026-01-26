@@ -174,10 +174,27 @@ public static class Constants
                 public const string Exercer = "exercer";
                 public const string Exagérer = "exagérer";
                 public const string Exécuter = "exécuter";
+                public const string Échanger = "échanger";
+                public const string Échapper = "échapper";
+                public const string Élever = "élever";
+                public const string Éloigner = "éloigner";
+                public const string Émerger = "émerger";
+                public const string Épeler = "épeler";
+                public const string Épouser = "épouser";
 
                 // F
                 public const string Fermer = "fermer";
                 public const string Freiner = "freiner";
+                public const string Fabriquer = "fabriquer";
+                public const string Fêter = "fêter";
+                public const string Fixer = "fixer";
+                public const string Flotter = "flotter";
+                public const string Frapper = "frapper";
+                public const string Fréquenter = "fréquenter";
+                public const string Frissonner = "frissonner";
+                public const string Fumer = "fumer";
+                public const string Fusionner = "fusionner";
+
 
                 // G
                 public const string Garder = "garder";
