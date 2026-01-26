@@ -270,6 +270,12 @@ public static class Constants
                 public const string Retourner = "retourner";
                 public const string Rentrer = "rentrer";
                 public const string Ramasser = "ramasser";
+                public const string Rechercher = "rechercher";
+                public const string Relever = "relever";
+                public const string Remercier = "remercier";
+                public const string Remplacer = "remplacer";
+                public const string Reposer = "reposer";
+                public const string Repriser = "repriser";
 
                 // S
                 public const string Saluer = "saluer";
