@@ -157,6 +157,9 @@ public static class Constants
                 public const string Diminuer = "diminuer";
                 public const string Dominer = "dominer";
                 public const string Doubler = "doubler";
+                public const string Douter = "douter";
+                public const string Déguster = "déguster";
+                public const string Déterminer = "déterminer";
 
                 // E
                 public const string Ecouter = "écouter";
