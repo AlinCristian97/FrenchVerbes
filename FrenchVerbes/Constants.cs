@@ -21,6 +21,7 @@ public static class Constants
             public const string Conduire = "conduire";
             public const string Croire = "croire";
             public const string Courir = "courir";
+            public const string Couvrir = "couvrir";
 
             // D
             public const string Devoir = "devoir";
@@ -88,6 +89,13 @@ public static class Constants
                 public const string Attraper = "attraper";
                 public const string Amuser = "amuser";
                 public const string Se_Amuser = "s'amuser";
+                public const string Appuyer = "appuyer";
+                public const string Afficher = "Afficher";
+                public const string Assister = "assister";
+                public const string Assumer = "assumer";
+                public const string Assurer = "assurer";
+                public const string Avaler = "avaler";
+                public const string Avancer = "avancer";
 
                 // C
                 public const string Changer = "changer";
@@ -97,6 +105,14 @@ public static class Constants
                 public const string Continuer = "continuer";
                 public const string Couter = "coûter";
                 public const string Creer = "créer";
+                public const string Crier = "crier";
+                public const string Couper = "couper";
+                public const string Cacher = "cacher";
+                public const string Calculer = "calculer";
+                public const string Commander = "commander";
+                public const string Copier = "copier";
+                public const string Corriger = "corriger";
+                public const string Couronner = "couronner";
 
                 // D
                 public const string Demander = "demander";
@@ -210,6 +226,7 @@ public static class Constants
                 public const string Agir = "agir";
                 public const string Agrandir = "agrandir";
                 public const string Applaudir = "applaudir";
+                public const string Avertir = "avertir";
 
                 // B
                 public const string Batir = "bâtir";
