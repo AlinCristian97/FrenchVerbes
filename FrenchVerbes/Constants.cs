@@ -198,6 +198,14 @@ public static class Constants
 
                 // G
                 public const string Garder = "garder";
+                public const string Gagner = "gagner";
+                public const string Goûter = "goûter";
+                public const string Gratifier = "gratifier";
+                public const string Gratter = "gratter";
+                public const string Guider = "guider";
+                public const string Gérer = "gérer";
+                public const string Générer = "générer";
+                public const string Gonfler = "gonfler";
 
                 // H
                 public const string Habiter = "habiter";
