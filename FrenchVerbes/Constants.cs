@@ -23,6 +23,8 @@ public static class Constants
             public const string Courir = "courir";
             public const string Couvrir = "couvrir";
             public const string Convaincre = "convaincre";
+            public const string Clore = "clore";
+            public const string Construire = "construire";
 
             // D
             public const string Devoir = "devoir";
@@ -121,6 +123,11 @@ public static class Constants
                 public const string Communiquer = "communiquer";
                 public const string Conter = "conter";
                 public const string Contrôler = "contrôler";
+                public const string Chuchoter = "chuchoter";
+                public const string Clarifier = "clarifier";
+                public const string Classer = "classer";
+                public const string Coiffer = "coiffer";
+                public const string Conserver = "conserver";
 
                 // D
                 public const string Demander = "demander";
