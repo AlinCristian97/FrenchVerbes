@@ -86,6 +86,8 @@ public static class Constants
                 public const string Appeler = "appeler";
                 public const string Arriver = "arriver";
                 public const string Attraper = "attraper";
+                public const string Amuser = "amuser";
+                public const string Se_Amuser = "s'amuser";
 
                 // C
                 public const string Changer = "changer";
@@ -103,6 +105,8 @@ public static class Constants
                 public const string Deplacer = "déplacer";
                 public const string Dessiner = "dessiner";
                 public const string Detester = "détester";
+                public const string Divertir = "divertir";
+                public const string Se_Divertir = "se divertir";
 
                 // E
                 public const string Ecouter = "écouter";
