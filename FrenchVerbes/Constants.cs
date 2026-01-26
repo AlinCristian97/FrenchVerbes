@@ -128,6 +128,10 @@ public static class Constants
                 public const string Classer = "classer";
                 public const string Coiffer = "coiffer";
                 public const string Conserver = "conserver";
+                public const string Cuisiner = "cuisiner";
+                public const string Confirmer = "confirmer";
+                public const string Connecter = "connecter";
+                public const string Considérer = "considérer";
 
                 // D
                 public const string Demander = "demander";
