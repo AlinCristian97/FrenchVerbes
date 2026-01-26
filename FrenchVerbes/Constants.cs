@@ -40,6 +40,7 @@ public static class Constants
             public const string Etre = "être";
             public const string Eteindre = "éteindre";
             public const string Exclure = "exclure";
+            public const string Elimer = "élimer";
 
             // F
             public const string Faire = "faire";
@@ -172,15 +173,18 @@ public static class Constants
                 public const string Exister = "exister";
                 public const string Examiner = "examiner";
                 public const string Exercer = "exercer";
-                public const string Exagérer = "exagérer";
-                public const string Exécuter = "exécuter";
-                public const string Échanger = "échanger";
-                public const string Échapper = "échapper";
-                public const string Élever = "élever";
-                public const string Éloigner = "éloigner";
-                public const string Émerger = "émerger";
-                public const string Épeler = "épeler";
-                public const string Épouser = "épouser";
+                public const string Exagerer = "exagérer";
+                public const string Executer = "exécuter";
+                public const string Echanger = "échanger";
+                public const string Echapper = "échapper";
+                public const string Elever = "élever";
+                public const string Eloigner = "éloigner";
+                public const string Emerger = "émerger";
+                public const string Epeler = "épeler";
+                public const string Epouser = "épouser";
+                public const string Eprouver = "éprouver";
+                public const string Eviter = "éviter";
+                public const string Evoluer = "évoluer";
 
                 // F
                 public const string Fermer = "fermer";
