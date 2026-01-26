@@ -39,6 +39,7 @@ public static class Constants
             public const string Ecrire = "écrire";
             public const string Etre = "être";
             public const string Eteindre = "éteindre";
+            public const string Exclure = "exclure";
 
             // F
             public const string Faire = "faire";
@@ -168,6 +169,11 @@ public static class Constants
                 public const string Essayer = "essayer";
                 public const string Etudier = "étudier";
                 public const string Expliquer = "expliquer";
+                public const string Exister = "exister";
+                public const string Examiner = "examiner";
+                public const string Exercer = "exercer";
+                public const string Exagérer = "exagérer";
+                public const string Exécuter = "exécuter";
 
                 // F
                 public const string Fermer = "fermer";
