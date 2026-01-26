@@ -30,6 +30,10 @@ public static class Constants
             public const string Devoir = "devoir";
             public const string Dire = "dire";
             public const string Dormir = "dormir";
+            public const string Découvrir = "découvrir";
+            public const string Décrire = "décrire";
+            public const string Divertir = "divertir";
+            public const string Se_Divertir = "se divertir";
 
             // E
             public const string Ecrire = "écrire";
@@ -140,9 +144,17 @@ public static class Constants
                 public const string Deplacer = "déplacer";
                 public const string Dessiner = "dessiner";
                 public const string Detester = "détester";
-                public const string Divertir = "divertir";
-                public const string Se_Divertir = "se divertir";
                 public const string Durer = "durer";
+                public const string Décider = "décider";
+                public const string Déjeuner = "déjeuner";
+                public const string Détester = "détester";
+                public const string Développer = "développer";
+                public const string Déposer = "déposer";
+                public const string Dérouler = "dérouler";
+                public const string Démarrer = "démarrer";
+                public const string Diminuer = "diminuer";
+                public const string Dominer = "dominer";
+                public const string Doubler = "doubler";
 
                 // E
                 public const string Ecouter = "écouter";
@@ -254,6 +266,9 @@ public static class Constants
                 // C
                 public const string Choisir = "choisir";
                 
+                // D
+                public const string Durcir = "durcir";
+
                 // E
                 public const string Etablir = "établir";
 
