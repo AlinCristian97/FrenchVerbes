@@ -72,6 +72,9 @@ public static class Constants
             public const string Sentir = "sentir";
             public const string Servir = "servir";
             public const string Suivre = "suivre";
+            public const string Soulever = "soulever";
+            public const string Secher = "sécher";
+            public const string Simplifier = "simplifier";
 
             // V
             public const string Venir = "venir";
@@ -291,6 +294,16 @@ public static class Constants
                 public const string Saluer = "saluer";
                 public const string Souhaiter = "souhaiter";
                 public const string Stocker = "stocker";
+                public const string Sauter = "sauter";
+                public const string Sauver = "sauver";
+                public const string Se_Sauver = "se sauver";
+                public const string Signaler = "signaler";
+                public const string Surveiller = "surveiller";
+                public const string Supporter = "supporter";
+                public const string Sejourner = "séjourner";
+                public const string Stimuler = "stimuler";
+                public const string Synchroniser = "synchroniser";
+                public const string Scintiller = "scintiller";
 
                 // T
                 public const string Travailler = "travailler";
