@@ -66,6 +66,7 @@ public static class Constants
             public const string Prendre = "prendre";
             public const string Se_Prendre = "se prendre";
             public const string Prétendre = "prétendre";
+            public const string Prevenir = "prévenir";
 
             // S
             public const string Savoir = "savoir";
