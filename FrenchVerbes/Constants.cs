@@ -316,6 +316,7 @@ public static class Constants
                 public const string Stimuler = "stimuler";
                 public const string Synchroniser = "synchroniser";
                 public const string Scintiller = "scintiller";
+                public const string Saisonner = "saisonner";
 
                 // T
                 public const string Travailler = "travailler";
