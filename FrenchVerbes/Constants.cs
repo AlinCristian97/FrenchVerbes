@@ -322,6 +322,7 @@ public static class Constants
                 // V
                 public const string Voyager = "voyager";
                 public const string Voler = "voler";
+                public const string Visiter = "visiter";
 
                 //... more to come
             }
