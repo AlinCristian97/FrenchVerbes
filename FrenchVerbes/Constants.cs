@@ -71,6 +71,7 @@ public static class Constants
             // R
             public const string Repondre = "répondre";
 
+
             // S
             public const string Savoir = "savoir";
             public const string Sentir = "sentir";
@@ -296,6 +297,7 @@ public static class Constants
                 public const string Reposer = "reposer";
                 public const string Repriser = "repriser";
                 public const string Reprocher = "reprocher";
+                public const string Rejeter = "rejeter";
 
                 // S
                 public const string Saluer = "saluer";
