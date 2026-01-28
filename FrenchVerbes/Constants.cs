@@ -317,6 +317,11 @@ public static class Constants
                 // T
                 public const string Travailler = "travailler";
                 public const string Trouver = "trouver";
+                public const string Tomber = "tomber";
+                public const string Tourner = "tourner";
+                public const string Tenter = "tenter";
+                public const string Transférer = "transférer";
+                public const string Terminer = "Terminer";
 
                 // U
                 public const string Utiliser = "utiliser";
