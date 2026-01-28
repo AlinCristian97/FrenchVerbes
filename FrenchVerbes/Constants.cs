@@ -199,6 +199,7 @@ public static class Constants
                 public const string Emprunter = "emprunter";
                 public const string Enregistrer = "enregistrer";
                 public const string Enlever = "enlever";
+                public const string Ecarter = "écarter";
 
                 // F
                 public const string Fermer = "fermer";
