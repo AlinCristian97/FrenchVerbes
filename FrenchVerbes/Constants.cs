@@ -58,6 +58,9 @@ public static class Constants
             // N
             public const string Naitre = "naître";
 
+            // O
+            public const string Ouvrir = "ouvrir";
+
             // P
             public const string Partir = "partir";
             public const string Perdre = "perdre";
