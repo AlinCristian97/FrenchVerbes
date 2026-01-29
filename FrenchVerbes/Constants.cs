@@ -390,6 +390,7 @@ public static class Constants
                 public const string Réussir = "réussir";
                 public const string Remplir = "remplir";
                 public const string Rougir = "rougir";
+                public const string Refroidir = "refroidir";
 
                 // V
                 public const string Vieillir = "vieillir";
