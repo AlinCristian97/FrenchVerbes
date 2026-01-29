@@ -4,7 +4,7 @@ public static class Constants
 {
     public static class Verbs
     {
-        #region  Irregular
+        #region Irregular
 
         public static class Irregular
         {
@@ -30,8 +30,8 @@ public static class Constants
             public const string Devoir = "devoir";
             public const string Dire = "dire";
             public const string Dormir = "dormir";
-            public const string Découvrir = "découvrir";
-            public const string Décrire = "décrire";
+            public const string Decouvrir = "découvrir";
+            public const string Decrire = "décrire";
             public const string Divertir = "divertir";
             public const string Se_Divertir = "se divertir";
 
@@ -73,6 +73,7 @@ public static class Constants
 
             // R
             public const string Repondre = "répondre";
+            public const string Reprendre = "reprendre";
 
 
             // S
