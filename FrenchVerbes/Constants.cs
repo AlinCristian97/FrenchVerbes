@@ -249,6 +249,7 @@ public static class Constants
                 // I
                 public const string Imaginer = "imaginer";
                 public const string Inviter = "inviter";
+                public const string Installer = "installer";
 
                 // J
                 public const string Jeter = "jeter";
