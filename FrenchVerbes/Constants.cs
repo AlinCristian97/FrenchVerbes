@@ -118,6 +118,8 @@ public static class Constants
                 public const string Assurer = "assurer";
                 public const string Avaler = "avaler";
                 public const string Avancer = "avancer";
+                public const string Ameliorer = "améliorer";
+                public const string Aider = "aider";
 
                 // C
                 public const string Changer = "changer";
