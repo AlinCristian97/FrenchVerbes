@@ -311,6 +311,7 @@ public static class Constants
                 public const string Repriser = "repriser";
                 public const string Reprocher = "reprocher";
                 public const string Rejeter = "rejeter";
+                public const string Ranger = "ranger";
 
                 // S
                 public const string Saluer = "saluer";
