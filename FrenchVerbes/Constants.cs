@@ -183,6 +183,7 @@ public static class Constants
                 public const string Ecouter = "écouter";
                 public const string Ennuyer = "ennuyer";
                 public const string Se_Ennuyer = "s'ennuyer";
+                public const string Empecher = "empêcher";
                 public const string Enerver = "énerver";
                 public const string Se_Enerver = "s'énerver";
                 public const string Entrer = "entrer";
