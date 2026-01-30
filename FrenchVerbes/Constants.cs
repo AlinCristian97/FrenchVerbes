@@ -122,6 +122,7 @@ public static class Constants
                 public const string Avancer = "avancer";
                 public const string Ameliorer = "améliorer";
                 public const string Aider = "aider";
+                public const string Adorer = "adorer";
 
                 // C
                 public const string Changer = "changer";
