@@ -103,6 +103,7 @@ public static class Constants
             public static class Er
             {
                 // A
+                public const string Annuler = "annuler";
                 public const string Acheter = "acheter";
                 public const string Activer = "activer";
                 public const string Adapter = "adapter";
