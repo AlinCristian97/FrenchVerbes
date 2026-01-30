@@ -157,6 +157,8 @@ public static class Constants
                 public const string Connecter = "connecter";
                 public const string Considérer = "considérer";
                 public const string Consulter = "consulter";
+                public const string Contracter = "contracter";
+                public const string Contacter = "contacter";
 
                 // D
                 public const string Demander = "demander";
