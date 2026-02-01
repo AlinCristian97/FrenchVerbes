@@ -349,6 +349,7 @@ public static class Constants
                 public const string Saisonner = "saisonner";
                 public const string Secouer = "secouer";
                 public const string Sembler = "sembler";
+                public const string Sauvegarder = "sauvegarder";
 
                 // T
                 public const string Travailler = "travailler";
