@@ -71,6 +71,7 @@ public static class Constants
             public const string Se_Prendre = "se prendre";
             public const string Prétendre = "prétendre";
             public const string Prevenir = "prévenir";
+            public const string Permettre = "permettre";
 
             // R
             public const string Repondre = "répondre";
@@ -348,6 +349,7 @@ public static class Constants
                 public const string Voyager = "voyager";
                 public const string Voler = "voler";
                 public const string Visiter = "visiter";
+                public const string Verrouiller = "verrouiller";
 
                 //... more to come
             }
