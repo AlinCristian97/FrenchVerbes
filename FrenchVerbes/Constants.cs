@@ -179,19 +179,18 @@ public static class Constants
                 public const string Dessiner = "dessiner";
                 public const string Detester = "détester";
                 public const string Durer = "durer";
-                public const string Décider = "décider";
-                public const string Déjeuner = "déjeuner";
-                public const string Détester = "détester";
-                public const string Développer = "développer";
-                public const string Déposer = "déposer";
-                public const string Dérouler = "dérouler";
-                public const string Démarrer = "démarrer";
+                public const string Decider = "décider";
+                public const string Dejeuner = "déjeuner";
+                public const string Developper = "développer";
+                public const string Deposer = "déposer";
+                public const string Derouler = "dérouler";
+                public const string Demarrer = "démarrer";
                 public const string Diminuer = "diminuer";
                 public const string Dominer = "dominer";
                 public const string Doubler = "doubler";
                 public const string Douter = "douter";
-                public const string Déguster = "déguster";
-                public const string Déterminer = "déterminer";
+                public const string Deguster = "déguster";
+                public const string Determiner = "déterminer";
 
                 // E
                 public const string Equiper = "équiper";
