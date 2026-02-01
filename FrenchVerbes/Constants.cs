@@ -129,6 +129,7 @@ public static class Constants
                 public const string Aider = "aider";
                 public const string Briser = "briser";
                 public const string Adorer = "adorer";
+                public const string Augmenter = "augmenter";
                 public const string Attaquer = "attaquer";
 
                 // C
@@ -264,6 +265,7 @@ public static class Constants
                 public const string Imaginer = "imaginer";
                 public const string Inviter = "inviter";
                 public const string Installer = "installer";
+                public const string Infliger = "infliger";
 
                 // J
                 public const string Jeter = "jeter";
