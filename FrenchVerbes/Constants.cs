@@ -54,7 +54,8 @@ public static class Constants
             
             // M
             public const string Mentir = "mentir";
-            
+            public const string Moudre = "moudre";
+
             // N
             public const string Naitre = "naître";
 
@@ -103,6 +104,7 @@ public static class Constants
             public static class Er
             {
                 // A
+                public const string Abandonner = "abandonner";
                 public const string Annuler = "annuler";
                 public const string Acheter = "acheter";
                 public const string Activer = "activer";
@@ -314,6 +316,7 @@ public static class Constants
                 public const string Ranger = "ranger";
 
                 // S
+                public const string Spoiler = "spoiler";
                 public const string Saluer = "saluer";
                 public const string Souhaiter = "souhaiter";
                 public const string Stocker = "stocker";
