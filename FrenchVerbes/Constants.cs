@@ -19,6 +19,7 @@ public static class Constants
             
             // C
             public const string Conduire = "conduire";
+            public const string Contenir = "contenir";
             public const string Croire = "croire";
             public const string Courir = "courir";
             public const string Couvrir = "couvrir";
@@ -328,6 +329,7 @@ public static class Constants
                 public const string Ranger = "ranger";
                 public const string Raffiner = "raffiner";
                 public const string Rouiller = "rouiller";
+                public const string Repousser = "repousser";
 
                 // S
                 public const string Spoiler = "spoiler";
