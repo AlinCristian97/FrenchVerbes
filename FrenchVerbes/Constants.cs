@@ -107,6 +107,7 @@ public static class Constants
             public static class Er
             {
                 // A
+                public const string Ajouter = "ajouter";
                 public const string Abandonner = "abandonner";
                 public const string Annuler = "annuler";
                 public const string Acheter = "acheter";
@@ -192,6 +193,8 @@ public static class Constants
                 public const string Déterminer = "déterminer";
 
                 // E
+                public const string Equiper = "équiper";
+                public const string Se_Equiper = "s'équiper";
                 public const string Ecouter = "écouter";
                 public const string Ennuyer = "ennuyer";
                 public const string Se_Ennuyer = "s'ennuyer";
