@@ -42,6 +42,7 @@ public static class Constants
             public const string Exclure = "exclure";
             public const string Elimer = "élimer";
             public const string Emmener = "emmener";
+            public const string Emettre = "émettre";
 
             // F
             public const string Faire = "faire";
@@ -76,6 +77,7 @@ public static class Constants
             // R
             public const string Repondre = "répondre";
             public const string Reprendre = "reprendre";
+            public const string Reconnaitre = "reconnaître";
 
 
             // S
@@ -125,7 +127,9 @@ public static class Constants
                 public const string Avancer = "avancer";
                 public const string Ameliorer = "améliorer";
                 public const string Aider = "aider";
+                public const string Briser = "briser";
                 public const string Adorer = "adorer";
+                public const string Attaquer = "attaquer";
 
                 // C
                 public const string Changer = "changer";
@@ -161,6 +165,7 @@ public static class Constants
                 public const string Considérer = "considérer";
                 public const string Consulter = "consulter";
                 public const string Contracter = "contracter";
+                public const string Choper = "choper";
                 public const string Contacter = "contacter";
 
                 // D
@@ -276,6 +281,7 @@ public static class Constants
                 
                 // N
                 public const string Nager = "nager";
+                public const string Nouer = "nouer";
 
                 // O
                 public const string Organiser = "organiser";
@@ -315,6 +321,8 @@ public static class Constants
                 public const string Reprocher = "reprocher";
                 public const string Rejeter = "rejeter";
                 public const string Ranger = "ranger";
+                public const string Raffiner = "raffiner";
+                public const string Rouiller = "rouiller";
 
                 // S
                 public const string Spoiler = "spoiler";
@@ -333,6 +341,7 @@ public static class Constants
                 public const string Scintiller = "scintiller";
                 public const string Saisonner = "saisonner";
                 public const string Secouer = "secouer";
+                public const string Sembler = "sembler";
 
                 // T
                 public const string Travailler = "travailler";
