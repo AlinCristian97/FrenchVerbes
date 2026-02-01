@@ -258,6 +258,7 @@ public static class Constants
 
                 // H
                 public const string Habiter = "habiter";
+                public const string Habituer = "habituer";
                 public const string Hurler = "hurler";
                 public const string Hésiter = "hésiter";
                 public const string Honorer = "honorer";
@@ -350,6 +351,7 @@ public static class Constants
                 public const string Secouer = "secouer";
                 public const string Sembler = "sembler";
                 public const string Sauvegarder = "sauvegarder";
+                public const string Serrer = "serrer";
 
                 // T
                 public const string Travailler = "travailler";
@@ -359,6 +361,7 @@ public static class Constants
                 public const string Tenter = "tenter";
                 public const string Transférer = "transférer";
                 public const string Terminer = "Terminer";
+                public const string Tromper = "tromper";
 
                 // U
                 public const string Utiliser = "utiliser";
