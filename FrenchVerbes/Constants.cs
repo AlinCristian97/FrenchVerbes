@@ -161,6 +161,7 @@ public static class Constants
                 public const string Contrôler = "contrôler";
                 public const string Chuchoter = "chuchoter";
                 public const string Clarifier = "clarifier";
+                public const string Capturer = "capturer";
                 public const string Classer = "classer";
                 public const string Coiffer = "coiffer";
                 public const string Conserver = "conserver";
@@ -464,7 +465,10 @@ public static class Constants
                 // D
                 public const string Defendre = "défendre";
                 public const string Descendre = "descendre";
-                
+
+                // E
+                public const string Entendre = "entendre";
+
                 // R
                 public const string Rendre = "rendre";
                 public const string Se_Rendre = "se rendre";
