@@ -11,6 +11,7 @@ public static class Constants
             // A
             public const string Acceder = "accéder";
             public const string Aller = "aller";
+            public const string Accourir = "accourir";
             public const string Avoir = "avoir";
             public const string Atteindre = "atteindre";
 
@@ -26,6 +27,7 @@ public static class Constants
             public const string Convaincre = "convaincre";
             public const string Clore = "clore";
             public const string Construire = "construire";
+            public const string Craindre = "craindre";
 
             // D
             public const string Devoir = "devoir";
@@ -272,6 +274,7 @@ public static class Constants
                 public const string Imaginer = "imaginer";
                 public const string Inviter = "inviter";
                 public const string Installer = "installer";
+                public const string Importer = "importer";
                 public const string Infliger = "infliger";
 
                 // J
@@ -287,7 +290,8 @@ public static class Constants
                 public const string Montrer = "montrer";
                 public const string Monter = "monter";
                 public const string Se_Monter = "se monter";
-                
+                public const string Marquer = "marquer";
+
                 // N
                 public const string Nager = "nager";
                 public const string Nouer = "nouer";
@@ -295,6 +299,7 @@ public static class Constants
                 // O
                 public const string Organiser = "organiser";
                 public const string Oublier = "oublier";
+                public const string Observer = "observer";
 
                 // P
                 public const string Parler = "parler";
@@ -314,6 +319,7 @@ public static class Constants
                 public const string Se_Pleurer = "se pleurer";
                 public const string Proceder = "procéder";
                 public const string Personnaliser = "personnaliser";
+                public const string Poser = "poser";
 
                 // R
                 public const string Raconter = "raconter";
@@ -335,9 +341,11 @@ public static class Constants
                 public const string Raffiner = "raffiner";
                 public const string Rouiller = "rouiller";
                 public const string Repousser = "repousser";
+                public const string Retrouver = "retrouver";
 
                 // S
                 public const string Spoiler = "spoiler";
+                public const string Sedater = "sédater";
                 public const string Saluer = "saluer";
                 public const string Souhaiter = "souhaiter";
                 public const string Stocker = "stocker";
