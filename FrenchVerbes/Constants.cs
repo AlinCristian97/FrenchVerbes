@@ -76,6 +76,7 @@ public static class Constants
             public const string Prétendre = "prétendre";
             public const string Prevenir = "prévenir";
             public const string Permettre = "permettre";
+            public const string Promettre = "promettre";
 
             // R
             public const string Repondre = "répondre";
@@ -91,6 +92,9 @@ public static class Constants
             public const string Soulever = "soulever";
             public const string Secher = "sécher";
             public const string Simplifier = "simplifier";
+
+            // T
+            public const string Tenir = "tenir";
 
             // V
             public const string Venir = "venir";
@@ -272,6 +276,7 @@ public static class Constants
                 public const string Hériter = "hériter";
                 public const string Harmoniser = "harmoniser";
                 public const string Happer = "happer";
+                public const string Hocher = "hocher";
 
                 // I
                 public const string Imaginer = "imaginer";
