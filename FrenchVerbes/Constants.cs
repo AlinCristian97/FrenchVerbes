@@ -230,6 +230,8 @@ public static class Constants
                 public const string Enregistrer = "enregistrer";
                 public const string Enlever = "enlever";
                 public const string Ecarter = "écarter";
+                public const string Enserrer = "enserrer";
+                public const string Enfiler = "enfiler";
 
                 // F
                 public const string Fermer = "fermer";
@@ -310,6 +312,7 @@ public static class Constants
                 public const string Se_Promener = "se promener";
                 public const string Pleurer = "pleurer";
                 public const string Se_Pleurer = "se pleurer";
+                public const string Proceder = "procéder";
                 public const string Personnaliser = "personnaliser";
 
                 // R
@@ -340,6 +343,7 @@ public static class Constants
                 public const string Stocker = "stocker";
                 public const string Sauter = "sauter";
                 public const string Sauver = "sauver";
+                public const string Sonner = "sonner";
                 public const string Se_Sauver = "se sauver";
                 public const string Signaler = "signaler";
                 public const string Surveiller = "surveiller";
@@ -363,6 +367,8 @@ public static class Constants
                 public const string Transférer = "transférer";
                 public const string Terminer = "Terminer";
                 public const string Tromper = "tromper";
+                public const string Toucher = "toucher";
+                public const string Tirer = "tirer";
 
                 // U
                 public const string Utiliser = "utiliser";
