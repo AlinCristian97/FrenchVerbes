@@ -170,6 +170,7 @@ public static class Constants
                 public const string Contracter = "contracter";
                 public const string Choper = "choper";
                 public const string Contacter = "contacter";
+                public const string Caracteriser = "caractériser";
 
                 // D
                 public const string Demander = "demander";
@@ -309,6 +310,7 @@ public static class Constants
                 public const string Se_Promener = "se promener";
                 public const string Pleurer = "pleurer";
                 public const string Se_Pleurer = "se pleurer";
+                public const string Personnaliser = "personnaliser";
 
                 // R
                 public const string Raconter = "raconter";
@@ -403,6 +405,9 @@ public static class Constants
                 public const string Grandir = "grandir";
                 public const string Grossir = "grossir";
                 public const string Guerir = "guérir";
+
+                // I
+                public const string Interagir = "interagir";
 
                 // J
                 public const string Jaunir = "jaunir";
