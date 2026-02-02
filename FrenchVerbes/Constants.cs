@@ -183,6 +183,8 @@ public static class Constants
                 public const string Dessiner = "dessiner";
                 public const string Detester = "détester";
                 public const string Durer = "durer";
+                public const string Dechainer = "déchaîner";
+                public const string Se_Dechainer = "se déchaîner";
                 public const string Decider = "décider";
                 public const string Dejeuner = "déjeuner";
                 public const string Developper = "développer";
@@ -284,6 +286,7 @@ public static class Constants
 
                 // L
                 public const string Lancer = "lancer";
+                public const string Laisser = "laisser";
 
                 // M
                 public const string Marcher = "marcher";
@@ -378,6 +381,7 @@ public static class Constants
                 public const string Tromper = "tromper";
                 public const string Toucher = "toucher";
                 public const string Tirer = "tirer";
+                public const string Tendre = "tendre";
 
                 // U
                 public const string Utiliser = "utiliser";
