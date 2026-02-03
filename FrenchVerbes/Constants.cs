@@ -478,7 +478,7 @@ public static class Constants
 
                 // R
                 public const string Reflechir = "réfléchir";
-                public const string Réussir = "réussir";
+                public const string Reussir = "réussir";
                 public const string Remplir = "remplir";
                 public const string Rougir = "rougir";
                 public const string Refroidir = "refroidir";
