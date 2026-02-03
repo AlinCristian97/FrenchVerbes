@@ -201,6 +201,7 @@ public static class Constants
                 public const string Douter = "douter";
                 public const string Deguster = "déguster";
                 public const string Determiner = "déterminer";
+                public const string Distinguer = "distinguer";
 
                 // E
                 public const string Equiper = "équiper";
@@ -241,6 +242,7 @@ public static class Constants
                 public const string Ecarter = "écarter";
                 public const string Enserrer = "enserrer";
                 public const string Enfiler = "enfiler";
+                public const string Ensanglanter = "ensanglanter";
 
                 // F
                 public const string Fermer = "fermer";
@@ -412,7 +414,8 @@ public static class Constants
                 // B
                 public const string Batir = "bâtir";
                 public const string Blottir = "blottir";
-                
+                public const string Blanchir = "blanchir";
+
                 // C
                 public const string Choisir = "choisir";
                 
@@ -455,6 +458,7 @@ public static class Constants
                 public const string Remplir = "remplir";
                 public const string Rougir = "rougir";
                 public const string Refroidir = "refroidir";
+                public const string Ravir = "ravir";
 
                 // V
                 public const string Vieillir = "vieillir";
