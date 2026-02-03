@@ -365,6 +365,7 @@ public static class Constants
                 public const string Remercier = "remercier";
                 public const string Remplacer = "remplacer";
                 public const string Reposer = "reposer";
+                public const string Se_Reposer = "se reposer";
                 public const string Repriser = "repriser";
                 public const string Reprocher = "reprocher";
                 public const string Rejeter = "rejeter";
@@ -400,6 +401,8 @@ public static class Constants
                 public const string Sembler = "sembler";
                 public const string Sauvegarder = "sauvegarder";
                 public const string Serrer = "serrer";
+                public const string Soigner = "soigner";
+                public const string Se_Soigner = "se soigner";
 
                 // T
                 public const string Travailler = "travailler";
