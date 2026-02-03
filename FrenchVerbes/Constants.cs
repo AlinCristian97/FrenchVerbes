@@ -351,6 +351,7 @@ public static class Constants
                 public const string Se_Placer = "se placer";
                 public const string Proteger = "protéger";
                 public const string Se_Proteger = "se protéger";
+                public const string Partager = "partager";
 
                 // R
                 public const string Raconter = "raconter";
