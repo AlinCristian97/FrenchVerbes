@@ -142,6 +142,9 @@ public static class Constants
                 public const string Augmenter = "augmenter";
                 public const string Attaquer = "attaquer";
 
+                // B
+                public const string Bouger = "bouger";
+
                 // C
                 public const string Changer = "changer";
                 public const string Chercher = "chercher";
@@ -181,6 +184,7 @@ public static class Constants
                 public const string Contacter = "contacter";
                 public const string Circuler = "circuler";
                 public const string Caracteriser = "caractériser";
+                public const string Couler = "couler";
 
                 // D
                 public const string Demander = "demander";
@@ -205,6 +209,7 @@ public static class Constants
                 public const string Deguster = "déguster";
                 public const string Determiner = "déterminer";
                 public const string Distinguer = "distinguer";
+                public const string Debarrasser = "débarrasser";
 
                 // E
                 public const string Equiper = "équiper";
@@ -247,6 +252,7 @@ public static class Constants
                 public const string Enfiler = "enfiler";
                 public const string Ensanglanter = "ensanglanter";
                 public const string Enfermer = "enfermer";
+                public const string Egaler = "égaler";
 
                 // F
                 public const string Fermer = "fermer";
@@ -283,6 +289,7 @@ public static class Constants
                 public const string Harmoniser = "harmoniser";
                 public const string Happer = "happer";
                 public const string Hocher = "hocher";
+                public const string Hausser = "hausser";
 
                 // I
                 public const string Imaginer = "imaginer";
@@ -307,6 +314,7 @@ public static class Constants
                 public const string Monter = "monter";
                 public const string Se_Monter = "se monter";
                 public const string Marquer = "marquer";
+                public const string Maitriser = "maîtriser";
                 public const string Mener = "mener";
 
                 // N
