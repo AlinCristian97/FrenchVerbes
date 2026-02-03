@@ -82,7 +82,8 @@ public static class Constants
             public const string Repondre = "répondre";
             public const string Reprendre = "reprendre";
             public const string Reconnaitre = "reconnaître";
-
+            public const string Rire = "rire";
+            public const string Retenir = "retenir";
 
             // S
             public const string Savoir = "savoir";
@@ -301,6 +302,7 @@ public static class Constants
                 // J
                 public const string Jeter = "jeter";
                 public const string Jouer = "jouer";
+                public const string Juger = "juger";
 
                 // L
                 public const string Lancer = "lancer";
@@ -373,6 +375,8 @@ public static class Constants
                 public const string Retrouver = "retrouver";
                 public const string Rappeler = "rappeler";
                 public const string Se_Rappeler = "se rappeler";
+                public const string Recompenser = "récompenser";
+                public const string Se_Recompenser = "se récompenser";
 
                 // S
                 public const string Spoiler = "spoiler";
