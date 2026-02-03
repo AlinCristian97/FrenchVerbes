@@ -92,6 +92,7 @@ public static class Constants
             public const string Soulever = "soulever";
             public const string Secher = "sécher";
             public const string Simplifier = "simplifier";
+            public const string Surprendre = "surprendre";
 
             // T
             public const string Tenir = "tenir";
@@ -114,6 +115,7 @@ public static class Constants
             public static class Er
             {
                 // A
+                public const string Approcher = "approcher";
                 public const string Ajouter = "ajouter";
                 public const string Abandonner = "abandonner";
                 public const string Annuler = "annuler";
@@ -177,6 +179,7 @@ public static class Constants
                 public const string Contracter = "contracter";
                 public const string Choper = "choper";
                 public const string Contacter = "contacter";
+                public const string Circuler = "circuler";
                 public const string Caracteriser = "caractériser";
 
                 // D
@@ -243,6 +246,7 @@ public static class Constants
                 public const string Enserrer = "enserrer";
                 public const string Enfiler = "enfiler";
                 public const string Ensanglanter = "ensanglanter";
+                public const string Enfermer = "enfermer";
 
                 // F
                 public const string Fermer = "fermer";
@@ -294,6 +298,7 @@ public static class Constants
                 // L
                 public const string Lancer = "lancer";
                 public const string Laisser = "laisser";
+                public const string Louer = "louer";
 
                 // M
                 public const string Marcher = "marcher";
@@ -332,6 +337,10 @@ public static class Constants
                 public const string Proceder = "procéder";
                 public const string Personnaliser = "personnaliser";
                 public const string Poser = "poser";
+                public const string Placer = "placer";
+                public const string Se_Placer = "se placer";
+                public const string Proteger = "protéger";
+                public const string Se_Proteger = "se protéger";
 
                 // R
                 public const string Raconter = "raconter";
@@ -354,6 +363,8 @@ public static class Constants
                 public const string Rouiller = "rouiller";
                 public const string Repousser = "repousser";
                 public const string Retrouver = "retrouver";
+                public const string Rappeler = "rappeler";
+                public const string Se_Rappeler = "se rappeler";
 
                 // S
                 public const string Spoiler = "spoiler";
@@ -505,7 +516,7 @@ public static class Constants
     
     public static class VerbDescriptions
     {
-        #region  Irreguloar
+        #region  Irregular
 
         public static class Irregular
         {
