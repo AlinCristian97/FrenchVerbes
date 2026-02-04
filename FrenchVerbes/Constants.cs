@@ -14,6 +14,8 @@ public static class Constants
             public const string Accourir = "accourir";
             public const string Avoir = "avoir";
             public const string Atteindre = "atteindre";
+            public const string Asseoir = "asseoir";
+            public const string Se_Asseoir = "s'asseoir";
 
             // B
             public const string Boire = "boire";
@@ -60,6 +62,7 @@ public static class Constants
             public const string Mentir = "mentir";
             public const string Moudre = "moudre";
             public const string Mettre = "mettre";
+            public const string Maintenir = "maintenir";
 
             // N
             public const string Naitre = "naître";
@@ -143,6 +146,7 @@ public static class Constants
                 public const string Adorer = "adorer";
                 public const string Augmenter = "augmenter";
                 public const string Attaquer = "attaquer";
+                public const string Arranger = "arranger";
                 public const string Accompagner = "accompagner";
 
                 // B
