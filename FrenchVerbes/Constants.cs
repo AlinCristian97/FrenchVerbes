@@ -189,6 +189,8 @@ public static class Constants
                 public const string Circuler = "circuler";
                 public const string Caracteriser = "caractériser";
                 public const string Couler = "couler";
+                public const string Caler = "caler";
+                public const string Se_Caler = "se caler";
 
                 // D
                 public const string Demander = "demander";
@@ -214,6 +216,7 @@ public static class Constants
                 public const string Determiner = "déterminer";
                 public const string Distinguer = "distinguer";
                 public const string Debarrasser = "débarrasser";
+                public const string Detailler = "détailler";
 
                 // E
                 public const string Equiper = "équiper";
@@ -273,6 +276,7 @@ public static class Constants
                 public const string Frissonner = "frissonner";
                 public const string Fumer = "fumer";
                 public const string Fusionner = "fusionner";
+                public const string Feuilleter = "feuilleter";
 
 
                 // G
@@ -314,6 +318,7 @@ public static class Constants
                 public const string Lancer = "lancer";
                 public const string Laisser = "laisser";
                 public const string Louer = "louer";
+                public const string Lever = "lever";
 
                 // M
                 public const string Marcher = "marcher";
@@ -361,6 +366,7 @@ public static class Constants
                 public const string Se_Proteger = "se protéger";
                 public const string Partager = "partager";
                 public const string Projeter = "projeter";
+                public const string Pincer = "pincer";
 
                 // R
                 public const string Raconter = "raconter";
@@ -388,6 +394,8 @@ public static class Constants
                 public const string Se_Rappeler = "se rappeler";
                 public const string Recompenser = "récompenser";
                 public const string Se_Recompenser = "se récompenser";
+                public const string Replonger = "replonger";
+                public const string Se_Replonger = "se replonger";
 
                 // S
                 public const string Spoiler = "spoiler";
