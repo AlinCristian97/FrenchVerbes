@@ -41,6 +41,7 @@ public static class Constants
             public const string Dire = "dire";
             public const string Dormir = "dormir";
             public const string Decouvrir = "découvrir";
+            public const string Se_Decouvrir = "se découvrir";
             public const string Decrire = "décrire";
             public const string Divertir = "divertir";
             public const string Se_Divertir = "se divertir";
@@ -175,6 +176,7 @@ public static class Constants
                 public const string Se_Ajuster = "s'ajuster";
                 public const string Amasser = "amasser";
                 public const string Agreer = "agréer";
+                public const string Abriter = "abriter";
 
                 // B
                 public const string Bouger = "bouger";
@@ -408,6 +410,8 @@ public static class Constants
                 // N
                 public const string Nager = "nager";
                 public const string Nouer = "nouer";
+                public const string Nommer = "nommer";
+                public const string Noter = "noter";
 
                 // O
                 public const string Organiser = "organiser";
@@ -501,6 +505,10 @@ public static class Constants
                 public const string Remiser = "remiser";
 
                 // S
+                public const string Surnommer = "surnommer";
+                public const string Se_Surnommer = "se surnommer";
+                public const string Sacrifier = "sacrifier";
+                public const string Se_Sacrifier = "se sacrifier";
                 public const string Subordonner = "subordonner";
                 public const string Signifier = "signifier";
                 public const string Spoiler = "spoiler";
