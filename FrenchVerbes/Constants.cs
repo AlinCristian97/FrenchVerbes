@@ -57,6 +57,7 @@ public static class Constants
             // I
             public const string Interrompre = "interrompre";
             public const string Interdire = "interdire";
+            public const string Meconnaitre = "méconnaître";
 
             // L
             public const string Lire = "lire";
@@ -91,6 +92,8 @@ public static class Constants
             public const string Reconnaitre = "reconnaître";
             public const string Rire = "rire";
             public const string Retenir = "retenir";
+            public const string Redecouvrir = "redécouvrir";
+            public const string Se_Redecouvrir = "se redécouvrir";
 
             // S
             public const string Savoir = "savoir";
@@ -155,6 +158,7 @@ public static class Constants
                 public const string Arranger = "arranger";
                 public const string Accompagner = "accompagner";
                 public const string Acquiescer = "acquiescer";
+                public const string Apporter = "apporter";
 
                 // B
                 public const string Bouger = "bouger";
@@ -207,6 +211,7 @@ public static class Constants
                 public const string Caresser = "caresser";
                 public const string Choquer = "choquer";
                 public const string Consterner = "consterner";
+                public const string Claquer = "claquer";
 
                 // D
                 public const string Demander = "demander";
@@ -357,6 +362,7 @@ public static class Constants
                 public const string Mener = "mener";
                 public const string Marmonner = "marmonner";
                 public const string Mentionner = "mentionner";
+                public const string Mariner = "mariner";
 
                 // N
                 public const string Nager = "nager";
@@ -430,6 +436,7 @@ public static class Constants
                 public const string Remarquer = "remarquer";
                 public const string Se_Remarquer = "se remarquer";
                 public const string Rattraper = "rattraper";
+                public const string Retracer = "retracer";
 
                 // S
                 public const string Signifier = "signifier";
@@ -457,6 +464,7 @@ public static class Constants
                 public const string Serrer = "serrer";
                 public const string Soigner = "soigner";
                 public const string Se_Soigner = "se soigner";
+                public const string Soupirer = "soupirer";
 
                 // T
                 public const string Travailler = "travailler";
