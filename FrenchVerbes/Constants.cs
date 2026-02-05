@@ -296,6 +296,7 @@ public static class Constants
                 public const string Fabriquer = "fabriquer";
                 public const string Fêter = "fêter";
                 public const string Fixer = "fixer";
+                public const string Figurer = "figurer";
                 public const string Flotter = "flotter";
                 public const string Frapper = "frapper";
                 public const string Fréquenter = "fréquenter";
