@@ -30,6 +30,7 @@ public static class Constants
             public const string Clore = "clore";
             public const string Construire = "construire";
             public const string Craindre = "craindre";
+            public const string Commettre = "commettre";
 
             // D
             public const string Devoir = "devoir";
@@ -101,6 +102,7 @@ public static class Constants
 
             // T
             public const string Tenir = "tenir";
+            public const string Taire = "taire";
 
             // V
             public const string Venir = "venir";
@@ -120,6 +122,8 @@ public static class Constants
             public static class Er
             {
                 // A
+                public const string Asséner = "asséner";
+                public const string Attacher = "attacher";
                 public const string Approcher = "approcher";
                 public const string Ajouter = "ajouter";
                 public const string Abandonner = "abandonner";
@@ -148,6 +152,7 @@ public static class Constants
                 public const string Attaquer = "attaquer";
                 public const string Arranger = "arranger";
                 public const string Accompagner = "accompagner";
+                public const string Acquiescer = "acquiescer";
 
                 // B
                 public const string Bouger = "bouger";
@@ -195,6 +200,8 @@ public static class Constants
                 public const string Couler = "couler";
                 public const string Caler = "caler";
                 public const string Se_Caler = "se caler";
+                public const string Cesser = "cesser";
+                public const string Chavirer = "chavirer";
 
                 // D
                 public const string Demander = "demander";
@@ -202,6 +209,7 @@ public static class Constants
                 public const string Donner = "donner";
                 public const string Deplacer = "déplacer";
                 public const string Dessiner = "dessiner";
+                public const string Deferler = "déferler";
                 public const string Detester = "détester";
                 public const string Durer = "durer";
                 public const string Dechainer = "déchaîner";
@@ -223,6 +231,7 @@ public static class Constants
                 public const string Detailler = "détailler";
 
                 // E
+                public const string Experimenter = "expérimenter";
                 public const string Equiper = "équiper";
                 public const string Se_Equiper = "s'équiper";
                 public const string Ecouter = "écouter";
@@ -267,6 +276,8 @@ public static class Constants
                 public const string Entrainer = "entraîner";
                 public const string Se_Entrainer = "s'entraîner";
                 public const string Encadrer = "encadrer";
+                public const string Excuser = "excuser";
+                public const string Se_Excuser = "s'excuser";
 
                 // F
                 public const string Fermer = "fermer";
@@ -284,6 +295,7 @@ public static class Constants
 
 
                 // G
+                public const string Grincer = "grincer";
                 public const string Garder = "garder";
                 public const string Gagner = "gagner";
                 public const string Goûter = "goûter";
@@ -312,6 +324,7 @@ public static class Constants
                 public const string Installer = "installer";
                 public const string Importer = "importer";
                 public const string Infliger = "infliger";
+                public const string Incarner = "incarner";
 
                 // J
                 public const string Jeter = "jeter";
@@ -348,6 +361,7 @@ public static class Constants
                 public const string Parler = "parler";
                 public const string Passer = "passer";
                 public const string Payer = "payer";
+                public const string Preserver = "préserver";
                 public const string Penser = "penser";
                 public const string Peter = "péter";
                 public const string Porter = "porter";
@@ -370,6 +384,7 @@ public static class Constants
                 public const string Se_Proteger = "se protéger";
                 public const string Partager = "partager";
                 public const string Projeter = "projeter";
+                public const string Plancher = "plancher";
                 public const string Pincer = "pincer";
 
                 // R
@@ -400,8 +415,13 @@ public static class Constants
                 public const string Se_Recompenser = "se récompenser";
                 public const string Replonger = "replonger";
                 public const string Se_Replonger = "se replonger";
+                public const string Remporter = "remporter";
+                public const string Remarquer = "remarquer";
+                public const string Se_Remarquer = "se remarquer";
+                public const string Rattraper = "rattraper";
 
                 // S
+                public const string Signifier = "signifier";
                 public const string Spoiler = "spoiler";
                 public const string Sedater = "sédater";
                 public const string Saluer = "saluer";
@@ -474,6 +494,7 @@ public static class Constants
 
                 // E
                 public const string Etablir = "établir";
+                public const string Emplir = "emplir";
 
                 // F
                 public const string Finir = "finir";
@@ -482,6 +503,7 @@ public static class Constants
                 public const string Grandir = "grandir";
                 public const string Grossir = "grossir";
                 public const string Guerir = "guérir";
+                public const string Gemir = "gémir";
 
                 // I
                 public const string Interagir = "interagir";
@@ -554,7 +576,7 @@ public static class Constants
     
     public static class VerbDescriptions
     {
-        #region  Irregular
+        #region Irregular
 
         public static class Irregular
         {
