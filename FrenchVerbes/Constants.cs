@@ -31,6 +31,7 @@ public static class Constants
             public const string Construire = "construire";
             public const string Craindre = "craindre";
             public const string Commettre = "commettre";
+            public const string Coudre = "coudre";
 
             // D
             public const string Devoir = "devoir";
@@ -55,7 +56,8 @@ public static class Constants
 
             // I
             public const string Interrompre = "interrompre";
-            
+            public const string Interdire = "interdire";
+
             // L
             public const string Lire = "lire";
             
@@ -202,6 +204,9 @@ public static class Constants
                 public const string Se_Caler = "se caler";
                 public const string Cesser = "cesser";
                 public const string Chavirer = "chavirer";
+                public const string Caresser = "caresser";
+                public const string Choquer = "choquer";
+                public const string Consterner = "consterner";
 
                 // D
                 public const string Demander = "demander";
@@ -229,6 +234,7 @@ public static class Constants
                 public const string Distinguer = "distinguer";
                 public const string Debarrasser = "débarrasser";
                 public const string Detailler = "détailler";
+                public const string Degager = "dégager";
 
                 // E
                 public const string Experimenter = "expérimenter";
@@ -317,6 +323,7 @@ public static class Constants
                 public const string Happer = "happer";
                 public const string Hocher = "hocher";
                 public const string Hausser = "hausser";
+                public const string Habiller = "habiller";
 
                 // I
                 public const string Imaginer = "imaginer";
@@ -325,6 +332,7 @@ public static class Constants
                 public const string Importer = "importer";
                 public const string Infliger = "infliger";
                 public const string Incarner = "incarner";
+                public const string Inspecter = "inspecter";
 
                 // J
                 public const string Jeter = "jeter";
@@ -347,6 +355,8 @@ public static class Constants
                 public const string Maitriser = "maîtriser";
                 public const string Meler = "mêler";
                 public const string Mener = "mener";
+                public const string Marmonner = "marmonner";
+                public const string Mentionner = "mentionner";
 
                 // N
                 public const string Nager = "nager";
@@ -409,6 +419,7 @@ public static class Constants
                 public const string Rouiller = "rouiller";
                 public const string Repousser = "repousser";
                 public const string Retrouver = "retrouver";
+                public const string Se_Retrouver = "se retrouver";
                 public const string Rappeler = "rappeler";
                 public const string Se_Rappeler = "se rappeler";
                 public const string Recompenser = "récompenser";
@@ -459,6 +470,7 @@ public static class Constants
                 public const string Toucher = "toucher";
                 public const string Tirer = "tirer";
                 public const string Tuer = "tuer";
+                public const string Tisser = "tisser";
 
                 // U
                 public const string Utiliser = "utiliser";
