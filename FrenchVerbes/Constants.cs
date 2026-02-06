@@ -276,6 +276,7 @@ public static class Constants
                 public const string Degager = "dégager";
                 public const string Denommer = "dénommer";
                 public const string Diriger = "diriger";
+                public const string Demontrer = "démontrer";
 
                 // E
                 public const string Exploser = "exploser";
@@ -477,9 +478,16 @@ public static class Constants
                 public const string Plancher = "plancher";
                 public const string Pincer = "pincer";
                 public const string Piquer = "piquer";
+                public const string Progresser = "progresser";
+                public const string Planter = "planter";
+                public const string Prouver = "prouver";
+
+                // Q
+                public const string Quitter = "quitter";
 
                 // R
                 public const string Raisonner = "raisonner";
+                public const string Rapporter = "rapporter";
                 public const string Recommencer = "recommencer";
                 public const string Raconter = "raconter";
                 public const string Regarder = "regarder";
@@ -622,6 +630,7 @@ public static class Constants
 
                 // F
                 public const string Finir = "finir";
+                public const string Franchir = "franchir";
 
                 // G
                 public const string Grandir = "grandir";
