@@ -305,6 +305,8 @@ public static class Constants
                 public const string Devaster = "dévaster";
 
                 // E
+                public const string Embrasser = "embrasser";
+                public const string Se_Embrasser = "se embrasser";
                 public const string Eclairer = "éclairer";
                 public const string Exploser = "exploser";
                 public const string Experimenter = "expérimenter";
