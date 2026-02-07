@@ -148,6 +148,7 @@ public static class Constants
             public static class Er
             {
                 // A
+                public const string Achever = "achever";
                 public const string Adopter = "adopter";
                 public const string Se_Affronter = "se affronter";
                 public const string Aviser = "aviser";
@@ -424,6 +425,7 @@ public static class Constants
                 public const string Habiller = "habiller";
 
                 // I
+                public const string Imprimer = "imprimer";
                 public const string Imaginer = "imaginer";
                 public const string Inviter = "inviter";
                 public const string Installer = "installer";
