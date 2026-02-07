@@ -99,6 +99,7 @@ public static class Constants
             public const string Permettre = "permettre";
             public const string Promettre = "promettre";
             public const string Parvenir = "parvenir";
+            public const string Poursuivre = "poursuivre";
 
             // R
             public const string Repondre = "répondre";
@@ -146,6 +147,7 @@ public static class Constants
             public static class Er
             {
                 // A
+                public const string Se_Affronter = "se affronter";
                 public const string Aviser = "aviser";
                 public const string Accuser = "accuser";
                 public const string Se_Accuser = "s'accuser";
@@ -495,6 +497,7 @@ public static class Constants
                 public const string Peter = "péter";
                 public const string Porter = "porter";
                 public const string Preparer = "préparer";
+                public const string Se_Preparer = "se préparer";
                 public const string Preferer = "préférer";
                 public const string Preter = "prêter";
                 public const string Se_Preter = "se prêter";
@@ -726,6 +729,7 @@ public static class Constants
             {
                 // A
                 public const string Attendre = "attendre";
+                public const string Se_Attendre = "s'attendre";
 
                 // C
                 public const string Comprendre = "comprendre";
