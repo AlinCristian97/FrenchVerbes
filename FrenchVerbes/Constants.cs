@@ -212,6 +212,7 @@ public static class Constants
                 public const string conferer = "conférer";
                 public const string Condamner = "condamner";
                 public const string Changer = "changer";
+                public const string Se_Changer = "se changer";
                 public const string Chercher = "chercher";
                 public const string Cliquer = "cliquer";
                 public const string Commencer = "commencer";
@@ -245,6 +246,7 @@ public static class Constants
                 public const string Cuisiner = "cuisiner";
                 public const string Confirmer = "confirmer";
                 public const string Connecter = "connecter";
+                public const string Se_Connecter = "se connecter";
                 public const string Considérer = "considérer";
                 public const string Consulter = "consulter";
                 public const string Contracter = "contracter";
@@ -451,6 +453,7 @@ public static class Constants
                 public const string Se_Liberer = "se libérer";
 
                 // M
+                public const string Modifier = "modifier";
                 public const string Meriter = "mériter";
                 public const string Marcher = "marcher";
                 public const string Manger = "manger";
