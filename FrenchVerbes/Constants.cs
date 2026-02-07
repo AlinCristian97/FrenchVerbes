@@ -22,6 +22,7 @@ public static class Constants
             public const string Battre = "battre";
 
             // C
+            public const string Contribuer = "contribuer";
             public const string Conduire = "conduire";
             public const string Contenir = "contenir";
             public const string Croire = "croire";
@@ -147,6 +148,7 @@ public static class Constants
             public static class Er
             {
                 // A
+                public const string Adopter = "adopter";
                 public const string Se_Affronter = "se affronter";
                 public const string Aviser = "aviser";
                 public const string Accuser = "accuser";
@@ -165,6 +167,7 @@ public static class Constants
                 public const string Acheter = "acheter";
                 public const string Activer = "activer";
                 public const string Adapter = "adapter";
+                public const string Se_Adapter = "s'adapter";
                 public const string Aimer = "aimer";
                 public const string Appeler = "appeler";
                 public const string Arriver = "arriver";
@@ -208,6 +211,7 @@ public static class Constants
                 public const string Se_Bloquer = "se bloquer";
 
                 // C
+                public const string Contourner = "contourner";
                 public const string Compter = "compter";
                 public const string conferer = "conférer";
                 public const string Condamner = "condamner";
@@ -476,6 +480,7 @@ public static class Constants
                 public const string Noter = "noter";
 
                 // O
+                public const string Oeuvrer = "oeuvrer";
                 public const string Organiser = "organiser";
                 public const string Oublier = "oublier";
                 public const string Observer = "observer";
