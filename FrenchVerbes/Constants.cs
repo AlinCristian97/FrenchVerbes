@@ -101,6 +101,7 @@ public static class Constants
             public const string Promettre = "promettre";
             public const string Parvenir = "parvenir";
             public const string Poursuivre = "poursuivre";
+            public const string Prevoir = "prévoir";
 
             // R
             public const string Repondre = "répondre";
@@ -540,6 +541,7 @@ public static class Constants
                 public const string Quitter = "quitter";
 
                 // R
+                public const string Reserver = "réserver";
                 public const string Risquer = "risquer";
                 public const string Ruiner = "ruiner";
                 public const string Relacher = "relâcher";
@@ -597,6 +599,8 @@ public static class Constants
                 public const string Se_Repeter = "se répéter";
 
                 // S
+                public const string Stationner = "stationner";
+                public const string Se_Stationner = "se stationner";
                 public const string Semer = "semer";
                 public const string Surnommer = "surnommer";
                 public const string Se_Surnommer = "se surnommer";
