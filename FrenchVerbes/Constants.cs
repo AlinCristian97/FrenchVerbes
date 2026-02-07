@@ -19,7 +19,8 @@ public static class Constants
 
             // B
             public const string Boire = "boire";
-            
+            public const string Battre = "battre";
+
             // C
             public const string Conduire = "conduire";
             public const string Contenir = "contenir";
@@ -36,6 +37,7 @@ public static class Constants
             public const string Connaitre = "connaître";
             public const string Se_Connaitre = "se connaître";
             public const string Corrompre = "corrompre";
+            public const string Crever = "crever";
 
             // D
             public const string Detruire = "détruire";
@@ -144,6 +146,9 @@ public static class Constants
             public static class Er
             {
                 // A
+                public const string Accuser = "accuser";
+                public const string Se_Accuser = "s'accuser";
+                public const string Aboyer = "aboyer";
                 public const string Avouer = "avouer";
                 public const string Apostropher = "apostropher";
                 public const string Asséner = "asséner";
@@ -188,6 +193,7 @@ public static class Constants
                 public const string Amasser = "amasser";
                 public const string Agreer = "agréer";
                 public const string Abriter = "abriter";
+                public const string Accorder = "accorder";
 
                 // B
                 public const string Bouger = "bouger";
@@ -257,6 +263,7 @@ public static class Constants
                 public const string Censer = "censer";
 
                 // D
+                public const string Diner = "dîner";
                 public const string Detonner = "détonner";
                 public const string Declencher = "déclencher";
                 public const string Demander = "demander";
@@ -367,6 +374,8 @@ public static class Constants
                 public const string Feuilleter = "feuilleter";
                 public const string Foudroyer = "foudroyer";
                 public const string Flairer = "flairer";
+                public const string Feliciter = "féliciter";
+                public const string Se_Feliciter = "se féliciter";
 
                 // G
                 public const string Grincer = "grincer";
@@ -428,6 +437,7 @@ public static class Constants
                 public const string Se_Lacher = "se lâcher";
 
                 // M
+                public const string Meriter = "mériter";
                 public const string Marcher = "marcher";
                 public const string Manger = "manger";
                 public const string Montrer = "montrer";
@@ -455,6 +465,7 @@ public static class Constants
                 public const string Oser = "oser";
                 public const string Obliger = "obliger";
                 public const string Occuper = "occuper";
+                public const string Se_Occuper = "s'occuper";
                 public const string Oter = "ôter";
 
                 // P
@@ -501,6 +512,8 @@ public static class Constants
                 public const string Quitter = "quitter";
 
                 // R
+                public const string Risquer = "risquer";
+                public const string Ruiner = "ruiner";
                 public const string Relacher = "relâcher";
                 public const string Raisonner = "raisonner";
                 public const string Rapporter = "rapporter";
@@ -590,6 +603,7 @@ public static class Constants
                 public const string Sprinter = "sprinter";
 
                 // T
+                public const string Trainer = "traîner";
                 public const string Toiser = "toiser";
                 public const string Travailler = "travailler";
                 public const string Trouver = "trouver";
