@@ -300,8 +300,10 @@ public static class Constants
                 public const string Diriger = "diriger";
                 public const string Demontrer = "démontrer";
                 public const string Deceler = "déceler";
+                public const string Devaster = "dévaster";
 
                 // E
+                public const string Eclairer = "éclairer";
                 public const string Exploser = "exploser";
                 public const string Experimenter = "expérimenter";
                 public const string Equiper = "équiper";
@@ -526,6 +528,7 @@ public static class Constants
                 public const string Risquer = "risquer";
                 public const string Ruiner = "ruiner";
                 public const string Relacher = "relâcher";
+                public const string Ramener = "ramener";
                 public const string Raisonner = "raisonner";
                 public const string Rapporter = "rapporter";
                 public const string Recommencer = "recommencer";
