@@ -228,6 +228,7 @@ public static class Constants
                 public const string Se_Bloquer = "se bloquer";
 
                 // C
+                public const string Celebrer = "célébrer";
                 public const string Cooperer = "coopérer";
                 public const string Contourner = "contourner";
                 public const string Compter = "compter";
@@ -422,6 +423,7 @@ public static class Constants
                 public const string Se_Feliciter = "se féliciter";
 
                 // G
+                public const string Gester = "gester";
                 public const string Gener = "gêner";
                 public const string Se_Gener = "se gêner";
                 public const string Grincer = "grincer";
@@ -453,6 +455,8 @@ public static class Constants
                 public const string Habiller = "habiller";
 
                 // I
+                public const string Injurer = "injurer";
+                public const string Insulter = "insulter";
                 public const string Informer = "informer";
                 public const string Imprimer = "imprimer";
                 public const string Imaginer = "imaginer";
@@ -482,6 +486,7 @@ public static class Constants
 
 
                 // L
+                public const string Laver = "laver";
                 public const string Lancer = "lancer";
                 public const string Laisser = "laisser";
                 public const string Louer = "louer";
@@ -576,6 +581,7 @@ public static class Constants
                 public const string Quitter = "quitter";
 
                 // R
+                public const string Reperer = "repérer";
                 public const string Refuser = "refuser";
                 public const string Reveler = "révéler";
                 public const string Renier = "renier";
@@ -681,6 +687,7 @@ public static class Constants
                 public const string Sprinter = "sprinter";
 
                 // T
+                public const string Trier = "trier";
                 public const string Traverser = "traverser";
                 public const string Taper = "taper";
                 public const string Tacher = "tâcher";
@@ -739,6 +746,7 @@ public static class Constants
                 public const string Durcir = "durcir";
 
                 // E
+                public const string Enrichir = "enrichir";
                 public const string Etablir = "établir";
                 public const string Emplir = "emplir";
                 public const string Engourdir = "engourdir";
