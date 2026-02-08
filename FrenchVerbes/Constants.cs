@@ -39,6 +39,7 @@ public static class Constants
             public const string Se_Connaitre = "se connaître";
             public const string Corrompre = "corrompre";
             public const string Crever = "crever";
+            public const string Combattre = "combattre";
 
             // D
             public const string Detruire = "détruire";
@@ -81,6 +82,7 @@ public static class Constants
             public const string Moudre = "moudre";
             public const string Mettre = "mettre";
             public const string Maintenir = "maintenir";
+            public const string Mourir = "mourir";
 
             // N
             public const string Nuire = "nuire";
@@ -286,6 +288,7 @@ public static class Constants
                 public const string Censer = "censer";
 
                 // D
+                public const string Devorer = "dévorer";
                 public const string Diner = "dîner";
                 public const string Detonner = "détonner";
                 public const string Declencher = "déclencher";
@@ -390,6 +393,7 @@ public static class Constants
                 public const string Se_Enteter = "s'entêter";
 
                 // F
+                public const string Former = "former";
                 public const string Fermer = "fermer";
                 public const string Freiner = "freiner";
                 public const string Fabriquer = "fabriquer";
@@ -456,12 +460,17 @@ public static class Constants
                 public const string Se_Interesser = "s'intéresser";
                 public const string Imiter = "imiter";
                 public const string Interroger = "interroger";
+                public const string Implorer = "implorer";
+                public const string Ignorer = "ignorer";
 
                 // J
                 public const string Jeter = "jeter";
                 public const string Se_Jeter = "se jeter";
                 public const string Jouer = "jouer";
                 public const string Juger = "juger";
+                public const string Jurer = "jurer";
+                public const string Se_Jurer = "se jurer";
+
 
                 // L
                 public const string Lancer = "lancer";
@@ -556,6 +565,7 @@ public static class Constants
                 public const string Quitter = "quitter";
 
                 // R
+                public const string Resssembler = "ressembler";
                 public const string Reserver = "réserver";
                 public const string Risquer = "risquer";
                 public const string Ruiner = "ruiner";
