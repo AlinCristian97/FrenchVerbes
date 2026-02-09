@@ -514,6 +514,7 @@ public static class Constants
                 public const string Se_Lacher = "se lâcher";
                 public const string Liberer = "libérer";
                 public const string Se_Liberer = "se libérer";
+                public const string Lier = "lier";
 
                 // M
                 public const string Modifier = "modifier";
@@ -663,6 +664,8 @@ public static class Constants
                 public const string Repeter = "répéter";
                 public const string Se_Repeter = "se répéter";
                 public const string Renouer = "renouer";
+                public const string Redouter = "redouter";
+                public const string Renoncer = "renoncer";
 
                 // S
                 public const string Saboter = "saboter";
