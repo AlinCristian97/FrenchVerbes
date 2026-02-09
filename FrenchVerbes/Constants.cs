@@ -95,6 +95,7 @@ public static class Constants
             public const string Offrir = "offrir";
 
             // P
+            public const string Percevoir = "percevoir";
             public const string Partir = "partir";
             public const string Perdre = "perdre";
             public const string Se_Perdre = "se perdre";
@@ -218,6 +219,7 @@ public static class Constants
                 public const string Alerter = "alerter";
 
                 // B
+                public const string Beneficier = "bénéficier";
                 public const string Bombarder = "bombarder";
                 public const string Bouger = "bouger";
                 public const string Baptiser = "baptiser";
@@ -335,6 +337,9 @@ public static class Constants
                 public const string Se_Depecher = "se dépêcher";
 
                 // E
+                public const string Ecraser = "écraser";
+                public const string Se_Ecraser = "s'écraser";
+                public const string Estimer = "estimer";
                 public const string Expedier = "expédier";
                 public const string Embrasser = "embrasser";
                 public const string Se_Embrasser = "se embrasser";
@@ -400,6 +405,9 @@ public static class Constants
                 public const string Electrifier = "électrifier";
                 public const string Se_Electrifier = "s'électrifier";
                 public const string Se_Enteter = "s'entêter";
+                public const string Effondrer = "effondrer";
+                public const string Se_Effondrer = "s'effondrer";
+
 
                 // F
                 public const string Forger = "forger";
@@ -522,6 +530,7 @@ public static class Constants
                 public const string Noyer = "noyer";
 
                 // O
+                public const string Opprimer = "opprimer";
                 public const string Oeuvrer = "oeuvrer";
                 public const string Organiser = "organiser";
                 public const string Oublier = "oublier";
@@ -646,6 +655,8 @@ public static class Constants
                 public const string Renouer = "renouer";
 
                 // S
+                public const string Saboter = "saboter";
+                public const string Se_Saboter = "se saboter";
                 public const string Stresser = "stresser";
                 public const string Structurer = "structurer";
                 public const string Stationner = "stationner";
@@ -687,6 +698,7 @@ public static class Constants
                 public const string Sprinter = "sprinter";
 
                 // T
+                public const string Troubler = "troubler";
                 public const string Trier = "trier";
                 public const string Traverser = "traverser";
                 public const string Taper = "taper";
