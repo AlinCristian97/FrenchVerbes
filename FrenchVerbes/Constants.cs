@@ -120,6 +120,7 @@ public static class Constants
             public const string Redecouvrir = "redécouvrir";
             public const string Se_Redecouvrir = "se redécouvrir";
             public const string Revenir = "revenir";
+            public const string Renvoyer = "renvoyer";
 
             // S
             public const string Savoir = "savoir";
@@ -230,6 +231,7 @@ public static class Constants
                 public const string Se_Bloquer = "se bloquer";
 
                 // C
+                public const string Compenser = "compenser";
                 public const string Celebrer = "célébrer";
                 public const string Cooperer = "coopérer";
                 public const string Contourner = "contourner";
@@ -335,8 +337,15 @@ public static class Constants
                 public const string Defier = "défier";
                 public const string Depecher = "dépêcher";
                 public const string Se_Depecher = "se dépêcher";
+                public const string Decharger = "décharger";
+                public const string Se_Decharger = "se décharger";
+                public const string Detailer = "détailler";
 
                 // E
+                public const string Empoisonner = "empoisonner";
+                public const string Se_Empoisonner = "s'empoisonner";
+                public const string Enflammer = "enflammer";
+                public const string Se_Enflammer = "s'enflammer";
                 public const string Ecraser = "écraser";
                 public const string Se_Ecraser = "s'écraser";
                 public const string Estimer = "estimer";
@@ -698,6 +707,7 @@ public static class Constants
                 public const string Sprinter = "sprinter";
 
                 // T
+                public const string Triompher = "triompher";
                 public const string Troubler = "troubler";
                 public const string Trier = "trier";
                 public const string Traverser = "traverser";
