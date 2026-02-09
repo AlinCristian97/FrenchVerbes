@@ -416,7 +416,8 @@ public static class Constants
                 public const string Se_Enteter = "s'entêter";
                 public const string Effondrer = "effondrer";
                 public const string Se_Effondrer = "s'effondrer";
-
+                public const string Egarer = "égarer";
+                public const string Se_Egarer = "s'égarer";
 
                 // F
                 public const string Forger = "forger";
