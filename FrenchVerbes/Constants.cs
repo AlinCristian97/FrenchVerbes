@@ -307,6 +307,7 @@ public static class Constants
                 public const string Discuter = "discuter";
                 public const string Donner = "donner";
                 public const string Deplacer = "déplacer";
+                public const string Se_Deplacer = "se déplacer";
                 public const string Dessiner = "dessiner";
                 public const string Designer = "désigner";
                 public const string Deferler = "déferler";
