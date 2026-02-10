@@ -295,6 +295,7 @@ public static class Constants
                 public const string Se_Concentrer = "se concentrer";
                 public const string Chasser = "chasser";
                 public const string Censer = "censer";
+                public const string Ceder = "céder";
 
                 // D
                 public const string Devorer = "dévorer";
@@ -342,6 +343,7 @@ public static class Constants
                 public const string Detailer = "détailler";
 
                 // E
+                public const string Evoquer = "évoquer";
                 public const string Empoisonner = "empoisonner";
                 public const string Se_Empoisonner = "s'empoisonner";
                 public const string Enflammer = "enflammer";
