@@ -869,6 +869,9 @@ public static class Constants
                 public const string Ressentir = "ressentir";
                 public const string Reunir = "réunir";
 
+                // S
+                public const string Subir = "subir";
+
                 // T
                 public const string Trahir = "trahir";
 
