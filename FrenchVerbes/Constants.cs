@@ -502,6 +502,7 @@ public static class Constants
                 public const string Habiller = "habiller";
 
                 // I
+                public const string Insister = "insister";
                 public const string Inspirer = "inspirer";
                 public const string Se_Inspirer = "s'inspirer";
                 public const string Indiquer = "indiquer";
@@ -642,6 +643,7 @@ public static class Constants
                 public const string Quitter = "quitter";
 
                 // R
+                public const string Retarder = "retarder";
                 public const string Refermer = "refermer";
                 public const string Ricaner = "ricaner";
                 public const string Reutiliser = "réutiliser";
