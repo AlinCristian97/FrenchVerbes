@@ -139,6 +139,7 @@ public static class Constants
             public const string Suffire = "suffire";
             public const string Survivre = "survivre";
             public const string Se_Souvenir = "se souvenir";
+            public const string Survenir = "survenir";
 
             // T
             public const string Tenir = "tenir";
@@ -487,6 +488,7 @@ public static class Constants
                 public const string Habiller = "habiller";
 
                 // I
+                public const string Indiquer = "indiquer";
                 public const string Injurer = "injurer";
                 public const string Insulter = "insulter";
                 public const string Informer = "informer";
