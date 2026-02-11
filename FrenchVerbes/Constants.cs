@@ -163,6 +163,7 @@ public static class Constants
             public static class Er
             {
                 // A
+                public const string Annoncer = "annoncer";
                 public const string Actionner = "actionner";
                 public const string Axer = "axer";
                 public const string Se_Axer = "s'axer";
