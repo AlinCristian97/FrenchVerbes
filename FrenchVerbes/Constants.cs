@@ -174,6 +174,7 @@ public static class Constants
                 public const string Aborder = "aborder";
                 public const string Attirer = "attirer";
                 public const string Achever = "achever";
+                public const string Se_Achever = "s'achever";
                 public const string Adopter = "adopter";
                 public const string Affronter = "affronter";
                 public const string Se_Affronter = "se affronter";
@@ -314,6 +315,7 @@ public static class Constants
                 public const string Completer = "compléter";
 
                 // D
+                public const string Debuter = "débuter";
                 public const string Devorer = "dévorer";
                 public const string Diner = "dîner";
                 public const string Detonner = "détonner";
@@ -446,6 +448,7 @@ public static class Constants
                 public const string Frequenter = "fréquenter";
                 public const string Fissurer = "fissurer";
                 public const string Forger = "forger";
+                public const string Se_Forger = "se forger";
                 public const string Former = "former";
                 public const string Fermer = "fermer";
                 public const string Freiner = "freiner";
@@ -525,6 +528,7 @@ public static class Constants
                 public const string Impliquer = "impliquer";
 
                 // J
+                public const string Joncher = "joncher";
                 public const string Jeter = "jeter";
                 public const string Se_Jeter = "se jeter";
                 public const string Jouer = "jouer";
@@ -573,6 +577,7 @@ public static class Constants
                 public const string Nommer = "nommer";
                 public const string Noter = "noter";
                 public const string Noyer = "noyer";
+                public const string Se_Noyer = "se noyer";
                 public const string Necessiter = "nécessiter";
 
                 // O
@@ -755,8 +760,10 @@ public static class Constants
                 public const string Soupirer = "soupirer";
                 public const string Soupconner = "soupçonner";
                 public const string Sprinter = "sprinter";
+                public const string Souffler = "souffler";
 
                 // T
+                public const string Trembler = "trembler";
                 public const string Triompher = "triompher";
                 public const string Troubler = "troubler";
                 public const string Trier = "trier";
@@ -862,6 +869,7 @@ public static class Constants
                 public const string Reflechir = "réfléchir";
                 public const string Reussir = "réussir";
                 public const string Remplir = "remplir";
+                public const string Se_Remplir = "se remplir";
                 public const string Rougir = "rougir";
                 public const string Refroidir = "refroidir";
                 public const string Ravir = "ravir";
