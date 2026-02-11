@@ -243,6 +243,7 @@ public static class Constants
                 public const string Se_Bloquer = "se bloquer";
 
                 // C
+                public const string Convoquer = "convoquer";
                 public const string Curater = "curater";
                 public const string Compenser = "compenser";
                 public const string Celebrer = "célébrer";
@@ -443,6 +444,7 @@ public static class Constants
                 public const string Egarer = "égarer";
                 public const string Se_Egarer = "s'égarer";
                 public const string Ecumer = "écumer";
+                public const string Echouer = "échouer";
 
                 // F
                 public const string Frequenter = "fréquenter";
@@ -643,6 +645,7 @@ public static class Constants
                 public const string Quitter = "quitter";
 
                 // R
+                public const string Recouvrir = "recouvrir";
                 public const string Retarder = "retarder";
                 public const string Refermer = "refermer";
                 public const string Ricaner = "ricaner";
