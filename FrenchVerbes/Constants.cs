@@ -691,6 +691,7 @@ public static class Constants
                 public const string Renoncer = "renoncer";
 
                 // S
+                public const string Se_Suicider = "se suicider";
                 public const string Saboter = "saboter";
                 public const string Se_Saboter = "se saboter";
                 public const string Stresser = "stresser";
