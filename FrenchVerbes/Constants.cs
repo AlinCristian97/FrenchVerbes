@@ -120,6 +120,7 @@ public static class Constants
             public const string Produire = "produire";
 
             // R
+            public const string Remettre = "remettre";
             public const string Recouvrir = "recouvrir";
             public const string Reduire = "réduire";
             public const string Recevoir = "recevoir";
@@ -728,6 +729,8 @@ public static class Constants
                 public const string Renoncer = "renoncer";
 
                 // S
+                public const string Separer = "séparer";
+                public const string Se_Separer = "se séparer";
                 public const string Situer = "situer";
                 public const string Se_Suicider = "se suicider";
                 public const string Saboter = "saboter";
