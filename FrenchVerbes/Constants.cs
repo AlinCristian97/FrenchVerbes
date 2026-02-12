@@ -42,6 +42,7 @@ public static class Constants
             public const string Combattre = "combattre";
 
             // D
+            public const string Dechoir = "déchoir";
             public const string Detruire = "détruire";
             public const string Devoir = "devoir";
             public const string Dire = "dire";
@@ -55,6 +56,8 @@ public static class Constants
             public const string Disparaitre = "disparaître";
 
             // E
+            public const string Etendre = "étendre";
+            public const string Se_Etendre = "s'étendre";
             public const string Enduire = "enduire";
             public const string Ecrire = "écrire";
             public const string Etre = "être";
@@ -117,6 +120,7 @@ public static class Constants
             public const string Produire = "produire";
 
             // R
+            public const string Recouvrir = "recouvrir";
             public const string Reduire = "réduire";
             public const string Recevoir = "recevoir";
             public const string Repondre = "répondre";
@@ -566,6 +570,7 @@ public static class Constants
                 public const string Marquer = "marquer";
                 public const string Maitriser = "maîtriser";
                 public const string Meler = "mêler";
+                public const string Se_Meler = "se mêler";
                 public const string Mener = "mener";
                 public const string Marmonner = "marmonner";
                 public const string Mentionner = "mentionner";
@@ -645,7 +650,8 @@ public static class Constants
                 public const string Quitter = "quitter";
 
                 // R
-                public const string Recouvrir = "recouvrir";
+                public const string Violer = "violer";
+                public const string Raviver = "raviver";
                 public const string Retarder = "retarder";
                 public const string Refermer = "refermer";
                 public const string Ricaner = "ricaner";
