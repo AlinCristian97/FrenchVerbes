@@ -16,6 +16,7 @@ public static class Constants
             public const string Atteindre = "atteindre";
             public const string Asseoir = "asseoir";
             public const string Se_Asseoir = "s'asseoir";
+            public const string Apparaitre = "apparaître";
 
             // B
             public const string Boire = "boire";
@@ -369,6 +370,8 @@ public static class Constants
                 public const string Dresser = "dresser";
 
                 // E
+                public const string Emprisonner = "emprisonner";
+                public const string Se_Emprisonner = "s'emprisonner";
                 public const string Enfurier = "enfurier";
                 public const string Se_Enfurier = "s'enfurier";
                 public const string Evoquer = "évoquer";
@@ -509,6 +512,7 @@ public static class Constants
                 public const string Habiller = "habiller";
 
                 // I
+                public const string Identifier = "identifier";
                 public const string Insister = "insister";
                 public const string Inspirer = "inspirer";
                 public const string Se_Inspirer = "s'inspirer";
