@@ -809,6 +809,8 @@ public static class Constants
                 public const string Utiliser = "utiliser";
 
                 // V
+                public const string Verifier = "vérifier";
+                public const string Se_Verifier = "se vérifier";
                 public const string Viser = "viser";
                 public const string Vider = "vider";
                 public const string Voyager = "voyager";
