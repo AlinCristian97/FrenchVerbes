@@ -79,6 +79,9 @@ public static class Constants
             public const string Falloir = "falloir";
             public const string Fuir = "fuir";
 
+            // H
+            public const string Hair = "haïr";
+
             // I
             public const string Interrompre = "interrompre";
             public const string Interdire = "interdire";
@@ -160,6 +163,7 @@ public static class Constants
             public const string Vivre = "vivre";
             public const string Voir = "voir";
             public const string Vouloir = "vouloir";
+            public const string Valoir = "valoir";
 
             //... more to come
         }
@@ -512,6 +516,7 @@ public static class Constants
                 public const string Habiller = "habiller";
 
                 // I
+                public const string Interpeller = "interpeller";
                 public const string Identifier = "identifier";
                 public const string Insister = "insister";
                 public const string Inspirer = "inspirer";
@@ -563,6 +568,7 @@ public static class Constants
                 public const string Lier = "lier";
 
                 // M
+                public const string Moquer = "moquer";
                 public const string Manquer = "manquer";
                 public const string Mesurer = "mesurer";
                 public const string Modifier = "modifier";
@@ -731,6 +737,8 @@ public static class Constants
                 public const string Renouer = "renouer";
                 public const string Redouter = "redouter";
                 public const string Renoncer = "renoncer";
+                public const string Ridiculiser = "ridiculiser";
+                public const string Se_Ridiculiser = "se ridiculiser";
 
                 // S
                 public const string Separer = "séparer";
