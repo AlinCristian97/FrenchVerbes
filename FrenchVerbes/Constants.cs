@@ -669,6 +669,7 @@ public static class Constants
                 public const string Quitter = "quitter";
 
                 // R
+                public const string Rôder = "rôder";
                 public const string Violer = "violer";
                 public const string Raviver = "raviver";
                 public const string Retarder = "retarder";
@@ -798,6 +799,7 @@ public static class Constants
                 public const string Souffler = "souffler";
 
                 // T
+                public const string Traiter = "traiter";
                 public const string Trembler = "trembler";
                 public const string Triompher = "triompher";
                 public const string Troubler = "troubler";
