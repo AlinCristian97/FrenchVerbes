@@ -326,6 +326,7 @@ public static class Constants
                 public const string Completer = "compléter";
 
                 // D
+                public const string Divaguer = "divaguer";
                 public const string Debuter = "débuter";
                 public const string Devorer = "dévorer";
                 public const string Diner = "dîner";
@@ -741,6 +742,7 @@ public static class Constants
                 public const string Se_Ridiculiser = "se ridiculiser";
 
                 // S
+                public const string Souiller = "souiller";
                 public const string Separer = "séparer";
                 public const string Se_Separer = "se séparer";
                 public const string Situer = "situer";
