@@ -9,6 +9,7 @@ public static class Constants
         public static class Irregular
         {
             // A
+            public const string Advenir = "advenir";
             public const string Acceder = "accéder";
             public const string Aller = "aller";
             public const string Accourir = "accourir";
@@ -17,12 +18,14 @@ public static class Constants
             public const string Asseoir = "asseoir";
             public const string Se_Asseoir = "s'asseoir";
             public const string Apparaitre = "apparaître";
+            public const string Admettre = "admettre";
 
             // B
             public const string Boire = "boire";
             public const string Battre = "battre";
 
             // C
+            public const string Conquerir = "conquérir";
             public const string Contribuer = "contribuer";
             public const string Conduire = "conduire";
             public const string Contenir = "contenir";
@@ -57,6 +60,7 @@ public static class Constants
             public const string Disparaitre = "disparaître";
 
             // E
+            public const string Echoir = "échoir";
             public const string Etendre = "étendre";
             public const string Se_Etendre = "s'étendre";
             public const string Enduire = "enduire";
@@ -107,6 +111,7 @@ public static class Constants
             public const string Offrir = "offrir";
 
             // P
+            public const string Paraitre = "paraître";
             public const string Percevoir = "percevoir";
             public const string Partir = "partir";
             public const string Perdre = "perdre";
@@ -328,8 +333,11 @@ public static class Constants
                 public const string Ceder = "céder";
                 public const string Charger = "charger";
                 public const string Completer = "compléter";
+                public const string Composer = "composer";
 
                 // D
+                public const string Debrouiller = "débrouiller";
+                public const string Se_Debrouiller = "se débrouiller";
                 public const string Divaguer = "divaguer";
                 public const string Debuter = "débuter";
                 public const string Devorer = "dévorer";
@@ -466,6 +474,8 @@ public static class Constants
                 public const string Echouer = "échouer";
 
                 // F
+                public const string Forcer = "forcer";
+                public const string Se_Forcer = "se forcer";
                 public const string Frequenter = "fréquenter";
                 public const string Fissurer = "fissurer";
                 public const string Forger = "forger";
@@ -489,6 +499,7 @@ public static class Constants
                 public const string Feliciter = "féliciter";
                 public const string Se_Feliciter = "se féliciter";
                 public const string Fouiller = "fouiller";
+                public const string Fasciner = "fasciner";
 
                 // G
                 public const string Gester = "gester";
@@ -510,6 +521,7 @@ public static class Constants
                 public const string Griller = "griller";
 
                 // H
+                public const string Heurter = "heurter";
                 public const string Habiter = "habiter";
                 public const string Habituer = "habituer";
                 public const string Hurler = "hurler";
@@ -520,9 +532,12 @@ public static class Constants
                 public const string Happer = "happer";
                 public const string Hocher = "hocher";
                 public const string Hausser = "hausser";
+                public const string Se_Hausser = "se hausser";
                 public const string Habiller = "habiller";
 
                 // I
+                public const string Imposer = "imposer";
+                public const string Infester = "infester";
                 public const string Interpeller = "interpeller";
                 public const string Identifier = "identifier";
                 public const string Insister = "insister";
@@ -608,6 +623,7 @@ public static class Constants
                 public const string Necessiter = "nécessiter";
 
                 // O
+                public const string Offenser = "offenser";
                 public const string Opprimer = "opprimer";
                 public const string Oeuvrer = "oeuvrer";
                 public const string Organiser = "organiser";
@@ -671,6 +687,8 @@ public static class Constants
                 public const string Quitter = "quitter";
 
                 // R
+                public const string Regler = "régler";
+                public const string Repenser = "repenser";
                 public const string Rôder = "rôder";
                 public const string Violer = "violer";
                 public const string Raviver = "raviver";
@@ -812,6 +830,7 @@ public static class Constants
                 public const string Trainer = "traîner";
                 public const string Se_Trainer = "se traîner";
                 public const string Toiser = "toiser";
+                public const string Se_Toiser = "se toiser";
                 public const string Travailler = "travailler";
                 public const string Trouver = "trouver";
                 public const string Tomber = "tomber";
@@ -844,6 +863,7 @@ public static class Constants
                 public const string Visiter = "visiter";
                 public const string Verrouiller = "verrouiller";
                 public const string Veiller = "veiller";
+                public const string Voiler = "voiler";
 
                 // Z
                 public const string Zoomer = "zoomer";
@@ -999,7 +1019,10 @@ public static class Constants
             // P
             public const string Pouvoir = "Pouvoir est un verbe modal essentiel qui exprime la capacité, la possibilité ou la permission de faire quelque chose.";
             public const string Prendre = "Prendre est un verbe fondamental exprimant l'action de saisir, obtenir ou consommer quelque chose. Il est également utilisé dans de nombreuses expressions idiomatiques et constructions figurées.";
-            
+
+            // R
+            public const string Rejouir = "réjouir";
+
             // S
             public const string Savoir = "Savoir est un verbe fondamental qui exprime la connaissance, la compétence ou la capacité à faire quelque chose. Il sert aussi à indiquer qu'on connaît un fait ou une information.";
             
