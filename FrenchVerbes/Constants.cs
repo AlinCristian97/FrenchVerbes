@@ -246,6 +246,7 @@ public static class Constants
                 public const string Accorder = "accorder";
                 public const string Admirer = "admirer";
                 public const string Alerter = "alerter";
+                public const string Abouler = "abouler";
 
                 // B
                 public const string Beneficier = "bénéficier";
