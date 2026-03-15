@@ -901,6 +901,7 @@ public static class Constants
                 public const string Durcir = "durcir";
 
                 // E
+                public const string Se_Evanouir = "s'évanouir";
                 public const string Enrichir = "enrichir";
                 public const string Etablir = "établir";
                 public const string Emplir = "emplir";
