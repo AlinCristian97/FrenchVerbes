@@ -259,6 +259,7 @@ public static class Constants
                 public const string Se_Baisser = "se baisser";
                 public const string Bloquer = "bloquer";
                 public const string Se_Bloquer = "se bloquer";
+                public const string Bouder = "bouder";
 
                 // C
                 public const string Casser = "casser";
