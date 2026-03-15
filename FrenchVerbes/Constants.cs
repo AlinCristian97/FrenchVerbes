@@ -162,6 +162,7 @@ public static class Constants
             // T
             public const string Tenir = "tenir";
             public const string Taire = "taire";
+            public const string Tondre = "tondre";
 
             // V
             public const string Venir = "venir";
