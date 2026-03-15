@@ -936,6 +936,7 @@ public static class Constants
                 public const string Parcourir = "parcourir";
 
                 // R
+                public const string Rafraichir = "rafraîchir";
                 public const string Reflechir = "réfléchir";
                 public const string Reussir = "réussir";
                 public const string Remplir = "remplir";
