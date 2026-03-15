@@ -592,6 +592,8 @@ public static class Constants
                 public const string Lier = "lier";
 
                 // M
+                public const string Marier = "marier";
+                public const string Se_Marier = "se marier";
                 public const string Modeler = "modeler";
                 public const string Moquer = "moquer";
                 public const string Manquer = "manquer";
@@ -928,6 +930,7 @@ public static class Constants
                 public const string Pourrir = "pourrir";
                 public const string Punir = "punir";
                 public const string Polir = "polir";
+                public const string Parcourir = "parcourir";
 
                 // R
                 public const string Reflechir = "réfléchir";
