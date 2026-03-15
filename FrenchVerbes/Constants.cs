@@ -338,6 +338,7 @@ public static class Constants
                 public const string Composer = "composer";
 
                 // D
+                public const string Deranger = "déranger";
                 public const string Debrouiller = "débrouiller";
                 public const string Se_Debrouiller = "se débrouiller";
                 public const string Divaguer = "divaguer";
@@ -476,6 +477,7 @@ public static class Constants
                 public const string Echouer = "échouer";
 
                 // F
+                public const string Facher = "fâcher";
                 public const string Forcer = "forcer";
                 public const string Se_Forcer = "se forcer";
                 public const string Frequenter = "fréquenter";
