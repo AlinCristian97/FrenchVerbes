@@ -525,6 +525,7 @@ public static class Constants
                 public const string Griller = "griller";
 
                 // H
+                public const string Harceler = "harceler";
                 public const string Heurter = "heurter";
                 public const string Habiter = "habiter";
                 public const string Habituer = "habituer";
