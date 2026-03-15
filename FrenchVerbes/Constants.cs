@@ -691,6 +691,7 @@ public static class Constants
                 public const string Quitter = "quitter";
 
                 // R
+                public const string Rater = "rater";
                 public const string Regler = "régler";
                 public const string Repenser = "repenser";
                 public const string Rôder = "rôder";
