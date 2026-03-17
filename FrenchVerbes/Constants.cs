@@ -931,7 +931,8 @@ public static class Constants
                 
                 // M
                 public const string Maigrir = "maigrir";
-                
+                public const string Mincir = "mincir";
+
                 // N
                 public const string Nourrir = "nourrir";
 
