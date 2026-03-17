@@ -924,6 +924,7 @@ public static class Constants
 
                 // I
                 public const string Interagir = "interagir";
+                public const string Investir = "investir";
 
                 // J
                 public const string Jaunir = "jaunir";
@@ -955,12 +956,16 @@ public static class Constants
                 public const string Reagir = "réagir";
                 public const string Ressentir = "ressentir";
                 public const string Reunir = "réunir";
+                public const string Ralentir = "ralentir";
 
                 // S
                 public const string Subir = "subir";
 
                 // T
                 public const string Trahir = "trahir";
+
+                // U
+                public const string Unir = "unir";
 
                 // V
                 public const string Vieillir = "vieillir";
