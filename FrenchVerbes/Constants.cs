@@ -183,6 +183,7 @@ public static class Constants
             public static class Er
             {
                 // A
+                public const string Allumer = "allumer";
                 public const string Accrocher = "accrocher";
                 public const string Annoncer = "annoncer";
                 public const string Actionner = "actionner";
@@ -262,6 +263,7 @@ public static class Constants
                 public const string Bouder = "bouder";
 
                 // C
+                public const string Chanter = "chanter";
                 public const string Casser = "casser";
                 public const string Se_Casser = "se casser";
                 public const string Contempler = "contempler";
@@ -696,6 +698,7 @@ public static class Constants
                 public const string Quitter = "quitter";
 
                 // R
+                public const string Rigoler = "rigoler";
                 public const string Rater = "rater";
                 public const string Regler = "régler";
                 public const string Repenser = "repenser";
