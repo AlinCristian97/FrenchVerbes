@@ -736,6 +736,7 @@ public static class Constants
                 public const string Rencontrer = "rencontrer";
                 public const string Rester = "rester";
                 public const string Retourner = "retourner";
+                public const string Se_Retourner = "se retourner";
                 public const string Rentrer = "rentrer";
                 public const string Ramasser = "ramasser";
                 public const string Rechercher = "rechercher";
