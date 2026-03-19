@@ -343,6 +343,7 @@ public static class Constants
                 public const string Composer = "composer";
 
                 // D
+                public const string Denoncer = "dénoncer";
                 public const string Denaturer = "dénaturer";
                 public const string Defigurer = "défigurer";
                 public const string Debloquer = "debloquer";
