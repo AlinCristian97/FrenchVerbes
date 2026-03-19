@@ -404,6 +404,7 @@ public static class Constants
                 public const string Dresser = "dresser";
 
                 // E
+                public const string Envisager = "envisager";
                 public const string Exiger = "exiger";
                 public const string Engueuler = "engueuler";
                 public const string Ausculter = "ausculter";
