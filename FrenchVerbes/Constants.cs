@@ -19,6 +19,7 @@ public static class Constants
             public const string Se_Asseoir = "s'asseoir";
             public const string Apparaitre = "apparaître";
             public const string Admettre = "admettre";
+            public const string Acquerir = "acquérir";
 
             // B
             public const string Boire = "boire";
