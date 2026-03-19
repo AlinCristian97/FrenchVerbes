@@ -656,6 +656,7 @@ public static class Constants
                 public const string Oter = "ôter";
 
                 // P
+                public const string Proposer = "proposer";
                 public const string Pousser = "pousser";
                 public const string Puer = "puer";
                 public const string Pleurnicher = "pleurnicher";
