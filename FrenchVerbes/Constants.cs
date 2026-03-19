@@ -973,6 +973,7 @@ public static class Constants
 
                 // T
                 public const string Trahir = "trahir";
+                public const string Ternir = "ternir";
 
                 // U
                 public const string Unir = "unir";
