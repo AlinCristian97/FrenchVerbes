@@ -487,6 +487,8 @@ public static class Constants
                 public const string Se_Egarer = "s'égarer";
                 public const string Ecumer = "écumer";
                 public const string Echouer = "échouer";
+                public const string Entourer = "entourer";
+                public const string Se_Entourer = "s'entourer";
 
                 // F
                 public const string Facher = "fâcher";
