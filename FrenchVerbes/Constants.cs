@@ -702,6 +702,7 @@ public static class Constants
                 public const string Quitter = "quitter";
 
                 // R
+                public const string Redonner = "redonner";
                 public const string Rigoler = "rigoler";
                 public const string Rater = "rater";
                 public const string Regler = "régler";
