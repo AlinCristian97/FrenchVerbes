@@ -225,6 +225,7 @@ public static class Constants
                 public const string Amuser = "amuser";
                 public const string Se_Amuser = "s'amuser";
                 public const string Appuyer = "appuyer";
+                public const string Se_Appuyer = "s'appuyer";
                 public const string Afficher = "afficher";
                 public const string Se_Afficher = "s'afficher";
                 public const string Assister = "assister";
