@@ -344,6 +344,7 @@ public static class Constants
 
                 // D
                 public const string Denaturer = "dénaturer";
+                public const string Defigurer = "défigurer";
                 public const string Debloquer = "debloquer";
                 public const string Se_Debloquer = "se debloquer";
                 public const string Deranger = "déranger";
