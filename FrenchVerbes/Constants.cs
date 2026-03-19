@@ -641,6 +641,7 @@ public static class Constants
                 public const string Necessiter = "nécessiter";
 
                 // O
+                public const string Opposer = "opposer";
                 public const string Offenser = "offenser";
                 public const string Opprimer = "opprimer";
                 public const string Oeuvrer = "oeuvrer";
