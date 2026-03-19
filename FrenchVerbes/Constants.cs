@@ -341,6 +341,8 @@ public static class Constants
                 public const string Composer = "composer";
 
                 // D
+                public const string Debloquer = "debloquer";
+                public const string Se_Debloquer = "se debloquer";
                 public const string Deranger = "déranger";
                 public const string Debrouiller = "débrouiller";
                 public const string Se_Debrouiller = "se débrouiller";
