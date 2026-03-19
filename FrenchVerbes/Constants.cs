@@ -146,6 +146,7 @@ public static class Constants
             public const string Redevenir = "redevenir";
 
             // S
+            public const string Souffrir = "souffrir";
             public const string Savoir = "savoir";
             public const string Sentir = "sentir";
             public const string Servir = "servir";
