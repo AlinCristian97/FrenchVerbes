@@ -258,6 +258,7 @@ public static class Constants
 
                 // B
                 public const string Beneficier = "bénéficier";
+                public const string Briller = "briller";
                 public const string Bombarder = "bombarder";
                 public const string Bouger = "bouger";
                 public const string Baptiser = "baptiser";
