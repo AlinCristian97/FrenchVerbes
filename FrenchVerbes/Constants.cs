@@ -601,6 +601,7 @@ public static class Constants
 
 
                 // L
+                public const string Lyncher = "lyncher";
                 public const string Laver = "laver";
                 public const string Lancer = "lancer";
                 public const string Laisser = "laisser";
