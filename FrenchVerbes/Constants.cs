@@ -819,6 +819,8 @@ public static class Constants
                 public const string Semer = "semer";
                 public const string Surnommer = "surnommer";
                 public const string Se_Surnommer = "se surnommer";
+                public const string Suffoquer = "suffoquer";
+                public const string Se_Suffoquer = "se suffoquer";
                 public const string Sacrifier = "sacrifier";
                 public const string Se_Sacrifier = "se sacrifier";
                 public const string Subordonner = "subordonner";
