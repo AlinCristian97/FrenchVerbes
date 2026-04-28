@@ -186,6 +186,7 @@ public static class Constants
             public static class Er
             {
                 // A
+                public const string Atteler = "atteler";
                 public const string Apaiser = "apaiser";
                 public const string Approuver = "approuver";
                 public const string Allumer = "allumer";
