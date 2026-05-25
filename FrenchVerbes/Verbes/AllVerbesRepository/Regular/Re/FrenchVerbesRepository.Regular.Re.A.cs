@@ -7,7 +7,7 @@ public static partial class VerbRepository
 {
     private static void AddRegularReAVerbs()
     {
-
+        _verbs.Add(CreateAttendre());
     }
 
     #region FactoryMethods

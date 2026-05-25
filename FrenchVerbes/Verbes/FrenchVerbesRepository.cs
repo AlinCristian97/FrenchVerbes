@@ -104,68 +104,92 @@ public static partial class VerbRepository
 
     private static void AddRegularErVerbs()
     {
-        // A
-        _verbs.Add(CreateAcheter());
-        _verbs.Add(CreateAdapter());
-        _verbs.Add(CreateAimer());
-        _verbs.Add(CreateAppeler());
-        _verbs.Add(CreateArriver());
-
-        // C
-        _verbs.Add(CreateChanger());
-        _verbs.Add(CreateCommencer());
-        
-        // H
-        _verbs.Add(CreateHabiter());
-        
-        // M
-        _verbs.Add(CreateManger());
-        
+        AddRegularErAVerbs();
+        AddRegularErBVerbs();
+        AddRegularErCVerbs();
+        AddRegularErDVerbs();
+        AddRegularErEVerbs();
+        AddRegularErFVerbs();
+        AddRegularErGVerbs();
+        AddRegularErHVerbs();
+        AddRegularErIVerbs();
+        AddRegularErJVerbs();
+        AddRegularErKVerbs();
+        AddRegularErLVerbs();
+        AddRegularErMVerbs();
+        AddRegularErNVerbs();
+        AddRegularErOVerbs();
+        AddRegularErPVerbs();
+        AddRegularErQVerbs();
+        AddRegularErRVerbs();
+        AddRegularErSVerbs();
+        AddRegularErTVerbs();
+        AddRegularErUVerbs();
+        AddRegularErVVerbs();
+        AddRegularErWVerbs();
+        AddRegularErXVerbs();
+        AddRegularErYVerbs();
+        AddRegularErZVerbs();
     }
 
     private static void AddRegularIrVerbs()
     {
-        // A
-        _verbs.Add(CreateAccomplir());
-        _verbs.Add(CreateAgrandir());
-        _verbs.Add(CreateApplaudir());
-        
-        // B
-        _verbs.Add(CreateBatir());
-        
-        // C
-        _verbs.Add(CreateChoisir());
-        
-        // F
-        _verbs.Add(CreateFinir());
-
-        // G
-        _verbs.Add(CreateGrandir());
-
-        // N
-        _verbs.Add(CreateNourrir());
-
+        AddRegularIrAVerbs();
+        AddRegularIrBVerbs();
+        AddRegularIrCVerbs();
+        AddRegularIrDVerbs();
+        AddRegularIrEVerbs();
+        AddRegularIrFVerbs();
+        AddRegularIrGVerbs();
+        AddRegularIrHVerbs();
+        AddRegularIrIVerbs();
+        AddRegularIrJVerbs();
+        AddRegularIrKVerbs();
+        AddRegularIrLVerbs();
+        AddRegularIrMVerbs();
+        AddRegularIrNVerbs();
+        AddRegularIrOVerbs();
+        AddRegularIrPVerbs();
+        AddRegularIrQVerbs();
+        AddRegularIrRVerbs();
+        AddRegularIrSVerbs();
+        AddRegularIrTVerbs();
+        AddRegularIrUVerbs();
+        AddRegularIrVVerbs();
+        AddRegularIrWVerbs();
+        AddRegularIrXVerbs();
+        AddRegularIrYVerbs();
+        AddRegularIrZVerbs();
     }
 
     private static void AddRegularReVerbs()
     {
-        // A
-        _verbs.Add(CreateAttendre());
-        
-        // C
-        _verbs.Add(CreateComprendre());
-        _verbs.Add(CreateConfondre());
-        
-        // D
-        _verbs.Add(CreateDefendre());
-        _verbs.Add(CreateDescendre());
-        
-        // R
-        _verbs.Add(CreateRendre());
-        
-        // V
-        _verbs.Add(CreateVendre());
-        
+        AddRegularReAVerbs();
+        AddRegularReBVerbs();
+        AddRegularReCVerbs();
+        AddRegularReDVerbs();
+        AddRegularReEVerbs();
+        AddRegularReFVerbs();
+        AddRegularReGVerbs();
+        AddRegularReHVerbs();
+        AddRegularReIVerbs();
+        AddRegularReJVerbs();
+        AddRegularReKVerbs();
+        AddRegularReLVerbs();
+        AddRegularReMVerbs();
+        AddRegularReNVerbs();
+        AddRegularReOVerbs();
+        AddRegularRePVerbs();
+        AddRegularReQVerbs();
+        AddRegularReRVerbs();
+        AddRegularReSVerbs();
+        AddRegularReTVerbs();
+        AddRegularReUVerbs();
+        AddRegularReVVerbs();
+        AddRegularReWVerbs();
+        AddRegularReXVerbs();
+        AddRegularReYVerbs();
+        AddRegularReZVerbs();
     }
 
     #region Regular Verbs Factory Methods

@@ -7,7 +7,7 @@ public static partial class VerbRepository
 {
     private static void AddRegularIrFVerbs()
     {
-
+        _verbs.Add(CreateFinir());
     }
 
     #region FactoryMethods

@@ -7,7 +7,8 @@ public static partial class VerbRepository
 {
     private static void AddRegularReCVerbs()
     {
-
+        _verbs.Add(CreateComprendre());
+        _verbs.Add(CreateConfondre());
     }
 
     #region FactoryMethods

@@ -7,7 +7,8 @@ public static partial class VerbRepository
 {
     private static void AddRegularReDVerbs()
     {
-
+        _verbs.Add(CreateDefendre());
+        _verbs.Add(CreateDescendre());
     }
 
     #region FactoryMethods
