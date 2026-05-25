@@ -4,104 +4,6 @@ public static partial class Constants
 {
     public static partial class Verbs
     {
-        #region Irregular
-
-        public static partial class Irregular
-        {
-            // I
-            public const string Interrompre = "interrompre";
-            public const string Interdire = "interdire";
-            public const string Meconnaitre = "méconnaître";
-            public const string Apercevoir = "apercevoir";
-
-            // L
-            public const string Lire = "lire";
-            
-            // M
-            public const string Mentir = "mentir";
-            public const string Moudre = "moudre";
-            public const string Mettre = "mettre";
-            public const string Maintenir = "maintenir";
-            public const string Mourir = "mourir";
-
-            // N
-            public const string Nuire = "nuire";
-            public const string Naitre = "naître";
-
-            // O
-            public const string Ouvrir = "ouvrir";
-            public const string Offrir = "offrir";
-
-            // P
-            public const string Paraitre = "paraître";
-            public const string Percevoir = "percevoir";
-            public const string Partir = "partir";
-            public const string Perdre = "perdre";
-            public const string Se_Perdre = "se perdre";
-            public const string Pouvoir = "pouvoir";
-            public const string Prendre = "prendre";
-            public const string Se_Prendre = "se prendre";
-            public const string Prétendre = "prétendre";
-            public const string Prevenir = "prévenir";
-            public const string Permettre = "permettre";
-            public const string Promettre = "promettre";
-            public const string Parvenir = "parvenir";
-            public const string Poursuivre = "poursuivre";
-            public const string Prevoir = "prévoir";
-            public const string Produire = "produire";
-
-            // R
-            public const string Requerir = "requérir";
-            public const string Remettre = "remettre";
-            public const string Recouvrir = "recouvrir";
-            public const string Reduire = "réduire";
-            public const string Recevoir = "recevoir";
-            public const string Repondre = "répondre";
-            public const string Reprendre = "reprendre";
-            public const string Reconnaitre = "reconnaître";
-            public const string Rire = "rire";
-            public const string Retenir = "retenir";
-            public const string Redecouvrir = "redécouvrir";
-            public const string Se_Redecouvrir = "se redécouvrir";
-            public const string Revenir = "revenir";
-            public const string Renvoyer = "renvoyer";
-            public const string Redevenir = "redevenir";
-
-            // S
-            public const string Souffrir = "souffrir";
-            public const string Savoir = "savoir";
-            public const string Sentir = "sentir";
-            public const string Servir = "servir";
-            public const string Suivre = "suivre";
-            public const string Soulever = "soulever";
-            public const string Secher = "sécher";
-            public const string Simplifier = "simplifier";
-            public const string Surprendre = "surprendre";
-            public const string Sourire = "sourire";
-            public const string Suffire = "suffire";
-            public const string Survivre = "survivre";
-            public const string Se_Souvenir = "se souvenir";
-            public const string Survenir = "survenir";
-
-            // T
-            public const string Tenir = "tenir";
-            public const string Taire = "taire";
-            public const string Tondre = "tondre";
-
-            // V
-            public const string Venir = "venir";
-            public const string Vivre = "vivre";
-            public const string Voir = "voir";
-            public const string Vouloir = "vouloir";
-            public const string Valoir = "valoir";
-
-            //... more to come
-        }
-        
-        #endregion
-
-        #region Regular
-        
         public static partial class Regular
         {
             public static partial class Er
@@ -882,39 +784,10 @@ public static partial class Constants
                 public const string Vendre = "vendre";
             }
         }
-        
-        #endregion
     }
     
     public static partial class VerbDescriptions
     {
-        #region Irregular
-
-        public static partial class Irregular
-        {
-            // P
-            public const string Pouvoir = "Pouvoir est un verbe modal essentiel qui exprime la capacité, la possibilité ou la permission de faire quelque chose.";
-            public const string Prendre = "Prendre est un verbe fondamental exprimant l'action de saisir, obtenir ou consommer quelque chose. Il est également utilisé dans de nombreuses expressions idiomatiques et constructions figurées.";
-
-            // R
-            public const string Rejouir = "réjouir";
-
-            // S
-            public const string Savoir = "Savoir est un verbe fondamental qui exprime la connaissance, la compétence ou la capacité à faire quelque chose. Il sert aussi à indiquer qu'on connaît un fait ou une information.";
-            
-            // V
-            public const string Venir = "Venir est un verbe de mouvement fondamental qui exprime l'action de se déplacer vers un lieu. Il est également utilisé pour former le passé récent ('venir de') et diverses expressions idiomatiques.";
-            public const string Vivre = "Vivre est un verbe irrégulier signifiant exister, résider ou faire l'expérience de quelque chose. Il est souvent utilisé pour parler de la vie quotidienne, d’une période de vie ou d’une expérience vécue.";
-            public const string Voir = "Voir est un verbe fondamental exprimant la perception visuelle ou la compréhension. Il est également utilisé dans de nombreuses expressions idiomatiques et au sens figuré pour indiquer la connaissance ou la constatation.";
-            public const string Vouloir = "Vouloir est un verbe modal fondamental qui exprime le désir, la volonté ou l'intention. Sa forme conditionnelle 'je voudrais' est utilisée pour les demandes polies.";
-            
-        }
-
-        
-        #endregion
-
-        #region Regular
-        
         public static partial class Regular
         {
             public static partial class Er
@@ -974,8 +847,6 @@ public static partial class Constants
                 public const string Vendre = "Le verbe de base pour le commerce, signifiant l'échange d'un bien ou d'un service contre une rémunération.";
             }
         }
-        
-        #endregion
     }
 
     public static class Pronouns
