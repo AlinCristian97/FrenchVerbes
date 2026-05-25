@@ -1,4 +1,6 @@
-﻿namespace FrenchVerbes.Verbes.Regular;
+﻿using FrenchVerbes.AllConstants;
+
+namespace FrenchVerbes.Verbes.Regular;
 
 public class RegularErVerb : RegularVerb
 {

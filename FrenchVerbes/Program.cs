@@ -1,4 +1,5 @@
-﻿using FrenchVerbes.Verbes;
+﻿using FrenchVerbes.AllConstants;
+using FrenchVerbes.Verbes;
 
 namespace FrenchVerbes;
 

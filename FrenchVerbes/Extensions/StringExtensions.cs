@@ -1,4 +1,6 @@
-﻿namespace FrenchVerbes.Extensions
+﻿using FrenchVerbes.AllConstants;
+
+namespace FrenchVerbes.Extensions
 {
     public static class StringExtensions
     {

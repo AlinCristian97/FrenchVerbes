@@ -1,4 +1,6 @@
-﻿namespace FrenchVerbes;
+﻿using FrenchVerbes.AllConstants;
+
+namespace FrenchVerbes;
 
 public class NotesObject
 {

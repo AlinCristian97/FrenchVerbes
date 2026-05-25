@@ -1,4 +1,6 @@
 ﻿
+using FrenchVerbes.AllConstants;
+
 namespace FrenchVerbes.Verbes.Irregular;
 
 public class IrregularFrenchVerb : Verb
