@@ -8,20 +8,6 @@ public static partial class Constants
 
         public static partial class Irregular
         {
-            // D
-            public const string Dechoir = "déchoir";
-            public const string Detruire = "détruire";
-            public const string Devoir = "devoir";
-            public const string Dire = "dire";
-            public const string Dormir = "dormir";
-            public const string Decouvrir = "découvrir";
-            public const string Se_Decouvrir = "se découvrir";
-            public const string Decrire = "décrire";
-            public const string Divertir = "divertir";
-            public const string Se_Divertir = "se divertir";
-            public const string Devenir = "devenir";
-            public const string Disparaitre = "disparaître";
-
             // E
             public const string Echoir = "échoir";
             public const string Etendre = "étendre";
@@ -933,10 +919,6 @@ public static partial class Constants
 
         public static partial class Irregular
         {
-            // D
-            public const string Devoir = "Devoir est un verbe modal exprimant l'obligation, la nécessité ou le devoir moral. Il sert à indiquer ce qu’il faut faire ou ce qui est attendu.";
-            public const string Dire = "Dire est un verbe fondamental exprimant l'action de prononcer, raconter ou communiquer quelque chose. Il est également utilisé dans de nombreuses expressions idiomatiques et pour rapporter des paroles.";
-            
             // E
             public const string Etre = "Être est le verbe le plus fondamental. Il exprime l'état, l'identité et sert d'auxiliaire pour de nombreux temps.";
             
