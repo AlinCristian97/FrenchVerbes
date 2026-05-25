@@ -4,7 +4,7 @@ using FrenchVerbes.Verbes.Regular;
 
 namespace FrenchVerbes.Verbes;
 
-public static class VerbRepository
+public static partial class VerbRepository
 {
     private static readonly List<Verb> _verbs = new();
     
@@ -74,11 +74,7 @@ public static class VerbRepository
     
     private static void AddIrregularVerbs()
     {
-        // A
-        _verbs.Add(CreateAvoir());
-        _verbs.Add(CreateAtteindre());
-        _verbs.Add(CreateAller());
-        _verbs.Add(CreateCourir());
+        AddIrregularAVerbs();
         
         // B
         _verbs.Add(CreateBoire());
@@ -108,7 +104,6 @@ public static class VerbRepository
         _verbs.Add(CreateVivre());
         _verbs.Add(CreateVoir());
         _verbs.Add(CreateVouloir());
-        
     }
 
     private static void AddRegularErVerbs()
