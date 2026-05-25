@@ -1,3 +1,5 @@
+using FrenchVerbes.AllConstants;
+
 namespace FrenchVerbes.Verbes;
 
 public static partial class VerbRepository
@@ -5,4 +7,11 @@ public static partial class VerbRepository
     private static void AddIrregularKVerbs()
     {
     }
+
+    #region FactoryMethods
+
+    #endregion
 }
+
+
+

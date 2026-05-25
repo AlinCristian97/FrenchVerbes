@@ -1,3 +1,5 @@
+using FrenchVerbes.AllConstants;
+
 namespace FrenchVerbes.Verbes;
 
 public static partial class VerbRepository
@@ -7,4 +9,11 @@ public static partial class VerbRepository
         _verbs.Add(CreatePouvoir());
         _verbs.Add(CreatePrendre());
     }
+
+    #region FactoryMethods
+
+    #endregion
 }
+
+
+
