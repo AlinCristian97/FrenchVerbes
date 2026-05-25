@@ -1,4 +1,4 @@
-﻿namespace FrenchVerbes.AllConstants;
+namespace FrenchVerbes.AllConstants;
 
 public static partial class Constants
 {
