@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'attelle la remorque avant de partir.",
+    "Tu attelles les chevaux à la charrette.",
+    "Il attelle toujours son vélo à un support solide.",
+    "Nous attelons les bœufs très tôt le matin.",
+    "Ils attellent rapidement le matériel agricole."
+  ],
+  "Imparfait": [
+    "J'attelais les chevaux chaque matin.",
+    "Tu attelais souvent la remorque au tracteur.",
+    "Elle attelait les animaux avec soin.",
+    "Nous attelions les bœufs avant l'aube.",
+    "Ils attelaient leur chariot pour le marché."
+  ],
+  "Futur Simple": [
+    "J'attellerai la remorque demain.",
+    "Tu attelleras les chevaux avant midi.",
+    "Il attellera son tracteur à la benne.",
+    "Nous attellerons les animaux pour la fête.",
+    "Elles attelleront le matériel au véhicule."
+  ],
+  "Passé Composé": [
+    "J'ai attelé la remorque ce matin.",
+    "Tu as attelé les chevaux trop vite.",
+    "Il a attelé le tracteur à la charrue.",
+    "Nous avons attelé les bœufs ensemble.",
+    "Ils ont attelé le chariot avant le départ."
+  ],
+  "Futur Proche": [
+    "Je vais atteler la remorque tout de suite.",
+    "Tu vas atteler les chevaux maintenant.",
+    "Elle va atteler le tracteur à la benne.",
+    "Nous allons atteler les animaux ensemble.",
+    "Ils vont atteler le chariot pour le voyage."
+  ],
+  "Passé Récent": [
+    "Je viens d'atteler la remorque.",
+    "Tu viens d'atteler les chevaux.",
+    "Il vient d'atteler le tracteur.",
+    "Nous venons d'atteler les bœufs.",
+    "Elles viennent d'atteler le chariot."
+  ],
+  "Impératif": [
+    "Attelle la remorque !",
+    "Attelons les chevaux ensemble !",
+    "Attelle ce matériel correctement !",
+    "Attelons les bœufs maintenant !",
+    "Attelez le chariot avant de partir !"
+  ],
+  "Conditionnel Présent": [
+    "J'attellerais la remorque si j'avais le temps.",
+    "Tu attellerais les chevaux plus calmement.",
+    "Il attellerait le tracteur en premier.",
+    "Nous attellerions les animaux pour aider le voisin.",
+    "Ils attelleraient le chariot en cas d'urgence."
+  ]
+}

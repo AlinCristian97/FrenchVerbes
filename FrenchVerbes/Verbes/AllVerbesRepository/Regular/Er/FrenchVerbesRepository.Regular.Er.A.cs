@@ -7,6 +7,7 @@ public static partial class VerbRepository
 {
     private static void AddRegularErAVerbs()
     {
+        _verbs.Add(CreateAtteler());
         _verbs.Add(CreateAcheter());
         _verbs.Add(CreateAdapter());
         _verbs.Add(CreateAimer());
@@ -15,6 +16,13 @@ public static partial class VerbRepository
     }
 
     #region FactoryMethods
+
+    private static RegularErVerb CreateAtteler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Atteler,
+            Constants.VerbDescriptions.Regular.Er.Atteler);
+    }
 
     private static RegularErVerb CreateAcheter()
     {
