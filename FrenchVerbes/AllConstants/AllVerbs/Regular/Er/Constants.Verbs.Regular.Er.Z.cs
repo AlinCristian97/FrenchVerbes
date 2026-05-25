@@ -8,7 +8,7 @@ public static partial class Constants
         {
             public static partial class Er
             {
-
+                public const string Zoomer = "zoomer";
             }
         }
     }
