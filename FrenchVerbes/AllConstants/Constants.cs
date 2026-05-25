@@ -2,20 +2,6 @@
 
 public static partial class Constants
 {
-    public static partial class VerbDescriptions
-    {
-        public static partial class Regular
-        {
-            public static partial class Ir
-            {
-            }
-
-            public static partial class Re
-            {
-            }
-        }
-    }
-
     public static class Pronouns
     {
         public const string Je = "Je";
