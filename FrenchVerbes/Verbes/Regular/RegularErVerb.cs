@@ -24,13 +24,25 @@ public class RegularErVerb : RegularVerb
     protected override string[] ImperativeEndings => new[] { "e", "ons", "ez" };
     
     // Dictionary for special stem rules
-    private static readonly Dictionary<string, IRegularErStemRule> SpecialStemRules = new()
+    private static readonly Dictionary<string, IRegularErStemRule> SpecialStemRules = BuildSpecialStemRules();
+
+    private static Dictionary<string, IRegularErStemRule> BuildSpecialStemRules()
     {
-        [Constants.Verbs.Regular.Er.Acheter] = new AcheterRegularErStemRule(),
-        [Constants.Verbs.Regular.Er.Manger] = new MangerRegularErStemRule(),
-        [Constants.Verbs.Regular.Er.Appeler] = new AppelerRegularErStemRule(),
-        [Constants.Verbs.Regular.Er.Atteler] = new AttelerRegularErStemRule(),
-    };
+        var rules = new Dictionary<string, IRegularErStemRule>();
+
+        AddRules(rules, RegularErStemRulesA.Rules);
+        AddRules(rules, RegularErStemRulesM.Rules);
+
+        return rules;
+    }
+
+    private static void AddRules(Dictionary<string, IRegularErStemRule> target, IReadOnlyDictionary<string, IRegularErStemRule> source)
+    {
+        foreach (var rule in source)
+        {
+            target[rule.Key] = rule.Value;
+        }
+    }
     
     private string GetAdjustedStem(string stem, string tense, int pronounIndex)
     {
