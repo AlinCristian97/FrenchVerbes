@@ -69,6 +69,27 @@ public class RegularErVerb : RegularVerb
 
             return stem;
         },
+
+        [Constants.Verbs.Regular.Er.Atteler] = (stem, tense, pronounIndex) =>
+        {
+            bool doubleL = tense switch
+            {
+                Constants.Tenses.Present => pronounIndex != 3, // all except Nous
+                Constants.Tenses.FuturSimple => true,
+                Constants.Tenses.ConditionnelPresent => true,
+                Constants.Tenses.Imperative => pronounIndex == 1 || pronounIndex == 4, // Tu, Vous
+                _ => false
+            };
+
+            if (doubleL)
+            {
+                int lastL = stem.LastIndexOf("l");
+                if (lastL >= 0)
+                    stem = stem.Substring(0, lastL) + "ll" + stem.Substring(lastL + 1);
+            }
+
+            return stem;
+        },
         
     };
     
