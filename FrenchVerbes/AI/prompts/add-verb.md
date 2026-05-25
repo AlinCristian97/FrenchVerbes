@@ -55,3 +55,4 @@ Use this checklist every time a verb is added.
 - Follow letter-based file partitioning already used in the project.
 - Do not add duplicate verb constants.
 - Keep method/class naming conventions exactly aligned with existing code.
+- Keep json files to 5 sentences per tense
