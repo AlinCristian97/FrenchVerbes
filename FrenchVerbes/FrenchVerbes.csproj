@@ -22,7 +22,6 @@
 
     <ItemGroup>
       <Folder Include="AI\prompts\" />
-      <Folder Include="AllConstants\AllVerbs\Regular\Re\" />
     </ItemGroup>
     
 </Project>
