@@ -8,12 +8,6 @@ public static partial class Constants
 
         public static partial class Irregular
         {
-            // F
-            public const string Faire = "faire";
-            public const string Fendre = "fendre";
-            public const string Falloir = "falloir";
-            public const string Fuir = "fuir";
-
             // H
             public const string Hair = "haïr";
 
@@ -901,12 +895,6 @@ public static partial class Constants
 
         public static partial class Irregular
         {
-            // E
-            public const string Etre = "Être est le verbe le plus fondamental. Il exprime l'état, l'identité et sert d'auxiliaire pour de nombreux temps.";
-            
-            // F
-            public const string Faire = "Faire est un verbe polyvalent qui exprime l'action de faire ou de fabriquer quelque chose. Il est aussi utilisé pour le temps météo, les sports et de nombreuses expressions idiomatiques.";
-            
             // P
             public const string Pouvoir = "Pouvoir est un verbe modal essentiel qui exprime la capacité, la possibilité ou la permission de faire quelque chose.";
             public const string Prendre = "Prendre est un verbe fondamental exprimant l'action de saisir, obtenir ou consommer quelque chose. Il est également utilisé dans de nombreuses expressions idiomatiques et constructions figurées.";
