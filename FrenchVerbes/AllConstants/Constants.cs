@@ -8,46 +8,10 @@ public static partial class Constants
         {
             public static partial class Ir
             {
-                // A
-                public const string Accomplir = "Accomplir est un verbe régulier du deuxième groupe (-ir) qui signifie réaliser ou mener à bien une tâche, un devoir ou un projet.";
-                public const string Agrandir = "Agrandir est un verbe régulier en -ir qui exprime l'action de rendre plus grand ou plus spacieux. Il est utilisé pour parler d'objets, de lieux ou de concepts qui prennent de l'ampleur.";
-                public const string Applaudir = "Applaudir est un verbe régulier en -ir qui exprime l'action de frapper dans ses mains pour montrer son approbation ou son admiration, généralement après un spectacle ou une performance.";
-
-                // B
-                public const string Batir = "Bâtir est un verbe régulier en -ir qui signifie construire, édifier ou élaborer quelque chose, souvent un bâtiment, un projet ou une idée.";
-
-                // C
-                public const string Choisir = "Choisir est un verbe régulier en -ir qui signifie faire un choix, opter pour une option ou décider entre plusieurs possibilités.";
-                
-                
-                // F
-                public const string Finir = "Exprime l'aboutissement d'une action, la fin d'une tâche ou l'achèvement d'un processus commencé plus tôt.";
-
-                // G
-                public const string Grandir = "Grandir exprime le fait de croître, de devenir plus grand ou de se développer physiquement ou mentalement.";
-
-                // N
-                public const string Nourrir = "Nourrir signifie donner de la nourriture ou subvenir aux besoins de quelqu’un ou de quelque chose. C’est un verbe régulier du 2ᵉ groupe en -ir, conjugué avec le radical 'nourriss-' à l’imparfait.";
             }
 
             public static partial class Re
             {
-                // A
-                public const string Attendre = "Attendre est un verbe régulier en -re qui exprime l'action de rester quelque part jusqu'à ce que quelque chose se produise ou que quelqu'un arrive. Il est utilisé pour parler de patience, de délai ou d'attente d'événements.";
-                
-                // C
-                public const string Comprendre = "Comprendre est un verbe irrégulier en -re qui exprime l'action de saisir intellectuellement quelque chose, de percevoir le sens ou la signification. Il est construit comme 'prendre' pour ses conjugaisons.";
-                public const string Confondre = "Confondre est un verbe régulier en -re qui signifie mélanger, ne pas distinguer ou prendre une chose pour une autre. Il exprime la confusion ou l'erreur de perception.";
-
-                // D
-                public const string Defendre = "Défendre est un verbe du 3ᵉ groupe qui signifie protéger, soutenir ou s’opposer à une attaque, une critique ou une injustice.";
-                public const string Descendre = "Descendre est un verbe régulier en -re qui signifie aller vers le bas, descendre d'un endroit ou réduire quelque chose. Il se conjugue avec l'auxiliaire 'être' au passé composé pour un déplacement sans complément et avec 'avoir' lorsqu'il est transitif.";
-
-                // R
-                public const string Rendre = "Rendre est un verbe régulier du troisième groupe (-re) qui signifie donner, restituer, ou faire revenir quelque chose à son état initial ou à son propriétaire.";
-                
-                // V
-                public const string Vendre = "Le verbe de base pour le commerce, signifiant l'échange d'un bien ou d'un service contre une rémunération.";
             }
         }
     }
