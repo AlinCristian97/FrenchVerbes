@@ -207,56 +207,15 @@ public static partial class VerbRepository
             });
     }
     
-    private static RegularErVerb CreateAdapter()
-    {
-        return new RegularErVerb(
-            Constants.Verbs.Regular.Er.Adapter,
-            Constants.VerbDescriptions.Regular.Er.Adapter);
-    }
 
-    private static RegularErVerb CreateAcheter()
-    {
-        return new RegularErVerb(
-            Constants.Verbs.Regular.Er.Acheter,
-            Constants.VerbDescriptions.Regular.Er.Acheter,
-            tensesNotes: new NotesObject
-            {
-                PresentNotes = "Acheter change de radical au présent pour certaines personnes : j'achète, tu achètes, il achète, mais nous achetons.",
-                FuturSimpleNotes = "Au futur et au conditionnel, acheter utilise le radical 'achèter-' : j'achèterai, j'achèterais."
-            });
-    }
 
-    private static RegularErVerb CreateAimer()
-    {
-        return new RegularErVerb(
-            Constants.Verbs.Regular.Er.Aimer,
-            Constants.VerbDescriptions.Regular.Er.Aimer);
-    }
+
+
+
     
-    private static RegularErVerb CreateAppeler()
-    {
-        return new RegularErVerb(
-            Constants.Verbs.Regular.Er.Appeler,
-            Constants.VerbDescriptions.Regular.Er.Appeler,
-            tensesNotes: new NotesObject
-            {
-                PresentNotes = "Au présent, le 'l' se double pour certaines personnes : j'appelle, tu appelles, il/elle appelle, mais nous appelons, vous appelez.",
-                FuturSimpleNotes = "Au futur et au conditionnel, le radical prend également un 'l' doublé : j'appellerai, je appellerais."
-            });
-    }
+
     
-    private static RegularErVerb CreateArriver()
-    {
-        return new RegularErVerb(
-            Constants.Verbs.Regular.Er.Arriver,
-            Constants.VerbDescriptions.Regular.Er.Arriver,
-            usesEtre: true,
-            tensesNotes: new NotesObject
-            {
-                PasseComposeNotes = "Arriver se conjugue avec l'auxiliaire 'être' au passé composé : je suis arrivé(e). Le participe passé s'accorde en genre et en nombre avec le sujet.",
-                PresentNotes = "Arriver est régulier au présent : j'arrive, tu arrives, il/elle arrive, nous arrivons, vous arrivez, ils/elles arrivent."
-            });
-    }
+
 
     private static RegularErVerb CreateHabiter()
     {
@@ -265,87 +224,28 @@ public static partial class VerbRepository
             Constants.VerbDescriptions.Regular.Er.Habiter);
     }
 
-    private static RegularErVerb CreateChanger()
-    {
-        return new RegularErVerb(
-            Constants.Verbs.Regular.Er.Changer,
-            Constants.VerbDescriptions.Regular.Er.Changer);
-    }
 
-    private static RegularErVerb CreateCommencer()
-    {
-        return new RegularErVerb(
-            Constants.Verbs.Regular.Er.Commencer,
-            Constants.VerbDescriptions.Regular.Er.Commencer,
-            tensesNotes: new NotesObject
-            {
-                PresentNotes =
-                    "Au présent, le verbe change le 'c' en 'ç' devant 'a' ou 'o' pour conserver le son doux : nous commençons.",
-                ImparfaitNotes =
-                    "À l’imparfait, le verbe suit la même règle pour la première personne du pluriel : nous commencions."
-            });
-    }
+
+
 
     #endregion
 
     #region Ending in IR
 
-    private static RegularIrVerb CreateNourrir()
-    {
-        return new RegularIrVerb(
-            Constants.Verbs.Regular.Ir.Nourrir,
-            Constants.VerbDescriptions.Regular.Ir.Nourrir
-        );
-    }
 
-    private static RegularIrVerb CreateGrandir()
-    {
-        return new RegularIrVerb(
-            Constants.Verbs.Regular.Ir.Grandir,
-            Constants.VerbDescriptions.Regular.Ir.Grandir);
-    }
 
-    private static RegularIrVerb CreateFinir()
-    {
-        return new RegularIrVerb(
-            Constants.Verbs.Regular.Ir.Finir,
-            Constants.VerbDescriptions.Regular.Ir.Finir);
-    }
 
-    private static RegularIrVerb CreateAccomplir()
-    {
-        return new RegularIrVerb(
-            Constants.Verbs.Regular.Ir.Accomplir,
-            Constants.VerbDescriptions.Regular.Ir.Accomplir);
-    }
+
+
+
+
     
-    private static RegularIrVerb CreateAgrandir()
-    {
-        return new RegularIrVerb(
-            Constants.Verbs.Regular.Ir.Agrandir,
-            Constants.VerbDescriptions.Regular.Ir.Agrandir);
-    }
 
-    private static RegularIrVerb CreateApplaudir()
-    {
-        return new RegularIrVerb(
-            Constants.Verbs.Regular.Ir.Applaudir,
-            Constants.VerbDescriptions.Regular.Ir.Applaudir);
-    }
-    
-    private static RegularIrVerb CreateBatir()
-    {
-        return new RegularIrVerb(
-            Constants.Verbs.Regular.Ir.Batir,
-            Constants.VerbDescriptions.Regular.Ir.Batir);
-    }
 
-    private static RegularIrVerb CreateChoisir()
-    {
-        return new RegularIrVerb(
-            Constants.Verbs.Regular.Ir.Choisir,
-            Constants.VerbDescriptions.Regular.Ir.Choisir);
-    }
+
+
+
+
     
     #endregion
 

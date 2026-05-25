@@ -1,5 +1,5 @@
 using FrenchVerbes.AllConstants;
-using FrenchVerbes.Verbes.Irregular;
+using FrenchVerbes.Verbes.Regular;
 
 namespace FrenchVerbes.Verbes;
 
@@ -12,7 +12,12 @@ public static partial class VerbRepository
 
     #region FactoryMethods
 
-
+    private static RegularIrVerb CreateGrandir()
+    {
+        return new RegularIrVerb(
+            Constants.Verbs.Regular.Ir.Grandir,
+            Constants.VerbDescriptions.Regular.Ir.Grandir);
+    }
 
     #endregion
 }
