@@ -22,10 +22,8 @@
 
     <ItemGroup>
       <Folder Include="AI\prompts\" />
-      <Folder Include="AllConstants\AllVerbDescriptions\Regular\Er\" />
       <Folder Include="AllConstants\AllVerbDescriptions\Regular\Ir\" />
       <Folder Include="AllConstants\AllVerbDescriptions\Regular\Re\" />
-      <Folder Include="AllConstants\AllVerbs\Regular\Er\" />
       <Folder Include="AllConstants\AllVerbs\Regular\Ir\" />
       <Folder Include="AllConstants\AllVerbs\Regular\Re\" />
     </ItemGroup>

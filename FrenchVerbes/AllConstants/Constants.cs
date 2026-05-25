@@ -177,82 +177,10 @@ public static partial class Constants
 
         #region Regular
         
-        public static class Regular
+        public static partial class Regular
         {
-            public static class Er
+            public static partial class Er
             {
-                // A
-                public const string Atteler = "atteler";
-                public const string Apaiser = "apaiser";
-                public const string Approuver = "approuver";
-                public const string Allumer = "allumer";
-                public const string Accrocher = "accrocher";
-                public const string Annoncer = "annoncer";
-                public const string Actionner = "actionner";
-                public const string Axer = "axer";
-                public const string Se_Axer = "s'axer";
-                public const string Aborder = "aborder";
-                public const string Attirer = "attirer";
-                public const string Achever = "achever";
-                public const string Se_Achever = "s'achever";
-                public const string Adopter = "adopter";
-                public const string Affronter = "affronter";
-                public const string Se_Affronter = "se affronter";
-                public const string Aviser = "aviser";
-                public const string Accuser = "accuser";
-                public const string Se_Accuser = "s'accuser";
-                public const string Aboyer = "aboyer";
-                public const string Avouer = "avouer";
-                public const string Apostropher = "apostropher";
-                public const string Asséner = "asséner";
-                public const string Attacher = "attacher";
-                public const string Se_Attacher = "s'attacher";
-                public const string Approcher = "approcher";
-                public const string Se_Approcher = "se approcher";
-                public const string Ajouter = "ajouter";
-                public const string Abandonner = "abandonner";
-                public const string Annuler = "annuler";
-                public const string Acheter = "acheter";
-                public const string Activer = "activer";
-                public const string Adapter = "adapter";
-                public const string Se_Adapter = "s'adapter";
-                public const string Aimer = "aimer";
-                public const string Appeler = "appeler";
-                public const string Arriver = "arriver";
-                public const string Attraper = "attraper";
-                public const string Amuser = "amuser";
-                public const string Se_Amuser = "s'amuser";
-                public const string Appuyer = "appuyer";
-                public const string Se_Appuyer = "s'appuyer";
-                public const string Afficher = "afficher";
-                public const string Se_Afficher = "s'afficher";
-                public const string Assister = "assister";
-                public const string Assumer = "assumer";
-                public const string Assurer = "assurer";
-                public const string Avaler = "avaler";
-                public const string Avancer = "avancer";
-                public const string Ameliorer = "améliorer";
-                public const string Aider = "aider";
-                public const string Briser = "briser";
-                public const string Adorer = "adorer";
-                public const string Augmenter = "augmenter";
-                public const string Attaquer = "attaquer";
-                public const string Arranger = "arranger";
-                public const string Accompagner = "accompagner";
-                public const string Acquiescer = "acquiescer";
-                public const string Apporter = "apporter";
-                public const string Adresser = "adresser";
-                public const string Se_Adresser = "s'adresser";
-                public const string Ajuster = "ajuster";
-                public const string Se_Ajuster = "s'ajuster";
-                public const string Amasser = "amasser";
-                public const string Agreer = "agréer";
-                public const string Abriter = "abriter";
-                public const string Accorder = "accorder";
-                public const string Admirer = "admirer";
-                public const string Alerter = "alerter";
-                public const string Abouler = "abouler";
-
                 // B
                 public const string Beneficier = "bénéficier";
                 public const string Briller = "briller";
@@ -904,7 +832,7 @@ public static partial class Constants
                 public const string Zoomer = "zoomer";
             }
 
-            public static class Ir
+            public static partial class Ir
             {
                 // A
                 public const string Accomplir = "accomplir";
@@ -994,7 +922,7 @@ public static partial class Constants
                 public const string Vieillir = "vieillir";
             }
 
-            public static class Re
+            public static partial class Re
             {
                 // A
                 public const string Attendre = "attendre";
@@ -1081,17 +1009,10 @@ public static partial class Constants
 
         #region Regular
         
-        public static class Regular
+        public static partial class Regular
         {
-            public static class Er
+            public static partial class Er
             {
-                // A
-                public const string Acheter = "Acheter est un verbe courant qui exprime l'action d'acquérir quelque chose en échange d'argent. Il est très utilisé dans la vie quotidienne, notamment pour parler de courses, de biens et de services.";
-                public const string Adapter = "Adapter est un verbe régulier du premier groupe (-er) qui signifie ajuster, modifier ou rendre quelque chose approprié à une situation, un usage ou un contexte donné.";
-                public const string Aimer = "Aimer est un verbe régulier en -er qui exprime le sentiment d'affection, de goût ou de préférence. Très utilisé en français courant, il peut être suivi d'une personne, d'une chose ou d'une activité.";
-                public const string Appeler = "Appeler est un verbe régulier en -er avec un changement orthographique : le 'l' se double pour certaines personnes afin de préserver le son [ɛ]. Il exprime l'action de nommer quelqu'un ou de téléphoner à quelqu'un.";
-                public const string Arriver = "Arriver est un verbe régulier en -er qui signifie atteindre un lieu, venir ou se produire. En français, il se conjugue avec l'auxiliaire 'être' aux temps composés.";
-
                 // C
                 public const string Changer = "Changer est un verbe régulier du premier groupe (-er) qui exprime le fait de modifier, transformer ou remplacer quelque chose ou une situation.";
                 public const string Commencer = "Commencer exprime le fait d’initier ou de débuter une action. C’est un verbe régulier en -er avec un changement orthographique devant certaines terminaisons.";
@@ -1103,7 +1024,7 @@ public static partial class Constants
                 public const string Manger = "Utilisé pour l'action de consommer de la nourriture. Attention à la prononciation douce du 'g' dans toutes ses formes.";
             }
 
-            public static class Ir
+            public static partial class Ir
             {
                 // A
                 public const string Accomplir = "Accomplir est un verbe régulier du deuxième groupe (-ir) qui signifie réaliser ou mener à bien une tâche, un devoir ou un projet.";
@@ -1127,7 +1048,7 @@ public static partial class Constants
                 public const string Nourrir = "Nourrir signifie donner de la nourriture ou subvenir aux besoins de quelqu’un ou de quelque chose. C’est un verbe régulier du 2ᵉ groupe en -ir, conjugué avec le radical 'nourriss-' à l’imparfait.";
             }
 
-            public static class Re
+            public static partial class Re
             {
                 // A
                 public const string Attendre = "Attendre est un verbe régulier en -re qui exprime l'action de rester quelque part jusqu'à ce que quelque chose se produise ou que quelqu'un arrive. Il est utilisé pour parler de patience, de délai ou d'attente d'événements.";
