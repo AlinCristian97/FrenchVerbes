@@ -8,7 +8,9 @@ public static partial class Constants
         {
             public static partial class Ir
             {
-
+                public const string Batir = "bâtir";
+                public const string Blottir = "blottir";
+                public const string Blanchir = "blanchir";
             }
         }
     }

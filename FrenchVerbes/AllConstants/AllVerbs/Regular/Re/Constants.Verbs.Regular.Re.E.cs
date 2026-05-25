@@ -8,7 +8,7 @@ public static partial class Constants
         {
             public static partial class Re
             {
-
+                public const string Entendre = "entendre";
             }
         }
     }
