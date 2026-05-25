@@ -8,9 +8,6 @@ public static partial class Constants
 
         public static partial class Irregular
         {
-            // H
-            public const string Hair = "haïr";
-
             // I
             public const string Interrompre = "interrompre";
             public const string Interdire = "interdire";

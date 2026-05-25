@@ -6,7 +6,7 @@ public static partial class Constants
     {
         public static partial class Irregular
         {
-
+            public const string Hair = "haïr";
         }
     }
 }
