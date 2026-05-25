@@ -1,4 +1,5 @@
 ﻿using FrenchVerbes.AllConstants;
+using FrenchVerbes.Verbes.Regular.StemRules.Er;
 
 namespace FrenchVerbes.Verbes.Regular;
 
@@ -21,76 +22,12 @@ public class RegularErVerb : RegularVerb
     protected override string[] ImperativeEndings => new[] { "e", "ons", "ez" };
     
     // Dictionary for special stem rules
-    private static readonly Dictionary<string, Func<string, string, int, string>> SpecialStemRules = new()
+    private static readonly Dictionary<string, IRegularErStemRule> SpecialStemRules = new()
     {
-        // acheter: e -> è for Je/Tu/Il/Elle/On/Ils/Elles (except Nous/Vous)
-        [Constants.Verbs.Regular.Er.Acheter] = (stem, tense, pronounIndex) =>
-        {
-            if ((tense == Constants.Tenses.Present || tense == Constants.Tenses.Imparfait) &&
-                pronounIndex != 3 && pronounIndex != 4)
-            {
-                int index = stem.LastIndexOf("e");
-                if (index >= 0) stem = stem.Substring(0, index) + "è" + stem.Substring(index + 1);
-            }
-            return stem;
-        },
-
-        // manger: add 'e' before 'ons' for Nous and provide 'e' for Imparfait (mangeais, etc.)
-        [Constants.Verbs.Regular.Er.Manger] = (stem, tense, pronounIndex) =>
-        {
-            // Add 'e' for Nous present/imperative and for all persons in Imparfait
-            if ((tense == Constants.Tenses.Present && pronounIndex == 3) ||  // Nous present
-                (tense == Constants.Tenses.Imparfait) ||                      // all persons in imparfait
-                (tense == Constants.Tenses.Imperative && pronounIndex == 3)) // Nous imperative
-            {
-                if (!stem.EndsWith("e"))
-                    stem += "e";
-            }
-            return stem;
-        },
-
-        [Constants.Verbs.Regular.Er.Appeler] = (stem, tense, pronounIndex) =>
-        {
-            bool doubleL = tense switch
-            {
-                Constants.Tenses.Present => pronounIndex != 3 && pronounIndex != 4, // Je/Tu/Il/Elle/On/Ils/Elles
-                Constants.Tenses.FuturSimple => true,   // all persons
-                Constants.Tenses.ConditionnelPresent => true, // all persons
-                Constants.Tenses.Imperative => pronounIndex == 1, // Tu imperative
-                _ => false
-            };
-
-            if (doubleL)
-            {
-                int lastL = stem.LastIndexOf("l");
-                if (lastL >= 0)
-                    stem = stem.Substring(0, lastL) + "ll" + stem.Substring(lastL + 1);
-            }
-
-            return stem;
-        },
-
-        [Constants.Verbs.Regular.Er.Atteler] = (stem, tense, pronounIndex) =>
-        {
-            bool doubleL = tense switch
-            {
-                Constants.Tenses.Present => pronounIndex != 3, // all except Nous
-                Constants.Tenses.FuturSimple => true,
-                Constants.Tenses.ConditionnelPresent => true,
-                Constants.Tenses.Imperative => pronounIndex == 1 || pronounIndex == 4, // Tu, Vous
-                _ => false
-            };
-
-            if (doubleL)
-            {
-                int lastL = stem.LastIndexOf("l");
-                if (lastL >= 0)
-                    stem = stem.Substring(0, lastL) + "ll" + stem.Substring(lastL + 1);
-            }
-
-            return stem;
-        },
-        
+        [Constants.Verbs.Regular.Er.Acheter] = new AcheterRegularErStemRule(),
+        [Constants.Verbs.Regular.Er.Manger] = new MangerRegularErStemRule(),
+        [Constants.Verbs.Regular.Er.Appeler] = new AppelerRegularErStemRule(),
+        [Constants.Verbs.Regular.Er.Atteler] = new AttelerRegularErStemRule(),
     };
     
     private string GetAdjustedStem(string stem, string tense, int pronounIndex)
@@ -99,7 +36,7 @@ public class RegularErVerb : RegularVerb
     
         if (SpecialStemRules.TryGetValue(Infinitive, out var rule))
         {
-            stem = rule(stem, tense, pronounIndex);
+            stem = rule.Apply(stem, tense, pronounIndex);
             specialHandled = true;
         }
 
