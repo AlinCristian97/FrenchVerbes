@@ -1,4 +1,5 @@
 using FrenchVerbes.AllConstants;
+using FrenchVerbes.Verbes.Regular;
 
 namespace FrenchVerbes.Verbes;
 
@@ -11,7 +12,12 @@ public static partial class VerbRepository
 
     #region FactoryMethods
 
-
+    private static RegularReVerb CreateRendre()
+    {
+        return new RegularReVerb(
+            Constants.Verbs.Regular.Re.Rendre,
+            Constants.VerbDescriptions.Regular.Re.Rendre);
+    }
 
     #endregion
 }
