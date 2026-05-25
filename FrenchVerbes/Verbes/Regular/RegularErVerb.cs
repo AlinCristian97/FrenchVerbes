@@ -1,5 +1,7 @@
 ﻿using FrenchVerbes.AllConstants;
 using FrenchVerbes.Verbes.Regular.StemRules.Er;
+using FrenchVerbes.Verbes.Regular.StemRules.Er.A;
+using FrenchVerbes.Verbes.Regular.StemRules.Er.M;
 
 namespace FrenchVerbes.Verbes.Regular;
 

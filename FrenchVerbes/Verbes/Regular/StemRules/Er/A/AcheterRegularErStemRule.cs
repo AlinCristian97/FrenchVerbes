@@ -1,6 +1,6 @@
 using FrenchVerbes.AllConstants;
 
-namespace FrenchVerbes.Verbes.Regular.StemRules.Er;
+namespace FrenchVerbes.Verbes.Regular.StemRules.Er.A;
 
 public sealed class AcheterRegularErStemRule : IRegularErStemRule
 {

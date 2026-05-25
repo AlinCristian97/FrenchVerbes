@@ -22,6 +22,7 @@
 
     <ItemGroup>
       <Folder Include="AI\prompts\" />
+      <Folder Include="Verbes\Regular\StemRules\Er\A\" />
     </ItemGroup>
     
 </Project>
