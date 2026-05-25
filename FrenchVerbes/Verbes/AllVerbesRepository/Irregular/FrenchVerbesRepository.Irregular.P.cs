@@ -4,5 +4,7 @@ public static partial class VerbRepository
 {
     private static void AddIrregularPVerbs()
     {
+        _verbs.Add(CreatePouvoir());
+        _verbs.Add(CreatePrendre());
     }
 }
