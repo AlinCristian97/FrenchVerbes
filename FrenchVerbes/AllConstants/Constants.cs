@@ -8,27 +8,6 @@ public static partial class Constants
 
         public static partial class Irregular
         {
-            // C
-            public const string Conquerir = "conquérir";
-            public const string Contribuer = "contribuer";
-            public const string Conduire = "conduire";
-            public const string Contenir = "contenir";
-            public const string Croire = "croire";
-            public const string Se_Croire = "se croire";
-            public const string Courir = "courir";
-            public const string Couvrir = "couvrir";
-            public const string Convaincre = "convaincre";
-            public const string Clore = "clore";
-            public const string Construire = "construire";
-            public const string Craindre = "craindre";
-            public const string Commettre = "commettre";
-            public const string Coudre = "coudre";
-            public const string Connaitre = "connaître";
-            public const string Se_Connaitre = "se connaître";
-            public const string Corrompre = "corrompre";
-            public const string Crever = "crever";
-            public const string Combattre = "combattre";
-
             // D
             public const string Dechoir = "déchoir";
             public const string Detruire = "détruire";
@@ -954,10 +933,6 @@ public static partial class Constants
 
         public static partial class Irregular
         {
-            // C
-            public const string Conduire = "Conduire est un verbe irrégulier en -re qui signifie diriger un véhicule ou guider une action. Il suit le même modèle que les verbes du type 'produire' ou 'traduire'.";
-            public const string Courir = "Courir est un verbe irrégulier qui signifie se déplacer rapidement à pied ou fonctionner rapidement par extension. Il présente des formes irrégulières au présent avec 'cours', 'courons' et 'courent'.";
-
             // D
             public const string Devoir = "Devoir est un verbe modal exprimant l'obligation, la nécessité ou le devoir moral. Il sert à indiquer ce qu’il faut faire ou ce qui est attendu.";
             public const string Dire = "Dire est un verbe fondamental exprimant l'action de prononcer, raconter ou communiquer quelque chose. Il est également utilisé dans de nombreuses expressions idiomatiques et pour rapporter des paroles.";
