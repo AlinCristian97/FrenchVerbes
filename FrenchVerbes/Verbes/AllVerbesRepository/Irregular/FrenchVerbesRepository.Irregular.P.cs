@@ -14,6 +14,3 @@ public static partial class VerbRepository
 
     #endregion
 }
-
-
-
