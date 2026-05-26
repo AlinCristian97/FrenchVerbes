@@ -14,7 +14,7 @@ public class RegularErVerb : RegularVerb
     }
 
     protected override string Ending => "er";
-    
+
     private const string specialCerEnding = "cer";
     private const string specialGerEnding = "ger";
     
@@ -88,11 +88,12 @@ public class RegularErVerb : RegularVerb
     
     protected override string GetStemForTense(string tense)
     {
+        string infinitive = BareInfinitive;
         string stem = tense switch
         {
-            Constants.Tenses.Present or Constants.Tenses.Imparfait => Infinitive[..^Ending.Length],
-            Constants.Tenses.FuturSimple or Constants.Tenses.ConditionnelPresent => Infinitive,
-            _ => Infinitive
+            Constants.Tenses.Present or Constants.Tenses.Imparfait => infinitive[..^Ending.Length],
+            Constants.Tenses.FuturSimple or Constants.Tenses.ConditionnelPresent => infinitive,
+            _ => infinitive
         };
 
         return stem;
@@ -110,7 +111,13 @@ public class RegularErVerb : RegularVerb
         {
             string adjustedStem = GetAdjustedStem(stem, tense, i);
 
-            PrintUtils.PrintPronoun(i, adjustedStem);
+            PrintUtils.PrintPronoun(i, IsReflexive ? Constants.Pronouns.Reflexive.All[i] : adjustedStem);
+            if (IsReflexive)
+            {
+                string refl = Constants.Pronouns.Reflexive.All[i];
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write(ElideReflexivePronoun(refl, adjustedStem));
+            }
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write(adjustedStem);
             Console.ResetColor();
@@ -135,7 +142,13 @@ public class RegularErVerb : RegularVerb
         {
             string adjustedStem = GetAdjustedStem(stem, tense, i);
 
-            PrintUtils.PrintPronoun(i, adjustedStem);
+            PrintUtils.PrintPronoun(i, IsReflexive ? Constants.Pronouns.Reflexive.All[i] : adjustedStem);
+            if (IsReflexive)
+            {
+                string refl = Constants.Pronouns.Reflexive.All[i];
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write(ElideReflexivePronoun(refl, adjustedStem));
+            }
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write(adjustedStem);
             Console.ResetColor();
@@ -158,7 +171,13 @@ public class RegularErVerb : RegularVerb
         {
             string adjustedStem = GetAdjustedStem(stem, tense, i);
 
-            PrintUtils.PrintPronoun(i, adjustedStem);
+            PrintUtils.PrintPronoun(i, IsReflexive ? Constants.Pronouns.Reflexive.All[i] : adjustedStem);
+            if (IsReflexive)
+            {
+                string refl = Constants.Pronouns.Reflexive.All[i];
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write(ElideReflexivePronoun(refl, adjustedStem));
+            }
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write(adjustedStem);
             Console.ResetColor();
@@ -181,7 +200,13 @@ public class RegularErVerb : RegularVerb
         {
             string adjustedStem = GetAdjustedStem(stem, tense, i);
 
-            PrintUtils.PrintPronoun(i, adjustedStem);
+            PrintUtils.PrintPronoun(i, IsReflexive ? Constants.Pronouns.Reflexive.All[i] : adjustedStem);
+            if (IsReflexive)
+            {
+                string refl = Constants.Pronouns.Reflexive.All[i];
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write(ElideReflexivePronoun(refl, adjustedStem));
+            }
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write(adjustedStem);
             Console.ResetColor();
@@ -200,16 +225,26 @@ public class RegularErVerb : RegularVerb
         string stem = GetStemForTense(Constants.Tenses.Present);
 
         int[] indices = { 1, 3, 4 }; // Tu, Nous, Vous
+        // Reflexive imperative post-verbal pronouns: toi, nous, vous
+        string[] reflexiveImperativePronouns = { "toi", "nous", "vous" };
 
         for (int i = 0; i < indices.Length; i++)
         {
             int pronounIndex = indices[i];
             string adjustedStem = GetAdjustedStem(stem, tense, pronounIndex);
 
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.Write(adjustedStem);
+            Console.ResetColor();
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write(ImperativeEndings[i]);
             Console.ResetColor();
+            if (IsReflexive)
+            {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write($"-{reflexiveImperativePronouns[i]}");
+                Console.ResetColor();
+            }
             Console.WriteLine(" !");
         }
     }

@@ -31,7 +31,26 @@ public abstract class Verb
     }
 
     protected abstract string GetStemForTense(string tense);
-    
+
+    protected virtual string BareInfinitive => IsReflexive
+        ? Infinitive.StartsWith("s'")
+            ? Infinitive[2..]
+            : Infinitive.StartsWith("se ")
+                ? Infinitive[3..]
+                : Infinitive
+        : Infinitive;
+
+    protected static string ElideReflexivePronoun(string pronoun, string nextWord)
+    {
+        if ((pronoun == "me" || pronoun == "te" || pronoun == "se")
+            && !string.IsNullOrEmpty(nextWord)
+            && Constants.Vowels.Contains(nextWord[0]))
+        {
+            return pronoun[0] + "'";
+        }
+        return pronoun + " ";
+    }
+
     public void PrintSummary()
     {
         PrintGeneralInfo();
@@ -211,7 +230,13 @@ public abstract class Verb
 
         for (int i = 0; i < Constants.Pronouns.All.Length; i++)
         {
-            PrintUtils.PrintPronoun(i, aux[i]);
+            PrintUtils.PrintPronoun(i, IsReflexive ? Constants.Pronouns.Reflexive.All[i] : aux[i]);
+            if (IsReflexive)
+            {
+                string refl = Constants.Pronouns.Reflexive.All[i];
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write(ElideReflexivePronoun(refl, aux[i]));
+            }
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write($"{aux[i]} ");
             
@@ -262,8 +287,14 @@ public abstract class Verb
             Console.Write($"{Constants.Pronouns.All[i]} ");
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write($"{aux[i]} ");
+            if (IsReflexive)
+            {
+                string refl = Constants.Pronouns.Reflexive.All[i];
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write(ElideReflexivePronoun(refl, BareInfinitive));
+            }
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(Infinitive);
+            Console.WriteLine(BareInfinitive);
             Console.ResetColor();
         }
     }
@@ -278,8 +309,9 @@ public abstract class Verb
         string[] aux = Constants.Tenses.Auxiliaries.PasseRecent_Auxiliary;
         string connector = "de";
 
-        // Contract 'de' to 'd'' if the infinitive starts with a vowel
-        if (Constants.Vowels.Contains(Infinitive[0]))
+        // Contract 'de' to 'd'' if the (bare) infinitive starts with a vowel,
+        // but NOT for reflexive verbs — 'de' is followed by the reflexive pronoun (me/te/se…)
+        if (!IsReflexive && Constants.Vowels.Contains(BareInfinitive[0]))
         {
             connector = "d'";
         }
@@ -290,12 +322,15 @@ public abstract class Verb
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write($"{aux[i]} ");
             Console.ForegroundColor = ConsoleColor.Magenta;
-            
-            // If it's d', don't add a space
             Console.Write(connector + (connector.EndsWith("'") ? "" : " "));
-            
+            if (IsReflexive)
+            {
+                string refl = Constants.Pronouns.Reflexive.All[i];
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write(ElideReflexivePronoun(refl, BareInfinitive));
+            }
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(Infinitive);
+            Console.WriteLine(BareInfinitive);
             Console.ResetColor();
         }
     }

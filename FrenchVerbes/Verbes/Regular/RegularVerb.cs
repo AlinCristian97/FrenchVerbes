@@ -18,7 +18,7 @@ public abstract class RegularVerb : Verb
 
     protected abstract string[] PresentTenseEndings { get; }
     protected abstract string[] ImperativeEndings { get; }
-    protected override string PastParticiple => Infinitive[..^Ending.Length] + PastParticipleSuffix;
+    protected override string PastParticiple => BareInfinitive[..^Ending.Length] + PastParticipleSuffix;
 
     protected abstract string PastParticipleSuffix { get; }
 
