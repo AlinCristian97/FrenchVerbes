@@ -98,7 +98,7 @@ internal class Program
         }
 
         Console.WriteLine();
-        verb.PrintSummary();
+        PrintSummaryAndCopy(verb);
     }
 
     private static void HandleRandomVerb(string? type)
@@ -113,6 +113,24 @@ internal class Program
             _ => VerbRepository.GetRandom()
         };
 
+        PrintSummaryAndCopy(verb);
+    }
+
+    private static void PrintSummaryAndCopy(Verb verb)
+    {
+        ClipboardLogger.Reset();
+
+        var originalOut = Console.Out;
+        using var dual = new DualWriter(originalOut);
+        Console.SetOut(dual);
+
         verb.PrintSummary();
+
+        Console.SetOut(originalOut);
+
+        ClipboardLogger.CopyToClipboard();
+        Console.ForegroundColor = ConsoleColor.DarkGreen;
+        Console.WriteLine("[Copied to clipboard]");
+        Console.ResetColor();
     }
 }
