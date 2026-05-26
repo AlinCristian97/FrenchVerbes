@@ -29,6 +29,8 @@ public static partial class VerbRepository
         _verbs.Add(CreateAffronter());
         _verbs.Add(CreateSe_Affronter());
         _verbs.Add(CreateAviser());
+        _verbs.Add(CreateAccuser());
+        _verbs.Add(CreateSe_Accuser());
     }
 
     #region FactoryMethods
@@ -232,6 +234,23 @@ public static partial class VerbRepository
             Constants.Verbs.Regular.Er.Aviser,
             Constants.VerbDescriptions.Regular.Er.Aviser,
             hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateAccuser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Accuser,
+            Constants.VerbDescriptions.Regular.Er.Accuser,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Accuser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Accuser,
+            Constants.VerbDescriptions.Regular.Er.Se_Accuser,
+            usesEtre: true,
+            isReflexive: true);
     }
 
     #endregion

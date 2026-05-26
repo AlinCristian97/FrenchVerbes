@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Il s'accuse de ne pas avoir agi plus tôt.",
+    "Elle s'accuse d'avoir oublié cet anniversaire important.",
+    "Je m'accuse d'avoir mal géré cette situation délicate.",
+    "Nous nous accusons mutuellement de la même erreur.",
+    "Tu t'accuses trop sévèrement pour quelque chose d'insignifiant."
+  ],
+  "Imparfait": [
+    "Il s'accusait constamment de ne pas être à la hauteur.",
+    "Elle s'accusait d'avoir causé la dispute entre ses amis.",
+    "Je m'accusais de tous les torts alors que j'étais innocent.",
+    "Ils s'accusaient mutuellement sans chercher à comprendre la situation.",
+    "Tu t'accusais souvent de choses qui n'étaient pas de ta faute."
+  ],
+  "Futur Simple": [
+    "Il s'accusera devant le juge pour protéger son complice.",
+    "Elle s'accusera d'avoir pris la mauvaise décision si les choses tournent mal.",
+    "Je m'accuserai si cela peut sauver la situation.",
+    "Ils s'accuseront mutuellement lors de l'enquête.",
+    "Tu t'accuseras inutilement si tu n'attends pas les faits."
+  ],
+  "Passé Composé": [
+    "Il s'est accusé du crime pour protéger quelqu'un d'autre.",
+    "Elle s'est accusée d'avoir mal géré la crise.",
+    "Je me suis accusé à tort lors de l'interrogatoire.",
+    "Ils se sont accusés mutuellement devant les enquêteurs.",
+    "Tu t'es accusée bien trop vite sans connaître tous les faits."
+  ],
+  "Futur Proche": [
+    "Il va s'accuser pour protéger son ami d'enfance.",
+    "Elle va s'accuser d'avoir négligé ses responsabilités.",
+    "Je vais m'accuser si personne d'autre ne reconnaît sa faute.",
+    "Ils vont s'accuser mutuellement lors de la prochaine réunion.",
+    "Tu vas t'accuser inutilement si tu agis dans la précipitation."
+  ],
+  "Passé Récent": [
+    "Il vient de s'accuser publiquement d'avoir menti.",
+    "Elle vient de s'accuser d'une erreur qu'elle n'a pas commise.",
+    "Je viens de m'accuser devant tout le groupe.",
+    "Ils viennent de s'accuser mutuellement de mauvaise foi.",
+    "Tu viens de t'accuser sans même avoir entendu les faits."
+  ],
+  "Impératif": [
+    "Accuse-toi si tu es réellement coupable, pas pour protéger quelqu'un !",
+    "Accusez-vous franchement plutôt que de vous renvoyer la faute !",
+    "Accusons-nous de nos propres erreurs avant de blâmer les autres !",
+    "Ne t'accuse pas à tort, attends les résultats de l'enquête.",
+    "Accusez-vous mutuellement si vous voulez, mais apportez des preuves !"
+  ],
+  "Conditionnel Présent": [
+    "Il s'accuserait pour protéger sa famille si cela était nécessaire.",
+    "Elle s'accuserait d'avoir mal agi si elle n'avait pas de soutien.",
+    "Je m'accuserais volontiers si cela pouvait résoudre la situation.",
+    "Ils s'accuseraient mutuellement si la pression devenait trop forte.",
+    "Tu t'accuserais sans raison si tu continuais à douter de toi."
+  ]
+}

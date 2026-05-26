@@ -30,6 +30,8 @@ public static partial class Constants
                 public const string Affronter = "Affronter est un verbe régulier du premier groupe (-er) qui signifie faire face à quelqu'un ou à quelque chose de difficile, de dangereux ou d'hostile. Il s'emploie aussi de façon pronominale (s'affronter) pour exprimer une confrontation mutuelle entre deux parties.";
                 public const string Se_Affronter = "S'affronter est la forme pronominale réciproque du verbe affronter. Il signifie se faire face mutuellement, se battre ou s'opposer. Il se conjugue avec l'auxiliaire 'être' aux temps composés et s'emploie principalement avec des sujets pluriels.";
                 public const string Aviser = "Aviser est un verbe régulier du premier groupe (-er) qui signifie remarquer quelque chose, en prendre conscience, ou décider d'agir après réflexion. Il s'emploie également de façon pronominale (s'aviser de) pour exprimer l'idée d'oser faire quelque chose ou de se rendre compte de quelque chose.";
+                public const string Accuser = "Accuser est un verbe régulier du premier groupe (-er) qui signifie imputer une faute ou un crime à quelqu'un, porter une accusation contre une personne ou révéler les signes de quelque chose. Il s'emploie aussi de façon pronominale (s'accuser) pour exprimer le fait de se reconnaître coupable ou de s'incriminer soi-même.";
+                public const string Se_Accuser = "S'accuser est la forme pronominale réfléchie du verbe accuser. Il signifie se déclarer coupable, s'attribuer une faute ou se reprocher quelque chose. Il se conjugue avec l'auxiliaire 'être' aux temps composés.";
             }
         }
     }
