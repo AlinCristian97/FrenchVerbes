@@ -28,7 +28,12 @@ Use this checklist every time a verb is added.
    - `Constants.Verbs....<VerbName>`
    - `Constants.VerbDescriptions....<VerbName>`
 5. Optionally pass a `tensesNotes: new NotesObject { ... }` if the verb has conjugation notes worth highlighting (e.g. stem changes, spelling exceptions, auxiliary reminders). Leave it out if no notes are needed.
-6. Keep implementation style consistent with existing verbs in that file.
+6. **If the verb is reflexive** (e.g. `s'axer`), pass:
+   - `usesEtre: true` — reflexive verbs always use être in compound tenses
+   - `isReflexive: true` — enables correct reflexive pronoun injection across all tenses
+   - **Also** update the factory of the base non-reflexive verb (e.g. `axer`) to pass `hasReflexive: true` as a hint to the learner.
+7. **If the verb has a reflexive counterpart** but is not itself reflexive, pass `hasReflexive: true`.
+8. Keep implementation style consistent with existing verbs in that file.
 
 ## 4) Regular ER special stem rules (only if needed)
 
@@ -49,8 +54,9 @@ Use this checklist every time a verb is added.
    - `FrenchVerbes/Sentences/RegularVerbes/Ir/{LETTER}/` for Regular.Ir verbs
    - `FrenchVerbes/Sentences/RegularVerbes/Re/{LETTER}/` for Regular.Re verbs
    - Where `{LETTER}` is the **first letter of the infinitive** (uppercase).
+   - **For reflexive verbs**, the deciding letter ignores the `se/s'` prefix. E.g. `s'axer` → letter is `A`.
    - **If the letter folder does not exist, create it**.
-2. File name must be lowercased infinitive (for example: `atteler.json`).
+2. File name must be the lowercased infinitive (for example: `atteler.json`, `s'axer.json`).
 3. Include exactly these tenses as keys, with no other fields:
    - `Présent`
    - `Imparfait`
@@ -62,6 +68,12 @@ Use this checklist every time a verb is added.
    - `Conditionnel Présent`
 4. Add **5 sentences per tense**.
 5. The JSON structure must contain **only tense keys** — do not add a "verb" field or any other metadata.
+6. **For reflexive verbs**, sentences must use correct reflexive pronoun conjugation:
+   - Présent/Imparfait/Futur/Conditionnel: `je me/tu te/il se/nous nous/vous vous/ils se` + conjugated base verb
+   - Passé Composé: `je me suis/tu t'es/il s'est/...` + past participle of the **base verb** (not `s'axé` — just `axé`)
+   - Futur Proche: `je vais me/tu vas te/...` + base infinitive
+   - Passé Récent: `je viens de me/tu viens de te/...` + base infinitive (no contraction of `de` before the pronoun)
+   - Impératif: `axe-toi / axons-nous / axez-vous`
 
 ## 6) Validation
 
@@ -75,3 +87,7 @@ Use this checklist every time a verb is added.
 - Do not add duplicate verb constants.
 - Keep method/class naming conventions exactly aligned with existing code.
 - Keep json files to 5 sentences per tense
+- **For reflexive verbs**, the constant name uses the `Se_` prefix (e.g. `Se_Axer`), and the constant value is the full reflexive infinitive (e.g. `"s'axer"` or `"se lever"`).
+- **Reflexive verbs always use être** as their auxiliary in compound tenses — always pass `usesEtre: true`.
+- The `BareInfinitive` (base verb without `se/s'`) is computed automatically by the engine — do not manually strip it anywhere.
+- When adding a reflexive verb, also go back and add `hasReflexive: true` to the factory of its base verb if that verb already exists in the repository.
