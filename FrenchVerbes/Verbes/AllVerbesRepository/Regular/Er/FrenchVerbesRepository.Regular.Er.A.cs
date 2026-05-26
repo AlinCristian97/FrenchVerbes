@@ -18,6 +18,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateArriver());
         _verbs.Add(CreateAccrocher());
         _verbs.Add(CreateAnnoncer());
+        _verbs.Add(CreateActionner());
     }
 
     #region FactoryMethods
@@ -123,6 +124,13 @@ public static partial class VerbRepository
                 PresentNotes = "Annoncer prend une cédille à la 1re personne du singulier du présent pour conserver le son [s] : j'annonce, mais nous annonçons.",
                 ImparfaitNotes = "À l'imparfait, le 'c' devient 'ç' à la 1re et 2e personne du pluriel : nous annoncions, vous annonciez — mais ici le son [s] est naturellement préservé par le 'i'."
             });
+    }
+
+    private static RegularErVerb CreateActionner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Actionner,
+            Constants.VerbDescriptions.Regular.Er.Actionner);
     }
 
     #endregion

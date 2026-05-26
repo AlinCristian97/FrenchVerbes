@@ -13,8 +13,8 @@ public static partial class Constants
                 public const string Approuver = "approuver";
                 public const string Allumer = "allumer";
                 public const string Accrocher = "accrocher";
-                public const string Annoncer = "annoncer"; // <-- you are here
-                public const string Actionner = "actionner";
+                public const string Annoncer = "annoncer";
+                public const string Actionner = "actionner"; // <-- you are here
                 public const string Axer = "axer";
                 public const string Se_Axer = "s'axer";
                 public const string Aborder = "aborder";

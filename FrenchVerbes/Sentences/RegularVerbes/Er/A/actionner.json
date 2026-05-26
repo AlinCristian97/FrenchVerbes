@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'actionne le levier pour ouvrir la porte.",
+    "Tu actionnes l'interrupteur pour allumer la lumière.",
+    "Il actionne le frein d'urgence sans hésiter.",
+    "Nous actionnons la pompe pour vider le réservoir.",
+    "Elles actionnent le mécanisme en appuyant sur le bouton."
+  ],
+  "Imparfait": [
+    "J'actionnais la manette avec précision.",
+    "Tu actionnais le système chaque matin avant de commencer.",
+    "Il actionnait la sirène pour avertir les ouvriers.",
+    "Nous actionnions les vannes à tour de rôle.",
+    "Ils actionnaient les commandes depuis la cabine de pilotage."
+  ],
+  "Futur Simple": [
+    "J'actionnerai le déclencheur au bon moment.",
+    "Tu actionneras l'alarme si tu vois quelque chose de suspect.",
+    "Elle actionnera la machine dès que tout sera prêt.",
+    "Nous actionnerons le système de ventilation à distance.",
+    "Ils actionneront le mécanisme dès réception du signal."
+  ],
+  "Passé Composé": [
+    "J'ai actionné le frein juste à temps.",
+    "Tu as actionné l'interrupteur par erreur.",
+    "Il a actionné la commande sans lire les instructions.",
+    "Nous avons actionné le dispositif de sécurité immédiatement.",
+    "Elles ont actionné les pompes pour éviter l'inondation."
+  ],
+  "Futur Proche": [
+    "Je vais actionner le levier dans un instant.",
+    "Tu vas actionner le bouton d'urgence si nécessaire.",
+    "Il va actionner la machine dès son arrivée.",
+    "Nous allons actionner le système automatique ce soir.",
+    "Ils vont actionner les freins avant l'arrêt complet."
+  ],
+  "Passé Récent": [
+    "Je viens d'actionner le déclencheur automatique.",
+    "Tu viens d'actionner la commande principale.",
+    "Elle vient d'actionner le mécanisme de verrouillage.",
+    "Nous venons d'actionner l'alarme incendie.",
+    "Ils viennent d'actionner la vanne de sécurité."
+  ],
+  "Impératif": [
+    "Actionne le levier maintenant !",
+    "Actionnons le système ensemble.",
+    "Actionnez le frein d'urgence immédiatement !",
+    "N'actionne pas ce bouton sans autorisation.",
+    "Actionnez la commande avec précaution."
+  ],
+  "Conditionnel Présent": [
+    "J'actionnerais le mécanisme si j'en avais la clé.",
+    "Tu actionnerais l'alarme si tu entendais un bruit suspect.",
+    "Il actionnerait la pompe s'il connaissait la procédure.",
+    "Nous actionnerions le système en cas d'urgence.",
+    "Ils actionneraient les freins si la vitesse était trop élevée."
+  ]
+}

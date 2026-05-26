@@ -19,6 +19,7 @@ public static partial class Constants
                 public const string Arriver = "Arriver est un verbe régulier en -er qui signifie atteindre un lieu, venir ou se produire. En français, il se conjugue avec l'auxiliaire 'être' aux temps composés.";
                 public const string Accrocher = "Accrocher est un verbe régulier du premier groupe (-er) qui signifie fixer quelque chose à un crochet, suspendre ou, par extension, attirer l'attention. Il peut s'employer de façon pronominale (s'accrocher) pour exprimer l'idée de se cramponner ou de persévérer.";
                 public const string Annoncer = "Annoncer est un verbe régulier du premier groupe (-er) qui signifie faire connaître une information, communiquer une nouvelle ou prévenir de quelque chose. Il présente un changement orthographique : le 'c' prend une cédille (ç) devant 'a' et 'o' pour conserver le son [s].";
+                public const string Actionner = "Actionner est un verbe régulier du premier groupe (-er) qui signifie mettre en marche un mécanisme, un appareil ou un dispositif en exerçant une action physique dessus.";
             }
         }
     }
