@@ -25,6 +25,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateAttirer());
         _verbs.Add(CreateAchever());
         _verbs.Add(CreateSe_Achever());
+        _verbs.Add(CreateAdopter());
     }
 
     #region FactoryMethods
@@ -196,6 +197,13 @@ public static partial class VerbRepository
                 PasseRecentNotes = "Même observation qu'au passé composé : s'achever s'utilise quasi exclusivement avec des sujets inanimés en usage courant. Les formes personnelles (je viens de m'achever…) sont grammaticalement possibles mais extrêmement rares.",
                 ImperativeNotes = "Les formes impératives réfléchies (achève-toi, achevons-nous, achevez-vous) sont grammaticalement possibles mais sémantiquement très insolites : s'achever exprime une fin naturelle et ne s'emploie pas comme un ordre adressé à une personne. En pratique, on préfère : « Que le débat s'achève ! », « Que la réunion s'achève ! »."
             });
+    }
+
+    private static RegularErVerb CreateAdopter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Adopter,
+            Constants.VerbDescriptions.Regular.Er.Adopter);
     }
 
     #endregion

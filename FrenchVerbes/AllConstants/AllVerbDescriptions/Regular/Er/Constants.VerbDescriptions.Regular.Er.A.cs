@@ -26,6 +26,7 @@ public static partial class Constants
                 public const string Attirer = "Attirer est un verbe régulier du premier groupe (-er) qui signifie exercer une force ou un charme qui fait venir vers soi. Il peut exprimer une attraction physique, une séduction ou un intérêt particulier pour quelque chose ou quelqu'un.";
                 public const string Achever = "Achever est un verbe régulier du premier groupe (-er) qui signifie mener quelque chose à son terme, terminer complètement une action ou une œuvre. Il présente un changement de radical : le 'e' muet du radical devient 'è' devant une syllabe muette (j'achève, tu achèves).";
                 public const string Se_Achever = "S'achever est la forme pronominale du verbe achever. Il signifie prendre fin, se terminer. Il se conjugue avec l'auxiliaire 'être' aux temps composés et exprime la conclusion naturelle d'un événement ou d'une période.";
+                public const string Adopter = "Adopter est un verbe régulier du premier groupe (-er) qui signifie choisir officiellement, prendre pour sien, ou faire sien un enfant, une idée, une loi ou un comportement. Il est fréquemment utilisé dans les contextes juridiques, familiaux et sociaux.";
             }
         }
     }

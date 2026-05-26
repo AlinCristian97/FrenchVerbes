@@ -21,7 +21,7 @@ public static partial class Constants
                 public const string Attirer = "attirer";
                 public const string Achever = "achever";
                 public const string Se_Achever = "s'achever"; // <-- you are here
-                public const string Adopter = "adopter";
+                public const string Adopter = "adopter"; // <-- you are here
                 public const string Affronter = "affronter";
                 public const string Se_Affronter = "s'affronter";
                 public const string Aviser = "aviser";
