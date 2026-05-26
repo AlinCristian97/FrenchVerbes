@@ -93,7 +93,7 @@ internal class Program
 
         if (verb is null)
         {
-            Console.WriteLine("This verb is not implemented yet.");
+            Console.WriteLine("This verb is not implemented yet, or it doesn't exist (double-check the spelling).");
             return;
         }
 
