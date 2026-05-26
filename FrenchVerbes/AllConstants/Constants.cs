@@ -12,8 +12,26 @@ public static partial class Constants
         public const string IlsElles = "Ils/Elles";
 
         public static readonly string[] All = { Je, Tu, IlElleOn, Nous, Vous, IlsElles };
-        
+
         public const string Je_Contracted = "J'";
+
+        public static class Reflexive
+        {
+            // me / te elide to m' / t' before a vowel; se / s' always elide before a vowel.
+            // These are the base forms — elision is applied at print time.
+            public const string Me = "me";
+            public const string Te = "te";
+            public const string Se = "se";
+            public const string Nous = "nous";
+            public const string Vous = "vous";
+
+            /// <summary>
+            /// Indexed to match Constants.Pronouns.All:
+            /// [0] je → me, [1] tu → te, [2] il/elle/on → se,
+            /// [3] nous → nous, [4] vous → vous, [5] ils/elles → se
+            /// </summary>
+            public static readonly string[] All = { Me, Te, Se, Nous, Vous, Se };
+        }
     }
 
     public static class Tenses
