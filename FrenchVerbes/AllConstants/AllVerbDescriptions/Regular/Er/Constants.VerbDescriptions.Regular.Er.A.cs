@@ -33,6 +33,7 @@ public static partial class Constants
                 public const string Accuser = "Accuser est un verbe régulier du premier groupe (-er) qui signifie imputer une faute ou un crime à quelqu'un, porter une accusation contre une personne ou révéler les signes de quelque chose. Il s'emploie aussi de façon pronominale (s'accuser) pour exprimer le fait de se reconnaître coupable ou de s'incriminer soi-même.";
                 public const string Se_Accuser = "S'accuser est la forme pronominale réfléchie du verbe accuser. Il signifie se déclarer coupable, s'attribuer une faute ou se reprocher quelque chose. Il se conjugue avec l'auxiliaire 'être' aux temps composés.";
                 public const string Aboyer = "Aboyer est un verbe régulier du premier groupe (-er) qui signifie émettre des aboiements, en parlant d'un chien, ou, par extension, crier de façon forte et agressive. Il présente un changement de radical : le 'y' devient 'i' devant une terminaison muette (j'aboie, tu aboies), sauf à la 1re et 2e personne du pluriel (nous aboyons, vous aboyez).";
+                public const string Avouer = "Avouer est un verbe régulier du premier groupe (-er) qui signifie confesser, reconnaître ouvertement quelque chose que l'on cherchait à cacher, ou déclarer franchement ses sentiments ou ses actes. Il s'emploie en contexte juridique, moral ou affectif.";
             }
         }
     }
