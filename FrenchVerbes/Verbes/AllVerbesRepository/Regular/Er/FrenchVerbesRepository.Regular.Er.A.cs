@@ -22,7 +22,12 @@ public static partial class VerbRepository
     {
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Atteler,
-            Constants.VerbDescriptions.Regular.Er.Atteler);
+            Constants.VerbDescriptions.Regular.Er.Atteler,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes = "Au présent, le 'l' se double sauf à la 1re et 2e personne du pluriel : j'attelle, tu attelles, il attelle, mais nous attelons, vous atelez.",
+                FuturSimpleNotes = "Au futur et au conditionnel, le 'l' se double pour toutes les personnes : j'attellerai, j'attellerais."
+            });
     }
 
     private static RegularErVerb CreateAcheter()
