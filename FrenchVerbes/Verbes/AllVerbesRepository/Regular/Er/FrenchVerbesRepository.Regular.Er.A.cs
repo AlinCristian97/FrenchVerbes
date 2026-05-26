@@ -35,6 +35,8 @@ public static partial class VerbRepository
         _verbs.Add(CreateAvouer());
         _verbs.Add(CreateApostropher());
         _verbs.Add(CreateAsséner());
+        _verbs.Add(CreateAttacher());
+        _verbs.Add(CreateSe_Attacher());
     }
 
     #region FactoryMethods
@@ -293,6 +295,23 @@ public static partial class VerbRepository
                 PresentNotes = "Asséner change de radical au présent devant une terminaison muette : j'assène, tu assènes, il assène, ils assènent — mais nous assénons, vous assénez.",
                 FuturSimpleNotes = "Au futur et au conditionnel, le radical conserve l'accent aigu : j'assénerai, j'assénerais."
             });
+    }
+
+    private static RegularErVerb CreateAttacher()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Attacher,
+            Constants.VerbDescriptions.Regular.Er.Attacher,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Attacher()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Attacher,
+            Constants.VerbDescriptions.Regular.Er.Se_Attacher,
+            usesEtre: true,
+            isReflexive: true);
     }
 
     #endregion
