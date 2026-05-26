@@ -9,6 +9,7 @@ Use this checklist every time a verb is added.
    - `FrenchVerbes/AllConstants/AllVerbs/...`
 3. Confirm the verb constant is not duplicated.
 4. If missing, add it in the correct letter file.
+5. After adding the verb implementation, append a `// <-- you are here` comment in its appropriate Constants file on the same line (e.g., `public const string Accrocher = "accrocher"; // <-- you are here`).
 
 ## 2) Add the verb description constant
 
@@ -32,12 +33,13 @@ Use this checklist every time a verb is added.
 ## 4) Regular ER special stem rules (only if needed)
 
 1. If the verb is `Regular.Er`, check whether it needs a custom stem rule (spelling/conjugation exceptions).
-2. If needed, create/update the rule class in:
+2. **Important:** Verbs ending in `-cer` (e.g. `annoncer`, `avancer`) and `-ger` (e.g. `arranger`, `manger`) are **already handled generically** by `RegularErVerb.cs` (`GetAdjustedStem` method). Do **not** create a custom stem rule for these verbs.
+3. If needed for other cases, create/update the rule class in:
    - `FrenchVerbes/Verbes/Regular/StemRules/Er/<Letter>/`
-3. Register the rule in the matching letter registry file:
+4. Register the rule in the matching letter registry file:
    - `RegularErStemRules<Letter>.cs`
-4. Ensure it is included by `BuildSpecialStemRules` composition in `RegularErVerb`.
-5. If no special behavior is needed, do not add a custom rule.
+5. Ensure it is included by `BuildSpecialStemRules` composition in `RegularErVerb`.
+6. If no special behavior is needed, do not add a custom rule.
 
 ## 5) Add example sentences JSON
 
