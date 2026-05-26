@@ -20,6 +20,7 @@ public static partial class Constants
                 public const string Accrocher = "Accrocher est un verbe régulier du premier groupe (-er) qui signifie fixer quelque chose à un crochet, suspendre ou, par extension, attirer l'attention. Il peut s'employer de façon pronominale (s'accrocher) pour exprimer l'idée de se cramponner ou de persévérer.";
                 public const string Annoncer = "Annoncer est un verbe régulier du premier groupe (-er) qui signifie faire connaître une information, communiquer une nouvelle ou prévenir de quelque chose. Il présente un changement orthographique : le 'c' prend une cédille (ç) devant 'a' et 'o' pour conserver le son [s].";
                 public const string Actionner = "Actionner est un verbe régulier du premier groupe (-er) qui signifie mettre en marche un mécanisme, un appareil ou un dispositif en exerçant une action physique dessus.";
+                public const string Axer = "Axer est un verbe régulier du premier groupe (-er) qui signifie orienter, organiser ou centrer quelque chose autour d'un thème, d'un objectif ou d'un axe principal. Il s'emploie aussi de façon pronominale (s'axer) pour indiquer que quelque chose est centré ou focalisé sur un élément particulier.";
             }
         }
     }

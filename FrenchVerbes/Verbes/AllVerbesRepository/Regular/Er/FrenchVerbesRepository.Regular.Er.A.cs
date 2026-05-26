@@ -19,6 +19,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateAccrocher());
         _verbs.Add(CreateAnnoncer());
         _verbs.Add(CreateActionner());
+        _verbs.Add(CreateAxer());
     }
 
     #region FactoryMethods
@@ -131,6 +132,13 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Actionner,
             Constants.VerbDescriptions.Regular.Er.Actionner);
+    }
+
+    private static RegularErVerb CreateAxer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Axer,
+            Constants.VerbDescriptions.Regular.Er.Axer);
     }
 
     #endregion
