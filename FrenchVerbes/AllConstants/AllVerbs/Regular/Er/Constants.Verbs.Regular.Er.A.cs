@@ -15,8 +15,8 @@ public static partial class Constants
                 public const string Accrocher = "accrocher";
                 public const string Annoncer = "annoncer";
                 public const string Actionner = "actionner";
-                public const string Axer = "axer"; // <-- you are here
-                public const string Se_Axer = "s'axer";
+                public const string Axer = "axer";
+                public const string Se_Axer = "s'axer"; // <-- you are here
                 public const string Aborder = "aborder";
                 public const string Attirer = "attirer";
                 public const string Achever = "achever";
