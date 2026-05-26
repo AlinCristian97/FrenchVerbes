@@ -29,6 +29,7 @@ public static partial class Constants
                 public const string Adopter = "Adopter est un verbe régulier du premier groupe (-er) qui signifie choisir officiellement, prendre pour sien, ou faire sien un enfant, une idée, une loi ou un comportement. Il est fréquemment utilisé dans les contextes juridiques, familiaux et sociaux.";
                 public const string Affronter = "Affronter est un verbe régulier du premier groupe (-er) qui signifie faire face à quelqu'un ou à quelque chose de difficile, de dangereux ou d'hostile. Il s'emploie aussi de façon pronominale (s'affronter) pour exprimer une confrontation mutuelle entre deux parties.";
                 public const string Se_Affronter = "S'affronter est la forme pronominale réciproque du verbe affronter. Il signifie se faire face mutuellement, se battre ou s'opposer. Il se conjugue avec l'auxiliaire 'être' aux temps composés et s'emploie principalement avec des sujets pluriels.";
+                public const string Aviser = "Aviser est un verbe régulier du premier groupe (-er) qui signifie remarquer quelque chose, en prendre conscience, ou décider d'agir après réflexion. Il s'emploie également de façon pronominale (s'aviser de) pour exprimer l'idée d'oser faire quelque chose ou de se rendre compte de quelque chose.";
             }
         }
     }

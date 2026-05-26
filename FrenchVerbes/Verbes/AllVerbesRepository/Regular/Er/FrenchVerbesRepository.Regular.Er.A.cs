@@ -28,6 +28,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateAdopter());
         _verbs.Add(CreateAffronter());
         _verbs.Add(CreateSe_Affronter());
+        _verbs.Add(CreateAviser());
     }
 
     #region FactoryMethods
@@ -223,6 +224,13 @@ public static partial class VerbRepository
             Constants.VerbDescriptions.Regular.Er.Se_Affronter,
             usesEtre: true,
             isReflexive: true);
+    }
+
+    private static RegularErVerb CreateAviser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Aviser,
+            Constants.VerbDescriptions.Regular.Er.Aviser);
     }
 
     #endregion
