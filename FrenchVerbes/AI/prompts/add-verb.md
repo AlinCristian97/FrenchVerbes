@@ -26,7 +26,8 @@ Use this checklist every time a verb is added.
 4. Wire it using:
    - `Constants.Verbs....<VerbName>`
    - `Constants.VerbDescriptions....<VerbName>`
-5. Keep implementation style consistent with existing verbs in that file.
+5. Optionally pass a `tensesNotes: new NotesObject { ... }` if the verb has conjugation notes worth highlighting (e.g. stem changes, spelling exceptions, auxiliary reminders). Leave it out if no notes are needed.
+6. Keep implementation style consistent with existing verbs in that file.
 
 ## 4) Regular ER special stem rules (only if needed)
 
