@@ -35,6 +35,7 @@ public static partial class Constants
                 public const string Aboyer = "Aboyer est un verbe régulier du premier groupe (-er) qui signifie émettre des aboiements, en parlant d'un chien, ou, par extension, crier de façon forte et agressive. Il présente un changement de radical : le 'y' devient 'i' devant une terminaison muette (j'aboie, tu aboies), sauf à la 1re et 2e personne du pluriel (nous aboyons, vous aboyez).";
                 public const string Avouer = "Avouer est un verbe régulier du premier groupe (-er) qui signifie confesser, reconnaître ouvertement quelque chose que l'on cherchait à cacher, ou déclarer franchement ses sentiments ou ses actes. Il s'emploie en contexte juridique, moral ou affectif.";
                 public const string Apostropher = "Apostropher est un verbe régulier du premier groupe (-er) qui signifie interpeller quelqu'un brusquement et publiquement, souvent avec véhémence ou indignation. Il s'emploie principalement dans des contextes où l'on s'adresse à quelqu'un de façon directe et souvent hostile.";
+                public const string Asséner = "Asséner est un verbe régulier du premier groupe (-er) qui signifie porter un coup violent ou formuler un argument, une vérité ou une accusation de manière tranchante et sans réplique possible. Il présente un changement de radical : le 'é' devient 'è' devant une terminaison muette au présent et à l'impératif (j'assène, tu assènes), mais reste 'é' au futur et au conditionnel (j'assénerai).";
             }
         }
     }
