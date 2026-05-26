@@ -21,6 +21,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateActionner());
         _verbs.Add(CreateAxer());
         _verbs.Add(CreateSe_Axer());
+        _verbs.Add(CreateAborder());
     }
 
     #region FactoryMethods
@@ -150,6 +151,13 @@ public static partial class VerbRepository
             Constants.VerbDescriptions.Regular.Er.Se_Axer,
             usesEtre: true,
             isReflexive: true);
+    }
+
+    private static RegularErVerb CreateAborder()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Aborder,
+            Constants.VerbDescriptions.Regular.Er.Aborder);
     }
 
     #endregion
