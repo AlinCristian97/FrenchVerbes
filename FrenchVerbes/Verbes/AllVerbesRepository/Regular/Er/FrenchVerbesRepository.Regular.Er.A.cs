@@ -9,6 +9,7 @@ public static partial class VerbRepository
     {
         _verbs.Add(CreateAtteler());
         _verbs.Add(CreateApaiser());
+        _verbs.Add(CreateApprouver());
         _verbs.Add(CreateAcheter());
         _verbs.Add(CreateAdapter());
         _verbs.Add(CreateAimer());
@@ -86,6 +87,13 @@ public static partial class VerbRepository
                 PasseComposeNotes = "Arriver se conjugue avec l'auxiliaire 'être' au passé composé : je suis arrivé(e). Le participe passé s'accorde en genre et en nombre avec le sujet.",
                 PresentNotes = "Arriver est régulier au présent : j'arrive, tu arrives, il/elle arrive, nous arrivons, vous arrivez, ils/elles arrivent."
             });
+    }
+
+    private static RegularErVerb CreateApprouver()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Approuver,
+            Constants.VerbDescriptions.Regular.Er.Approuver);
     }
 
     #endregion

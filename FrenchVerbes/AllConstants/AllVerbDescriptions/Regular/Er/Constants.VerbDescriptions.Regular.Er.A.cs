@@ -10,6 +10,7 @@ public static partial class Constants
             {
                 public const string Atteler = "Atteler est un verbe du premier groupe (-er) qui signifie mettre un animal de trait à un véhicule ou, par extension, associer ou mobiliser des moyens pour une action.";
                 public const string Apaiser = "Apaiser est un verbe régulier du premier groupe (-er) qui signifie calmer, adoucir ou réduire une tension, une douleur ou un conflit. Il s'emploie aussi de façon pronominale (s'apaiser) pour exprimer le fait de se calmer.";
+                public const string Approuver = "Approuver est un verbe régulier du premier groupe (-er) qui signifie exprimer son accord, juger favorablement une idée, une décision ou le comportement de quelqu'un.";
                 public const string Acheter = "Acheter est un verbe courant qui exprime l'action d'acquérir quelque chose en échange d'argent. Il est très utilisé dans la vie quotidienne, notamment pour parler de courses, de biens et de services.";
                 public const string Adapter = "Adapter est un verbe régulier du premier groupe (-er) qui signifie ajuster, modifier ou rendre quelque chose approprié à une situation, un usage ou un contexte donné.";
                 public const string Aimer = "Aimer est un verbe régulier en -er qui exprime le sentiment d'affection, de goût ou de préférence. Très utilisé en français courant, il peut être suivi d'une personne, d'une chose ou d'une activité.";

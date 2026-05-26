@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'approuve cette décision importante.",
+    "Tu approuves le projet sans hésiter.",
+    "Elle approuve notre proposition.",
+    "Nous approuvons ce plan de travail.",
+    "Ils approuvent les nouvelles règles."
+  ],
+  "Imparfait": [
+    "J'approuvais souvent ses idées.",
+    "Tu approuvais chaque modification du dossier.",
+    "Il approuvait nos méthodes de travail.",
+    "Nous approuvions les choix du comité.",
+    "Elles approuvaient cette stratégie depuis longtemps."
+  ],
+  "Futur Simple": [
+    "J'approuverai ce document demain.",
+    "Tu approuveras la version finale.",
+    "Il approuvera la demande rapidement.",
+    "Nous approuverons ce budget en réunion.",
+    "Elles approuveront la nouvelle procédure."
+  ],
+  "Passé Composé": [
+    "J'ai approuvé le rapport final.",
+    "Tu as approuvé son initiative.",
+    "Elle a approuvé la proposition hier.",
+    "Nous avons approuvé le contrat.",
+    "Ils ont approuvé les changements demandés."
+  ],
+  "Futur Proche": [
+    "Je vais approuver cette candidature.",
+    "Tu vas approuver ce choix bientôt.",
+    "Il va approuver la mise à jour.",
+    "Nous allons approuver la décision commune.",
+    "Elles vont approuver ce règlement."
+  ],
+  "Passé Récent": [
+    "Je viens d'approuver le devis.",
+    "Tu viens d'approuver la commande.",
+    "Il vient d'approuver notre requête.",
+    "Nous venons d'approuver le planning.",
+    "Ils viennent d'approuver la proposition."
+  ],
+  "Impératif": [
+    "Approuve ce document maintenant !",
+    "Approuvons cette solution ensemble !",
+    "Approuvez ce plan sans attendre !",
+    "Approuve leur initiative immédiatement !",
+    "Approuvez cette décision aujourd'hui !"
+  ],
+  "Conditionnel Présent": [
+    "J'approuverais ce projet avec plus d'informations.",
+    "Tu approuverais cette idée dans ce contexte.",
+    "Il approuverait notre proposition finale.",
+    "Nous approuverions ce changement après discussion.",
+    "Elles approuveraient ce plan à l'unanimité."
+  ]
+}
