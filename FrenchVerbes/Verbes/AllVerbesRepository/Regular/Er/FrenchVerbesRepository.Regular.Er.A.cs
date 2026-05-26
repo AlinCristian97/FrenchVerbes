@@ -8,6 +8,7 @@ public static partial class VerbRepository
     private static void AddRegularErAVerbs()
     {
         _verbs.Add(CreateAtteler());
+        _verbs.Add(CreateApaiser());
         _verbs.Add(CreateAcheter());
         _verbs.Add(CreateAdapter());
         _verbs.Add(CreateAimer());
@@ -60,6 +61,13 @@ public static partial class VerbRepository
                 PresentNotes = "Au présent, le 'l' se double pour certaines personnes : j'appelle, tu appelles, il/elle appelle, mais nous appelons, vous appelez.",
                 FuturSimpleNotes = "Au futur et au conditionnel, le radical prend également un 'l' doublé : j'appellerai, je appellerais."
             });
+    }
+
+    private static RegularErVerb CreateApaiser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Apaiser,
+            Constants.VerbDescriptions.Regular.Er.Apaiser);
     }
 
     private static RegularErVerb CreateArriver()
