@@ -26,8 +26,10 @@ public class IrregularFrenchVerb : Verb
         bool usesEtre = false,
         bool isModal = false,
         bool supportsProgressive = true,
+        bool isReflexive = false,
+        bool hasReflexive = false,
         NotesObject? tensesNotes = null)
-        : base(infinitive, description, tensesNotes)
+        : base(infinitive, description, isReflexive, hasReflexive, tensesNotes)
     {
         PastParticiple = pastParticiple;
         _presentTense = presentTense;

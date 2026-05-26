@@ -7,10 +7,10 @@ namespace FrenchVerbes.Verbes.Regular;
 
 public class RegularErVerb : RegularVerb
 {
-    public RegularErVerb(string infinitive, string description, bool usesEtre = false, NotesObject? tensesNotes = null) : base(infinitive,
-        description, usesEtre, tensesNotes)
+    public RegularErVerb(string infinitive, string description, bool usesEtre = false, bool isReflexive = false, bool hasReflexive = false, NotesObject? tensesNotes = null) : base(infinitive,
+        description, usesEtre, isReflexive, hasReflexive, tensesNotes)
     {
-        
+
     }
 
     protected override string Ending => "er";

@@ -21,6 +21,7 @@ public static partial class Constants
                 public const string Annoncer = "Annoncer est un verbe régulier du premier groupe (-er) qui signifie faire connaître une information, communiquer une nouvelle ou prévenir de quelque chose. Il présente un changement orthographique : le 'c' prend une cédille (ç) devant 'a' et 'o' pour conserver le son [s].";
                 public const string Actionner = "Actionner est un verbe régulier du premier groupe (-er) qui signifie mettre en marche un mécanisme, un appareil ou un dispositif en exerçant une action physique dessus.";
                 public const string Axer = "Axer est un verbe régulier du premier groupe (-er) qui signifie orienter, organiser ou centrer quelque chose autour d'un thème, d'un objectif ou d'un axe principal. Il s'emploie aussi de façon pronominale (s'axer) pour indiquer que quelque chose est centré ou focalisé sur un élément particulier.";
+                public const string Se_Axer = "S'axer est la forme pronominale réfléchie du verbe axer. Il signifie se centrer, se focaliser ou s'organiser autour d'un thème, d'un objectif ou d'un axe principal. Il exprime le fait que quelque chose — ou quelqu'un — s'oriente délibérément autour d'un point central.";
             }
         }
     }

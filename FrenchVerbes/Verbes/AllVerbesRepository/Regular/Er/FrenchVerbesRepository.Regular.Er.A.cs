@@ -20,6 +20,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateAnnoncer());
         _verbs.Add(CreateActionner());
         _verbs.Add(CreateAxer());
+        _verbs.Add(CreateSe_Axer());
     }
 
     #region FactoryMethods
@@ -138,7 +139,17 @@ public static partial class VerbRepository
     {
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Axer,
-            Constants.VerbDescriptions.Regular.Er.Axer);
+            Constants.VerbDescriptions.Regular.Er.Axer,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Axer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Axer,
+            Constants.VerbDescriptions.Regular.Er.Se_Axer,
+            usesEtre: true,
+            isReflexive: true);
     }
 
     #endregion

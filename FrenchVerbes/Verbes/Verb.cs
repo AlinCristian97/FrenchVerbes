@@ -11,6 +11,8 @@ public abstract class Verb
     public virtual bool UsesEtre => false;
     public virtual bool IsModal { get; } = false;
     public virtual bool SupportsProgressive { get; } = true;
+    public bool IsReflexive { get; } = false;
+    public bool HasReflexive { get; } = false;
     
     protected static readonly string[] ImparfaitEndings = { "ais", "ais", "ait", "ions", "iez", "aient" };
     protected static readonly string[] FuturSimpleEndings = { "ai", "as", "a", "ons", "ez", "ont" };
@@ -19,10 +21,12 @@ public abstract class Verb
 
     private NotesObject? TensesNotes { get; } = null;
 
-    public Verb(string infinitive, string description, NotesObject? tensesNotes = null)
+    public Verb(string infinitive, string description, bool isReflexive = false, bool hasReflexive = false, NotesObject? tensesNotes = null)
     {
         Infinitive = infinitive.ToLowerInvariant();
         Description = description;
+        IsReflexive = isReflexive;
+        HasReflexive = hasReflexive;
         TensesNotes = tensesNotes;
     }
 
@@ -118,6 +122,17 @@ public abstract class Verb
         Console.ForegroundColor = ConsoleColor.DarkGray;
         Console.WriteLine(Description);
         Console.ResetColor();
+
+        Console.Write("Is Reflexive: ");
+        Console.ForegroundColor = ConsoleColor.DarkCyan;
+        Console.WriteLine(IsReflexive ? "yes" : "no");
+        Console.ResetColor();
+
+        Console.Write("Has Reflexive: ");
+        Console.ForegroundColor = ConsoleColor.DarkCyan;
+        Console.WriteLine(HasReflexive ? "yes" : "no");
+        Console.ResetColor();
+
         PrintUtils.PrintSectionDivider();
     }
 

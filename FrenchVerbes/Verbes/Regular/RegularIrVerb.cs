@@ -4,10 +4,10 @@ namespace FrenchVerbes.Verbes.Regular;
 
 public class RegularIrVerb : RegularVerb
 {
-    public RegularIrVerb(string infinitive, string description, bool usesEtre = false, NotesObject? tensesNotes = null) : base(infinitive,
-        description, usesEtre, tensesNotes)
+    public RegularIrVerb(string infinitive, string description, bool usesEtre = false, bool isReflexive = false, bool hasReflexive = false, NotesObject? tensesNotes = null) : base(infinitive,
+        description, usesEtre, isReflexive, hasReflexive, tensesNotes)
     {
-        
+
     }
 
     private const string StemSuffix = "iss";

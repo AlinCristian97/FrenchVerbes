@@ -8,8 +8,8 @@ public abstract class RegularVerb : Verb
     protected override string VerbType => Constants.VerbTypes.Regular;
     public override bool UsesEtre { get; }
 
-    protected RegularVerb(string infinitive, string description, bool usesEtre = false, NotesObject? tensesNotes = null)
-        : base(infinitive, description, tensesNotes)
+    protected RegularVerb(string infinitive, string description, bool usesEtre = false, bool isReflexive = false, bool hasReflexive = false, NotesObject? tensesNotes = null)
+        : base(infinitive, description, isReflexive, hasReflexive, tensesNotes)
     {
         UsesEtre = usesEtre;
     }
