@@ -13,6 +13,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateAcheter());
         _verbs.Add(CreateAdapter());
         _verbs.Add(CreateAimer());
+        _verbs.Add(CreateAllumer());
         _verbs.Add(CreateAppeler());
         _verbs.Add(CreateArriver());
     }
@@ -55,6 +56,13 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Aimer,
             Constants.VerbDescriptions.Regular.Er.Aimer);
+    }
+
+    private static RegularErVerb CreateAllumer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Allumer,
+            Constants.VerbDescriptions.Regular.Er.Allumer);
     }
 
     private static RegularErVerb CreateAppeler()

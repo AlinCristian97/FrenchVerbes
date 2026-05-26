@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je allume la lumière dans le salon.",
+    "Tu allumes la télévision avant de manger.",
+    "Il allume une cigarette dans le jardin.",
+    "Nous allumons les lampes pour l'ambiance.",
+    "Vous allumez le feu dans la cheminée."
+  ],
+  "Imparfait": [
+    "Je allumais les bougies chaque soir.",
+    "Tu allumais la radio en arrivant à la maison.",
+    "Elle allumait les lampes au coucher du soleil.",
+    "Nous allumions les feux d'artifice le 14 juillet.",
+    "Vous allumiez le chauffage en hiver."
+  ],
+  "Futur Simple": [
+    "Je allumerai les lumières ce soir.",
+    "Tu allumeras la cheminée demain.",
+    "Il allumera la lampe dans son bureau.",
+    "Nous allumerons les candélabres pour la fête.",
+    "Vous allumerez les réverbères à la tombée du jour."
+  ],
+  "Passé Composé": [
+    "J'ai allumé la lumière en entrant.",
+    "Tu as allumé le four pour le gâteau.",
+    "Elle a allumé les chandelles pour le dîner.",
+    "Nous avons allumé les feux sur la plage.",
+    "Vous avez allumé les projecteurs pour le concert."
+  ],
+  "Futur Proche": [
+    "Je vais allumer les lumières.",
+    "Tu vas allumer la musique.",
+    "Il va allumer le barbecue.",
+    "Nous allons allumer les lampions pour la fête.",
+    "Vous allez allumer les phares de votre voiture."
+  ],
+  "Passé Récent": [
+    "Je viens d'allumer la lumière.",
+    "Tu viens d'allumer le ordinateur.",
+    "Il vient d'allumer le moteur.",
+    "Nous venons d'allumer les lampadaires.",
+    "Vous venez d'allumer le chauffage."
+  ],
+  "Impératif": [
+    "Allume la lumière, s'il te plaît.",
+    "Allumons les bougies ensemble.",
+    "Allumez la télévision pour regarder le match.",
+    "N'allume pas le feu sans surveillance.",
+    "Allumons les lanternes pour éclairer le chemin."
+  ],
+  "Conditionnel Présent": [
+    "Je allumerais la lampe si c'était plus sombre.",
+    "Tu allumerais le feu pour nous réchauffer.",
+    "Elle allumerait les feux d'artifice pour célébrer.",
+    "Nous allumerions les lumières pour créer une ambiance.",
+    "Vous allumeriez les phares en cas de brouillard."
+  ]
+}

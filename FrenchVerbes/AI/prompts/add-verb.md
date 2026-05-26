@@ -44,7 +44,7 @@ Use this checklist every time a verb is added.
 1. Add a file in the proper folder under:
    - `FrenchVerbes/Sentences/...`
 2. File name must be lowercased infinitive (for example: `atteler.json`).
-3. Include exactly these tenses:
+3. Include exactly these tenses as keys, with no other fields:
    - `Présent`
    - `Imparfait`
    - `Futur Simple`
@@ -54,6 +54,7 @@ Use this checklist every time a verb is added.
    - `Impératif`
    - `Conditionnel Présent`
 4. Add **5 sentences per tense**.
+5. The JSON structure must contain **only tense keys** — do not add a "verb" field or any other metadata.
 
 ## 6) Validation
 
