@@ -16,6 +16,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateAllumer());
         _verbs.Add(CreateAppeler());
         _verbs.Add(CreateArriver());
+        _verbs.Add(CreateAccrocher());
     }
 
     #region FactoryMethods
@@ -102,6 +103,13 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Approuver,
             Constants.VerbDescriptions.Regular.Er.Approuver);
+    }
+
+    private static RegularErVerb CreateAccrocher()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Accrocher,
+            Constants.VerbDescriptions.Regular.Er.Accrocher);
     }
 
     #endregion

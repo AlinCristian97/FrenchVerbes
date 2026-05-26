@@ -17,6 +17,7 @@ public static partial class Constants
                 public const string Allumer = "Allumer est un verbe régulier du premier groupe (-er) qui signifie produire de la lumière, faire fonctionner une source lumineuse ou, par extension, susciter, éveiller un sentiment ou une réaction.";
                 public const string Appeler = "Appeler est un verbe régulier en -er avec un changement orthographique : le 'l' se double pour certaines personnes afin de préserver le son [ɛ]. Il exprime l'action de nommer quelqu'un ou de téléphoner à quelqu'un.";
                 public const string Arriver = "Arriver est un verbe régulier en -er qui signifie atteindre un lieu, venir ou se produire. En français, il se conjugue avec l'auxiliaire 'être' aux temps composés.";
+                public const string Accrocher = "Accrocher est un verbe régulier du premier groupe (-er) qui signifie fixer quelque chose à un crochet, suspendre ou, par extension, attirer l'attention. Il peut s'employer de façon pronominale (s'accrocher) pour exprimer l'idée de se cramponner ou de persévérer.";
             }
         }
     }
