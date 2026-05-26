@@ -32,8 +32,8 @@ public static partial class Constants
                 public const string Apostropher = "apostropher";
                 public const string Asséner = "asséner";
                 public const string Attacher = "attacher";
-                public const string Se_Attacher = "s'attacher"; // <-- you are here
-                public const string Approcher = "approcher";
+                public const string Se_Attacher = "s'attacher";
+                public const string Approcher = "approcher"; // <-- you are here
                 public const string Se_Approcher = "s'approcher";
                 public const string Ajouter = "ajouter";
                 public const string Abandonner = "abandonner";
