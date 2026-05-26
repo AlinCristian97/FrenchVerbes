@@ -23,7 +23,7 @@ public static partial class Constants
                 public const string Se_Achever = "s'achever";
                 public const string Adopter = "adopter";
                 public const string Affronter = "affronter";
-                public const string Se_Affronter = "se affronter";
+                public const string Se_Affronter = "s'affronter";
                 public const string Aviser = "aviser";
                 public const string Accuser = "accuser";
                 public const string Se_Accuser = "s'accuser";
@@ -34,7 +34,7 @@ public static partial class Constants
                 public const string Attacher = "attacher";
                 public const string Se_Attacher = "s'attacher";
                 public const string Approcher = "approcher";
-                public const string Se_Approcher = "se approcher";
+                public const string Se_Approcher = "s'approcher";
                 public const string Ajouter = "ajouter";
                 public const string Abandonner = "abandonner";
                 public const string Annuler = "annuler";
