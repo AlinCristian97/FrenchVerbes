@@ -31,6 +31,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateAviser());
         _verbs.Add(CreateAccuser());
         _verbs.Add(CreateSe_Accuser());
+        _verbs.Add(CreateAboyer());
     }
 
     #region FactoryMethods
@@ -251,6 +252,18 @@ public static partial class VerbRepository
             Constants.VerbDescriptions.Regular.Er.Se_Accuser,
             usesEtre: true,
             isReflexive: true);
+    }
+
+    private static RegularErVerb CreateAboyer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Aboyer,
+            Constants.VerbDescriptions.Regular.Er.Aboyer,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes = "Aboyer change de radical au présent : le 'y' devient 'i' devant une terminaison muette — j'aboie, tu aboies, il aboie, ils aboient — mais nous aboyons, vous aboyez.",
+                FuturSimpleNotes = "Au futur et au conditionnel, le 'y' devient 'i' pour toutes les personnes : j'aboierai, j'aboierais."
+            });
     }
 
     #endregion

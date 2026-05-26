@@ -26,8 +26,8 @@ public static partial class Constants
                 public const string Se_Affronter = "s'affronter";
                 public const string Aviser = "aviser";
                 public const string Accuser = "accuser";
-                public const string Se_Accuser = "s'accuser"; // <-- you are here
-                public const string Aboyer = "aboyer";
+                public const string Se_Accuser = "s'accuser";
+                public const string Aboyer = "aboyer"; // <-- you are here
                 public const string Avouer = "avouer";
                 public const string Apostropher = "apostropher";
                 public const string Asséner = "asséner";
