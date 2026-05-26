@@ -22,6 +22,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateAxer());
         _verbs.Add(CreateSe_Axer());
         _verbs.Add(CreateAborder());
+        _verbs.Add(CreateAttirer());
     }
 
     #region FactoryMethods
@@ -158,6 +159,13 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Aborder,
             Constants.VerbDescriptions.Regular.Er.Aborder);
+    }
+
+    private static RegularErVerb CreateAttirer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Attirer,
+            Constants.VerbDescriptions.Regular.Er.Attirer);
     }
 
     #endregion
