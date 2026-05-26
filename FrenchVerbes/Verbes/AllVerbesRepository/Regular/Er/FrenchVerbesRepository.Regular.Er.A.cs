@@ -33,6 +33,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateSe_Accuser());
         _verbs.Add(CreateAboyer());
         _verbs.Add(CreateAvouer());
+        _verbs.Add(CreateApostropher());
     }
 
     #region FactoryMethods
@@ -272,6 +273,13 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Avouer,
             Constants.VerbDescriptions.Regular.Er.Avouer);
+    }
+
+    private static RegularErVerb CreateApostropher()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Apostropher,
+            Constants.VerbDescriptions.Regular.Er.Apostropher);
     }
 
     #endregion

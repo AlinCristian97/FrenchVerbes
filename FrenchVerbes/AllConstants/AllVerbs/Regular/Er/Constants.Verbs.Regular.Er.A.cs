@@ -28,8 +28,8 @@ public static partial class Constants
                 public const string Accuser = "accuser";
                 public const string Se_Accuser = "s'accuser";
                 public const string Aboyer = "aboyer";
-                public const string Avouer = "avouer"; // <-- you are here
-                public const string Apostropher = "apostropher";
+                public const string Avouer = "avouer";
+                public const string Apostropher = "apostropher"; // <-- you are here
                 public const string Asséner = "asséner";
                 public const string Attacher = "attacher";
                 public const string Se_Attacher = "s'attacher";
