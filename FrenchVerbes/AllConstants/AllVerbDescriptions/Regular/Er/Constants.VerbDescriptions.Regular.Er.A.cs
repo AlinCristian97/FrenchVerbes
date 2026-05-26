@@ -27,6 +27,8 @@ public static partial class Constants
                 public const string Achever = "Achever est un verbe régulier du premier groupe (-er) qui signifie mener quelque chose à son terme, terminer complètement une action ou une œuvre. Il présente un changement de radical : le 'e' muet du radical devient 'è' devant une syllabe muette (j'achève, tu achèves).";
                 public const string Se_Achever = "S'achever est la forme pronominale du verbe achever. Il signifie prendre fin, se terminer. Il se conjugue avec l'auxiliaire 'être' aux temps composés et exprime la conclusion naturelle d'un événement ou d'une période.";
                 public const string Adopter = "Adopter est un verbe régulier du premier groupe (-er) qui signifie choisir officiellement, prendre pour sien, ou faire sien un enfant, une idée, une loi ou un comportement. Il est fréquemment utilisé dans les contextes juridiques, familiaux et sociaux.";
+                public const string Affronter = "Affronter est un verbe régulier du premier groupe (-er) qui signifie faire face à quelqu'un ou à quelque chose de difficile, de dangereux ou d'hostile. Il s'emploie aussi de façon pronominale (s'affronter) pour exprimer une confrontation mutuelle entre deux parties.";
+                public const string Se_Affronter = "S'affronter est la forme pronominale réciproque du verbe affronter. Il signifie se faire face mutuellement, se battre ou s'opposer. Il se conjugue avec l'auxiliaire 'être' aux temps composés et s'emploie principalement avec des sujets pluriels.";
             }
         }
     }

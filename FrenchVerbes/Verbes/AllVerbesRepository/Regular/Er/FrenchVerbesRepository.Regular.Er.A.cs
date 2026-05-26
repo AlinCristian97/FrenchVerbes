@@ -26,6 +26,8 @@ public static partial class VerbRepository
         _verbs.Add(CreateAchever());
         _verbs.Add(CreateSe_Achever());
         _verbs.Add(CreateAdopter());
+        _verbs.Add(CreateAffronter());
+        _verbs.Add(CreateSe_Affronter());
     }
 
     #region FactoryMethods
@@ -204,6 +206,23 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Adopter,
             Constants.VerbDescriptions.Regular.Er.Adopter);
+    }
+
+    private static RegularErVerb CreateAffronter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Affronter,
+            Constants.VerbDescriptions.Regular.Er.Affronter,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Affronter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Affronter,
+            Constants.VerbDescriptions.Regular.Er.Se_Affronter,
+            usesEtre: true,
+            isReflexive: true);
     }
 
     #endregion
