@@ -24,6 +24,8 @@ public static partial class Constants
                 public const string Se_Axer = "S'axer est la forme pronominale réfléchie du verbe axer. Il signifie se centrer, se focaliser ou s'organiser autour d'un thème, d'un objectif ou d'un axe principal. Il exprime le fait que quelque chose — ou quelqu'un — s'oriente délibérément autour d'un point central.";
                 public const string Aborder = "Aborder est un verbe régulier du premier groupe (-er) qui signifie s'approcher d'un lieu ou d'une personne, ou commencer à traiter un sujet. Il est très utilisé dans les contextes de navigation, de communication et d'interaction sociale.";
                 public const string Attirer = "Attirer est un verbe régulier du premier groupe (-er) qui signifie exercer une force ou un charme qui fait venir vers soi. Il peut exprimer une attraction physique, une séduction ou un intérêt particulier pour quelque chose ou quelqu'un.";
+                public const string Achever = "Achever est un verbe régulier du premier groupe (-er) qui signifie mener quelque chose à son terme, terminer complètement une action ou une œuvre. Il présente un changement de radical : le 'e' muet du radical devient 'è' devant une syllabe muette (j'achève, tu achèves).";
+                public const string Se_Achever = "S'achever est la forme pronominale du verbe achever. Il signifie prendre fin, se terminer. Il se conjugue avec l'auxiliaire 'être' aux temps composés et exprime la conclusion naturelle d'un événement ou d'une période.";
             }
         }
     }

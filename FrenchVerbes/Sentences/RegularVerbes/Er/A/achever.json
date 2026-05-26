@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Il achève son rapport avant la réunion.",
+    "Tu achèves enfin ce projet qui traîne depuis des mois.",
+    "J'achève la lecture de ce roman ce soir.",
+    "Nous achevons les travaux de rénovation cette semaine.",
+    "Les ouvriers achèvent la construction du bâtiment."
+  ],
+  "Imparfait": [
+    "Elle achevait sa lettre quand le téléphone a sonné.",
+    "Tu achevais toujours tes devoirs avant le dîner.",
+    "J'achevais mon discours lorsque les applaudissements ont éclaté.",
+    "Nous achevions la préparation du repas ensemble.",
+    "Les artisans achevaient la décoration de la salle."
+  ],
+  "Futur Simple": [
+    "Il achèvera son doctorat l'année prochaine.",
+    "Tu achèveras cette tâche avant la fin de la semaine.",
+    "J'achèverai ce tableau d'ici vendredi.",
+    "Nous achèverons les négociations d'ici la fin du mois.",
+    "Ils achèveront les travaux avant l'hiver."
+  ],
+  "Passé Composé": [
+    "Elle a achevé son manuscrit après trois ans de travail.",
+    "Tu as achevé la réparation en un temps record.",
+    "J'ai achevé mon stage avec une excellente évaluation.",
+    "Nous avons achevé la visite du musée en deux heures.",
+    "Les ingénieurs ont achevé la conception du prototype."
+  ],
+  "Futur Proche": [
+    "Il va achever son discours dans quelques minutes.",
+    "Tu vas achever cette formation très bientôt.",
+    "Je vais achever la mise en page du document ce soir.",
+    "Nous allons achever ce chapitre avant de faire une pause.",
+    "Ils vont achever les derniers préparatifs avant le départ."
+  ],
+  "Passé Récent": [
+    "Elle vient d'achever sa thèse de doctorat.",
+    "Tu viens d'achever une longue période de formation.",
+    "Je viens d'achever la correction des examens.",
+    "Nous venons d'achever notre tournée européenne.",
+    "L'équipe vient d'achever le développement de l'application."
+  ],
+  "Impératif": [
+    "Achève ce que tu as commencé !",
+    "Achevons ce projet ensemble avant la date limite !",
+    "Achevez vos travaux avant la fin du trimestre !",
+    "Achève ta phrase avant de passer à la suivante !",
+    "Achevez cette étape correctement avant de continuer !"
+  ],
+  "Conditionnel Présent": [
+    "Il achèverait son roman si il avait plus de temps.",
+    "Tu achèverais ce travail plus vite avec de l'aide.",
+    "J'achèverais volontiers cette mission si on me le demandait.",
+    "Nous achèverions les travaux plus tôt avec davantage de ressources.",
+    "Ils achèveraient leur objectif s'ils étaient mieux organisés."
+  ]
+}

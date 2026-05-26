@@ -23,6 +23,8 @@ public static partial class VerbRepository
         _verbs.Add(CreateSe_Axer());
         _verbs.Add(CreateAborder());
         _verbs.Add(CreateAttirer());
+        _verbs.Add(CreateAchever());
+        _verbs.Add(CreateSe_Achever());
     }
 
     #region FactoryMethods
@@ -166,6 +168,34 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Attirer,
             Constants.VerbDescriptions.Regular.Er.Attirer);
+    }
+
+    private static RegularErVerb CreateAchever()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Achever,
+            Constants.VerbDescriptions.Regular.Er.Achever,
+            hasReflexive: true,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes = "Achever change de radical au présent pour certaines personnes : j'achève, tu achèves, il achève, mais nous achevons, vous achevez.",
+                FuturSimpleNotes = "Au futur et au conditionnel, achever utilise le radical 'achèver-' : j'achèverai, j'achèverais."
+            });
+    }
+
+    private static RegularErVerb CreateSe_Achever()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Achever,
+            Constants.VerbDescriptions.Regular.Er.Se_Achever,
+            usesEtre: true,
+            isReflexive: true,
+            tensesNotes: new NotesObject
+            {
+                PasseComposeNotes = "S'achever s'emploie le plus souvent avec des sujets inanimés : « La réunion s'est achevée », « Le spectacle s'est achevé ». L'usage avec un sujet personnel (je me suis achevé…) est grammaticalement correct mais très rare, limité à des contextes stylistiques ou abstraits.",
+                PasseRecentNotes = "Même observation qu'au passé composé : s'achever s'utilise quasi exclusivement avec des sujets inanimés en usage courant. Les formes personnelles (je viens de m'achever…) sont grammaticalement possibles mais extrêmement rares.",
+                ImperativeNotes = "Les formes impératives réfléchies (achève-toi, achevons-nous, achevez-vous) sont grammaticalement possibles mais sémantiquement très insolites : s'achever exprime une fin naturelle et ne s'emploie pas comme un ordre adressé à une personne. En pratique, on préfère : « Que le débat s'achève ! », « Que la réunion s'achève ! »."
+            });
     }
 
     #endregion
