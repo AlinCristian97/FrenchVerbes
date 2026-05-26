@@ -124,14 +124,17 @@ public abstract class Verb
         Console.ResetColor();
 
         Console.Write("Is Reflexive: ");
-        Console.ForegroundColor = ConsoleColor.DarkCyan;
+        Console.ForegroundColor = ConsoleColor.DarkGray;
         Console.WriteLine(IsReflexive ? "yes" : "no");
         Console.ResetColor();
 
-        Console.Write("Has Reflexive: ");
-        Console.ForegroundColor = ConsoleColor.DarkCyan;
-        Console.WriteLine(HasReflexive ? "yes" : "no");
-        Console.ResetColor();
+        if (!IsReflexive)
+        {
+            Console.Write("Has Reflexive: ");
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.WriteLine(HasReflexive ? "yes" : "no");
+            Console.ResetColor();
+        }
 
         PrintUtils.PrintSectionDivider();
     }
