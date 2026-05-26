@@ -41,8 +41,13 @@ Use this checklist every time a verb is added.
 
 ## 5) Add example sentences JSON
 
-1. Add a file in the proper folder under:
-   - `FrenchVerbes/Sentences/...`
+1. Add a file in the proper folder structure under:
+   - `FrenchVerbes/Sentences/IrregularVerbes/{LETTER}/` for irregular verbs
+   - `FrenchVerbes/Sentences/RegularVerbes/Er/{LETTER}/` for Regular.Er verbs
+   - `FrenchVerbes/Sentences/RegularVerbes/Ir/{LETTER}/` for Regular.Ir verbs
+   - `FrenchVerbes/Sentences/RegularVerbes/Re/{LETTER}/` for Regular.Re verbs
+   - Where `{LETTER}` is the **first letter of the infinitive** (uppercase).
+   - **If the letter folder does not exist, create it**.
 2. File name must be lowercased infinitive (for example: `atteler.json`).
 3. Include exactly these tenses as keys, with no other fields:
    - `Présent`
