@@ -94,8 +94,25 @@ public abstract class Verb
     {
         PrintUtils.PrintSectionDivider();
         Console.Write("Verb: ");
-        Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine(Infinitive);
+        if (Infinitive.StartsWith("s'"))
+        {
+            Console.ForegroundColor= ConsoleColor.Cyan;
+            Console.Write("s'");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(Infinitive[2..]);
+        }
+        else if (Infinitive.StartsWith("se "))
+        {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("se ");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(Infinitive[3..]);
+        }
+        else
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(Infinitive);
+        }
         Console.ResetColor();
 
         Console.Write("Type: ");
