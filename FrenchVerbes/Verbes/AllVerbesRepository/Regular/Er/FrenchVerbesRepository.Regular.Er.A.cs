@@ -230,7 +230,8 @@ public static partial class VerbRepository
     {
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Aviser,
-            Constants.VerbDescriptions.Regular.Er.Aviser);
+            Constants.VerbDescriptions.Regular.Er.Aviser,
+            hasReflexive: true);
     }
 
     #endregion
