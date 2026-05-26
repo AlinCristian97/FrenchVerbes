@@ -28,7 +28,17 @@ Use this checklist every time a verb is added.
    - `Constants.VerbDescriptions....<VerbName>`
 5. Keep implementation style consistent with existing verbs in that file.
 
-## 4) Add example sentences JSON
+## 4) Regular ER special stem rules (only if needed)
+
+1. If the verb is `Regular.Er`, check whether it needs a custom stem rule (spelling/conjugation exceptions).
+2. If needed, create/update the rule class in:
+   - `FrenchVerbes/Verbes/Regular/StemRules/Er/<Letter>/`
+3. Register the rule in the matching letter registry file:
+   - `RegularErStemRules<Letter>.cs`
+4. Ensure it is included by `BuildSpecialStemRules` composition in `RegularErVerb`.
+5. If no special behavior is needed, do not add a custom rule.
+
+## 5) Add example sentences JSON
 
 1. Add a file in the proper folder under:
    - `FrenchVerbes/Sentences/...`
@@ -44,7 +54,7 @@ Use this checklist every time a verb is added.
    - `Conditionnel Présent`
 4. Add **5 sentences per tense**.
 
-## 5) Validation
+## 6) Validation
 
 1. Build the solution.
 2. Ensure no duplicate constants or duplicate methods were introduced.
