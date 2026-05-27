@@ -39,6 +39,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateSe_Attacher());
         _verbs.Add(CreateApprocher());
         _verbs.Add(CreateSe_Approcher());
+        _verbs.Add(CreateAjouter());
     }
 
     #region FactoryMethods
@@ -331,6 +332,13 @@ public static partial class VerbRepository
             Constants.VerbDescriptions.Regular.Er.Se_Approcher,
             usesEtre: true,
             isReflexive: true);
+    }
+
+    private static RegularErVerb CreateAjouter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Ajouter,
+            Constants.VerbDescriptions.Regular.Er.Ajouter);
     }
 
     #endregion

@@ -40,6 +40,7 @@ public static partial class Constants
                 public const string Se_Attacher = "S'attacher est la forme pronominale réfléchie ou réciproque du verbe attacher. Il signifie se lier affectivement à quelqu'un ou à quelque chose, se consacrer avec application à une tâche, ou se fixer soi-même. Il se conjugue avec l'auxiliaire 'être' aux temps composés.";
                 public const string Approcher = "Approcher est un verbe régulier du premier groupe (-er) qui signifie se déplacer vers quelqu'un ou quelque chose, réduire la distance qui sépare de quelqu'un ou de quelque chose, ou rendre plus proche. Il s'emploie aussi de façon pronominale (s'approcher) pour indiquer que l'on se rapproche soi-même d'un lieu ou d'une personne.";
                 public const string Se_Approcher = "S'approcher est la forme pronominale réfléchie du verbe approcher. Il signifie se déplacer vers quelqu'un ou quelque chose, réduire la distance qui sépare de quelqu'un ou de quelque chose. Il se conjugue avec l'auxiliaire 'être' aux temps composés.";
+                public const string Ajouter = "Ajouter est un verbe régulier du premier groupe (-er) qui signifie mettre en plus, incorporer quelque chose à un ensemble existant, ou dire quelque chose de supplémentaire. Il est très courant dans la vie quotidienne, aussi bien à l'écrit qu'à l'oral.";
             }
         }
     }
