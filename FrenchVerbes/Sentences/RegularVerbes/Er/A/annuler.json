@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Il annule sa réservation à l'hôtel en raison d'un empêchement.",
+    "Elle annule le rendez-vous chez le médecin et en reporte un autre.",
+    "Nous annulons la réunion prévue ce vendredi faute de participants.",
+    "Tu annules toujours à la dernière minute, ce qui complique l'organisation.",
+    "Ils annulent le concert à cause des mauvaises conditions météorologiques."
+  ],
+  "Imparfait": [
+    "Il annulait régulièrement ses rendez-vous sans prévenir.",
+    "Elle annulait les commandes en double dès qu'elle les repérait.",
+    "J'annulais mes abonnements inutilisés un par un chaque mois.",
+    "Nous annulions les séances d'entraînement quand il pleuvait trop fort.",
+    "Ils annulaient les vols dès que la tempête approchait."
+  ],
+  "Futur Simple": [
+    "Il annulera son abonnement s'il ne l'utilise plus.",
+    "Elle annulera la commande si la livraison est encore retardée.",
+    "J'annulerai le contrat si les conditions ne sont pas respectées.",
+    "Nous annulerons l'événement si nous n'atteignons pas le nombre minimum d'inscrits.",
+    "Ils annuleront le projet si le budget n'est pas approuvé."
+  ],
+  "Passé Composé": [
+    "Il a annulé son vol à cause d'une urgence familiale.",
+    "Elle a annulé la commande avant que le colis ne soit expédié.",
+    "J'ai annulé ma participation au séminaire en raison d'un conflit d'agenda.",
+    "Nous avons annulé le contrat après avoir constaté les irrégularités.",
+    "Ils ont annulé la cérémonie en signe de deuil national."
+  ],
+  "Futur Proche": [
+    "Il va annuler son rendez-vous chez le dentiste s'il se sent mieux.",
+    "Elle va annuler sa carte bancaire perdue dès qu'elle appellera sa banque.",
+    "Je vais annuler cette transaction qui semble frauduleuse.",
+    "Nous allons annuler la réservation si personne ne confirme sa présence.",
+    "Ils vont annuler la tournée à cause des problèmes logistiques."
+  ],
+  "Passé Récent": [
+    "Il vient d'annuler son inscription au marathon.",
+    "Elle vient d'annuler la livraison prévue pour demain matin.",
+    "Je viens d'annuler ma carte de crédit après l'avoir perdue.",
+    "Nous venons d'annuler la conférence par manque d'intervenants.",
+    "Ils viennent d'annuler leur abonnement au service de streaming."
+  ],
+  "Impératif": [
+    "Annule cette réservation avant minuit pour éviter des frais.",
+    "Annulez votre abonnement si vous ne l'utilisez plus !",
+    "Annulons ce rendez-vous et fixons-en un autre la semaine prochaine.",
+    "Annule la commande avant qu'elle ne soit traitée.",
+    "Annulez les billets dès que possible pour obtenir un remboursement."
+  ],
+  "Conditionnel Présent": [
+    "Il annulerait le contrat si une meilleure offre se présentait.",
+    "Elle annulerait son voyage si sa santé ne s'améliorait pas.",
+    "J'annulerais la commande si le délai de livraison était trop long.",
+    "Nous annulerions l'événement si les conditions de sécurité n'étaient pas réunies.",
+    "Ils annuleraient leur participation si les frais d'inscription augmentaient."
+  ]
+}
