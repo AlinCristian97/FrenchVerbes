@@ -59,7 +59,6 @@ public static partial class Constants
                 public const string Avancer = "avancer";
                 public const string Ameliorer = "améliorer";
                 public const string Aider = "aider";
-                public const string Briser = "briser";
                 public const string Adorer = "adorer";
                 public const string Augmenter = "augmenter";
                 public const string Attaquer = "attaquer";
