@@ -19,7 +19,7 @@ public static partial class Constants
                 public const string Bloquer = "bloquer";
                 public const string Se_Bloquer = "se bloquer";
                 public const string Bouder = "bouder";
-                public const string Briser = "briser"; // <-- you are here
+                public const string Briser = "briser";
             }
         }
     }
