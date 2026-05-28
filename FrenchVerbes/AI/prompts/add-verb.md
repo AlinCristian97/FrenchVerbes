@@ -65,7 +65,7 @@ If the user says **"add next X"** (e.g. "add next 5"), interpret it as:
    - Where `{LETTER}` is the **first letter of the infinitive** (uppercase).
    - **For reflexive verbs**, the deciding letter ignores the `se/s'` prefix. E.g. `s'axer` → letter is `A`.
    - **If the letter folder does not exist, create it**.
-2. File name must be the lowercased infinitive (for example: `atteler.json`, `s'axer.json`).
+2. File name must be the lowercased infinitive, using underscores instead of spaces (for example: `atteler.json`, `se_baisser.json`, `se_bloquer.json`). **Never use spaces in JSON file names** — reflexive verbs with `se` must use `se_` prefix with an underscore (e.g. `se_lever.json`, not `se lever.json`).
 3. Include exactly these tenses as keys, with no other fields:
    - `Présent`
    - `Imparfait`

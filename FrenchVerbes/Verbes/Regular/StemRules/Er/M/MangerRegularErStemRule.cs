@@ -9,7 +9,7 @@ public sealed class MangerRegularErStemRule : IRegularErStemRule
     public string Apply(string stem, string tense, int pronounIndex)
     {
         if ((tense == Constants.Tenses.Present && pronounIndex == 3) ||
-            tense == Constants.Tenses.Imparfait ||
+            (tense == Constants.Tenses.Imparfait && pronounIndex != 3 && pronounIndex != 4) ||
             (tense == Constants.Tenses.Imperative && pronounIndex == 3))
         {
             if (!stem.EndsWith("e"))

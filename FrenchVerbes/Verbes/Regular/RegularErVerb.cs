@@ -57,11 +57,18 @@ public class RegularErVerb : RegularVerb
         // Only apply generic CER/GER rules if special rule didn't already do it
         if (!specialHandled)
         {
-            if (Infinitive.EndsWith(specialGerEnding) &&
-                pronounIndex == 3 &&
-                (tense == Constants.Tenses.Present || tense == Constants.Tenses.Imperative))
+            if (Infinitive.EndsWith(specialGerEnding))
             {
-                stem += "e";
+                if (pronounIndex == 3 &&
+                    (tense == Constants.Tenses.Present || tense == Constants.Tenses.Imperative))
+                {
+                    stem += "e";
+                }
+
+                if (tense == Constants.Tenses.Imparfait && pronounIndex != 3 && pronounIndex != 4)
+                {
+                    stem += "e";
+                }
             }
 
             if (Infinitive.EndsWith(specialCerEnding))

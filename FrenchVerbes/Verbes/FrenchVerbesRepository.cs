@@ -20,7 +20,7 @@ public static partial class VerbRepository
 
     public static Verb? GetByInfinitive(string input)
     {
-        var normalized = input.Trim().ToLowerInvariant();
+        var normalized = input.Trim().ToLowerInvariant().Replace('_', ' ');
 
         return _verbs.FirstOrDefault(v => v.Infinitive == normalized);
     }
