@@ -12,6 +12,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateApprouver());
         _verbs.Add(CreateAcheter());
         _verbs.Add(CreateAdapter());
+        _verbs.Add(CreateSe_Adapter());
         _verbs.Add(CreateAimer());
         _verbs.Add(CreateAllumer());
         _verbs.Add(CreateAppeler());
@@ -82,7 +83,17 @@ public static partial class VerbRepository
     {
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Adapter,
-            Constants.VerbDescriptions.Regular.Er.Adapter);
+            Constants.VerbDescriptions.Regular.Er.Adapter,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Adapter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Adapter,
+            Constants.VerbDescriptions.Regular.Er.Se_Adapter,
+            usesEtre: true,
+            isReflexive: true);
     }
 
     private static RegularErVerb CreateAimer()
