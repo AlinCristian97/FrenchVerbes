@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'attrape le ballon avant qu'il tombe.",
+    "Tu attrapes toujours les erreurs avant moi.",
+    "Il attrape un rhume chaque hiver.",
+    "Nous attrapons le bus de justesse.",
+    "Ils attrapent des papillons dans le jardin."
+  ],
+  "Imparfait": [
+    "J'attrapais facilement les mouches quand j'étais enfant.",
+    "Tu attrapais toujours le train du matin.",
+    "Elle attrapait souvent froid en hiver.",
+    "Nous attrapions des grenouilles près de la rivière.",
+    "Ils attrapaient les balles avec adresse."
+  ],
+  "Futur Simple": [
+    "J'attraperai le voleur avant qu'il s'échappe.",
+    "Tu attraperas ce virus si tu ne fais pas attention.",
+    "Il attrapera le train s'il se dépêche.",
+    "Nous attraperons sûrement un poisson aujourd'hui.",
+    "Ils attraperont le bus s'ils partent maintenant."
+  ],
+  "Passé Composé": [
+    "J'ai attrapé un rhume la semaine dernière.",
+    "Tu as attrapé la balle en plein vol.",
+    "Elle a attrapé le voleur par le bras.",
+    "Nous avons attrapé le dernier train.",
+    "Ils ont attrapé une insolation sur la plage."
+  ],
+  "Futur Proche": [
+    "Je vais attraper froid si je sors sans manteau.",
+    "Tu vas attraper le bus si tu cours.",
+    "Il va attraper une contravention s'il se gare là.",
+    "Nous allons attraper des poissons ce week-end.",
+    "Ils vont attraper le voleur avant ce soir."
+  ],
+  "Passé Récent": [
+    "Je viens d'attraper le ballon.",
+    "Tu viens d'attraper un gros rhume.",
+    "Elle vient d'attraper le dernier métro.",
+    "Nous venons d'attraper notre correspondance.",
+    "Ils viennent d'attraper le suspect."
+  ],
+  "Impératif": [
+    "Attrape le ballon !",
+    "Attrapons ce bus, vite !",
+    "Attrapez le voleur !",
+    "N'attrape pas froid ce soir.",
+    "Attrapez cette opportunité avant qu'il soit trop tard."
+  ],
+  "Conditionnel Présent": [
+    "J'attraperais le bus si je partais maintenant.",
+    "Tu attraperais moins de rhumes si tu te couvrais mieux.",
+    "Il attraperait le ballon s'il était plus attentif.",
+    "Nous attraperions le train si nous nous dépêchions.",
+    "Ils attraperaient le suspect s'ils avaient plus d'effectifs."
+  ]
+}

@@ -44,6 +44,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateAbandonner());
         _verbs.Add(CreateAnnuler());
         _verbs.Add(CreateActiver());
+        _verbs.Add(CreateAttraper());
     }
 
     #region FactoryMethods
@@ -77,6 +78,13 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Activer,
             Constants.VerbDescriptions.Regular.Er.Activer);
+    }
+
+    private static RegularErVerb CreateAttraper()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Attraper,
+            Constants.VerbDescriptions.Regular.Er.Attraper);
     }
 
     private static RegularErVerb CreateAdapter()
