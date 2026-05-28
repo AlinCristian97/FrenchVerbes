@@ -14,5 +14,7 @@ public static class RegularErStemRulesA
             [Constants.Verbs.Regular.Er.Se_Achever] = new AcheverRegularErStemRule(Constants.Verbs.Regular.Er.Se_Achever),
             [Constants.Verbs.Regular.Er.Aboyer] = new AboyerRegularErStemRule(),
             [Constants.Verbs.Regular.Er.Asséner] = new AssenerRegularErStemRule(),
+            [Constants.Verbs.Regular.Er.Appuyer] = new AppuyerRegularErStemRule(Constants.Verbs.Regular.Er.Appuyer),
+            [Constants.Verbs.Regular.Er.Se_Appuyer] = new AppuyerRegularErStemRule(Constants.Verbs.Regular.Er.Se_Appuyer),
         };
 }

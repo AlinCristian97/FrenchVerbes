@@ -48,6 +48,8 @@ public static partial class Constants
                 public const string Attraper = "Attraper est un verbe régulier du premier groupe (-er) qui signifie saisir quelque chose ou quelqu'un en mouvement, intercepter, ou contracter une maladie. Il est très courant dans la vie quotidienne et s'emploie au sens propre comme au sens figuré.";
                 public const string Amuser = "Amuser est un verbe régulier du premier groupe (-er) qui signifie divertir, faire rire ou occuper agréablement quelqu'un. Il s'emploie aussi de façon pronominale (s'amuser) pour exprimer le fait de se divertir, de jouer ou de passer un bon moment.";
                 public const string Se_Amuser = "S'amuser est la forme pronominale réfléchie du verbe amuser. Il signifie se divertir, jouer ou passer agréablement son temps. Il se conjugue avec l'auxiliaire 'être' aux temps composés.";
+                public const string Appuyer = "Appuyer est un verbe régulier du premier groupe (-er) qui signifie exercer une pression sur quelque chose, presser ou soutenir. Il présente un changement de radical : le 'y' devient 'i' devant une terminaison muette (j'appuie, tu appuies), sauf à la 1re et 2e personne du pluriel (nous appuyons, vous appuyez). Il s'emploie aussi de façon pronominale (s'appuyer) pour exprimer le fait de prendre appui sur quelque chose ou de compter sur quelqu'un.";
+                public const string Se_Appuyer = "S'appuyer est la forme pronominale réfléchie du verbe appuyer. Il signifie prendre appui sur quelque chose, se reposer sur une surface ou compter sur quelqu'un pour un soutien. Il se conjugue avec l'auxiliaire 'être' aux temps composés.";
             }
         }
     }

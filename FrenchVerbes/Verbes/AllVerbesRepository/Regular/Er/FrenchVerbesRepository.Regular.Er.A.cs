@@ -47,6 +47,8 @@ public static partial class VerbRepository
         _verbs.Add(CreateAttraper());
         _verbs.Add(CreateAmuser());
         _verbs.Add(CreateSe_Amuser());
+        _verbs.Add(CreateAppuyer());
+        _verbs.Add(CreateSe_Appuyer());
     }
 
     #region FactoryMethods
@@ -401,6 +403,33 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Annuler,
             Constants.VerbDescriptions.Regular.Er.Annuler);
+    }
+
+    private static RegularErVerb CreateAppuyer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Appuyer,
+            Constants.VerbDescriptions.Regular.Er.Appuyer,
+            hasReflexive: true,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes = "Appuyer change de radical au présent : le 'y' devient 'i' devant une terminaison muette — j'appuie, tu appuies, il appuie, ils appuient — mais nous appuyons, vous appuyez.",
+                FuturSimpleNotes = "Au futur et au conditionnel, le 'y' devient 'i' pour toutes les personnes : j'appuierai, j'appuierais."
+            });
+    }
+
+    private static RegularErVerb CreateSe_Appuyer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Appuyer,
+            Constants.VerbDescriptions.Regular.Er.Se_Appuyer,
+            usesEtre: true,
+            isReflexive: true,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes = "S'appuyer suit le même changement de radical qu'appuyer : je m'appuie, tu t'appuies, il s'appuie, mais nous nous appuyons, vous vous appuyez.",
+                FuturSimpleNotes = "Au futur et au conditionnel, le 'y' devient 'i' : je m'appuierai, je m'appuierais."
+            });
     }
 
     #endregion
