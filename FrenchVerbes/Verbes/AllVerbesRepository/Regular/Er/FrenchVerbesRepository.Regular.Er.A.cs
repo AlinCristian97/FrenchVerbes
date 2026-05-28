@@ -53,6 +53,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateSe_Afficher());
         _verbs.Add(CreateAssister());
         _verbs.Add(CreateAssumer());
+        _verbs.Add(CreateAssurer());
+        _verbs.Add(CreateAvaler());
+        _verbs.Add(CreateAvancer());
+        _verbs.Add(CreateAmeliorer());
+        _verbs.Add(CreateAider());
     }
 
     #region FactoryMethods
@@ -465,6 +470,41 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Assumer,
             Constants.VerbDescriptions.Regular.Er.Assumer);
+    }
+
+    private static RegularErVerb CreateAssurer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Assurer,
+            Constants.VerbDescriptions.Regular.Er.Assurer);
+    }
+
+    private static RegularErVerb CreateAvaler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Avaler,
+            Constants.VerbDescriptions.Regular.Er.Avaler);
+    }
+
+    private static RegularErVerb CreateAvancer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Avancer,
+            Constants.VerbDescriptions.Regular.Er.Avancer);
+    }
+
+    private static RegularErVerb CreateAmeliorer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Ameliorer,
+            Constants.VerbDescriptions.Regular.Er.Ameliorer);
+    }
+
+    private static RegularErVerb CreateAider()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Aider,
+            Constants.VerbDescriptions.Regular.Er.Aider);
     }
 
     #endregion

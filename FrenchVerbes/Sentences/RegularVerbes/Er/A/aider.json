@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'aide mon voisin à porter ses courses.",
+    "Tu aides ta sœur à faire ses devoirs.",
+    "Il aide les personnes âgées dans son quartier.",
+    "Nous aidons les nouveaux arrivants à s'intégrer.",
+    "Elles aident leurs collègues en difficulté."
+  ],
+  "Imparfait": [
+    "J'aidais ma mère à préparer le repas du dimanche.",
+    "Tu aidais les élèves en retard à rattraper le programme.",
+    "Elle aidait ses amis chaque fois qu'ils en avaient besoin.",
+    "Nous aidions les bénévoles lors des collectes alimentaires.",
+    "Ils aidaient les victimes de la catastrophe naturelle."
+  ],
+  "Futur Simple": [
+    "J'aiderai mon frère à déménager ce week-end.",
+    "Tu aideras les nouveaux employés à prendre leurs marques.",
+    "Il aidera sa famille à traverser cette épreuve difficile.",
+    "Nous aiderons les enfants à développer leur créativité.",
+    "Elles aideront l'association lors de la prochaine collecte."
+  ],
+  "Passé Composé": [
+    "J'ai aidé un passant à retrouver son chemin.",
+    "Tu as aidé ton ami à préparer son entretien.",
+    "Elle a aidé ses parents à organiser la fête.",
+    "Nous avons aidé l'équipe à terminer le projet à temps.",
+    "Ils ont aidé les sinistrés après les inondations."
+  ],
+  "Futur Proche": [
+    "Je vais aider mon ami à rédiger son CV.",
+    "Tu vas aider ta collègue à finir son rapport.",
+    "Il va aider l'association lors de la journée portes ouvertes.",
+    "Nous allons aider les étudiants à préparer leurs examens.",
+    "Elles vont aider les bénévoles à installer les stands."
+  ],
+  "Passé Récent": [
+    "Je viens d'aider un enfant à traverser la rue.",
+    "Tu viens d'aider ton équipe à résoudre un problème.",
+    "Elle vient d'aider sa grand-mère à monter les escaliers.",
+    "Nous venons d'aider les nouveaux arrivants à s'installer.",
+    "Ils viennent d'aider les habitants à nettoyer le quartier."
+  ],
+  "Impératif": [
+    "Aide ton camarade à comprendre l'exercice.",
+    "Aidons les personnes vulnérables autour de nous.",
+    "Aidez vos collègues quand ils en ont besoin.",
+    "N'aide pas quelqu'un qui ne veut pas être aidé.",
+    "Aidez les nouveaux venus à s'intégrer rapidement."
+  ],
+  "Conditionnel Présent": [
+    "J'aiderais volontiers si j'avais plus de disponibilités.",
+    "Tu aiderais mieux avec les bons outils à ta disposition.",
+    "Il aiderait davantage s'il avait le temps nécessaire.",
+    "Nous aiderions les habitants si nous avions plus de ressources.",
+    "Elles aideraient leurs collègues si on leur en donnait l'occasion."
+  ]
+}
