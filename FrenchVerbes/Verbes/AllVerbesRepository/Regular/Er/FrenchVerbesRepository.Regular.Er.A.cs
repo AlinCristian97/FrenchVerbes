@@ -67,6 +67,14 @@ public static partial class VerbRepository
         _verbs.Add(CreateApporter());
         _verbs.Add(CreateAdresser());
         _verbs.Add(CreateSe_Adresser());
+        _verbs.Add(CreateAjuster());
+        _verbs.Add(CreateSe_Ajuster());
+        _verbs.Add(CreateAmasser());
+        _verbs.Add(CreateAgreer());
+        _verbs.Add(CreateAbriter());
+        _verbs.Add(CreateAccorder());
+        _verbs.Add(CreateAdmirer());
+        _verbs.Add(CreateAlerter());
     }
 
     #region FactoryMethods
@@ -590,6 +598,65 @@ public static partial class VerbRepository
             Constants.VerbDescriptions.Regular.Er.Se_Adresser,
             usesEtre: true,
             isReflexive: true);
+    }
+
+    private static RegularErVerb CreateAjuster()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Ajuster,
+            Constants.VerbDescriptions.Regular.Er.Ajuster,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Ajuster()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Ajuster,
+            Constants.VerbDescriptions.Regular.Er.Se_Ajuster,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateAmasser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Amasser,
+            Constants.VerbDescriptions.Regular.Er.Amasser);
+    }
+
+    private static RegularErVerb CreateAgreer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Agreer,
+            Constants.VerbDescriptions.Regular.Er.Agreer);
+    }
+
+    private static RegularErVerb CreateAbriter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Abriter,
+            Constants.VerbDescriptions.Regular.Er.Abriter);
+    }
+
+    private static RegularErVerb CreateAccorder()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Accorder,
+            Constants.VerbDescriptions.Regular.Er.Accorder);
+    }
+
+    private static RegularErVerb CreateAdmirer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Admirer,
+            Constants.VerbDescriptions.Regular.Er.Admirer);
+    }
+
+    private static RegularErVerb CreateAlerter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Alerter,
+            Constants.VerbDescriptions.Regular.Er.Alerter);
     }
 
     #endregion

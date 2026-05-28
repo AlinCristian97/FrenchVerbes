@@ -67,7 +67,7 @@ public static partial class Constants
                 public const string Acquiescer = "acquiescer";
                 public const string Apporter = "apporter";
                 public const string Adresser = "adresser";
-                public const string Se_Adresser = "s'adresser"; // <-- you are here
+                public const string Se_Adresser = "s'adresser";
                 public const string Ajuster = "ajuster";
                 public const string Se_Ajuster = "s'ajuster";
                 public const string Amasser = "amasser";
@@ -75,7 +75,7 @@ public static partial class Constants
                 public const string Abriter = "abriter";
                 public const string Accorder = "accorder";
                 public const string Admirer = "admirer";
-                public const string Alerter = "alerter";
+                public const string Alerter = "alerter"; // <-- you are here
                 public const string Abouler = "abouler";
             }
         }
