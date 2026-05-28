@@ -10,7 +10,7 @@ public static partial class Constants
             {
                 public const string Beneficier = "bénéficier";
                 public const string Briller = "briller";
-                public const string Bombarder = "bombarder";
+                public const string Bombarder = "bombarder"; // <-- you are here
                 public const string Bouger = "bouger";
                 public const string Baptiser = "baptiser";
                 public const string Barrer = "barrer";

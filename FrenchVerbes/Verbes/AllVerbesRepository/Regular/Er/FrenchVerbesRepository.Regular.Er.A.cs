@@ -75,6 +75,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateAccorder());
         _verbs.Add(CreateAdmirer());
         _verbs.Add(CreateAlerter());
+        _verbs.Add(CreateAbouler());
     }
 
     #region FactoryMethods
@@ -657,6 +658,13 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Alerter,
             Constants.VerbDescriptions.Regular.Er.Alerter);
+    }
+
+    private static RegularErVerb CreateAbouler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Abouler,
+            Constants.VerbDescriptions.Regular.Er.Abouler);
     }
 
     #endregion

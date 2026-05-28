@@ -76,6 +76,7 @@ public static partial class Constants
                 public const string Accorder = "Accorder est un verbe régulier du premier groupe (-er) qui signifie donner, octroyer, ou mettre en harmonie. Il s'emploie dans de nombreux contextes : accorder une faveur, accorder un instrument de musique, accorder un adjectif en grammaire.";
                 public const string Admirer = "Admirer est un verbe régulier du premier groupe (-er) qui signifie regarder avec admiration, considérer avec estime ou éprouver un sentiment de respect et d'émerveillement devant quelqu'un ou quelque chose.";
                 public const string Alerter = "Alerter est un verbe régulier du premier groupe (-er) qui signifie prévenir d'un danger, avertir rapidement ou mettre en état d'alerte. Il est très courant dans les contextes de sécurité, de santé et de communication d'urgence.";
+                public const string Abouler = "Abouler est un verbe régulier du premier groupe (-er) qui signifie, en argot familier, apporter ou amener quelque chose, ou se dépêcher de venir. Il s'emploie dans un registre très familier ou populaire.";
             }
         }
     }
