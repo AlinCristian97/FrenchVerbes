@@ -40,9 +40,9 @@ public static partial class Constants
                 public const string Annuler = "annuler";
                 public const string Acheter = "acheter";
                 public const string Activer = "activer";
-                public const string Adapter = "adapter"; // <-- you are here
+                public const string Adapter = "adapter";
                 public const string Se_Adapter = "s'adapter";
-                public const string Aimer = "aimer";
+                public const string Aimer = "aimer"; // <-- you are here
                 public const string Appeler = "appeler";
                 public const string Arriver = "arriver";
                 public const string Attraper = "attraper";

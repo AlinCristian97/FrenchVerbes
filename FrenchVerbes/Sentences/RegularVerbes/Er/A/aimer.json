@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'aime le chocolat noir.",
+    "Tu aimes lire des romans policiers.",
+    "Il aime se promener le soir.",
+    "Nous aimons voyager ensemble.",
+    "Ils aiment écouter de la musique classique."
+  ],
+  "Imparfait": [
+    "J'aimais jouer dehors quand j'étais enfant.",
+    "Tu aimais les glaces à la vanille.",
+    "Elle aimait regarder les étoiles la nuit.",
+    "Nous aimions passer les étés à la campagne.",
+    "Ils aimaient cuisiner ensemble le dimanche."
+  ],
+  "Futur Simple": [
+    "J'aimerai toujours cette ville.",
+    "Tu aimeras ce film, j'en suis sûr.",
+    "Il aimera son nouveau travail.",
+    "Nous aimerons vous revoir bientôt.",
+    "Ils aimeront ce voyage, c'est certain."
+  ],
+  "Passé Composé": [
+    "J'ai aimé ce spectacle.",
+    "Tu as aimé le repas d'hier soir.",
+    "Elle a aimé son séjour à Paris.",
+    "Nous avons aimé cette exposition.",
+    "Ils ont aimé le concert."
+  ],
+  "Futur Proche": [
+    "Je vais aimer ce nouveau quartier.",
+    "Tu vas aimer cette recette.",
+    "Il va aimer son cadeau.",
+    "Nous allons aimer travailler ensemble.",
+    "Ils vont aimer cette surprise."
+  ],
+  "Passé Récent": [
+    "Je viens d'aimer une photo sur les réseaux.",
+    "Tu viens d'aimer ce livre que tu as lu.",
+    "Elle vient d'aimer son nouveau appartement.",
+    "Nous venons d'aimer cette nouvelle chanson.",
+    "Ils viennent d'aimer la pièce de théâtre."
+  ],
+  "Impératif": [
+    "Aime la vie telle qu'elle est.",
+    "Aimons ce que nous faisons.",
+    "Aimez votre prochain.",
+    "Aime-toi un peu plus.",
+    "Aimez la nature qui vous entoure."
+  ],
+  "Conditionnel Présent": [
+    "J'aimerais visiter le Japon un jour.",
+    "Tu aimerais un café ?",
+    "Il aimerait changer de métier.",
+    "Nous aimerions vous inviter à dîner.",
+    "Ils aimeraient partir vivre à la mer."
+  ]
+}
