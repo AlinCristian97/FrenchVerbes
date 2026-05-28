@@ -48,9 +48,9 @@ public static partial class Constants
                 public const string Attraper = "attraper";
                 public const string Amuser = "amuser";
                 public const string Se_Amuser = "s'amuser";
-                public const string Appuyer = "appuyer"; // <-- you are here
+                public const string Appuyer = "appuyer";
                 public const string Se_Appuyer = "s'appuyer";
-                public const string Afficher = "afficher";
+                public const string Afficher = "afficher"; // <-- you are here
                 public const string Se_Afficher = "s'afficher";
                 public const string Assister = "assister";
                 public const string Assumer = "assumer";

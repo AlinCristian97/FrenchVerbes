@@ -50,6 +50,8 @@ public static partial class Constants
                 public const string Se_Amuser = "S'amuser est la forme pronominale réfléchie du verbe amuser. Il signifie se divertir, jouer ou passer agréablement son temps. Il se conjugue avec l'auxiliaire 'être' aux temps composés.";
                 public const string Appuyer = "Appuyer est un verbe régulier du premier groupe (-er) qui signifie exercer une pression sur quelque chose, presser ou soutenir. Il présente un changement de radical : le 'y' devient 'i' devant une terminaison muette (j'appuie, tu appuies), sauf à la 1re et 2e personne du pluriel (nous appuyons, vous appuyez). Il s'emploie aussi de façon pronominale (s'appuyer) pour exprimer le fait de prendre appui sur quelque chose ou de compter sur quelqu'un.";
                 public const string Se_Appuyer = "S'appuyer est la forme pronominale réfléchie du verbe appuyer. Il signifie prendre appui sur quelque chose, se reposer sur une surface ou compter sur quelqu'un pour un soutien. Il se conjugue avec l'auxiliaire 'être' aux temps composés.";
+                public const string Afficher = "Afficher est un verbe régulier du premier groupe (-er) qui signifie montrer, rendre visible ou présenter quelque chose au public ou sur un écran. Il s'emploie aussi de façon pronominale (s'afficher) pour exprimer le fait de se montrer ouvertement ou d'apparaître à l'écran.";
+                public const string Se_Afficher = "S'afficher est la forme pronominale réfléchie du verbe afficher. Il signifie se montrer ouvertement, apparaître à l'écran ou se présenter en public sans retenue. Il se conjugue avec l'auxiliaire 'être' aux temps composés.";
             }
         }
     }

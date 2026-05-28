@@ -49,6 +49,8 @@ public static partial class VerbRepository
         _verbs.Add(CreateSe_Amuser());
         _verbs.Add(CreateAppuyer());
         _verbs.Add(CreateSe_Appuyer());
+        _verbs.Add(CreateAfficher());
+        _verbs.Add(CreateSe_Afficher());
     }
 
     #region FactoryMethods
@@ -430,6 +432,23 @@ public static partial class VerbRepository
                 PresentNotes = "S'appuyer suit le même changement de radical qu'appuyer : je m'appuie, tu t'appuies, il s'appuie, mais nous nous appuyons, vous vous appuyez.",
                 FuturSimpleNotes = "Au futur et au conditionnel, le 'y' devient 'i' : je m'appuierai, je m'appuierais."
             });
+    }
+
+    private static RegularErVerb CreateAfficher()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Afficher,
+            Constants.VerbDescriptions.Regular.Er.Afficher,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Afficher()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Afficher,
+            Constants.VerbDescriptions.Regular.Er.Se_Afficher,
+            usesEtre: true,
+            isReflexive: true);
     }
 
     #endregion
