@@ -2,6 +2,15 @@
 
 Use this checklist every time a verb is added.
 
+## 0) Interpreting "add next X" requests
+
+If the user says **"add next X"** (e.g. "add next 5"), interpret it as:
+1. Open the current-group constants letter file (e.g. `Constants.Verbs.Regular.Er.A.cs`).
+2. Find the line marked `// <-- you are here`.
+3. Take the **next X verb constants** that appear **after** that line in the file.
+4. Apply the full add-verb checklist (steps 1–6) to each of those X verbs in order.
+5. After completing all X verbs, the `// <-- you are here` marker must sit on the **last** verb added.
+
 ## 1) Verify the verb constant first
 
 1. Identify the target group (`Irregular`, `Regular.Er`, `Regular.Ir`, `Regular.Re`).
