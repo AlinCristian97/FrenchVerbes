@@ -63,6 +63,10 @@ public static partial class VerbRepository
         _verbs.Add(CreateAttaquer());
         _verbs.Add(CreateArranger());
         _verbs.Add(CreateAccompagner());
+        _verbs.Add(CreateAcquiescer());
+        _verbs.Add(CreateApporter());
+        _verbs.Add(CreateAdresser());
+        _verbs.Add(CreateSe_Adresser());
     }
 
     #region FactoryMethods
@@ -550,6 +554,42 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Accompagner,
             Constants.VerbDescriptions.Regular.Er.Accompagner);
+    }
+
+    private static RegularErVerb CreateAcquiescer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Acquiescer,
+            Constants.VerbDescriptions.Regular.Er.Acquiescer,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes = "Acquiescer prend une cédille devant les terminaisons commençant par 'a' ou 'o' pour conserver le son [s] : j'acquiesce, il acquiesce, ils acquiescent — mais nous acquiesçons.",
+                ImparfaitNotes = "À l'imparfait, le 'c' devient 'ç' devant les terminaisons commençant par 'a' : j'acquiesçais, tu acquiesçais, il acquiesçait, ils acquiesçaient — mais nous acquiescions, vous acquiesciez."
+            });
+    }
+
+    private static RegularErVerb CreateApporter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Apporter,
+            Constants.VerbDescriptions.Regular.Er.Apporter);
+    }
+
+    private static RegularErVerb CreateAdresser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Adresser,
+            Constants.VerbDescriptions.Regular.Er.Adresser,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Adresser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Adresser,
+            Constants.VerbDescriptions.Regular.Er.Se_Adresser,
+            usesEtre: true,
+            isReflexive: true);
     }
 
     #endregion

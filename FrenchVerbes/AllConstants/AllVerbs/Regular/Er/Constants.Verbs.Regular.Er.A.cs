@@ -63,11 +63,11 @@ public static partial class Constants
                 public const string Augmenter = "augmenter";
                 public const string Attaquer = "attaquer";
                 public const string Arranger = "arranger";
-                public const string Accompagner = "accompagner"; // <-- you are here
+                public const string Accompagner = "accompagner";
                 public const string Acquiescer = "acquiescer";
                 public const string Apporter = "apporter";
                 public const string Adresser = "adresser";
-                public const string Se_Adresser = "s'adresser";
+                public const string Se_Adresser = "s'adresser"; // <-- you are here
                 public const string Ajuster = "ajuster";
                 public const string Se_Ajuster = "s'ajuster";
                 public const string Amasser = "amasser";
