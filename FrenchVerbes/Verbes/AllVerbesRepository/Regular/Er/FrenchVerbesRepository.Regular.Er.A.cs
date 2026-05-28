@@ -58,6 +58,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateAvancer());
         _verbs.Add(CreateAmeliorer());
         _verbs.Add(CreateAider());
+        _verbs.Add(CreateAdorer());
+        _verbs.Add(CreateAugmenter());
+        _verbs.Add(CreateAttaquer());
+        _verbs.Add(CreateArranger());
+        _verbs.Add(CreateAccompagner());
     }
 
     #region FactoryMethods
@@ -505,6 +510,46 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Aider,
             Constants.VerbDescriptions.Regular.Er.Aider);
+    }
+
+    private static RegularErVerb CreateAdorer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Adorer,
+            Constants.VerbDescriptions.Regular.Er.Adorer);
+    }
+
+    private static RegularErVerb CreateAugmenter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Augmenter,
+            Constants.VerbDescriptions.Regular.Er.Augmenter);
+    }
+
+    private static RegularErVerb CreateAttaquer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Attaquer,
+            Constants.VerbDescriptions.Regular.Er.Attaquer);
+    }
+
+    private static RegularErVerb CreateArranger()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Arranger,
+            Constants.VerbDescriptions.Regular.Er.Arranger,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes = "Arranger prend un 'e' intercalaire devant les terminaisons commençant par 'a' ou 'o' pour conserver le son [ʒ] : nous arrangeons — les autres formes du présent n'ont pas ce 'e' car leurs terminaisons ne commencent pas par 'a' ou 'o'.",
+                ImparfaitNotes = "À l'imparfait, le 'e' intercalaire apparaît devant les terminaisons commençant par 'a' : j'arrangeais, tu arrangeais, il/elle arrangeait, ils/elles arrangeaient — mais pas à la 1re et 2e personne du pluriel, car -ions et -iez ne commencent pas par 'a' : nous arrangions, vous arrangiez."
+            });
+    }
+
+    private static RegularErVerb CreateAccompagner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Accompagner,
+            Constants.VerbDescriptions.Regular.Er.Accompagner);
     }
 
     #endregion

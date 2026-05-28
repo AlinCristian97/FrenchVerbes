@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'augmente le volume de la musique.",
+    "Tu augmentes la dose de médicament sur prescription.",
+    "Le prix du carburant augmente chaque semaine.",
+    "Nous augmentons notre production pour répondre à la demande.",
+    "Les températures augmentent à cause du réchauffement climatique."
+  ],
+  "Imparfait": [
+    "J'augmentais mon rythme d'entraînement chaque mois.",
+    "Tu augmentais toujours les enchères lors des ventes.",
+    "Le nombre de visiteurs augmentait chaque année.",
+    "Nous augmentions progressivement nos objectifs de vente.",
+    "Ils augmentaient les loyers sans prévenir les locataires."
+  ],
+  "Futur Simple": [
+    "J'augmenterai mon salaire dès que possible.",
+    "Tu augmenteras tes efforts pour réussir l'examen.",
+    "L'entreprise augmentera ses effectifs l'année prochaine.",
+    "Nous augmenterons la cadence de production en janvier.",
+    "Ils augmenteront les prix à partir du mois prochain."
+  ],
+  "Passé Composé": [
+    "J'ai augmenté mon budget pour les vacances.",
+    "Tu as augmenté le chauffage parce qu'il faisait froid.",
+    "Elle a augmenté sa productivité grâce à une meilleure organisation.",
+    "Nous avons augmenté notre chiffre d'affaires ce trimestre.",
+    "Ils ont augmenté les taxes sur les produits importés."
+  ],
+  "Futur Proche": [
+    "Je vais augmenter mon niveau de français rapidement.",
+    "Tu vas augmenter la luminosité de ton écran.",
+    "Il va augmenter sa mise dans cet investissement.",
+    "Nous allons augmenter les salaires dès janvier.",
+    "Elles vont augmenter leur capital pour financer le projet."
+  ],
+  "Passé Récent": [
+    "Je viens d'augmenter le budget alloué au projet.",
+    "Tu viens d'augmenter ton abonnement mensuel.",
+    "Elle vient d'augmenter son loyer après les travaux.",
+    "Nous venons d'augmenter notre capacité de stockage.",
+    "Ils viennent d'augmenter leurs tarifs de services."
+  ],
+  "Impératif": [
+    "Augmente le volume, je n'entends pas bien.",
+    "Augmentons nos efforts pour atteindre notre objectif.",
+    "Augmentez votre vitesse de lecture progressivement.",
+    "N'augmente pas les prix sans en informer les clients.",
+    "Augmentez vos économies chaque mois."
+  ],
+  "Conditionnel Présent": [
+    "J'augmenterais mon investissement si les conditions étaient meilleures.",
+    "Tu augmenterais ta productivité avec un meilleur outil.",
+    "Il augmenterait son salaire s'il changeait de poste.",
+    "Nous augmenterions notre capacité si nous avions les ressources.",
+    "Elles augmenteraient leur offre si la demande le justifiait."
+  ]
+}
