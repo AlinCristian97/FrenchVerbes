@@ -45,6 +45,8 @@ public static partial class VerbRepository
         _verbs.Add(CreateAnnuler());
         _verbs.Add(CreateActiver());
         _verbs.Add(CreateAttraper());
+        _verbs.Add(CreateAmuser());
+        _verbs.Add(CreateSe_Amuser());
     }
 
     #region FactoryMethods
@@ -85,6 +87,23 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Attraper,
             Constants.VerbDescriptions.Regular.Er.Attraper);
+    }
+
+    private static RegularErVerb CreateAmuser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Amuser,
+            Constants.VerbDescriptions.Regular.Er.Amuser,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Amuser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Amuser,
+            Constants.VerbDescriptions.Regular.Er.Se_Amuser,
+            usesEtre: true,
+            isReflexive: true);
     }
 
     private static RegularErVerb CreateAdapter()

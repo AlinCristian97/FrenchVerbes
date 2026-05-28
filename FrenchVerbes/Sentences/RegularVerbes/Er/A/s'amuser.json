@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je m'amuse beaucoup à cette fête.",
+    "Tu t'amuses bien avec tes nouveaux amis.",
+    "Il s'amuse à construire des châteaux de sable.",
+    "Nous nous amusons à jouer aux cartes.",
+    "Ils s'amusent dans le parc depuis ce matin."
+  ],
+  "Imparfait": [
+    "Je m'amusais à collectionner des timbres quand j'étais enfant.",
+    "Tu t'amusais toujours dans le jardin.",
+    "Elle s'amusait à inventer des histoires.",
+    "Nous nous amusions à faire des puzzles le soir.",
+    "Ils s'amusaient à imiter leurs professeurs."
+  ],
+  "Futur Simple": [
+    "Je m'amuserai bien pendant les vacances.",
+    "Tu t'amuseras à la fête de ce soir.",
+    "Il s'amusera avec ses cousins cet été.",
+    "Nous nous amuserons à la foire.",
+    "Ils s'amuseront dans le parc d'attractions."
+  ],
+  "Passé Composé": [
+    "Je me suis amusé pendant toute la soirée.",
+    "Tu t'es amusé au parc hier.",
+    "Elle s'est amusée à apprendre de nouvelles recettes.",
+    "Nous nous sommes amusés au karaoké.",
+    "Ils se sont amusés comme des fous à la fête."
+  ],
+  "Futur Proche": [
+    "Je vais m'amuser à la kermesse ce week-end.",
+    "Tu vas t'amuser avec ce nouveau jeu vidéo.",
+    "Il va s'amuser à la piscine cet après-midi.",
+    "Nous allons nous amuser en famille.",
+    "Ils vont s'amuser pendant les grandes vacances."
+  ],
+  "Passé Récent": [
+    "Je viens de m'amuser avec mes neveux.",
+    "Tu viens de t'amuser au trampopark.",
+    "Elle vient de s'amuser à la soirée.",
+    "Nous venons de nous amuser à ce jeu.",
+    "Ils viennent de s'amuser au bowling."
+  ],
+  "Impératif": [
+    "Amuse-toi bien ce soir !",
+    "Amusons-nous pendant qu'il en est encore temps.",
+    "Amusez-vous bien pendant les vacances !",
+    "Amuse-toi, tu le mérites.",
+    "Amusez-vous sans faire trop de bruit."
+  ],
+  "Conditionnel Présent": [
+    "Je m'amuserais bien si tu venais avec moi.",
+    "Tu t'amuserais davantage si tu sortais plus souvent.",
+    "Il s'amuserait mieux s'il avait des amis.",
+    "Nous nous amuserions bien à ce jeu.",
+    "Ils s'amuseraient s'ils venaient à la fête."
+  ]
+}

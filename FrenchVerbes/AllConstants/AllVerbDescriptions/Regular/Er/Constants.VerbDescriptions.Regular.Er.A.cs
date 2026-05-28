@@ -46,6 +46,8 @@ public static partial class Constants
                 public const string Annuler = "Annuler est un verbe régulier du premier groupe (-er) qui signifie rendre nul, invalider ou supprimer quelque chose de prévu, comme un rendez-vous, un contrat, une commande ou une décision. Il est très fréquent dans les contextes administratifs, commerciaux et quotidiens.";
                 public const string Activer = "Activer est un verbe régulier du premier groupe (-er) qui signifie mettre en marche, accélérer ou rendre plus rapide ou plus efficace quelque chose. Il est très courant dans les domaines technologique, professionnel et quotidien.";
                 public const string Attraper = "Attraper est un verbe régulier du premier groupe (-er) qui signifie saisir quelque chose ou quelqu'un en mouvement, intercepter, ou contracter une maladie. Il est très courant dans la vie quotidienne et s'emploie au sens propre comme au sens figuré.";
+                public const string Amuser = "Amuser est un verbe régulier du premier groupe (-er) qui signifie divertir, faire rire ou occuper agréablement quelqu'un. Il s'emploie aussi de façon pronominale (s'amuser) pour exprimer le fait de se divertir, de jouer ou de passer un bon moment.";
+                public const string Se_Amuser = "S'amuser est la forme pronominale réfléchie du verbe amuser. Il signifie se divertir, jouer ou passer agréablement son temps. Il se conjugue avec l'auxiliaire 'être' aux temps composés.";
             }
         }
     }
