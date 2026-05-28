@@ -52,8 +52,8 @@ public static partial class Constants
                 public const string Se_Appuyer = "s'appuyer";
                 public const string Afficher = "afficher";
                 public const string Se_Afficher = "s'afficher";
-                public const string Assister = "assister"; // <-- you are here
-                public const string Assumer = "assumer";
+                public const string Assister = "assister";
+                public const string Assumer = "assumer"; // <-- you are here
                 public const string Assurer = "assurer";
                 public const string Avaler = "avaler";
                 public const string Avancer = "avancer";

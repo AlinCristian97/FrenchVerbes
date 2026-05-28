@@ -53,6 +53,7 @@ public static partial class Constants
                 public const string Afficher = "Afficher est un verbe régulier du premier groupe (-er) qui signifie montrer, rendre visible ou présenter quelque chose au public ou sur un écran. Il s'emploie aussi de façon pronominale (s'afficher) pour exprimer le fait de se montrer ouvertement ou d'apparaître à l'écran.";
                 public const string Se_Afficher = "S'afficher est la forme pronominale réfléchie du verbe afficher. Il signifie se montrer ouvertement, apparaître à l'écran ou se présenter en public sans retenue. Il se conjugue avec l'auxiliaire 'être' aux temps composés.";
                 public const string Assister = "Assister est un verbe régulier du premier groupe (-er) qui signifie être présent à un événement ou aider, secourir quelqu'un. Il est très courant dans les contextes professionnel, médical et quotidien.";
+                public const string Assumer = "Assumer est un verbe régulier du premier groupe (-er) qui signifie accepter pleinement une responsabilité, une conséquence ou une identité. Il s'emploie aussi dans le sens de prendre en charge quelque chose ou revendiquer ouvertement une position.";
             }
         }
     }
