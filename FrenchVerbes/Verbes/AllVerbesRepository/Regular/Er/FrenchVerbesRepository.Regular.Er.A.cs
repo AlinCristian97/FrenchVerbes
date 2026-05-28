@@ -42,6 +42,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateAjouter());
         _verbs.Add(CreateAbandonner());
         _verbs.Add(CreateAnnuler());
+        _verbs.Add(CreateActiver());
     }
 
     #region FactoryMethods
@@ -68,6 +69,13 @@ public static partial class VerbRepository
                 PresentNotes = "Acheter change de radical au présent pour certaines personnes : j'achète, tu achètes, il achète, mais nous achetons.",
                 FuturSimpleNotes = "Au futur et au conditionnel, acheter utilise le radical 'achèter-' : j'achèterai, j'achèterais."
             });
+    }
+
+    private static RegularErVerb CreateActiver()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Activer,
+            Constants.VerbDescriptions.Regular.Er.Activer);
     }
 
     private static RegularErVerb CreateAdapter()

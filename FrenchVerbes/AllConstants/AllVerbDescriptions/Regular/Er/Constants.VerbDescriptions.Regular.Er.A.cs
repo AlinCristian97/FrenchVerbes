@@ -43,6 +43,7 @@ public static partial class Constants
                 public const string Ajouter = "Ajouter est un verbe régulier du premier groupe (-er) qui signifie mettre en plus, incorporer quelque chose à un ensemble existant, ou dire quelque chose de supplémentaire. Il est très courant dans la vie quotidienne, aussi bien à l'écrit qu'à l'oral.";
                 public const string Abandonner = "Abandonner est un verbe régulier du premier groupe (-er) qui signifie quitter définitivement quelqu'un ou quelque chose, renoncer à une idée, un projet ou une activité, ou laisser sans secours. Il est très fréquent dans la vie courante et s'emploie dans des contextes affectifs, sportifs, professionnels et moraux.";
                 public const string Annuler = "Annuler est un verbe régulier du premier groupe (-er) qui signifie rendre nul, invalider ou supprimer quelque chose de prévu, comme un rendez-vous, un contrat, une commande ou une décision. Il est très fréquent dans les contextes administratifs, commerciaux et quotidiens.";
+                public const string Activer = "Activer est un verbe régulier du premier groupe (-er) qui signifie mettre en marche, accélérer ou rendre plus rapide ou plus efficace quelque chose. Il est très courant dans les domaines technologique, professionnel et quotidien.";
             }
         }
     }
