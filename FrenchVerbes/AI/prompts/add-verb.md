@@ -97,6 +97,7 @@ If the user says **"add next X"** (e.g. "add next 5"), interpret it as:
 - Keep method/class naming conventions exactly aligned with existing code.
 - Keep json files to 5 sentences per tense
 - **For reflexive verbs**, the constant name uses the `Se_` prefix (e.g. `Se_Axer`), and the constant value is the full reflexive infinitive (e.g. `"s'axer"` or `"se lever"`).
+- **Do not replace spaces with underscores in verb constants** (for example keep `"se lever"` in constant values). Underscores are only for JSON filenames (e.g. `se_lever.json`).
 - **Reflexive verbs always use être** as their auxiliary in compound tenses — always pass `usesEtre: true`.
 - The `BareInfinitive` (base verb without `se/s'`) is computed automatically by the engine — do not manually strip it anywhere.
 - When adding a reflexive verb, also go back and add `hasReflexive: true` to the factory of its base verb if that verb already exists in the repository.
