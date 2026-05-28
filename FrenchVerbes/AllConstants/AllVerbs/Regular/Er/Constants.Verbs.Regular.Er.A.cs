@@ -43,8 +43,8 @@ public static partial class Constants
                 public const string Adapter = "adapter";
                 public const string Se_Adapter = "s'adapter";
                 public const string Aimer = "aimer";
-                public const string Appeler = "appeler"; // <-- you are here
-                public const string Arriver = "arriver";
+                public const string Appeler = "appeler";
+                public const string Arriver = "arriver"; // <-- you are here
                 public const string Attraper = "attraper";
                 public const string Amuser = "amuser";
                 public const string Se_Amuser = "s'amuser";
