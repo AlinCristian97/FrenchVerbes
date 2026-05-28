@@ -51,6 +51,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateSe_Appuyer());
         _verbs.Add(CreateAfficher());
         _verbs.Add(CreateSe_Afficher());
+        _verbs.Add(CreateAssister());
     }
 
     #region FactoryMethods
@@ -449,6 +450,13 @@ public static partial class VerbRepository
             Constants.VerbDescriptions.Regular.Er.Se_Afficher,
             usesEtre: true,
             isReflexive: true);
+    }
+
+    private static RegularErVerb CreateAssister()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Assister,
+            Constants.VerbDescriptions.Regular.Er.Assister);
     }
 
     #endregion
