@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je corrige les fautes dans ma rédaction.",
+    "Tu corriges les copies des élèves.",
+    "Il corrige son comportement après la remarque.",
+    "Nous corrigeons les erreurs dans le code.",
+    "Ils corrigent leurs habitudes alimentaires."
+  ],
+  "Imparfait": [
+    "Je corrigeais les exercices de mes étudiants chaque soir.",
+    "Tu corrigeais ta posture devant le miroir.",
+    "Elle corrigeait les fautes d'orthographe avec patience.",
+    "Nous corrigions les plans avant de les soumettre.",
+    "Ils corrigeaient leurs erreurs après chaque test."
+  ],
+  "Futur Simple": [
+    "Je corrigerai les devoirs ce week-end.",
+    "Tu corrigeras ta façon de parler en public.",
+    "Il corrigera le tir dès qu'il verra les résultats.",
+    "Nous corrigerons les défauts avant la livraison.",
+    "Ils corrigeront leurs erreurs avec l'aide du professeur."
+  ],
+  "Passé Composé": [
+    "J'ai corrigé les copies en une seule soirée.",
+    "Tu as corrigé ta trajectoire au bon moment.",
+    "Elle a corrigé les erreurs dans le rapport.",
+    "Nous avons corrigé le bug avant la mise en production.",
+    "Ils ont corrigé leurs mauvaises habitudes."
+  ],
+  "Futur Proche": [
+    "Je vais corriger ces fautes maintenant.",
+    "Tu vas corriger ta réponse avant de remettre le devoir.",
+    "Il va corriger l'erreur dès que possible.",
+    "Nous allons corriger le code ce soir.",
+    "Ils vont corriger leurs copies avant de les rendre."
+  ],
+  "Passé Récent": [
+    "Je viens de corriger le dernier paragraphe.",
+    "Tu viens de corriger une erreur importante.",
+    "Elle vient de corriger les examens des élèves.",
+    "Nous venons de corriger le rapport final.",
+    "Ils viennent de corriger leur présentation."
+  ],
+  "Impératif": [
+    "Corrige cette faute avant de remettre le devoir !",
+    "Ne corrige pas le travail des autres sans permission.",
+    "Corrigeons ce problème ensemble.",
+    "Corrigez vos erreurs avant la soumission.",
+    "Ne corrigez pas à la hâte, prenez votre temps."
+  ],
+  "Conditionnel Présent": [
+    "Je corrigerais cette erreur si j'avais le temps.",
+    "Tu corrigerais ta façon de parler si tu t'entraînais plus.",
+    "Il corrigerait le bug s'il connaissait la cause.",
+    "Nous corrigerions le rapport si on nous le demandait.",
+    "Ils corrigeraient leurs habitudes s'ils étaient motivés."
+  ]
+}

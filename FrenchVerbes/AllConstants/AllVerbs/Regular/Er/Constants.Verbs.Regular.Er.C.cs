@@ -33,12 +33,12 @@ public static partial class Constants
                 public const string Couper = "couper";
                 public const string Cacher = "cacher";
                 public const string Calculer = "calculer";
-                public const string Commander = "commander"; // <-- you are here
+                public const string Commander = "commander";
                 public const string Copier = "copier";
                 public const string Corriger = "corriger";
                 public const string Couronner = "couronner";
                 public const string Cultiver = "cultiver";
-                public const string Coordonner = "coordonner";
+                public const string Coordonner = "coordonner"; // <-- you are here
                 public const string Collaborer = "collaborer";
                 public const string Combiner = "combiner";
                 public const string Communiquer = "communiquer";

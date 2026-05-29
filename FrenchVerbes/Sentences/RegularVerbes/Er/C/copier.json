@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je copie le fichier sur une clé USB.",
+    "Tu copies le texte depuis le tableau.",
+    "Il copie le style de son professeur.",
+    "Nous copions les documents importants avant de les envoyer.",
+    "Ils copient les réponses de leurs camarades."
+  ],
+  "Imparfait": [
+    "Je copiais mes notes dans un cahier propre.",
+    "Tu copiais toujours les devoirs de ton voisin.",
+    "Elle copiait les recettes dans un carnet.",
+    "Nous copiions les fichiers sur disque dur chaque semaine.",
+    "Ils copiaient les tableaux au musée pour s'entraîner."
+  ],
+  "Futur Simple": [
+    "Je copierai le rapport avant la réunion.",
+    "Tu copieras les fichiers sur le serveur.",
+    "Il copiera le modèle pour créer sa présentation.",
+    "Nous copierons les données sur un disque externe.",
+    "Ils copieront les plans pour l'équipe technique."
+  ],
+  "Passé Composé": [
+    "J'ai copié les informations importantes dans mon carnet.",
+    "Tu as copié le fichier au mauvais endroit.",
+    "Elle a copié l'œuvre originale avec talent.",
+    "Nous avons copié tous les documents nécessaires.",
+    "Ils ont copié les réponses pendant l'examen."
+  ],
+  "Futur Proche": [
+    "Je vais copier ce fichier maintenant.",
+    "Tu vas copier le texte dans un nouveau document.",
+    "Il va copier la recette avant de rendre le livre.",
+    "Nous allons copier les données avant la mise à jour.",
+    "Ils vont copier les plans pour distribuer à l'équipe."
+  ],
+  "Passé Récent": [
+    "Je viens de copier le rapport final.",
+    "Tu viens de copier ce texte mot pour mot.",
+    "Elle vient de copier les fichiers sur le serveur.",
+    "Nous venons de copier les données de sauvegarde.",
+    "Ils viennent de copier les plans du projet."
+  ],
+  "Impératif": [
+    "Copie ce fichier avant de le modifier !",
+    "Ne copie pas le travail des autres.",
+    "Copions ces documents avant de partir.",
+    "Copiez les données sur le disque externe.",
+    "Ne copiez pas pendant l'examen."
+  ],
+  "Conditionnel Présent": [
+    "Je copierais le document si j'avais le bon logiciel.",
+    "Tu copierais moins d'erreurs avec plus d'attention.",
+    "Il copierait le style de cet auteur s'il le pouvait.",
+    "Nous copierions les fichiers si nous avions le temps.",
+    "Ils copieraient les plans si on les leur fournissait."
+  ]
+}

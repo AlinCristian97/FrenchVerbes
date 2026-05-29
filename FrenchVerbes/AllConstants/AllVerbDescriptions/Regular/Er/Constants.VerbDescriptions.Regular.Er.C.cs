@@ -33,6 +33,11 @@ public static partial class Constants
                 public const string Cacher = "Cacher signifie dissimuler quelque chose ou quelqu'un pour qu'on ne puisse pas le voir ou le trouver. C'est un verbe régulier du premier groupe en -er.";
                 public const string Calculer = "Calculer signifie effectuer des opérations mathématiques ou estimer avec soin. C'est un verbe régulier du premier groupe en -er.";
                 public const string Commander = "Commander signifie donner un ordre, diriger ou passer une commande. C'est un verbe régulier du premier groupe en -er.";
+                public const string Copier = "Copier signifie reproduire un original, imiter ou dupliquer quelque chose. C'est un verbe régulier du premier groupe en -er.";
+                public const string Corriger = "Corriger signifie rectifier une erreur, améliorer un travail ou punir quelqu'un pour une faute. C'est un verbe régulier en -ger avec un changement orthographique devant certaines terminaisons.";
+                public const string Couronner = "Couronner signifie placer une couronne sur la tête de quelqu'un ou achever quelque chose avec succès. C'est un verbe régulier du premier groupe en -er.";
+                public const string Cultiver = "Cultiver signifie travailler la terre pour faire pousser des plantes ou développer une qualité intellectuelle. C'est un verbe régulier du premier groupe en -er.";
+                public const string Coordonner = "Coordonner signifie organiser et harmoniser des éléments ou des personnes en vue d'un objectif commun. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

@@ -32,6 +32,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateCacher());
         _verbs.Add(CreateCalculer());
         _verbs.Add(CreateCommander());
+        _verbs.Add(CreateCopier());
+        _verbs.Add(CreateCorriger());
+        _verbs.Add(CreateCouronner());
+        _verbs.Add(CreateCultiver());
+        _verbs.Add(CreateCoordonner());
     }
 
     #region FactoryMethods
@@ -248,6 +253,48 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Commander,
             Constants.VerbDescriptions.Regular.Er.Commander);
+    }
+
+    private static RegularErVerb CreateCopier()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Copier,
+            Constants.VerbDescriptions.Regular.Er.Copier);
+    }
+
+    private static RegularErVerb CreateCorriger()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Corriger,
+            Constants.VerbDescriptions.Regular.Er.Corriger,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes =
+                    "Au présent, corriger conserve le 'e' après le 'g' à la première personne du pluriel pour maintenir le son doux : nous corrigeons.",
+                ImparfaitNotes =
+                    "À l'imparfait, la même règle s'applique : nous corrigions."
+            });
+    }
+
+    private static RegularErVerb CreateCouronner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Couronner,
+            Constants.VerbDescriptions.Regular.Er.Couronner);
+    }
+
+    private static RegularErVerb CreateCultiver()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Cultiver,
+            Constants.VerbDescriptions.Regular.Er.Cultiver);
+    }
+
+    private static RegularErVerb CreateCoordonner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Coordonner,
+            Constants.VerbDescriptions.Regular.Er.Coordonner);
     }
 
     #endregion
