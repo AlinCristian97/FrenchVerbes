@@ -11,12 +11,12 @@ public static partial class Constants
                 public const string Denoncer = "dénoncer";
                 public const string Denaturer = "dénaturer";
                 public const string Defigurer = "défigurer";
-                public const string Deranger = "déranger"; // <-- you are here
+                public const string Deranger = "déranger";
                 public const string Debloquer = "débloquer";
                 public const string Se_Debloquer = "se débloquer";
                 public const string Debrouiller = "débrouiller";
                 public const string Se_Debrouiller = "se débrouiller";
-                public const string Divaguer = "divaguer";
+                public const string Divaguer = "divaguer"; // <-- you are here
                 public const string Debuter = "débuter";
                 public const string Devorer = "dévorer";
                 public const string Diner = "dîner";
