@@ -10,5 +10,6 @@ public static class RegularErStemRulesC
             [Constants.Verbs.Regular.Er.Celebrer] = new CelebrerRegularErStemRule(),
             [Constants.Verbs.Regular.Er.Conferer] = new ConfererRegularErStemRule(),
             [Constants.Verbs.Regular.Er.Cooperer] = new CoopererRegularErStemRule(),
+            [Constants.Verbs.Regular.Er.Considerer] = new ConsidererRegularErStemRule(),
         };
 }

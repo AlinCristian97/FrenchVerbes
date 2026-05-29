@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je confirme ma présence à la réunion.",
+    "Tu confirmes ta réservation par e-mail.",
+    "Il confirme les résultats de l'analyse.",
+    "Nous confirmons notre accord lors de la signature.",
+    "Ils confirment leur participation au projet."
+  ],
+  "Imparfait": [
+    "Je confirmais mes rendez-vous la veille.",
+    "Tu confirmais toujours ta présence à l'avance.",
+    "Elle confirmait les commandes avant l'expédition.",
+    "Nous confirmions les détails avec les clients.",
+    "Ils confirmaient leur venue par téléphone."
+  ],
+  "Futur Simple": [
+    "Je confirmerai mon inscription avant vendredi.",
+    "Tu confirmeras ta réservation dès que possible.",
+    "Il confirmera sa décision lors de la prochaine réunion.",
+    "Nous confirmerons les détails du contrat demain.",
+    "Ils confirmeront leur participation par écrit."
+  ],
+  "Passé Composé": [
+    "J'ai confirmé ma présence à la cérémonie.",
+    "Tu as confirmé ta commande par e-mail.",
+    "Elle a confirmé les résultats de l'enquête.",
+    "Nous avons confirmé notre accord avec les partenaires.",
+    "Ils ont confirmé leur venue lors de la réunion."
+  ],
+  "Futur Proche": [
+    "Je vais confirmer mon rendez-vous maintenant.",
+    "Tu vas confirmer ta réservation avant ce soir.",
+    "Il va confirmer sa décision d'ici demain.",
+    "Nous allons confirmer les détails avec le client.",
+    "Ils vont confirmer leur participation lors de l'appel."
+  ],
+  "Passé Récent": [
+    "Je viens de confirmer mon inscription.",
+    "Tu viens de confirmer ta présence à la réunion.",
+    "Elle vient de confirmer les résultats du test.",
+    "Nous venons de confirmer notre accord avec le fournisseur.",
+    "Ils viennent de confirmer leur participation au concours."
+  ],
+  "Impératif": [
+    "Confirme ta présence avant demain soir !",
+    "Ne confirme pas sans avoir vérifié les détails.",
+    "Confirmons notre accord avant de signer.",
+    "Confirmez votre réservation au plus tôt.",
+    "Ne confirmez pas ce rendez-vous sans me consulter."
+  ],
+  "Conditionnel Présent": [
+    "Je confirmerais ma présence si j'étais disponible.",
+    "Tu confirmerais ta réservation si le prix était correct.",
+    "Il confirmerait sa décision s'il avait toutes les informations.",
+    "Nous confirmerions notre accord si les conditions étaient remplies.",
+    "Ils confirmeraient leur venue s'ils trouvaient un transport."
+  ]
+}

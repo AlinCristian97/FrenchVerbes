@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je connecte mon ordinateur au réseau.",
+    "Tu connectes les câbles au bon port.",
+    "Il connecte les deux systèmes ensemble.",
+    "Nous connectons les appareils au serveur central.",
+    "Ils connectent les différents modules du logiciel."
+  ],
+  "Imparfait": [
+    "Je connectais les appareils manuellement avant.",
+    "Tu connectais le câble réseau chaque matin.",
+    "Elle connectait les nouveaux postes au réseau de l'entreprise.",
+    "Nous connections les systèmes un par un.",
+    "Ils connectaient les différentes antennes entre elles."
+  ],
+  "Futur Simple": [
+    "Je connecterai le nouvel appareil au réseau demain.",
+    "Tu connecteras les câbles selon le schéma.",
+    "Il connectera les deux bases de données la semaine prochaine.",
+    "Nous connecterons tous les postes au nouveau serveur.",
+    "Ils connecteront les systèmes lors de la mise en service."
+  ],
+  "Passé Composé": [
+    "J'ai connecté l'imprimante au réseau sans problème.",
+    "Tu as connecté les deux systèmes avec succès.",
+    "Elle a connecté tous les postes au serveur central.",
+    "Nous avons connecté les appareils selon les instructions.",
+    "Ils ont connecté les modules du système en moins d'une heure."
+  ],
+  "Futur Proche": [
+    "Je vais connecter cet appareil au réseau.",
+    "Tu vas connecter le câble au bon port.",
+    "Il va connecter les deux bases de données ce soir.",
+    "Nous allons connecter tous les terminaux au serveur.",
+    "Ils vont connecter les systèmes lors de l'installation."
+  ],
+  "Passé Récent": [
+    "Je viens de connecter le nouvel ordinateur au réseau.",
+    "Tu viens de connecter les deux appareils ensemble.",
+    "Elle vient de connecter le serveur au réseau principal.",
+    "Nous venons de connecter tous les postes.",
+    "Ils viennent de connecter les modules du logiciel."
+  ],
+  "Impératif": [
+    "Connecte le câble avant d'allumer l'appareil !",
+    "Ne connecte pas cet appareil sans vérifier la compatibilité.",
+    "Connectons les systèmes selon le plan prévu.",
+    "Connectez les appareils au réseau sécurisé.",
+    "Ne connectez pas ces deux systèmes sans autorisation."
+  ],
+  "Conditionnel Présent": [
+    "Je connecterais cet appareil si j'avais le bon câble.",
+    "Tu connecterais les systèmes si tu avais les droits d'accès.",
+    "Il connecterait les deux bases de données s'il savait comment.",
+    "Nous connecterions tous les postes si on avait le matériel.",
+    "Ils connecteraient les systèmes si la configuration était prête."
+  ]
+}

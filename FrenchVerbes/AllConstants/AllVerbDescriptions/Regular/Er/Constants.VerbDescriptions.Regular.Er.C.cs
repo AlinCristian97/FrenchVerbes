@@ -53,6 +53,11 @@ public static partial class Constants
                 public const string Conserver = "Conserver signifie garder quelque chose en bon état, maintenir ou préserver. C'est un verbe régulier du premier groupe en -er.";
                 public const string Confisquer = "Confisquer signifie saisir et retenir quelque chose appartenant à quelqu'un, généralement à titre de punition ou par autorité. C'est un verbe régulier du premier groupe en -er.";
                 public const string Cuisiner = "Cuisiner signifie préparer des aliments pour les rendre propres à la consommation. C'est un verbe régulier du premier groupe en -er.";
+                public const string Confirmer = "Confirmer signifie affirmer la vérité de quelque chose, valider ou rendre officiel. C'est un verbe régulier du premier groupe en -er.";
+                public const string Connecter = "Connecter signifie relier deux éléments entre eux ou établir une connexion, notamment informatique. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Connecter = "Se connecter est la forme pronominale de connecter. Elle exprime le fait de s'identifier et d'accéder à un système, un réseau ou un service numérique.";
+                public const string Considerer = "Considérer signifie examiner attentivement quelque chose, estimer ou tenir compte de quelqu'un. C'est un verbe régulier en -er avec un changement d'accent sur la dernière syllabe du radical.";
+                public const string Consulter = "Consulter signifie demander l'avis d'un expert, chercher une information dans un document ou prendre conseil. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

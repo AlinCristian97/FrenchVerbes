@@ -52,6 +52,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateConserver());
         _verbs.Add(CreateConfisquer());
         _verbs.Add(CreateCuisiner());
+        _verbs.Add(CreateConfirmer());
+        _verbs.Add(CreateConnecter());
+        _verbs.Add(CreateSe_Connecter());
+        _verbs.Add(CreateConsiderer());
+        _verbs.Add(CreateConsulter());
     }
 
     #region FactoryMethods
@@ -422,6 +427,51 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Cuisiner,
             Constants.VerbDescriptions.Regular.Er.Cuisiner);
+    }
+
+    private static RegularErVerb CreateConfirmer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Confirmer,
+            Constants.VerbDescriptions.Regular.Er.Confirmer);
+    }
+
+    private static RegularErVerb CreateConnecter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Connecter,
+            Constants.VerbDescriptions.Regular.Er.Connecter,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Connecter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Connecter,
+            Constants.VerbDescriptions.Regular.Er.Se_Connecter,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateConsiderer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Considerer,
+            Constants.VerbDescriptions.Regular.Er.Considerer,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes =
+                    "Au présent, considérer s'écrit avec un accent grave (è) aux personnes je, tu, il/elle et ils/elles pour maintenir la prononciation du \"e\" ouvert : je considère, tu considères, il considère, ils considèrent.",
+                ImparfaitNotes =
+                    "À l'imparfait, le radical conserve le 'é' : je considérais, nous considérions."
+            });
+    }
+
+    private static RegularErVerb CreateConsulter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Consulter,
+            Constants.VerbDescriptions.Regular.Er.Consulter);
     }
 
     #endregion

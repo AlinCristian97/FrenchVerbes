@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je consulte mon médecin une fois par an.",
+    "Tu consultes un avocat pour ce litige.",
+    "Il consulte ses notes avant de répondre.",
+    "Nous consultons les experts avant de décider.",
+    "Ils consultent le manuel avant de commencer."
+  ],
+  "Imparfait": [
+    "Je consultais régulièrement un nutritionniste.",
+    "Tu consultais le dictionnaire à chaque mot inconnu.",
+    "Elle consultait ses collègues avant chaque décision importante.",
+    "Nous consultions les archives pour retrouver les anciens contrats.",
+    "Ils consultaient leurs avocats avant chaque négociation."
+  ],
+  "Futur Simple": [
+    "Je consulterai un spécialiste dès la semaine prochaine.",
+    "Tu consulteras le règlement avant de participer.",
+    "Il consultera ses associés avant de signer.",
+    "Nous consulterons les experts lors de la prochaine réunion.",
+    "Ils consulteront le dossier avant de rendre leur verdict."
+  ],
+  "Passé Composé": [
+    "J'ai consulté un médecin spécialiste la semaine dernière.",
+    "Tu as consulté le règlement avant de t'inscrire.",
+    "Elle a consulté ses collègues avant de prendre sa décision.",
+    "Nous avons consulté les archives pour préparer le rapport.",
+    "Ils ont consulté un avocat pour ce contrat complexe."
+  ],
+  "Futur Proche": [
+    "Je vais consulter mon médecin cet après-midi.",
+    "Tu vas consulter le guide avant de commencer.",
+    "Il va consulter son équipe avant de répondre.",
+    "Nous allons consulter les experts cette semaine.",
+    "Ils vont consulter le dossier avant la réunion."
+  ],
+  "Passé Récent": [
+    "Je viens de consulter mon médecin ce matin.",
+    "Tu viens de consulter le règlement intérieur.",
+    "Elle vient de consulter ses collègues sur ce sujet.",
+    "Nous venons de consulter les archives du projet.",
+    "Ils viennent de consulter un expert juridique."
+  ],
+  "Impératif": [
+    "Consulte un médecin si les symptômes persistent !",
+    "Ne consulte pas n'importe qui pour ce type de problème.",
+    "Consultons les experts avant de prendre une décision.",
+    "Consultez le manuel avant d'utiliser l'appareil.",
+    "Ne consultez pas sans avoir pris rendez-vous."
+  ],
+  "Conditionnel Présent": [
+    "Je consulterais un avocat si j'étais à ta place.",
+    "Tu consulterais le règlement si tu avais un doute.",
+    "Il consulterait ses associés s'il avait le temps.",
+    "Nous consulterions les experts si le budget le permettait.",
+    "Ils consulteraient le dossier s'ils en avaient l'accès."
+  ]
+}

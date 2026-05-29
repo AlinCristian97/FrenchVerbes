@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je considère cette option avec attention.",
+    "Tu considères les risques avant de décider.",
+    "Il considère ses employés avec beaucoup de respect.",
+    "Nous considérons toutes les possibilités avant d'agir.",
+    "Ils considèrent la proposition comme très intéressante."
+  ],
+  "Imparfait": [
+    "Je considérais cette solution comme la meilleure.",
+    "Tu considérais chaque détail avant de prendre une décision.",
+    "Elle considérait ses collègues comme sa famille.",
+    "Nous considérions plusieurs options avant de choisir.",
+    "Ils considéraient le projet comme une priorité."
+  ],
+  "Futur Simple": [
+    "Je considérerai votre offre avec attention.",
+    "Tu considéreras tous les aspects avant de décider.",
+    "Il considérera les besoins de son équipe lors du bilan.",
+    "Nous considérerons toutes les propositions reçues.",
+    "Ils considéreront cette option s'ils ont le temps."
+  ],
+  "Passé Composé": [
+    "J'ai considéré toutes les options avant de choisir.",
+    "Tu as considéré les risques avant de signer.",
+    "Elle a considéré la proposition avec beaucoup de sérieux.",
+    "Nous avons considéré chaque détail du contrat.",
+    "Ils ont considéré cette idée comme une vraie opportunité."
+  ],
+  "Futur Proche": [
+    "Je vais considérer cette offre sérieusement.",
+    "Tu vas considérer les conséquences avant d'agir.",
+    "Il va considérer les besoins de l'équipe avant de décider.",
+    "Nous allons considérer toutes les pistes disponibles.",
+    "Ils vont considérer cette solution lors de la prochaine réunion."
+  ],
+  "Passé Récent": [
+    "Je viens de considérer une nouvelle approche.",
+    "Tu viens de considérer les risques liés à ce choix.",
+    "Elle vient de considérer l'offre avec attention.",
+    "Nous venons de considérer plusieurs solutions possibles.",
+    "Ils viennent de considérer cette proposition comme valide."
+  ],
+  "Impératif": [
+    "Considère cette option avant de prendre ta décision !",
+    "Ne considère pas cette offre à la légère.",
+    "Considérons toutes les possibilités avant de conclure.",
+    "Considérez les risques avant d'investir.",
+    "Ne considérez pas cela comme acquis."
+  ],
+  "Conditionnel Présent": [
+    "Je considérerais cette option si les conditions étaient meilleures.",
+    "Tu considérerais plus de solutions si tu avais le temps.",
+    "Il considérerait la proposition s'il la recevait officiellement.",
+    "Nous considérerions toutes les pistes si les ressources étaient disponibles.",
+    "Ils considéreraient cette idée s'ils avaient plus de données."
+  ]
+}

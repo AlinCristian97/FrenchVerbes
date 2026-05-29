@@ -53,12 +53,12 @@ public static partial class Constants
                 public const string Coiffer = "coiffer";
                 public const string Conserver = "conserver";
                 public const string Confisquer = "confisquer";
-                public const string Cuisiner = "cuisiner"; // <-- you are here
+                public const string Cuisiner = "cuisiner";
                 public const string Confirmer = "confirmer";
                 public const string Connecter = "connecter";
                 public const string Se_Connecter = "se connecter";
-                public const string Considérer = "considérer";
-                public const string Consulter = "consulter";
+                public const string Considerer = "considérer";
+                public const string Consulter = "consulter"; // <-- you are here
                 public const string Contracter = "contracter";
                 public const string Consommer = "consommer";
                 public const string Se_Consommer = "se consommer";

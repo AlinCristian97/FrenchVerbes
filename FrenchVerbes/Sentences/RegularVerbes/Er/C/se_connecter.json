@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je me connecte à mon compte chaque matin.",
+    "Tu te connectes au réseau de l'entreprise depuis chez toi.",
+    "Il se connecte à la plateforme en ligne pour travailler.",
+    "Nous nous connectons au serveur à distance.",
+    "Ils se connectent à l'application depuis leurs téléphones."
+  ],
+  "Imparfait": [
+    "Je me connectais au réseau via un VPN.",
+    "Tu te connectais chaque soir pour lire tes messages.",
+    "Elle se connectait au système depuis son bureau à domicile.",
+    "Nous nous connections au serveur avec nos identifiants.",
+    "Ils se connectaient à la plateforme pendant les réunions."
+  ],
+  "Futur Simple": [
+    "Je me connecterai dès que j'aurai accès au réseau.",
+    "Tu te connecteras à la réunion en ligne depuis l'aéroport.",
+    "Il se connectera au système dès son arrivée au bureau.",
+    "Nous nous connecterons au serveur lors de la mise en service.",
+    "Ils se connecteront à la plateforme dès l'ouverture."
+  ],
+  "Passé Composé": [
+    "Je me suis connecté à mon compte sans difficulté.",
+    "Tu t'es connecté au réseau depuis un café.",
+    "Elle s'est connectée à la réunion avec quelques minutes de retard.",
+    "Nous nous sommes connectés au serveur à distance.",
+    "Ils se sont connectés à la plateforme dès le lancement."
+  ],
+  "Futur Proche": [
+    "Je vais me connecter à la réunion dans quelques minutes.",
+    "Tu vas te connecter au réseau depuis ton téléphone.",
+    "Il va se connecter au système dès qu'il arrive.",
+    "Nous allons nous connecter au serveur ce soir.",
+    "Ils vont se connecter à la plateforme avant la présentation."
+  ],
+  "Passé Récent": [
+    "Je viens de me connecter à mon compte.",
+    "Tu viens de te connecter au réseau de l'entreprise.",
+    "Elle vient de se connecter à la réunion en ligne.",
+    "Nous venons de nous connecter au serveur à distance.",
+    "Ils viennent de se connecter à la plateforme."
+  ],
+  "Impératif": [
+    "Connecte-toi avant le début de la réunion !",
+    "Ne te connecte pas à ce réseau public non sécurisé.",
+    "Connectons-nous au serveur pour commencer le travail.",
+    "Connectez-vous à vos comptes dès votre arrivée.",
+    "Ne vous connectez pas sans vérifier la sécurité du réseau."
+  ],
+  "Conditionnel Présent": [
+    "Je me connecterais si j'avais mon mot de passe.",
+    "Tu te connecterais plus facilement avec un meilleur réseau.",
+    "Il se connecterait s'il avait les identifiants corrects.",
+    "Nous nous connecterions si le serveur était disponible.",
+    "Ils se connecteraient s'ils avaient accès à Internet."
+  ]
+}
