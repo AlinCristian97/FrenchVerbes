@@ -19,6 +19,10 @@ public static partial class VerbRepository
         _verbs.Add(CreateCooperer());
         _verbs.Add(CreateContourner());
         _verbs.Add(CreateCompter());
+        _verbs.Add(CreateConferer());
+        _verbs.Add(CreateCondamner());
+        _verbs.Add(CreateSe_Changer());
+        _verbs.Add(CreateChercher());
     }
 
     #region FactoryMethods
@@ -27,7 +31,8 @@ public static partial class VerbRepository
     {
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Changer,
-            Constants.VerbDescriptions.Regular.Er.Changer);
+            Constants.VerbDescriptions.Regular.Er.Changer,
+            hasReflexive: true);
     }
 
     private static RegularErVerb CreateCommencer()
@@ -129,6 +134,43 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Compter,
             Constants.VerbDescriptions.Regular.Er.Compter);
+    }
+
+    private static RegularErVerb CreateConferer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Conferer,
+            Constants.VerbDescriptions.Regular.Er.Conferer,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes =
+                    "Au présent, conférer s'écrit avec un accent grave (è) aux personnes je, tu, il/elle et ils/elles pour maintenir la prononciation du \"e\" ouvert.",
+                ImparfaitNotes =
+                    "À l'imparfait, le radical conserve le 'é' : je conférais, nous conférions."
+            });
+    }
+
+    private static RegularErVerb CreateCondamner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Condamner,
+            Constants.VerbDescriptions.Regular.Er.Condamner);
+    }
+
+    private static RegularErVerb CreateSe_Changer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Changer,
+            Constants.VerbDescriptions.Regular.Er.Se_Changer,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateChercher()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Chercher,
+            Constants.VerbDescriptions.Regular.Er.Chercher);
     }
 
     #endregion

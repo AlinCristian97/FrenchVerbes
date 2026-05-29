@@ -20,6 +20,10 @@ public static partial class Constants
                 public const string Cooperer = "Coopérer signifie travailler conjointement avec d'autres personnes vers un objectif commun. C'est un verbe régulier en -er avec un changement d'accent sur la dernière syllabe.";
                 public const string Contourner = "Contourner signifie passer autour d'un obstacle ou éviter une règle de manière détournée. C'est un verbe régulier du premier groupe en -er.";
                 public const string Compter = "Compter signifie dénombrer, faire le calcul de quelque chose ou avoir de l'importance. C'est un verbe régulier du premier groupe en -er.";
+                public const string Conferer = "Conférer signifie attribuer quelque chose à quelqu'un (un titre, un droit) ou s'entretenir avec d'autres personnes. C'est un verbe régulier en -er avec un changement d'accent sur la dernière syllabe du radical.";
+                public const string Condamner = "Condamner signifie prononcer une peine contre quelqu'un ou désapprouver fermement quelque chose. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Changer = "Se changer est la forme pronominale de changer. Elle exprime le fait de changer de vêtements ou de se transformer soi-même.";
+                public const string Chercher = "Chercher signifie tenter de trouver quelque chose ou quelqu'un, ou faire des efforts pour obtenir ou atteindre un résultat. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

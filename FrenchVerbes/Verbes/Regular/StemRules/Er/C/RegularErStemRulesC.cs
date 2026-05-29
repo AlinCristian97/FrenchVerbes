@@ -8,6 +8,7 @@ public static class RegularErStemRulesC
         new Dictionary<string, IRegularErStemRule>
         {
             [Constants.Verbs.Regular.Er.Celebrer] = new CelebrerRegularErStemRule(),
+            [Constants.Verbs.Regular.Er.Conferer] = new ConfererRegularErStemRule(),
             [Constants.Verbs.Regular.Er.Cooperer] = new CoopererRegularErStemRule(),
         };
 }

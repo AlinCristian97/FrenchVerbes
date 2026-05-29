@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "Je cherche mes clés depuis une demi-heure.",
+    "Tu cherches un appartement dans ce quartier depuis des semaines.",
+    "Elle cherche le sens de ce mot dans le dictionnaire.",
+    "Nous cherchons une solution efficace à ce problème complexe.",
+    "Ils cherchent leurs places dans la salle de spectacle."
+  ],
+  "Imparfait": [
+    "Je cherchais un emploi dans ce domaine depuis plusieurs mois.",
+    "Tu cherchais tes lunettes partout sans les trouver.",
+    "Elle cherchait ses mots pour exprimer ce qu'elle ressentait.",
+    "Nous cherchions une maison à la campagne depuis longtemps.",
+    "Ils cherchaient une sortie de secours dans l'obscurité."
+  ],
+  "Futur Simple": [
+    "Je chercherai une solution avant la fin de la semaine.",
+    "Tu chercheras un autre emploi si cette offre ne convient pas.",
+    "Il cherchera ses affaires dans ses bagages à l'aéroport.",
+    "Nous chercherons un hôtel disponible pour la nuit.",
+    "Ils chercheront des informations complémentaires avant de décider."
+  ],
+  "Passé Composé": [
+    "J'ai cherché mes lunettes pendant une heure avant de les retrouver.",
+    "Tu as cherché un restaurant ouvert tard le soir.",
+    "Elle a cherché son chemin sur la carte pendant de longues minutes.",
+    "Nous avons cherché une réponse à cette question complexe.",
+    "Ils ont cherché des volontaires pour organiser l'événement."
+  ],
+  "Futur Proche": [
+    "Je vais chercher du pain à la boulangerie avant de rentrer.",
+    "Tu vas chercher les enfants à l'école cet après-midi.",
+    "Il va chercher ses affaires dans sa chambre.",
+    "Nous allons chercher une meilleure offre avant de signer.",
+    "Ils vont chercher de l'aide auprès de leurs collègues."
+  ],
+  "Passé Récent": [
+    "Je viens de chercher cette information en ligne.",
+    "Tu viens de chercher les enfants à la sortie de l'école.",
+    "Elle vient de chercher ses bagages au carrousel de l'aéroport.",
+    "Nous venons de chercher une solution ensemble.",
+    "Ils viennent de chercher des renforts pour terminer le projet."
+  ],
+  "Impératif": [
+    "Cherche tes affaires avant de partir en vacances !",
+    "Cherchons ensemble une solution à ce problème !",
+    "Cherchez une autre approche si celle-ci ne fonctionne pas !"
+  ],
+  "Conditionnel Présent": [
+    "Je chercherais un autre emploi si les conditions de travail étaient meilleures.",
+    "Tu chercherais une sortie de secours si tu étais bloqué.",
+    "Elle chercherait ses mots si elle devait parler en public.",
+    "Nous chercherions une alternative si ce plan échouait.",
+    "Ils chercheraient de l'aide s'ils se trouvaient en difficulté."
+  ]
+}
