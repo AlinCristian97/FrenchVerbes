@@ -48,12 +48,12 @@ public static partial class Constants
                 public const string Clarifier = "clarifier";
                 public const string Capturer = "capturer";
                 public const string Contrer = "contrer";
-                public const string Commercer = "commercer"; // <-- you are here
+                public const string Commercer = "commercer";
                 public const string Classer = "classer";
                 public const string Coiffer = "coiffer";
                 public const string Conserver = "conserver";
                 public const string Confisquer = "confisquer";
-                public const string Cuisiner = "cuisiner";
+                public const string Cuisiner = "cuisiner"; // <-- you are here
                 public const string Confirmer = "confirmer";
                 public const string Connecter = "connecter";
                 public const string Se_Connecter = "se connecter";

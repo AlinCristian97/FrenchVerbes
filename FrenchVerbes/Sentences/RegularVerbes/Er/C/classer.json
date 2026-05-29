@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je classe les documents par ordre alphabétique.",
+    "Tu classes tes affaires avant de partir.",
+    "Il classe les élèves selon leurs résultats.",
+    "Nous classons les dossiers dans les archives.",
+    "Ils classent les produits par catégorie."
+  ],
+  "Imparfait": [
+    "Je classais mes notes après chaque cours.",
+    "Tu classais les lettres par date d'arrivée.",
+    "Elle classait les photos dans des albums.",
+    "Nous classions les fichiers dans des dossiers partagés.",
+    "Ils classaient les marchandises à la réception."
+  ],
+  "Futur Simple": [
+    "Je classerai les documents après la réunion.",
+    "Tu classeras tes affaires avant le déménagement.",
+    "Il classera les résultats par ordre de mérite.",
+    "Nous classerons les dossiers dans le nouveau système.",
+    "Ils classeront les produits selon les nouvelles normes."
+  ],
+  "Passé Composé": [
+    "J'ai classé tous les documents de l'année.",
+    "Tu as classé tes affaires rapidement avant de partir.",
+    "Elle a classé les photos par thème.",
+    "Nous avons classé les dossiers dans les archives.",
+    "Ils ont classé les produits avant l'ouverture du magasin."
+  ],
+  "Futur Proche": [
+    "Je vais classer ces documents maintenant.",
+    "Tu vas classer tes notes avant l'examen.",
+    "Il va classer les résultats dès qu'ils arriveront.",
+    "Nous allons classer les dossiers ce soir.",
+    "Ils vont classer les marchandises à leur arrivée."
+  ],
+  "Passé Récent": [
+    "Je viens de classer les dossiers de la semaine.",
+    "Tu viens de classer tes affaires dans ta chambre.",
+    "Elle vient de classer les résultats par catégorie.",
+    "Nous venons de classer les archives de l'année.",
+    "Ils viennent de classer les produits sur les rayons."
+  ],
+  "Impératif": [
+    "Classe tes documents avant de quitter le bureau !",
+    "Ne classe pas ces fichiers dans le mauvais dossier.",
+    "Classons les dossiers avant la fin de la journée.",
+    "Classez vos affaires avant de partir en vacances.",
+    "Ne classez pas ces documents sans les avoir lus."
+  ],
+  "Conditionnel Présent": [
+    "Je classerais ces documents si j'avais plus de temps.",
+    "Tu classerais mieux avec un système organisé.",
+    "Il classerait les résultats s'il avait accès aux données.",
+    "Nous classerions les dossiers si on nous le demandait.",
+    "Ils classeraient les produits si le système était en place."
+  ]
+}

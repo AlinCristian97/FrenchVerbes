@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je confisque le téléphone de l'élève distrait.",
+    "Tu confisques les jouets si les enfants se disputent.",
+    "Il confisque les passeports à la frontière.",
+    "Nous confisquons les objets interdits à l'entrée.",
+    "Ils confisquent les biens saisis lors de l'enquête."
+  ],
+  "Imparfait": [
+    "Je confisquais les copies en cas de triche.",
+    "Tu confisquais les téléphones pendant les réunions.",
+    "Elle confisquait les jouets quand les enfants n'obéissaient pas.",
+    "Nous confisquions les billets falsifiés à l'entrée.",
+    "Ils confisquaient les marchandises de contrebande."
+  ],
+  "Futur Simple": [
+    "Je confisquerai le téléphone si tu continues à l'utiliser en classe.",
+    "Tu confisqueras les objets interdits à l'entrée.",
+    "Il confisquera les documents lors du contrôle.",
+    "Nous confisquerons les billets non valides.",
+    "Ils confisqueront les biens lors de la saisie judiciaire."
+  ],
+  "Passé Composé": [
+    "J'ai confisqué le téléphone de l'élève pendant le cours.",
+    "Tu as confisqué les objets dangereux à l'entrée.",
+    "Elle a confisqué les jouets après la dispute.",
+    "Nous avons confisqué les billets falsifiés au contrôle.",
+    "Ils ont confisqué les marchandises illicites à la douane."
+  ],
+  "Futur Proche": [
+    "Je vais confisquer ce téléphone si tu ne le ranges pas.",
+    "Tu vas confisquer les objets interdits dès l'arrivée.",
+    "Il va confisquer les documents lors de la perquisition.",
+    "Nous allons confisquer les billets non conformes.",
+    "Ils vont confisquer les biens mal acquis."
+  ],
+  "Passé Récent": [
+    "Je viens de confisquer le téléphone d'un élève.",
+    "Tu viens de confisquer un objet interdit à l'entrée.",
+    "Elle vient de confisquer les jouets après la bagarre.",
+    "Nous venons de confisquer des billets falsifiés.",
+    "Ils viennent de confisquer les marchandises de contrebande."
+  ],
+  "Impératif": [
+    "Confisque ce téléphone immédiatement !",
+    "Ne confisque pas sans justification valable.",
+    "Confisquons les objets dangereux avant l'entrée.",
+    "Confisquez les billets non valides à l'accueil.",
+    "Ne confisquez pas les biens sans procédure officielle."
+  ],
+  "Conditionnel Présent": [
+    "Je confisquerais ce téléphone s'il continuait à perturber.",
+    "Tu confisquerais les objets interdits si tu étais agent de sécurité.",
+    "Il confisquerait les documents s'il en avait l'autorité.",
+    "Nous confisquerions les billets falsifiés si on nous le demandait.",
+    "Ils confisqueraient les biens s'ils obtenaient un mandat."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je conserve les restes du repas dans le réfrigérateur.",
+    "Tu conserves tes vieux livres avec beaucoup de soin.",
+    "Il conserve une attitude calme en toutes circonstances.",
+    "Nous conservons les archives dans un endroit sécurisé.",
+    "Ils conservent leurs traditions depuis des générations."
+  ],
+  "Imparfait": [
+    "Je conservais mes lettres d'amour dans une boîte.",
+    "Tu conservais toujours les restes pour le lendemain.",
+    "Elle conservait les documents importants dans un coffre.",
+    "Nous conservions les recettes de famille avec soin.",
+    "Ils conservaient leurs habitudes malgré les changements."
+  ],
+  "Futur Simple": [
+    "Je conserverai ces photos comme souvenirs précieux.",
+    "Tu conserveras ce document en lieu sûr.",
+    "Il conservera son calme malgré la pression.",
+    "Nous conserverons les données dans le cloud.",
+    "Ils conserveront leurs traditions pour les générations futures."
+  ],
+  "Passé Composé": [
+    "J'ai conservé toutes les lettres de ma grand-mère.",
+    "Tu as conservé ce tableau dans un excellent état.",
+    "Elle a conservé son sang-froid pendant la crise.",
+    "Nous avons conservé les archives dans un local adapté.",
+    "Ils ont conservé leurs coutumes malgré la modernité."
+  ],
+  "Futur Proche": [
+    "Je vais conserver ces documents dans un dossier sécurisé.",
+    "Tu vas conserver ces restes pour demain.",
+    "Il va conserver son calme lors de la réunion difficile.",
+    "Nous allons conserver les données sur un serveur dédié.",
+    "Ils vont conserver cette tradition pour leurs enfants."
+  ],
+  "Passé Récent": [
+    "Je viens de conserver ces fichiers importants.",
+    "Tu viens de conserver les restes dans une boîte hermétique.",
+    "Elle vient de conserver les documents dans les archives.",
+    "Nous venons de conserver les données avant la mise à jour.",
+    "Ils viennent de conserver leur titre de champion."
+  ],
+  "Impératif": [
+    "Conserve ces documents dans un endroit sûr !",
+    "Ne conserve pas les aliments trop longtemps.",
+    "Conservons nos traditions pour les générations futures.",
+    "Conservez vos reçus pour la comptabilité.",
+    "Ne conservez pas des fichiers inutiles sur le serveur."
+  ],
+  "Conditionnel Présent": [
+    "Je conserverais ces photos si j'avais de l'espace.",
+    "Tu conserverais mieux la nourriture avec un bon réfrigérateur.",
+    "Il conserverait son poste s'il travaillait davantage.",
+    "Nous conserverions ces données si le serveur était disponible.",
+    "Ils conserveraient leurs traditions s'ils vivaient au pays."
+  ]
+}

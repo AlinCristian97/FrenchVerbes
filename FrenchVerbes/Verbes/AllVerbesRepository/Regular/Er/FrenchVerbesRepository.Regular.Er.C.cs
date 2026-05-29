@@ -47,6 +47,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateCapturer());
         _verbs.Add(CreateContrer());
         _verbs.Add(CreateCommercer());
+        _verbs.Add(CreateClasser());
+        _verbs.Add(CreateCoiffer());
+        _verbs.Add(CreateConserver());
+        _verbs.Add(CreateConfisquer());
+        _verbs.Add(CreateCuisiner());
     }
 
     #region FactoryMethods
@@ -382,6 +387,41 @@ public static partial class VerbRepository
                 ImparfaitNotes =
                     "À l'imparfait, la même règle s'applique à la première personne du pluriel : nous commercions."
             });
+    }
+
+    private static RegularErVerb CreateClasser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Classer,
+            Constants.VerbDescriptions.Regular.Er.Classer);
+    }
+
+    private static RegularErVerb CreateCoiffer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Coiffer,
+            Constants.VerbDescriptions.Regular.Er.Coiffer);
+    }
+
+    private static RegularErVerb CreateConserver()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Conserver,
+            Constants.VerbDescriptions.Regular.Er.Conserver);
+    }
+
+    private static RegularErVerb CreateConfisquer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Confisquer,
+            Constants.VerbDescriptions.Regular.Er.Confisquer);
+    }
+
+    private static RegularErVerb CreateCuisiner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Cuisiner,
+            Constants.VerbDescriptions.Regular.Er.Cuisiner);
     }
 
     #endregion

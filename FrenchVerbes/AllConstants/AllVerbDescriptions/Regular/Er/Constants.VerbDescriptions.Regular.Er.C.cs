@@ -48,6 +48,11 @@ public static partial class Constants
                 public const string Capturer = "Capturer signifie attraper ou prendre quelqu'un ou quelque chose vivant, ou enregistrer une image ou un moment. C'est un verbe régulier du premier groupe en -er.";
                 public const string Contrer = "Contrer signifie s'opposer à quelque chose ou neutraliser une action adverse. C'est un verbe régulier du premier groupe en -er.";
                 public const string Commercer = "Commercer signifie faire du commerce, échanger des biens ou des services. C'est un verbe régulier en -er avec un changement orthographique devant certaines terminaisons.";
+                public const string Classer = "Classer signifie ranger des éléments dans un ordre déterminé, les catégoriser ou les archiver. C'est un verbe régulier du premier groupe en -er.";
+                public const string Coiffer = "Coiffer signifie arranger les cheveux de quelqu'un ou couvrir la tête. C'est un verbe régulier du premier groupe en -er.";
+                public const string Conserver = "Conserver signifie garder quelque chose en bon état, maintenir ou préserver. C'est un verbe régulier du premier groupe en -er.";
+                public const string Confisquer = "Confisquer signifie saisir et retenir quelque chose appartenant à quelqu'un, généralement à titre de punition ou par autorité. C'est un verbe régulier du premier groupe en -er.";
+                public const string Cuisiner = "Cuisiner signifie préparer des aliments pour les rendre propres à la consommation. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }
