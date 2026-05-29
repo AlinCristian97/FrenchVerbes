@@ -24,6 +24,10 @@ public static partial class Constants
                 public const string Condamner = "Condamner signifie prononcer une peine contre quelqu'un ou désapprouver fermement quelque chose. C'est un verbe régulier du premier groupe en -er.";
                 public const string Se_Changer = "Se changer est la forme pronominale de changer. Elle exprime le fait de changer de vêtements ou de se transformer soi-même.";
                 public const string Chercher = "Chercher signifie tenter de trouver quelque chose ou quelqu'un, ou faire des efforts pour obtenir ou atteindre un résultat. C'est un verbe régulier du premier groupe en -er.";
+                public const string Cliquer = "Cliquer signifie appuyer sur un bouton de souris ou sur un élément interactif d'un écran. C'est un verbe régulier du premier groupe en -er.";
+                public const string Continuer = "Continuer signifie poursuivre une action déjà commencée ou maintenir un état dans la durée. C'est un verbe régulier du premier groupe en -er.";
+                public const string Couter = "Coûter signifie avoir un certain prix ou demander un effort, un sacrifice. C'est un verbe régulier du premier groupe en -er.";
+                public const string Creer = "Créer signifie donner existence à quelque chose de nouveau, inventer ou produire une œuvre. C’est un verbe régulier du premier groupe (-er) qui conserve l’accent aigu (é) dans toutes ses formes au présent (je crée, tu crées, ils créent).";
             }
         }
     }

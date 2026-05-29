@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Ce manteau coûte deux cents euros.",
+    "Tu demandes combien coûte ce billet d'avion.",
+    "Ce repas au restaurant coûte assez cher.",
+    "Nos vacances coûtent plus que prévu cette année.",
+    "Ces travaux coûtent une fortune à la commune."
+  ],
+  "Imparfait": [
+    "Ce logement coûtait moins cher il y a dix ans.",
+    "Tu disais que ce voyage coûtait trop cher.",
+    "L'essence coûtait beaucoup moins avant la crise.",
+    "Nos fournitures coûtaient moins cher dans cet autre magasin.",
+    "Ces services coûtaient une somme raisonnable à l'époque."
+  ],
+  "Futur Simple": [
+    "Ce projet coûtera plusieurs millions d'euros.",
+    "Tu verras combien coûtera la réparation.",
+    "Ce billet coûtera moins cher si tu le réserves à l'avance.",
+    "Nos rénovations coûteront moins que prévu.",
+    "Ces études coûteront cher, mais en vaudront la peine."
+  ],
+  "Passé Composé": [
+    "Cette voiture a coûté plus que je ne l'avais prévu.",
+    "Tu as demandé combien cela a coûté.",
+    "Cette erreur a coûté très cher à l'entreprise.",
+    "Nos vacances ont coûté une fortune.",
+    "Ces travaux ont coûté le double de l'estimation initiale."
+  ],
+  "Futur Proche": [
+    "Cette réparation va coûter au moins mille euros.",
+    "Tu vas voir combien ce trajet va coûter.",
+    "Ce retard va coûter cher à la société.",
+    "Nos nouvelles mesures vont coûter moins à long terme.",
+    "Ces matériaux vont coûter plus cher cette saison."
+  ],
+  "Passé Récent": [
+    "Ce billet vient de coûter le double du prix habituel.",
+    "Tu viens de voir combien cela vient de coûter.",
+    "Cette décision vient de coûter sa place au directeur.",
+    "Nos achats viennent de coûter plus que notre budget.",
+    "Ces réparations viennent de coûter une somme imprévue."
+  ],
+  "Impératif": [
+    "Calcule combien cela va coûter avant de décider.",
+    "Coûtons moins en révisant nos habitudes de dépense.",
+    "Vérifiez combien cela coûte avant d'acheter.",
+    "Ne coûte pas trop cher, reste dans le budget.",
+    "Ne coûtez pas plus que ce qui est prévu au contrat."
+  ],
+  "Conditionnel Présent": [
+    "Ce voyage coûterait moins cher en basse saison.",
+    "Tu dépenserais moins si ce service coûtait moins.",
+    "Ce matériel coûterait moins si on achetait en gros.",
+    "Nos réparations coûteraient moins avec un autre prestataire.",
+    "Ces études coûteraient moins dans une université publique."
+  ]
+}

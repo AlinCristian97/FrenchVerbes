@@ -23,6 +23,10 @@ public static partial class VerbRepository
         _verbs.Add(CreateCondamner());
         _verbs.Add(CreateSe_Changer());
         _verbs.Add(CreateChercher());
+        _verbs.Add(CreateCliquer());
+        _verbs.Add(CreateContinuer());
+        _verbs.Add(CreateCouter());
+        _verbs.Add(CreateCreer());
     }
 
     #region FactoryMethods
@@ -171,6 +175,39 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Chercher,
             Constants.VerbDescriptions.Regular.Er.Chercher);
+    }
+
+    private static RegularErVerb CreateCliquer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Cliquer,
+            Constants.VerbDescriptions.Regular.Er.Cliquer);
+    }
+
+    private static RegularErVerb CreateContinuer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Continuer,
+            Constants.VerbDescriptions.Regular.Er.Continuer);
+    }
+
+    private static RegularErVerb CreateCouter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Couter,
+            Constants.VerbDescriptions.Regular.Er.Couter);
+    }
+
+    private static RegularErVerb CreateCreer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Creer,
+            Constants.VerbDescriptions.Regular.Er.Creer,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes =
+                    "Au présent, les verbes comme “créer” conservent l’accent aigu (é) à toutes les personnes : je crée, tu crées, il/elle crée, ils/elles créent. Le double “e” (é + e muet) permet de maintenir la prononciation."
+            });
     }
 
     #endregion

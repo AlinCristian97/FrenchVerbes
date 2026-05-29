@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je clique sur l'icône pour ouvrir l'application.",
+    "Tu cliques sur le lien pour accéder au site.",
+    "Il clique sur le bouton pour confirmer sa commande.",
+    "Nous cliquons sur l'image pour l'agrandir.",
+    "Vous cliquez sur le menu pour afficher les options."
+  ],
+  "Imparfait": [
+    "Je cliquais sur chaque photo pour la voir en détail.",
+    "Tu cliquais trop vite et tu faisais des erreurs.",
+    "Elle cliquait sur les annonces sans les lire.",
+    "Nous cliquions sur les liens sans vérifier leur source.",
+    "Ils cliquaient frénétiquement pour terminer le jeu."
+  ],
+  "Futur Simple": [
+    "Je cliquerai sur le bouton dès que la page sera chargée.",
+    "Tu cliqueras sur le lien pour télécharger le fichier.",
+    "Il cliquera sur l'icône pour lancer le programme.",
+    "Nous cliquerons sur le bouton pour soumettre le formulaire.",
+    "Vous cliquerez sur le lien pour accéder à votre compte."
+  ],
+  "Passé Composé": [
+    "J'ai cliqué sur le mauvais bouton par erreur.",
+    "Tu as cliqué trop vite et tu as perdu ta progression.",
+    "Elle a cliqué sur le lien et a ouvert le document.",
+    "Nous avons cliqué sur chaque option pour tout essayer.",
+    "Ils ont cliqué sur le bouton de validation."
+  ],
+  "Futur Proche": [
+    "Je vais cliquer sur le bouton pour confirmer l'achat.",
+    "Tu vas cliquer sur le lien pour t'inscrire.",
+    "Il va cliquer sur l'image pour voir les détails.",
+    "Nous allons cliquer sur le bouton pour commencer le test.",
+    "Vous allez cliquer sur le menu pour choisir une option."
+  ],
+  "Passé Récent": [
+    "Je viens de cliquer sur le bouton d'envoi.",
+    "Tu viens de cliquer sur le mauvais onglet.",
+    "Elle vient de cliquer sur le lien de téléchargement.",
+    "Nous venons de cliquer sur le bouton de confirmation.",
+    "Ils viennent de cliquer sur la notification."
+  ],
+  "Impératif": [
+    "Clique ici pour continuer.",
+    "Cliquons sur ce bouton pour commencer.",
+    "Cliquez sur l'icône pour ouvrir le fichier.",
+    "Ne clique pas sur des liens suspects.",
+    "Cliquez sur « Accepter » pour valider les conditions."
+  ],
+  "Conditionnel Présent": [
+    "Je cliquerais sur ce bouton si j'étais sûr du résultat.",
+    "Tu cliquerais plus vite avec une meilleure souris.",
+    "Il cliquerait sur le lien s'il avait confiance en la source.",
+    "Nous cliquerions sur l'option si elle était disponible.",
+    "Vous cliqueriez sur le bouton si la page se chargeait correctement."
+  ]
+}

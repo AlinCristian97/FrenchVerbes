@@ -23,12 +23,12 @@ public static partial class Constants
                 public const string Condamner = "condamner";
                 public const string Changer = "changer";
                 public const string Se_Changer = "se changer";
-                public const string Chercher = "chercher"; // <-- you are here
+                public const string Chercher = "chercher";
                 public const string Cliquer = "cliquer";
                 public const string Commencer = "commencer";
                 public const string Continuer = "continuer";
                 public const string Couter = "coûter";
-                public const string Creer = "créer";
+                public const string Creer = "créer"; // <-- you are here
                 public const string Crier = "crier";
                 public const string Couper = "couper";
                 public const string Cacher = "cacher";

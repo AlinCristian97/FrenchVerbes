@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je continue à travailler malgré la fatigue.",
+    "Tu continues ton chemin sans te retourner.",
+    "Elle continue à lire son livre avec attention.",
+    "Nous continuons notre conversation après le dîner.",
+    "Ils continuent à jouer jusqu'à la nuit tombée."
+  ],
+  "Imparfait": [
+    "Je continuais à étudier même le week-end.",
+    "Tu continuais à courir malgré la douleur.",
+    "Il continuait à parler sans s'arrêter.",
+    "Nous continuions notre projet pendant les vacances.",
+    "Elles continuaient à chanter même quand il pleuvait."
+  ],
+  "Futur Simple": [
+    "Je continuerai à apprendre le français chaque jour.",
+    "Tu continueras ta formation jusqu'à la fin de l'année.",
+    "Il continuera à progresser s'il s'entraîne régulièrement.",
+    "Nous continuerons à collaborer sur ce projet.",
+    "Vous continuerez à recevoir des mises à jour régulières."
+  ],
+  "Passé Composé": [
+    "J'ai continué à marcher malgré la pluie.",
+    "Tu as continué ta lecture jusqu'à minuit.",
+    "Elle a continué à sourire tout au long de la réunion.",
+    "Nous avons continué notre travail sans interruption.",
+    "Ils ont continué à jouer jusqu'à l'épuisement."
+  ],
+  "Futur Proche": [
+    "Je vais continuer à pratiquer chaque matin.",
+    "Tu vas continuer ta progression à ton rythme.",
+    "Il va continuer à suivre ses cours en ligne.",
+    "Nous allons continuer à améliorer notre méthode.",
+    "Vous allez continuer à recevoir de l'aide de notre part."
+  ],
+  "Passé Récent": [
+    "Je viens de continuer ma lecture là où je m'étais arrêté.",
+    "Tu viens de continuer ton entraînement malgré la chaleur.",
+    "Elle vient de continuer son discours après une pause.",
+    "Nous venons de continuer notre réunion après la pause.",
+    "Ils viennent de continuer le débat sans parvenir à un accord."
+  ],
+  "Impératif": [
+    "Continue à travailler, tu es sur la bonne voie.",
+    "Continuons notre chemin ensemble.",
+    "Continuez à pratiquer pour progresser.",
+    "Ne continue pas si tu es trop fatigué.",
+    "Continuez votre effort, vous y êtes presque !"
+  ],
+  "Conditionnel Présent": [
+    "Je continuerais à étudier si j'avais plus de temps.",
+    "Tu continuerais à progresser si tu t'entraînais davantage.",
+    "Il continuerait à travailler s'il était mieux payé.",
+    "Nous continuerions ce projet si nous avions les ressources.",
+    "Vous continueriez à avancer si vous étiez mieux organisés."
+  ]
+}
