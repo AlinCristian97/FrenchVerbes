@@ -27,6 +27,12 @@ public static partial class VerbRepository
         _verbs.Add(CreateDeplacer());
         _verbs.Add(CreateSe_Deplacer());
         _verbs.Add(CreateDessiner());
+        _verbs.Add(CreateDesigner());
+        _verbs.Add(CreateDeferler());
+        _verbs.Add(CreateDetester());
+        _verbs.Add(CreateDurer());
+        _verbs.Add(CreateDechainer());
+        _verbs.Add(CreateSe_Dechainer());
     }
 
     #region FactoryMethods
@@ -180,6 +186,51 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Dessiner,
             Constants.VerbDescriptions.Regular.Er.Dessiner);
+    }
+
+    private static RegularErVerb CreateDesigner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Designer,
+            Constants.VerbDescriptions.Regular.Er.Designer);
+    }
+
+    private static RegularErVerb CreateDeferler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Deferler,
+            Constants.VerbDescriptions.Regular.Er.Deferler);
+    }
+
+    private static RegularErVerb CreateDetester()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Detester,
+            Constants.VerbDescriptions.Regular.Er.Detester);
+    }
+
+    private static RegularErVerb CreateDurer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Durer,
+            Constants.VerbDescriptions.Regular.Er.Durer);
+    }
+
+    private static RegularErVerb CreateDechainer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Dechainer,
+            Constants.VerbDescriptions.Regular.Er.Dechainer,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Dechainer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Dechainer,
+            Constants.VerbDescriptions.Regular.Er.Se_Dechainer,
+            usesEtre: true,
+            isReflexive: true);
     }
 
     #endregion

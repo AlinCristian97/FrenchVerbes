@@ -28,12 +28,12 @@ public static partial class Constants
                 public const string Donner = "donner";
                 public const string Deplacer = "déplacer";
                 public const string Se_Deplacer = "se déplacer";
-                public const string Dessiner = "dessiner"; // <-- you are here
+                public const string Dessiner = "dessiner";
                 public const string Designer = "désigner";
                 public const string Deferler = "déferler";
                 public const string Detester = "détester";
                 public const string Durer = "durer";
-                public const string Dechainer = "déchaîner";
+                public const string Dechainer = "déchaîner"; // <-- you are here
                 public const string Se_Dechainer = "se déchaîner";
                 public const string Decider = "décider";
                 public const string Dejeuner = "déjeuner";

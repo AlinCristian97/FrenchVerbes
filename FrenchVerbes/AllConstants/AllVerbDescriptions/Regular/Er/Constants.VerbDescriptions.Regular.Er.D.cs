@@ -28,6 +28,12 @@ public static partial class Constants
                 public const string Deplacer = "Déplacer signifie changer de place, bouger quelque chose ou quelqu'un d'un endroit à un autre. verbe régulier en -er avec changement orthographique (c → ç devant a/o/u).";
                 public const string Se_Deplacer = "Se déplacer signifie se mouvoir, aller d'un endroit à un autre. C'est le verbe réfléchi de déplacer.";
                 public const string Dessiner = "Dessiner signifie représenter quelque chose par des lignes et des traits sur une surface, créer une image. C'est un verbe régulier du premier groupe en -er.";
+                public const string Designer = "Désigner signifie indiquer, nommer ou choisir quelqu'un ou quelque chose pour un rôle ou une fonction. C'est un verbe régulier du premier groupe en -er.";
+                public const string Deferler = "Déferler signifie se répandre avec force et rapidité, comme une vague qui s'abat sur le rivage. C'est un verbe régulier du premier groupe en -er.";
+                public const string Detester = "Détester signifie éprouver une forte aversion ou répulsion pour quelqu'un ou quelque chose. C'est un verbe régulier du premier groupe en -er.";
+                public const string Durer = "Durer signifie continuer dans le temps, persister, avoir une certaine durée. C'est un verbe régulier du premier groupe en -er.";
+                public const string Dechainer = "Déchaîner signifie libérer avec violence une force ou une passion, provoquer une explosion de colère ou d'enthousiasme. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Dechainer = "Se déchaîner signifie se laisser aller à une violence ou une passion incontrôlée, perdre tout frein. C'est le verbe réfléchi de déchaîner.";
             }
         }
     }
