@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "Je compte les points à la fin de chaque manche.",
+    "Tu comptes sur moi pour organiser la réunion.",
+    "Il compte les jours avant ses vacances.",
+    "Nous comptons sur votre soutien pour ce projet.",
+    "Elles comptent les invités avant de commencer le dîner."
+  ],
+  "Imparfait": [
+    "Je comptais les étoiles chaque nuit en été.",
+    "Tu comptais sur lui pour terminer le rapport.",
+    "Elle comptait ses économies avant chaque achat.",
+    "Nous comptions les points après chaque match.",
+    "Ils comptaient sur la chance pour réussir."
+  ],
+  "Futur Simple": [
+    "Je compterai les résultats dès la fermeture des bureaux de vote.",
+    "Tu compteras sur ton expérience pour réussir cet entretien.",
+    "Il comptera chaque centime pour boucler son budget.",
+    "Nous compterons les participants à l'arrivée.",
+    "Ils compteront leurs bénéfices à la fin de l'année."
+  ],
+  "Passé Composé": [
+    "J'ai compté les billets avant de les déposer à la banque.",
+    "Tu as compté sur lui et il ne t'a pas déçu.",
+    "Elle a compté les invités avant de confirmer la réservation.",
+    "Nous avons compté les voix et le résultat est sans appel.",
+    "Ils ont compté leurs économies pour partir en voyage."
+  ],
+  "Futur Proche": [
+    "Je vais compter les présents avant de commencer la réunion.",
+    "Tu vas compter sur ton réseau pour décrocher ce poste.",
+    "Il va compter ses points pour vérifier son score.",
+    "Nous allons compter les bulletins de vote ce soir.",
+    "Ils vont compter leurs ressources avant de lancer le projet."
+  ],
+  "Passé Récent": [
+    "Je viens de compter les colis reçus ce matin.",
+    "Tu viens de compter les participants à l'événement.",
+    "Elle vient de compter ses économies pour le mois.",
+    "Nous venons de compter les votes du premier tour.",
+    "Ils viennent de compter les pièces manquantes dans la commande."
+  ],
+  "Impératif": [
+    "Compte bien tes dépenses ce mois-ci !",
+    "Comptons ensemble les résultats avant de les annoncer !",
+    "Comptez les membres présents avant de commencer !"
+  ],
+  "Conditionnel Présent": [
+    "Je compterais chaque centime si j'avais un budget serré.",
+    "Tu compterais sur moi si tu avais besoin d'aide.",
+    "Il compterait ses points plus attentivement s'il voulait gagner.",
+    "Nous compterions les bénéfices si le projet se concrétisait.",
+    "Ils compteraient davantage sur leurs équipes s'ils leur faisaient confiance."
+  ]
+}

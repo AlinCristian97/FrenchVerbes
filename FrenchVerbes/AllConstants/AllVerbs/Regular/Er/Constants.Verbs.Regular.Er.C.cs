@@ -8,7 +8,7 @@ public static partial class Constants
         {
             public static partial class Er
             {
-                public const string Chanter = "chanter"; // <-- you are here
+                public const string Chanter = "chanter";
                 public const string Casser = "casser";
                 public const string Se_Casser = "se casser";
                 public const string Contempler = "contempler";
@@ -18,7 +18,7 @@ public static partial class Constants
                 public const string Celebrer = "célébrer";
                 public const string Cooperer = "coopérer";
                 public const string Contourner = "contourner";
-                public const string Compter = "compter";
+                public const string Compter = "compter"; // <-- you are here
                 public const string conferer = "conférer";
                 public const string Condamner = "condamner";
                 public const string Changer = "changer";

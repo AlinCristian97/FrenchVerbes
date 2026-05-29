@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "Je convoque les membres de l'équipe pour une réunion urgente.",
+    "Tu convoques les témoins devant le tribunal.",
+    "Le directeur convoque les employés dans son bureau.",
+    "Nous convoquons les candidats pour des entretiens demain.",
+    "Les autorités convoquent les suspects pour interrogatoire."
+  ],
+  "Imparfait": [
+    "Je convoquais les élèves en retard après les cours.",
+    "Tu convoquais tes collaborateurs chaque lundi matin.",
+    "Le juge convoquait les témoins un par un.",
+    "Nous convoquions régulièrement des réunions d'urgence.",
+    "Ils convoquaient leurs partenaires pour des discussions stratégiques."
+  ],
+  "Futur Simple": [
+    "Je convoquerai l'assemblée générale en janvier.",
+    "Tu convoqueras tes collaborateurs dès que possible.",
+    "Le président convoquera une conférence de presse demain.",
+    "Nous convoquerons une réunion extraordinaire la semaine prochaine.",
+    "Ils convoqueront les parties concernées pour un débat."
+  ],
+  "Passé Composé": [
+    "J'ai convoqué tous les membres du conseil.",
+    "Tu as convoqué les employés sans les prévenir.",
+    "Elle a convoqué une réunion d'urgence ce matin.",
+    "Nous avons convoqué les représentants syndicaux.",
+    "Ils ont convoqué les suspects pour les interroger."
+  ],
+  "Futur Proche": [
+    "Je vais convoquer une réunion pour discuter de ce problème.",
+    "Tu vas convoquer les équipes dès demain matin.",
+    "Il va convoquer tous les responsables pour une mise au point.",
+    "Nous allons convoquer les parties prenantes prochainement.",
+    "Ils vont convoquer une assemblée générale extraordinaire."
+  ],
+  "Passé Récent": [
+    "Je viens de convoquer une réunion d'urgence.",
+    "Tu viens de convoquer tous tes employés.",
+    "Elle vient de convoquer les délégués syndicaux.",
+    "Nous venons de convoquer une session extraordinaire.",
+    "Ils viennent de convoquer les témoins principaux."
+  ],
+  "Impératif": [
+    "Convoque immédiatement tous les responsables !",
+    "Convoquons l'assemblée avant la fin de la semaine !",
+    "Convoquez les candidats dès que les résultats sont connus !"
+  ],
+  "Conditionnel Présent": [
+    "Je convoquerais une réunion si la situation l'exigeait.",
+    "Tu convoquerais moins souvent si tu déléguais davantage.",
+    "Il convoquerait ses équipes tous les jours s'il le pouvait.",
+    "Nous convoquerions une session d'urgence si nécessaire.",
+    "Ils convoqueraient les témoins si les preuves le justifiaient."
+  ]
+}
