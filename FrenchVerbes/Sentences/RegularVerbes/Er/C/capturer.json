@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je capture une belle photo au coucher du soleil.",
+    "Tu captures des insectes rares pour les étudier.",
+    "Il capture l'essentiel du discours dans ses notes.",
+    "Nous capturons des images pour le documentaire.",
+    "Ils capturent des données en temps réel."
+  ],
+  "Imparfait": [
+    "Je capturais des papillons dans le jardin de mes grands-parents.",
+    "Tu capturais des images avec ton vieux appareil photo.",
+    "Elle capturait chaque moment précieux en photo.",
+    "Nous capturions des données pour notre recherche.",
+    "Ils capturaient des animaux sauvages pour les soigner."
+  ],
+  "Futur Simple": [
+    "Je capturerai l'ambiance de la soirée en vidéo.",
+    "Tu captureras de superbes images lors du voyage.",
+    "Il capturera les données nécessaires pour l'analyse.",
+    "Nous capturerons les meilleures scènes du spectacle.",
+    "Ils captureront des images uniques dans la nature."
+  ],
+  "Passé Composé": [
+    "J'ai capturé un magnifique coucher de soleil en photo.",
+    "Tu as capturé l'essence du moment dans cette image.",
+    "Elle a capturé les données nécessaires pour son rapport.",
+    "Nous avons capturé des images incroyables lors du safari.",
+    "Ils ont capturé le suspect après plusieurs heures de recherche."
+  ],
+  "Futur Proche": [
+    "Je vais capturer ce moment avant qu'il disparaisse.",
+    "Tu vas capturer de belles photos pendant la randonnée.",
+    "Il va capturer les données du serveur cette nuit.",
+    "Nous allons capturer des images pour la campagne.",
+    "Ils vont capturer l'animal pour le soigner."
+  ],
+  "Passé Récent": [
+    "Je viens de capturer une photo magnifique.",
+    "Tu viens de capturer une image très rare.",
+    "Elle vient de capturer les données du dernier test.",
+    "Nous venons de capturer des images pour le projet.",
+    "Ils viennent de capturer le fugitif."
+  ],
+  "Impératif": [
+    "Capture ce moment avant qu'il soit trop tard !",
+    "Ne capture pas d'animaux sauvages sans autorisation.",
+    "Capturons ces données avant la fermeture du système.",
+    "Capturez les meilleures images pour la présentation.",
+    "Ne capturez pas d'images sans le consentement des personnes."
+  ],
+  "Conditionnel Présent": [
+    "Je capturerais cette scène si j'avais mon appareil photo.",
+    "Tu capturerais de meilleures images avec un bon objectif.",
+    "Il capturerait les données plus vite avec un meilleur serveur.",
+    "Nous capturerions des images uniques si on avait le matériel.",
+    "Ils captureraient le suspect s'ils avaient plus de personnel."
+  ]
+}

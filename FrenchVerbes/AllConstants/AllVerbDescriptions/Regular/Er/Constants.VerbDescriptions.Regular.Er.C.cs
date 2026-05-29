@@ -43,6 +43,11 @@ public static partial class Constants
                 public const string Communiquer = "Communiquer signifie transmettre des informations, des idées ou des sentiments à autrui, ou être en contact. C'est un verbe régulier du premier groupe en -er.";
                 public const string Conter = "Conter signifie raconter une histoire, un récit ou une anecdote, généralement de manière orale. C'est un verbe régulier du premier groupe en -er.";
                 public const string Contrôler = "Contrôler signifie vérifier, maîtriser ou exercer une autorité sur quelque chose ou quelqu'un. C'est un verbe régulier du premier groupe en -er.";
+                public const string Chuchoter = "Chuchoter signifie parler à voix très basse, murmurer discrètement. C'est un verbe régulier du premier groupe en -er.";
+                public const string Clarifier = "Clarifier signifie rendre quelque chose plus clair, plus compréhensible, ou dissiper une ambiguïté. C'est un verbe régulier du premier groupe en -er.";
+                public const string Capturer = "Capturer signifie attraper ou prendre quelqu'un ou quelque chose vivant, ou enregistrer une image ou un moment. C'est un verbe régulier du premier groupe en -er.";
+                public const string Contrer = "Contrer signifie s'opposer à quelque chose ou neutraliser une action adverse. C'est un verbe régulier du premier groupe en -er.";
+                public const string Commercer = "Commercer signifie faire du commerce, échanger des biens ou des services. C'est un verbe régulier en -er avec un changement orthographique devant certaines terminaisons.";
             }
         }
     }

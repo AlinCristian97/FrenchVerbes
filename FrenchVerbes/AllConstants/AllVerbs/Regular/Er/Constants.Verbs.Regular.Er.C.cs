@@ -43,12 +43,12 @@ public static partial class Constants
                 public const string Combiner = "combiner";
                 public const string Communiquer = "communiquer";
                 public const string Conter = "conter";
-                public const string Contrôler = "contrôler"; // <-- you are here
+                public const string Contrôler = "contrôler";
                 public const string Chuchoter = "chuchoter";
                 public const string Clarifier = "clarifier";
                 public const string Capturer = "capturer";
                 public const string Contrer = "contrer";
-                public const string Commercer = "commercer";
+                public const string Commercer = "commercer"; // <-- you are here
                 public const string Classer = "classer";
                 public const string Coiffer = "coiffer";
                 public const string Conserver = "conserver";

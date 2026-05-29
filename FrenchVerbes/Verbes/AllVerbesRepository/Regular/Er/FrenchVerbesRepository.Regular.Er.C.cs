@@ -42,6 +42,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateCommuniquer());
         _verbs.Add(CreateConter());
         _verbs.Add(CreateContrôler());
+        _verbs.Add(CreateChuchoter());
+        _verbs.Add(CreateClarifier());
+        _verbs.Add(CreateCapturer());
+        _verbs.Add(CreateContrer());
+        _verbs.Add(CreateCommercer());
     }
 
     #region FactoryMethods
@@ -335,6 +340,48 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Contrôler,
             Constants.VerbDescriptions.Regular.Er.Contrôler);
+    }
+
+    private static RegularErVerb CreateChuchoter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Chuchoter,
+            Constants.VerbDescriptions.Regular.Er.Chuchoter);
+    }
+
+    private static RegularErVerb CreateClarifier()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Clarifier,
+            Constants.VerbDescriptions.Regular.Er.Clarifier);
+    }
+
+    private static RegularErVerb CreateCapturer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Capturer,
+            Constants.VerbDescriptions.Regular.Er.Capturer);
+    }
+
+    private static RegularErVerb CreateContrer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Contrer,
+            Constants.VerbDescriptions.Regular.Er.Contrer);
+    }
+
+    private static RegularErVerb CreateCommercer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Commercer,
+            Constants.VerbDescriptions.Regular.Er.Commercer,
+            tensesNotes: new NotesObject
+            {
+                PresentNotes =
+                    "Au présent, commercer change le 'c' en 'ç' devant 'a' ou 'o' pour conserver le son doux : nous commerçons.",
+                ImparfaitNotes =
+                    "À l'imparfait, la même règle s'applique à la première personne du pluriel : nous commercions."
+            });
     }
 
     #endregion

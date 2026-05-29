@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je clarifie ma position lors de la réunion.",
+    "Tu clarifies les règles pour les nouveaux membres.",
+    "Il clarifie ses intentions dans un e-mail.",
+    "Nous clarifions les attentes dès le début du projet.",
+    "Ils clarifient les conditions du contrat avec les clients."
+  ],
+  "Imparfait": [
+    "Je clarifiait mes arguments avant de prendre la parole.",
+    "Tu clarifiais les consignes pour les élèves en difficulté.",
+    "Elle clarifiait sa pensée en prenant des notes.",
+    "Nous clarifiions les règles du jeu au début de chaque partie.",
+    "Ils clarifiaient les termes du contrat lors des négociations."
+  ],
+  "Futur Simple": [
+    "Je clarifierai ma position lors de la prochaine réunion.",
+    "Tu clarifieras les règles avant de commencer.",
+    "Il clarifiera ses attentes lors de l'entretien.",
+    "Nous clarifierons les conditions du partenariat.",
+    "Ils clarifieront les responsabilités de chacun."
+  ],
+  "Passé Composé": [
+    "J'ai clarifié mes intentions lors de la discussion.",
+    "Tu as clarifié les règles pour tout le groupe.",
+    "Elle a clarifié sa position dans un communiqué.",
+    "Nous avons clarifié les attentes dès le début.",
+    "Ils ont clarifié les termes du contrat avant de signer."
+  ],
+  "Futur Proche": [
+    "Je vais clarifier ce point important maintenant.",
+    "Tu vas clarifier les règles avant la séance.",
+    "Il va clarifier ses intentions dans son discours.",
+    "Nous allons clarifier les responsabilités de chacun.",
+    "Ils vont clarifier les conditions lors de la prochaine réunion."
+  ],
+  "Passé Récent": [
+    "Je viens de clarifier ma position à mon directeur.",
+    "Tu viens de clarifier un point crucial pour l'équipe.",
+    "Elle vient de clarifier les termes du contrat.",
+    "Nous venons de clarifier les attentes du client.",
+    "Ils viennent de clarifier les règles du projet."
+  ],
+  "Impératif": [
+    "Clarifie ta position avant de continuer !",
+    "Ne clarifie pas si tu n'as pas toutes les informations.",
+    "Clarifions les règles avant de commencer la partie.",
+    "Clarifiez vos attentes dès le début du projet.",
+    "Ne clarifiez pas trop vite, prenez le temps de réfléchir."
+  ],
+  "Conditionnel Présent": [
+    "Je clarifierais ma position si on me le demandait.",
+    "Tu clarifierais mieux avec un peu plus de préparation.",
+    "Il clarifierait ses intentions s'il avait l'occasion.",
+    "Nous clarifierions les règles si tout le monde était présent.",
+    "Ils clarifieraient les conditions si la discussion avançait."
+  ]
+}
