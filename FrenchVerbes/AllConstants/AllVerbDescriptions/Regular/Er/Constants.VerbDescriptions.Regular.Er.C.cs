@@ -28,6 +28,11 @@ public static partial class Constants
                 public const string Continuer = "Continuer signifie poursuivre une action déjà commencée ou maintenir un état dans la durée. C'est un verbe régulier du premier groupe en -er.";
                 public const string Couter = "Coûter signifie avoir un certain prix ou demander un effort, un sacrifice. C'est un verbe régulier du premier groupe en -er.";
                 public const string Creer = "Créer signifie donner existence à quelque chose de nouveau, inventer ou produire une œuvre. C’est un verbe régulier du premier groupe (-er) qui conserve l’accent aigu (é) dans toutes ses formes au présent (je crée, tu crées, ils créent).";
+                public const string Crier = "Crier signifie élever la voix fortement ou pousser un cri. C'est un verbe régulier du premier groupe en -er.";
+                public const string Couper = "Couper signifie diviser, sectionner ou interrompre quelque chose. C'est un verbe régulier du premier groupe en -er.";
+                public const string Cacher = "Cacher signifie dissimuler quelque chose ou quelqu'un pour qu'on ne puisse pas le voir ou le trouver. C'est un verbe régulier du premier groupe en -er.";
+                public const string Calculer = "Calculer signifie effectuer des opérations mathématiques ou estimer avec soin. C'est un verbe régulier du premier groupe en -er.";
+                public const string Commander = "Commander signifie donner un ordre, diriger ou passer une commande. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

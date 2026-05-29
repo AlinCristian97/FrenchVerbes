@@ -62,8 +62,19 @@ internal class Program
                     HandleRandomVerb(null); // no filter
                     break;
 
+                // TODO: UNCOMMENT AFTER DEBUGGING
+                //default:
+                //    Console.WriteLine("Invalid option.");
+                //    break;
+
+                // TODO: COMMENT-OUT AFTER DEBUGGING
                 default:
-                    Console.WriteLine("Invalid option.");
+                    if (choice != null && choice.All(char.IsDigit))
+                        Console.WriteLine("Invalid option.");
+                    else if (choice == null || choice.Length <= 3)
+                        Console.WriteLine("Invalid option.");
+                    else
+                        HandleSpecificVerb(choice);
                     break;
             }
 
@@ -72,10 +83,51 @@ internal class Program
         }
     }
 
-    private static void HandleSpecificVerb()
+    // TODO: UNCOMMENT AFTER DEBUGGING
+    //private static void HandleSpecificVerb()
+    //{
+    //    Console.Write("Type a verb (or Q to cancel): ");
+    //    var input = Console.ReadLine();
+
+    //    if (string.IsNullOrWhiteSpace(input))
+    //    {
+    //        Console.WriteLine("Verb cannot be empty.");
+    //        return;
+    //    }
+
+    //    if (input.Trim().Equals("q", StringComparison.OrdinalIgnoreCase))
+    //    {
+    //        return;
+    //    }
+
+    //    string normalizedInput = input.Replace(" ", "").Trim();
+    //    var verb = VerbRepository.GetByInfinitive(normalizedInput);
+
+    //    if (verb is null)
+    //    {
+    //        Console.WriteLine("This verb is not implemented yet, or it doesn't exist (double-check the spelling).");
+    //        return;
+    //    }
+
+    //    Console.WriteLine();
+    //    PrintSummaryAndCopy(verb);
+    //}
+
+    // TODO: COMMENT-OUT AFTER DEBUGGING
+    private static void HandleSpecificVerb(string? prefilled = null)
     {
-        Console.Write("Type a verb (or Q to cancel): ");
-        var input = Console.ReadLine();
+        string? input;
+
+        if (!string.IsNullOrWhiteSpace(prefilled))
+        {
+            input = prefilled;
+            Console.WriteLine($"Type a verb (or Q to cancel): {input}");
+        }
+        else
+        {
+            Console.Write("Type a verb (or Q to cancel): ");
+            input = Console.ReadLine();
+        }
 
         if (string.IsNullOrWhiteSpace(input))
         {

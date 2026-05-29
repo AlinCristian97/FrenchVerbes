@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je commande une pizza pour le dîner.",
+    "Tu commandes tes subordonnés avec autorité.",
+    "Il commande l'armée depuis des années.",
+    "Nous commandons des fournitures pour le bureau.",
+    "Ils commandent leurs repas en ligne."
+  ],
+  "Imparfait": [
+    "Je commandais souvent des livres par correspondance.",
+    "Tu commandais toujours les pizzas le vendredi soir.",
+    "Elle commandait ses équipes avec rigueur.",
+    "Nous commandions nos courses sur internet.",
+    "Ils commandaient du matériel chaque semaine."
+  ],
+  "Futur Simple": [
+    "Je commanderai des fleurs pour son anniversaire.",
+    "Tu commanderas ce que tu veux au restaurant.",
+    "Il commandera les troupes lors de l'exercice.",
+    "Nous commanderons le matériel la semaine prochaine.",
+    "Ils commanderont leur repas à l'avance."
+  ],
+  "Passé Composé": [
+    "J'ai commandé un nouveau téléphone en ligne.",
+    "Tu as commandé le silence dans la salle.",
+    "Elle a commandé les opérations avec précision.",
+    "Nous avons commandé des pizzas pour toute l'équipe.",
+    "Ils ont commandé le départ des troupes."
+  ],
+  "Futur Proche": [
+    "Je vais commander un café avant la réunion.",
+    "Tu vas commander pour tout le monde ?",
+    "Il va commander les soldats lors de la parade.",
+    "Nous allons commander les pièces nécessaires.",
+    "Ils vont commander leur dîner depuis l'appli."
+  ],
+  "Passé Récent": [
+    "Je viens de commander un livre sur ce sujet.",
+    "Tu viens de commander le départ un peu tôt.",
+    "Elle vient de commander ses équipes pour la mission.",
+    "Nous venons de commander les fournitures manquantes.",
+    "Ils viennent de commander leur repas."
+  ],
+  "Impératif": [
+    "Commande ce que tu veux, c'est ma tournée !",
+    "Ne commande pas trop, on va gaspiller.",
+    "Commandons quelque chose à manger rapidement !",
+    "Commandez vos billets avant qu'il soit trop tard.",
+    "Ne commandez pas à emporter, restons ici."
+  ],
+  "Conditionnel Présent": [
+    "Je commanderais bien une pizza ce soir.",
+    "Tu commanderais l'armée avec plus d'autorité.",
+    "Il commanderait la retraite si la situation empirait.",
+    "Nous commanderions les pièces si on avait le budget.",
+    "Ils commanderaient leurs repas en avance si possible."
+  ]
+}

@@ -27,6 +27,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateContinuer());
         _verbs.Add(CreateCouter());
         _verbs.Add(CreateCreer());
+        _verbs.Add(CreateCrier());
+        _verbs.Add(CreateCouper());
+        _verbs.Add(CreateCacher());
+        _verbs.Add(CreateCalculer());
+        _verbs.Add(CreateCommander());
     }
 
     #region FactoryMethods
@@ -208,6 +213,41 @@ public static partial class VerbRepository
                 PresentNotes =
                     "Au présent, les verbes comme “créer” conservent l’accent aigu (é) à toutes les personnes : je crée, tu crées, il/elle crée, ils/elles créent. Le double “e” (é + e muet) permet de maintenir la prononciation."
             });
+    }
+
+    private static RegularErVerb CreateCrier()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Crier,
+            Constants.VerbDescriptions.Regular.Er.Crier);
+    }
+
+    private static RegularErVerb CreateCouper()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Couper,
+            Constants.VerbDescriptions.Regular.Er.Couper);
+    }
+
+    private static RegularErVerb CreateCacher()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Cacher,
+            Constants.VerbDescriptions.Regular.Er.Cacher);
+    }
+
+    private static RegularErVerb CreateCalculer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Calculer,
+            Constants.VerbDescriptions.Regular.Er.Calculer);
+    }
+
+    private static RegularErVerb CreateCommander()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Commander,
+            Constants.VerbDescriptions.Regular.Er.Commander);
     }
 
     #endregion

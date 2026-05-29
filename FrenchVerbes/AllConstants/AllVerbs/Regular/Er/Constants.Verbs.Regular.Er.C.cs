@@ -28,12 +28,12 @@ public static partial class Constants
                 public const string Commencer = "commencer";
                 public const string Continuer = "continuer";
                 public const string Couter = "coûter";
-                public const string Creer = "créer"; // <-- you are here
+                public const string Creer = "créer";
                 public const string Crier = "crier";
                 public const string Couper = "couper";
                 public const string Cacher = "cacher";
                 public const string Calculer = "calculer";
-                public const string Commander = "commander";
+                public const string Commander = "commander"; // <-- you are here
                 public const string Copier = "copier";
                 public const string Corriger = "corriger";
                 public const string Couronner = "couronner";

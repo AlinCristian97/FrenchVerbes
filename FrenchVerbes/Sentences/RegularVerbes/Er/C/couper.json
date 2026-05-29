@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je coupe le pain en tranches.",
+    "Tu coupes les légumes pour la soupe.",
+    "Il coupe l'herbe avec une tondeuse.",
+    "Nous coupons la communication pour économiser la batterie.",
+    "Ils coupent le bois pour l'hiver."
+  ],
+  "Imparfait": [
+    "Je coupais toujours les fleurs du jardin.",
+    "Tu coupais le fromage en parts égales.",
+    "Elle coupait les cheveux de ses enfants elle-même.",
+    "Nous coupions le gâteau en huit parts.",
+    "Ils coupaient les branches mortes chaque automne."
+  ],
+  "Futur Simple": [
+    "Je couperai le gâteau après les bougies.",
+    "Tu couperas le fil à la bonne longueur.",
+    "Il coupera la connexion si nécessaire.",
+    "Nous couperons les roses du jardin demain.",
+    "Ils couperont le ruban lors de l'inauguration."
+  ],
+  "Passé Composé": [
+    "J'ai coupé le pain pour le dîner.",
+    "Tu as coupé le film au mauvais moment.",
+    "Elle a coupé ses cheveux très courts.",
+    "Nous avons coupé l'électricité pendant les travaux.",
+    "Ils ont coupé la route pour éviter les embouteillages."
+  ],
+  "Futur Proche": [
+    "Je vais couper les légumes maintenant.",
+    "Tu vas couper le cordon cette fois-ci.",
+    "Il va couper la parole encore une fois.",
+    "Nous allons couper le gâteau d'anniversaire.",
+    "Ils vont couper le réseau pour maintenance."
+  ],
+  "Passé Récent": [
+    "Je viens de couper la carotte en rondelles.",
+    "Tu viens de couper l'appel trop tôt.",
+    "Elle vient de couper son doigt en cuisinant.",
+    "Nous venons de couper les dernières roses.",
+    "Ils viennent de couper le courant dans le bâtiment."
+  ],
+  "Impératif": [
+    "Coupe le pain en tranches égales !",
+    "Ne coupe pas la parole quand il parle.",
+    "Coupons les légumes ensemble pour aller plus vite !",
+    "Coupez le son pendant la réunion !",
+    "Ne coupez pas le fil sans vérifier d'abord."
+  ],
+  "Conditionnel Présent": [
+    "Je couperais les roses si j'avais des ciseaux.",
+    "Tu couperais la conversation si tu te sentais mal à l'aise.",
+    "Il couperait le moteur pour économiser du carburant.",
+    "Nous couperions le trajet par le raccourci.",
+    "Ils couperaient l'eau en cas de fuite."
+  ]
+}

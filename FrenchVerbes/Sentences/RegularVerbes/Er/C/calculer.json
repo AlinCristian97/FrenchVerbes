@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je calcule le total de mes dépenses chaque mois.",
+    "Tu calcules la distance entre les deux villes.",
+    "Il calcule le risque avant de prendre une décision.",
+    "Nous calculons le budget pour le projet.",
+    "Ils calculent les bénéfices de leur investissement."
+  ],
+  "Imparfait": [
+    "Je calculais mes économies semaine après semaine.",
+    "Tu calculais toujours tes chances de réussite.",
+    "Elle calculait ses dépenses avec précision.",
+    "Nous calculions le coût du voyage ensemble.",
+    "Ils calculaient leurs profits à la fin de chaque mois."
+  ],
+  "Futur Simple": [
+    "Je calculerai mes impôts en avril.",
+    "Tu calculeras la surface de la pièce avant d'acheter.",
+    "Il calculera le chemin le plus court.",
+    "Nous calculerons les coûts avant de commencer.",
+    "Ils calculeront leurs marges bénéficiaires."
+  ],
+  "Passé Composé": [
+    "J'ai calculé le montant total de la facture.",
+    "Tu as calculé l'itinéraire pour le voyage.",
+    "Elle a calculé ses chances de succès.",
+    "Nous avons calculé le budget du projet.",
+    "Ils ont calculé leurs dépenses mensuelles."
+  ],
+  "Futur Proche": [
+    "Je vais calculer le coût des travaux.",
+    "Tu vas calculer la durée du trajet.",
+    "Il va calculer les économies réalisées.",
+    "Nous allons calculer ensemble le budget de la fête.",
+    "Ils vont calculer les résultats de l'expérience."
+  ],
+  "Passé Récent": [
+    "Je viens de calculer le total des dépenses.",
+    "Tu viens de calculer la distance en kilomètres.",
+    "Elle vient de calculer ses gains de la semaine.",
+    "Nous venons de calculer le coût du déménagement.",
+    "Ils viennent de calculer les marges du projet."
+  ],
+  "Impératif": [
+    "Calcule bien avant de répondre !",
+    "Ne calcule pas trop vite, tu fais des erreurs.",
+    "Calculons ensemble la meilleure solution !",
+    "Calculez vos dépenses avant de partir en voyage.",
+    "Ne calculez pas uniquement en termes financiers."
+  ],
+  "Conditionnel Présent": [
+    "Je calculerais le coût avant de signer le contrat.",
+    "Tu calculerais mieux sans la pression du temps.",
+    "Il calculerait ses chances avant de participer.",
+    "Nous calculerions les économies possibles avec ce plan.",
+    "Ils calculeraient leurs profits avec plus de données."
+  ]
+}
