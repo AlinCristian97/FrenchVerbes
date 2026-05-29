@@ -42,6 +42,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateDiminuer());
         _verbs.Add(CreateDominer());
         _verbs.Add(CreateDoubler());
+        _verbs.Add(CreateDouter());
+        _verbs.Add(CreateDeguster());
+        _verbs.Add(CreateDeterminer());
+        _verbs.Add(CreateDistinguer());
+        _verbs.Add(CreateDebarrasser());
     }
 
     #region FactoryMethods
@@ -303,6 +308,41 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Doubler,
             Constants.VerbDescriptions.Regular.Er.Doubler);
+    }
+
+    private static RegularErVerb CreateDouter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Douter,
+            Constants.VerbDescriptions.Regular.Er.Douter);
+    }
+
+    private static RegularErVerb CreateDeguster()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Deguster,
+            Constants.VerbDescriptions.Regular.Er.Deguster);
+    }
+
+    private static RegularErVerb CreateDeterminer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Determiner,
+            Constants.VerbDescriptions.Regular.Er.Determiner);
+    }
+
+    private static RegularErVerb CreateDistinguer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Distinguer,
+            Constants.VerbDescriptions.Regular.Er.Distinguer);
+    }
+
+    private static RegularErVerb CreateDebarrasser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Debarrasser,
+            Constants.VerbDescriptions.Regular.Er.Debarrasser);
     }
 
     #endregion

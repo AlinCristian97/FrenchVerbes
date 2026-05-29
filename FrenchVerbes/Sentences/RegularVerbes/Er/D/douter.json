@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je doute de ses intentions.",
+    "Tu doutes de ta propre capacité.",
+    "Il doute de la sincérité de son ami.",
+    "Nous doutons que ce soit vrai.",
+    "Vous doutez encore de la situation."
+  ],
+  "Imparfait": [
+    "Je doutais de sa parole.",
+    "Tu doutais de tes choix.",
+    "Elle doutait de l'utilité de ce projet.",
+    "Nous doutions de la réussite.",
+    "Vous doutiez de ses promesses."
+  ],
+  "Futur Simple": [
+    "Je douterai toujours un peu.",
+    "Tu douteras de la décision finale.",
+    "Il doutera jusqu'à la dernière minute.",
+    "Nous douterons si les preuves manquent.",
+    "Vous douterez encore de lui."
+  ],
+  "Passé Composé": [
+    "J'ai douté de moi-même.",
+    "Tu as douté de son honnêteté.",
+    "Elle a douté de ses résultats.",
+    "Nous avons douté de la version officielle.",
+    "Ils ont douté de notre engagement."
+  ],
+  "Futur Proche": [
+    "Je vais douter de cette décision.",
+    "Tu vas douter de ses motifs.",
+    "Il va douter de la véracité du rapport.",
+    "Nous allons douter de cette information.",
+    "Vous allez douter de son témoignage."
+  ],
+  "Passé Récent": [
+    "Je viens de douter de sa sincérité.",
+    "Tu viens de douter de toi.",
+    "Elle vient de douter de sa décision.",
+    "Nous venons de douter de ce choix.",
+    "Ils viennent de douter de notre plan."
+  ],
+  "Impératif": [
+    "Doute de ce qu'il dit !",
+    "Ne doute pas de toi-même !",
+    "Doutons de ces affirmations.",
+    "Ne doutons pas sans raison.",
+    "Doutez avant de croire."
+  ],
+  "Conditionnel Présent": [
+    "Je douterais de lui dans ce cas.",
+    "Tu douterais de ses motifs si tu le connaissais.",
+    "Elle douterait de tout sans preuves.",
+    "Nous douterions de cette conclusion.",
+    "Vous douteriez aussi à ma place."
+  ]
+}

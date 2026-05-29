@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je débarrasse la table après le repas.",
+    "Tu débarrasses le couloir encombré.",
+    "Il débarrasse la cuisine des vieux appareils.",
+    "Nous débarrassons la salle de conférence.",
+    "Vous débarrassez le bureau des dossiers inutiles."
+  ],
+  "Imparfait": [
+    "Je débarrassais la chambre de ses vieux jouets.",
+    "Tu débarrassais le garage chaque week-end.",
+    "Elle débarrassait la table en silence.",
+    "Nous débarrassions le grenier de vieilles affaires.",
+    "Vous débarrassiez le salon régulièrement."
+  ],
+  "Futur Simple": [
+    "Je débarrasserai la pièce demain matin.",
+    "Tu débarrasseras la cuisine après le dîner.",
+    "Il débarrassera le bureau de ses affaires.",
+    "Nous débarrasserons le grenier ce week-end.",
+    "Vous débarrasserez la salle de réunion."
+  ],
+  "Passé Composé": [
+    "J'ai débarrassé la table après le repas.",
+    "Tu as débarrassé le couloir encombré.",
+    "Elle a débarrassé la cuisine en une heure.",
+    "Nous avons débarrassé le garage complet.",
+    "Ils ont débarrassé la salle des cartons."
+  ],
+  "Futur Proche": [
+    "Je vais débarrasser la table tout de suite.",
+    "Tu vas débarrasser ton bureau ce soir.",
+    "Il va débarrasser la cuisine avant les invités.",
+    "Nous allons débarrasser la terrasse.",
+    "Vous allez débarrasser la salle de stockage."
+  ],
+  "Passé Récent": [
+    "Je viens de débarrasser la table.",
+    "Tu viens de débarrasser le couloir.",
+    "Elle vient de débarrasser la cuisine.",
+    "Nous venons de débarrasser le salon.",
+    "Ils viennent de débarrasser la terrasse."
+  ],
+  "Impératif": [
+    "Débarrasse la table, s'il te plaît !",
+    "Ne débarrasse pas sans demander !",
+    "Débarrassons la pièce ensemble.",
+    "Débarrassez la salle avant l'arrivée des invités.",
+    "Ne débarrassez pas les dossiers importants."
+  ],
+  "Conditionnel Présent": [
+    "Je débarrasserais la table avec plaisir.",
+    "Tu débarrasserais le bureau si tu avais le temps.",
+    "Elle débarrasserait la cuisine volontiers.",
+    "Nous débarrasserions la salle si nécessaire.",
+    "Vous débarrasseriez le couloir sans problème."
+  ]
+}

@@ -43,6 +43,11 @@ public static partial class Constants
                 public const string Diminuer = "Diminuer signifie réduire en quantité, en intensité ou en importance, rendre moins grand ou moins fort. C'est un verbe régulier du premier groupe en -er.";
                 public const string Dominer = "Dominer signifie exercer une autorité ou une supériorité sur quelqu'un ou quelque chose, maîtriser ou surplomber. C'est un verbe régulier du premier groupe en -er.";
                 public const string Doubler = "Doubler signifie multiplier par deux, dépasser un véhicule, ou jouer un double rôle. C'est un verbe régulier du premier groupe en -er.";
+                public const string Douter = "Douter signifie ne pas être certain, avoir des incertitudes sur quelque chose ou quelqu'un. C'est un verbe régulier du premier groupe en -er.";
+                public const string Deguster = "Déguster signifie savourer avec attention et plaisir un aliment ou une boisson, en apprécier les qualités. C'est un verbe régulier du premier groupe en -er.";
+                public const string Determiner = "Déterminer signifie définir avec précision, fixer, ou être la cause de quelque chose. C'est un verbe régulier du premier groupe en -er.";
+                public const string Distinguer = "Distinguer signifie percevoir une différence, discerner, ou reconnaître quelqu'un ou quelque chose parmi d'autres. C'est un verbe régulier du premier groupe en -er.";
+                public const string Debarrasser = "Débarrasser signifie libérer quelqu'un ou quelque chose d'une gêne, d'un encombrement ou d'une présence indésirable. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }
