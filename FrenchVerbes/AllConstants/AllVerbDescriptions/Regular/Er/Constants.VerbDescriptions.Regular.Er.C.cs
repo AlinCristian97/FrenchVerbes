@@ -38,6 +38,11 @@ public static partial class Constants
                 public const string Couronner = "Couronner signifie placer une couronne sur la tête de quelqu'un ou achever quelque chose avec succès. C'est un verbe régulier du premier groupe en -er.";
                 public const string Cultiver = "Cultiver signifie travailler la terre pour faire pousser des plantes ou développer une qualité intellectuelle. C'est un verbe régulier du premier groupe en -er.";
                 public const string Coordonner = "Coordonner signifie organiser et harmoniser des éléments ou des personnes en vue d'un objectif commun. C'est un verbe régulier du premier groupe en -er.";
+                public const string Collaborer = "Collaborer signifie travailler conjointement avec d'autres personnes à la réalisation d'un projet commun. C'est un verbe régulier du premier groupe en -er.";
+                public const string Combiner = "Combiner signifie réunir plusieurs éléments pour en former un tout cohérent ou produire un effet particulier. C'est un verbe régulier du premier groupe en -er.";
+                public const string Communiquer = "Communiquer signifie transmettre des informations, des idées ou des sentiments à autrui, ou être en contact. C'est un verbe régulier du premier groupe en -er.";
+                public const string Conter = "Conter signifie raconter une histoire, un récit ou une anecdote, généralement de manière orale. C'est un verbe régulier du premier groupe en -er.";
+                public const string Contrôler = "Contrôler signifie vérifier, maîtriser ou exercer une autorité sur quelque chose ou quelqu'un. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

@@ -37,6 +37,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateCouronner());
         _verbs.Add(CreateCultiver());
         _verbs.Add(CreateCoordonner());
+        _verbs.Add(CreateCollaborer());
+        _verbs.Add(CreateCombiner());
+        _verbs.Add(CreateCommuniquer());
+        _verbs.Add(CreateConter());
+        _verbs.Add(CreateContrôler());
     }
 
     #region FactoryMethods
@@ -295,6 +300,41 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Coordonner,
             Constants.VerbDescriptions.Regular.Er.Coordonner);
+    }
+
+    private static RegularErVerb CreateCollaborer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Collaborer,
+            Constants.VerbDescriptions.Regular.Er.Collaborer);
+    }
+
+    private static RegularErVerb CreateCombiner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Combiner,
+            Constants.VerbDescriptions.Regular.Er.Combiner);
+    }
+
+    private static RegularErVerb CreateCommuniquer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Communiquer,
+            Constants.VerbDescriptions.Regular.Er.Communiquer);
+    }
+
+    private static RegularErVerb CreateConter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Conter,
+            Constants.VerbDescriptions.Regular.Er.Conter);
+    }
+
+    private static RegularErVerb CreateContrôler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Contrôler,
+            Constants.VerbDescriptions.Regular.Er.Contrôler);
     }
 
     #endregion

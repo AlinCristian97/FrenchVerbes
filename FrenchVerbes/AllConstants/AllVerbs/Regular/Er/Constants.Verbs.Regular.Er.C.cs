@@ -38,12 +38,12 @@ public static partial class Constants
                 public const string Corriger = "corriger";
                 public const string Couronner = "couronner";
                 public const string Cultiver = "cultiver";
-                public const string Coordonner = "coordonner"; // <-- you are here
+                public const string Coordonner = "coordonner";
                 public const string Collaborer = "collaborer";
                 public const string Combiner = "combiner";
                 public const string Communiquer = "communiquer";
                 public const string Conter = "conter";
-                public const string Contrôler = "contrôler";
+                public const string Contrôler = "contrôler"; // <-- you are here
                 public const string Chuchoter = "chuchoter";
                 public const string Clarifier = "clarifier";
                 public const string Capturer = "capturer";

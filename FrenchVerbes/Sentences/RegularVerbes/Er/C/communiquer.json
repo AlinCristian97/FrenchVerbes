@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je communique mes idées clairement en réunion.",
+    "Tu communiques avec tes clients par e-mail.",
+    "Il communique ses décisions à toute l'équipe.",
+    "Nous communiquons régulièrement avec nos partenaires.",
+    "Ils communiquent en plusieurs langues au bureau."
+  ],
+  "Imparfait": [
+    "Je communiquais mes résultats chaque semaine.",
+    "Tu communiquais par lettres avant l'ère numérique.",
+    "Elle communiquait ses idées avec beaucoup de clarté.",
+    "Nous communiquions par téléphone avant les visioconférences.",
+    "Ils communiquaient leurs décisions par affichage."
+  ],
+  "Futur Simple": [
+    "Je communiquerai les résultats dès qu'ils seront disponibles.",
+    "Tu communiqueras ta décision avant vendredi.",
+    "Il communiquera les nouvelles directives à son équipe.",
+    "Nous communiquerons notre position lors de la conférence.",
+    "Ils communiqueront les changements par e-mail."
+  ],
+  "Passé Composé": [
+    "J'ai communiqué mes observations à la direction.",
+    "Tu as communiqué les nouvelles à tes collègues.",
+    "Elle a communiqué ses attentes très clairement.",
+    "Nous avons communiqué nos résultats lors de la réunion.",
+    "Ils ont communiqué leur décision par écrit."
+  ],
+  "Futur Proche": [
+    "Je vais communiquer les résultats cet après-midi.",
+    "Tu vas communiquer ta réponse avant la fin de la journée.",
+    "Il va communiquer la nouvelle à son équipe.",
+    "Nous allons communiquer notre position lors de la réunion.",
+    "Ils vont communiquer leur décision demain matin."
+  ],
+  "Passé Récent": [
+    "Je viens de communiquer les résultats à la direction.",
+    "Tu viens de communiquer ta décision à l'équipe.",
+    "Elle vient de communiquer les nouvelles directives.",
+    "Nous venons de communiquer notre position officielle.",
+    "Ils viennent de communiquer leur accord par écrit."
+  ],
+  "Impératif": [
+    "Communique tes idées avec plus de clarté !",
+    "Ne communique pas de fausses informations.",
+    "Communiquons davantage pour éviter les malentendus.",
+    "Communiquez vos décisions rapidement à l'équipe.",
+    "Ne communiquez pas ces données sans autorisation."
+  ],
+  "Conditionnel Présent": [
+    "Je communiquerais plus souvent si j'avais le temps.",
+    "Tu communiquerais mieux avec un peu plus de confiance.",
+    "Il communiquerait ses idées s'il était moins timide.",
+    "Nous communiquerions plus efficacement avec de meilleurs outils.",
+    "Ils communiqueraient leurs décisions plus tôt si possible."
+  ]
+}
