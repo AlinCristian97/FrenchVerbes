@@ -11,9 +11,9 @@ public static partial class Constants
                 public const string Denoncer = "dénoncer";
                 public const string Denaturer = "dénaturer";
                 public const string Defigurer = "défigurer";
+                public const string Deranger = "déranger";
                 public const string Debloquer = "débloquer"; // <-- you are here
                 public const string Se_Debloquer = "se débloquer";
-                public const string Deranger = "déranger";
                 public const string Debrouiller = "débrouiller";
                 public const string Se_Debrouiller = "se débrouiller";
                 public const string Divaguer = "divaguer";
