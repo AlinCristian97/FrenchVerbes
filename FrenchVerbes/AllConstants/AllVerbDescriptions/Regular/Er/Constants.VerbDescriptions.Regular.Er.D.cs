@@ -38,6 +38,11 @@ public static partial class Constants
                 public const string Dejeuner = "Déjeuner signifie prendre le repas du midi, ou parfois le petit-déjeuner selon la région. C'est un verbe régulier du premier groupe en -er.";
                 public const string Developper = "Développer signifie faire croître, élargir ou approfondir quelque chose, ou mettre au point un projet. C'est un verbe régulier du premier groupe en -er.";
                 public const string Deposer = "Déposer signifie poser quelque chose quelque part, remettre officiellement un document, ou destituer quelqu'un de ses fonctions. C'est un verbe régulier du premier groupe en -er.";
+                public const string Derouler = "Dérouler signifie déplier ce qui était enroulé, ou faire se dérouler un événement, une séquence dans le temps. C'est un verbe régulier du premier groupe en -er.";
+                public const string Demarrer = "Démarrer signifie mettre en marche un moteur ou un processus, commencer quelque chose. C'est un verbe régulier du premier groupe en -er.";
+                public const string Diminuer = "Diminuer signifie réduire en quantité, en intensité ou en importance, rendre moins grand ou moins fort. C'est un verbe régulier du premier groupe en -er.";
+                public const string Dominer = "Dominer signifie exercer une autorité ou une supériorité sur quelqu'un ou quelque chose, maîtriser ou surplomber. C'est un verbe régulier du premier groupe en -er.";
+                public const string Doubler = "Doubler signifie multiplier par deux, dépasser un véhicule, ou jouer un double rôle. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

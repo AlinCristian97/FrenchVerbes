@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je démarre la voiture chaque matin.",
+    "Tu démarres le projet avec enthousiasme.",
+    "Il démarre le moteur sans difficulté.",
+    "Nous démarrons la réunion à l'heure.",
+    "Elles démarrent leur nouvelle vie en ville."
+  ],
+  "Imparfait": [
+    "Je démarrais le moteur chaque matin.",
+    "Tu démarrais la présentation sans hésiter.",
+    "Il démarrait toujours en retard.",
+    "Nous démarrions la séance à neuf heures.",
+    "Le projet démarrait lentement au début."
+  ],
+  "Futur Simple": [
+    "Je démarrerai la voiture dans dix minutes.",
+    "Tu démarreras le programme demain.",
+    "Il démarrera le chantier en janvier.",
+    "Nous démarrerons la campagne la semaine prochaine.",
+    "Elles démarreront leur stage en septembre."
+  ],
+  "Passé Composé": [
+    "J'ai démarré la voiture sans problème.",
+    "Tu as démarré le projet trop tard.",
+    "Il a démarré le moteur en trombe.",
+    "Nous avons démarré la réunion à l'heure.",
+    "Elles ont démarré leur activité ce mois-ci."
+  ],
+  "Futur Proche": [
+    "Je vais démarrer la voiture maintenant.",
+    "Tu vas démarrer le moteur.",
+    "Il va démarrer le chantier demain.",
+    "Nous allons démarrer la réunion dans cinq minutes.",
+    "Elles vont démarrer leur nouvelle vie ensemble."
+  ],
+  "Passé Récent": [
+    "Je viens de démarrer le moteur.",
+    "Tu viens de démarrer le projet.",
+    "Il vient de démarrer la réunion.",
+    "Nous venons de démarrer le programme.",
+    "Elles viennent de démarrer leur formation."
+  ],
+  "Impératif": [
+    "Démarre la voiture immédiatement !",
+    "Démarrons le projet sans attendre.",
+    "Démarrez le moteur dès que vous êtes prêts.",
+    "Ne démarre pas sans moi !",
+    "Démarrons ensemble pour être plus efficaces."
+  ],
+  "Conditionnel Présent": [
+    "Je démarrerais la voiture si j'avais les clés.",
+    "Tu démarrerais le projet si tu avais du temps.",
+    "Il démarrerait le moteur s'il n'était pas en panne.",
+    "Nous démarrerions plus tôt si possible.",
+    "Elles démarreraient leur activité dès demain si elles le pouvaient."
+  ]
+}

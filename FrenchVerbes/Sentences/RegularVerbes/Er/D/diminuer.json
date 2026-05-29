@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je diminue la luminosité de mon écran.",
+    "Tu diminues le volume de la musique.",
+    "Il diminue ses dépenses chaque mois.",
+    "Nous diminuons notre consommation d'eau.",
+    "Les prix diminuent en période de soldes."
+  ],
+  "Imparfait": [
+    "Je diminuais la vitesse dans les virages.",
+    "Tu diminuais le son quand quelqu'un parlait.",
+    "Il diminuait ses efforts au fil du temps.",
+    "Nous diminuions les portions pour manger moins.",
+    "La douleur diminuait grâce aux médicaments."
+  ],
+  "Futur Simple": [
+    "Je diminuerai mes sorties pour économiser.",
+    "Tu diminueras le bruit pendant la nuit.",
+    "Il diminuera la cadence de travail.",
+    "Nous diminuerons les coûts de production.",
+    "Les températures diminueront cet hiver."
+  ],
+  "Passé Composé": [
+    "J'ai diminué la dose du médicament.",
+    "Tu as diminué le volume trop vite.",
+    "Il a diminué ses efforts de moitié.",
+    "Nous avons diminué nos dépenses ce mois-ci.",
+    "Le chômage a diminué grâce aux nouvelles politiques."
+  ],
+  "Futur Proche": [
+    "Je vais diminuer la lumière dans la pièce.",
+    "Tu vas diminuer le chauffage ce soir.",
+    "Il va diminuer les risques avec ce plan.",
+    "Nous allons diminuer le budget de ce projet.",
+    "Les émissions vont diminuer grâce à ces mesures."
+  ],
+  "Passé Récent": [
+    "Je viens de diminuer le volume.",
+    "Tu viens de diminuer la dose.",
+    "Il vient de diminuer la vitesse.",
+    "Nous venons de diminuer les coûts.",
+    "La fièvre vient de diminuer."
+  ],
+  "Impératif": [
+    "Diminue le son s'il te plaît !",
+    "Diminuons nos dépenses inutiles.",
+    "Diminuez la vitesse dans cette zone.",
+    "Ne diminue pas tes efforts maintenant.",
+    "Diminuons notre impact sur l'environnement."
+  ],
+  "Conditionnel Présent": [
+    "Je diminuerais les coûts si je pouvais.",
+    "Tu diminuerais le bruit si tu faisais attention.",
+    "Il diminuerait la dose si nécessaire.",
+    "Nous diminuerions les risques avec une meilleure planification.",
+    "Les émissions diminueraient si tout le monde faisait des efforts."
+  ]
+}

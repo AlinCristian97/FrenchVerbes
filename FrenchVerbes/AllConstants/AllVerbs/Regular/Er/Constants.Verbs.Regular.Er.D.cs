@@ -38,12 +38,12 @@ public static partial class Constants
                 public const string Decider = "décider";
                 public const string Dejeuner = "déjeuner";
                 public const string Developper = "développer";
-                public const string Deposer = "déposer"; // <-- you are here
+                public const string Deposer = "déposer";
                 public const string Derouler = "dérouler";
                 public const string Demarrer = "démarrer";
                 public const string Diminuer = "diminuer";
                 public const string Dominer = "dominer";
-                public const string Doubler = "doubler";
+                public const string Doubler = "doubler"; // <-- you are here
                 public const string Douter = "douter";
                 public const string Deguster = "déguster";
                 public const string Determiner = "déterminer";

@@ -37,6 +37,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateDejeuner());
         _verbs.Add(CreateDevelopper());
         _verbs.Add(CreateDeposer());
+        _verbs.Add(CreateDerouler());
+        _verbs.Add(CreateDemarrer());
+        _verbs.Add(CreateDiminuer());
+        _verbs.Add(CreateDominer());
+        _verbs.Add(CreateDoubler());
     }
 
     #region FactoryMethods
@@ -263,6 +268,41 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Deposer,
             Constants.VerbDescriptions.Regular.Er.Deposer);
+    }
+
+    private static RegularErVerb CreateDerouler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Derouler,
+            Constants.VerbDescriptions.Regular.Er.Derouler);
+    }
+
+    private static RegularErVerb CreateDemarrer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Demarrer,
+            Constants.VerbDescriptions.Regular.Er.Demarrer);
+    }
+
+    private static RegularErVerb CreateDiminuer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Diminuer,
+            Constants.VerbDescriptions.Regular.Er.Diminuer);
+    }
+
+    private static RegularErVerb CreateDominer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Dominer,
+            Constants.VerbDescriptions.Regular.Er.Dominer);
+    }
+
+    private static RegularErVerb CreateDoubler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Doubler,
+            Constants.VerbDescriptions.Regular.Er.Doubler);
     }
 
     #endregion

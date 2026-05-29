@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je déroule le tapis dans le salon.",
+    "Tu déroules la carte sur la table.",
+    "Il déroule le câble avec soin.",
+    "Nous déroulons le programme de la soirée.",
+    "La cérémonie se déroule sans incident."
+  ],
+  "Imparfait": [
+    "Je déroulais le fil lentement.",
+    "Tu déroulais la banderole pour la fête.",
+    "Il déroulait le plan de la ville.",
+    "Nous déroulions les affiches une par une.",
+    "La réunion se déroulait dans le calme."
+  ],
+  "Futur Simple": [
+    "Je déroulerai le tapis rouge pour les invités.",
+    "Tu dérouleras la liste des candidats.",
+    "Il déroulera le câble jusqu'au bout.",
+    "Nous déroulerons le programme demain.",
+    "La conférence se déroulera en ligne."
+  ],
+  "Passé Composé": [
+    "J'ai déroulé le parchemin avec précaution.",
+    "Tu as déroulé la banderole trop tôt.",
+    "Il a déroulé le plan de la salle.",
+    "Nous avons déroulé toutes les étapes.",
+    "La fête s'est déroulée à merveille."
+  ],
+  "Futur Proche": [
+    "Je vais dérouler la carte maintenant.",
+    "Tu vas dérouler le câble à l'extérieur.",
+    "Il va dérouler le tapis d'accueil.",
+    "Nous allons dérouler le programme de la journée.",
+    "La réunion va se dérouler dans une heure."
+  ],
+  "Passé Récent": [
+    "Je viens de dérouler le plan.",
+    "Tu viens de dérouler la banderole.",
+    "Il vient de dérouler le câble.",
+    "Nous venons de dérouler la liste.",
+    "La cérémonie vient de se dérouler."
+  ],
+  "Impératif": [
+    "Déroule le tapis avec soin !",
+    "Déroulons la liste ensemble.",
+    "Déroulez le câble jusqu'à l'entrée.",
+    "Ne déroule pas ce parchemin sans permission.",
+    "Déroulons le programme point par point."
+  ],
+  "Conditionnel Présent": [
+    "Je déroulerais le tapis si les invités arrivaient.",
+    "Tu déroulerais la carte si tu le pouvais.",
+    "Il déroulerait le plan en cas de besoin.",
+    "Nous déroulerions le programme demain si possible.",
+    "La soirée se déroulerait mieux avec de la musique."
+  ]
+}
