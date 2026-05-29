@@ -21,6 +21,13 @@ public static partial class Constants
                 public const string Diner = "Dîner signifie prendre le repas du soir, le dîner. C'est un verbe régulier du premier groupe en -er.";
                 public const string Detonner = "Détonner signifie produire une détonation, ou au sens figuré, contraster de manière choquante avec son environnement. C'est un verbe régulier du premier groupe en -er.";
                 public const string Declencher = "Déclencher signifie mettre en marche un mécanisme, provoquer le début d'une action ou d'un processus. C'est un verbe régulier du premier groupe en -er.";
+                public const string Demander = "Demander signifie formuler une requête, poser une question ou solliciter quelque chose auprès de quelqu'un. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Demander = "Se demander signifie s'interroger, se poser une question à soi-même sur quelque chose. C'est le verbe réfléchi de demander.";
+                public const string Discuter = "Discuter signifie échanger des idées, débattre ou converser sur un sujet. C'est un verbe régulier du premier groupe en -er.";
+                public const string Donner = "Donner signifie offrir, remettre quelque chose à quelqu'un, ou produire un effet. C'est un verbe régulier du premier groupe en -er.";
+                public const string Deplacer = "Déplacer signifie changer de place, bouger quelque chose ou quelqu'un d'un endroit à un autre. verbe régulier en -er avec changement orthographique (c → ç devant a/o/u).";
+                public const string Se_Deplacer = "Se déplacer signifie se mouvoir, aller d'un endroit à un autre. C'est le verbe réfléchi de déplacer.";
+                public const string Dessiner = "Dessiner signifie représenter quelque chose par des lignes et des traits sur une surface, créer une image. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

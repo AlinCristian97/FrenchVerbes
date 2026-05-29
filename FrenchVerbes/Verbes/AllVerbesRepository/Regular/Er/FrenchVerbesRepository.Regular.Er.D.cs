@@ -20,6 +20,13 @@ public static partial class VerbRepository
         _verbs.Add(CreateDiner());
         _verbs.Add(CreateDetonner());
         _verbs.Add(CreateDeclencher());
+        _verbs.Add(CreateDemander());
+        _verbs.Add(CreateSe_Demander());
+        _verbs.Add(CreateDiscuter());
+        _verbs.Add(CreateDonner());
+        _verbs.Add(CreateDeplacer());
+        _verbs.Add(CreateSe_Deplacer());
+        _verbs.Add(CreateDessiner());
     }
 
     #region FactoryMethods
@@ -118,6 +125,61 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Declencher,
             Constants.VerbDescriptions.Regular.Er.Declencher);
+    }
+
+    private static RegularErVerb CreateDemander()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Demander,
+            Constants.VerbDescriptions.Regular.Er.Demander,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Demander()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Demander,
+            Constants.VerbDescriptions.Regular.Er.Se_Demander,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateDiscuter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Discuter,
+            Constants.VerbDescriptions.Regular.Er.Discuter);
+    }
+
+    private static RegularErVerb CreateDonner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Donner,
+            Constants.VerbDescriptions.Regular.Er.Donner);
+    }
+
+    private static RegularErVerb CreateDeplacer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Deplacer,
+            Constants.VerbDescriptions.Regular.Er.Deplacer,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Deplacer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Deplacer,
+            Constants.VerbDescriptions.Regular.Er.Se_Deplacer,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateDessiner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Dessiner,
+            Constants.VerbDescriptions.Regular.Er.Dessiner);
     }
 
     #endregion

@@ -21,14 +21,14 @@ public static partial class Constants
                 public const string Devorer = "dévorer";
                 public const string Diner = "dîner";
                 public const string Detonner = "détonner";
-                public const string Declencher = "déclencher"; // <-- you are here
+                public const string Declencher = "déclencher";
                 public const string Demander = "demander";
                 public const string Se_Demander = "se demander";
                 public const string Discuter = "discuter";
                 public const string Donner = "donner";
                 public const string Deplacer = "déplacer";
                 public const string Se_Deplacer = "se déplacer";
-                public const string Dessiner = "dessiner";
+                public const string Dessiner = "dessiner"; // <-- you are here
                 public const string Designer = "désigner";
                 public const string Deferler = "déferler";
                 public const string Detester = "détester";

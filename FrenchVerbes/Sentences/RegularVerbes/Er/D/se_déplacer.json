@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je me déplace en vélo pour aller au travail.",
+    "Tu te déplaces souvent pour ton travail.",
+    "Il se déplace difficilement à cause de sa blessure.",
+    "Nous nous déplaçons en train pour ce déplacement professionnel.",
+    "Vous vous déplacez trop souvent sans raison valable."
+  ],
+  "Imparfait": [
+    "Je me déplaçais en voiture avant d'habiter en ville.",
+    "Tu te déplaçais à pied pour aller à l'école.",
+    "Elle se déplaçait en fauteuil roulant après son accident.",
+    "Nous nous déplacions souvent pour rendre visite à la famille.",
+    "Vous vous déplaciez régulièrement à l'étranger pour le travail."
+  ],
+  "Futur Simple": [
+    "Je me déplacerai en avion pour ce voyage d'affaires.",
+    "Tu te déplaceras à Paris la semaine prochaine.",
+    "Il se déplacera en train pour éviter les embouteillages.",
+    "Nous nous déplacerons ensemble pour la conférence.",
+    "Vous vous déplacerez à l'autre bout du pays pour ce projet."
+  ],
+  "Passé Composé": [
+    "Je me suis déplacé à Lyon pour une réunion importante.",
+    "Tu t'es déplacé pour rien, la réunion était annulée.",
+    "Elle s'est déplacée en bus pour économiser de l'argent.",
+    "Nous nous sommes déplacés à Bordeaux pour le séminaire.",
+    "Vous vous êtes déplacés malgré la grève des transports."
+  ],
+  "Futur Proche": [
+    "Je vais me déplacer à Marseille pour ce client.",
+    "Tu vas te déplacer demain pour les négociations.",
+    "Il va se déplacer en taxi jusqu'à l'aéroport.",
+    "Nous allons nous déplacer ensemble pour cette visite.",
+    "Vous allez vous déplacer jusqu'au siège de l'entreprise."
+  ],
+  "Passé Récent": [
+    "Je viens de me déplacer jusqu'au bureau principal.",
+    "Tu viens de te déplacer pour rien.",
+    "Elle vient de se déplacer en métro.",
+    "Nous venons de nous déplacer jusqu'à leur entrepôt.",
+    "Vous venez de vous déplacer pour cette réunion d'urgence."
+  ],
+  "Impératif": [
+    "Déplace-toi un peu sur la droite !",
+    "Déplaçons-nous dans une salle plus tranquille.",
+    "Déplacez-vous rapidement, nous sommes en retard.",
+    "Ne te déplace pas si tu es fatigué.",
+    "Déplacez-vous en groupe pour plus de sécurité."
+  ],
+  "Conditionnel Présent": [
+    "Je me déplacerais volontiers si c'était nécessaire.",
+    "Tu te déplacerais moins si tu travaillais à distance.",
+    "Il se déplacerait en voiture s'il n'y avait pas d'embouteillages.",
+    "Nous nous déplacerions ensemble si nous avions une voiture.",
+    "Vous vous déplaceriez moins souvent avec de meilleures visioconférences."
+  ]
+}

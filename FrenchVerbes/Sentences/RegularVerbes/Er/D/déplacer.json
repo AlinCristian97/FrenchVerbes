@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je déplace les meubles pour faire de la place.",
+    "Tu déplaces la réunion à jeudi prochain.",
+    "Il déplace les objets sur le bureau pour retrouver ses clés.",
+    "Nous déplaçons notre siège social dans un autre quartier.",
+    "Vous déplacez les priorités sans prévenir l'équipe."
+  ],
+  "Imparfait": [
+    "Je déplaçais régulièrement mon bureau pour changer d'air.",
+    "Tu déplaçais souvent les rendez-vous à la dernière minute.",
+    "Elle déplaçait les pions sur l'échiquier avec précision.",
+    "Nous déplacions les caisses dans l'entrepôt chaque semaine.",
+    "Vous déplaciez les ressources selon les besoins du projet."
+  ],
+  "Futur Simple": [
+    "Je déplacerai la date de la conférence si nécessaire.",
+    "Tu déplaceras les fichiers dans le bon dossier.",
+    "Il déplacera son bureau pour s'installer plus près de la fenêtre.",
+    "Nous déplacerons les équipes selon les nouvelles priorités.",
+    "Vous déplacerez la cérémonie à une autre salle."
+  ],
+  "Passé Composé": [
+    "J'ai déplacé la réunion à lundi prochain.",
+    "Tu as déplacé le canapé contre le mur.",
+    "Elle a déplacé son rendez-vous chez le médecin.",
+    "Nous avons déplacé les caisses dans le couloir.",
+    "Vous avez déplacé toute l'équipe dans un nouveau bureau."
+  ],
+  "Futur Proche": [
+    "Je vais déplacer cette réunion à la semaine prochaine.",
+    "Tu vas déplacer les meubles avant les invités.",
+    "Il va déplacer son bureau dans la salle du fond.",
+    "Nous allons déplacer les équipes pour ce projet urgent.",
+    "Vous allez déplacer la date de livraison."
+  ],
+  "Passé Récent": [
+    "Je viens de déplacer notre rendez-vous.",
+    "Tu viens de déplacer tous les fichiers importants.",
+    "Elle vient de déplacer la date de l'événement.",
+    "Nous venons de déplacer les ressources disponibles.",
+    "Vous venez de déplacer la présentation à demain."
+  ],
+  "Impératif": [
+    "Déplace ce carton dans le couloir, s'il te plaît !",
+    "Déplaçons la réunion à vendredi.",
+    "Déplacez les meubles avant de peindre les murs.",
+    "Ne déplace pas ces fichiers sans me prévenir.",
+    "Déplacez la conférence dans une salle plus grande."
+  ],
+  "Conditionnel Présent": [
+    "Je déplacerais la réunion si tout le monde était d'accord.",
+    "Tu déplacerais les meubles pour mieux organiser l'espace.",
+    "Il déplacerait son bureau s'il avait le choix.",
+    "Nous déplacerions l'événement si le temps était mauvais.",
+    "Vous déplaceriez la date de livraison si les ressources manquaient."
+  ]
+}

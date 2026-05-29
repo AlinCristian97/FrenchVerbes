@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je me demande ce qu'il pense vraiment.",
+    "Tu te demandes si tu as pris la bonne décision.",
+    "Il se demande pourquoi elle est partie.",
+    "Nous nous demandons ce qui va se passer ensuite.",
+    "Vous vous demandez comment résoudre ce problème."
+  ],
+  "Imparfait": [
+    "Je me demandais si j'avais bien compris la leçon.",
+    "Tu te demandais pourquoi il était si silencieux.",
+    "Elle se demandait ce qu'elle allait faire de sa vie.",
+    "Nous nous demandions s'il viendrait à la fête.",
+    "Vous vous demandiez comment sortir de cette situation."
+  ],
+  "Futur Simple": [
+    "Je me demanderai si c'était vraiment nécessaire.",
+    "Tu te demanderas ce que tu aurais pu faire différemment.",
+    "Il se demandera comment il a pu se tromper.",
+    "Nous nous demanderons comment améliorer nos résultats.",
+    "Vous vous demanderez si vous avez fait le bon choix."
+  ],
+  "Passé Composé": [
+    "Je me suis demandé si j'avais bien fermé la porte.",
+    "Tu t'es demandé pourquoi elle ne t'avait pas répondu.",
+    "Elle s'est demandé ce qu'elle allait manger ce soir.",
+    "Nous nous sommes demandé comment régler ce problème.",
+    "Vous vous êtes demandé si ce projet valait la peine."
+  ],
+  "Futur Proche": [
+    "Je vais me demander si c'est vraiment une bonne idée.",
+    "Tu vas te demander comment tu vas t'en sortir.",
+    "Il va se demander pourquoi personne ne l'a prévenu.",
+    "Nous allons nous demander ce que nous devons faire.",
+    "Vous allez vous demander si vous pouvez vraiment réussir."
+  ],
+  "Passé Récent": [
+    "Je viens de me demander si j'ai bien éteint le four.",
+    "Tu viens de te demander comment faire pour progresser.",
+    "Elle vient de se demander ce qu'elle a oublié.",
+    "Nous venons de nous demander ce que ça signifie.",
+    "Vous venez de vous demander si vous êtes sur la bonne voie."
+  ],
+  "Impératif": [
+    "Demande-toi si c'est vraiment ce que tu veux.",
+    "Demandons-nous ce qui est le plus important.",
+    "Demandez-vous si vous avez bien compris la question.",
+    "Ne te demande pas pourquoi, agis !",
+    "Demandez-vous toujours quel est votre objectif."
+  ],
+  "Conditionnel Présent": [
+    "Je me demanderais si c'était la bonne décision.",
+    "Tu te demanderais comment il a pu agir ainsi.",
+    "Il se demanderait pourquoi on ne lui a pas fait confiance.",
+    "Nous nous demanderions ce que nous ferions à leur place.",
+    "Vous vous demanderiez si vous avez bien interprété la situation."
+  ]
+}

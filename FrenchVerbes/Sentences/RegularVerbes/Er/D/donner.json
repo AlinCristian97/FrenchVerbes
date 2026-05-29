@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je donne mon livre à mon ami.",
+    "Tu donnes des conseils à tes collègues.",
+    "Il donne une conférence sur l'environnement.",
+    "Nous donnons de l'argent à une association caritative.",
+    "Vous donnez votre accord pour ce projet."
+  ],
+  "Imparfait": [
+    "Je donnais des cours particuliers le week-end.",
+    "Tu donnais toujours le meilleur de toi-même.",
+    "Elle donnait des cadeaux à tout le monde à Noël.",
+    "Nous donnions des représentations théâtrales chaque mois.",
+    "Vous donniez l'impression d'être toujours pressés."
+  ],
+  "Futur Simple": [
+    "Je donnerai mon avis lors de la réunion de demain.",
+    "Tu donneras ta réponse avant vendredi.",
+    "Il donnera une chance à ce jeune talent.",
+    "Nous donnerons le signal de départ à midi.",
+    "Vous donnerez une explication claire à l'équipe."
+  ],
+  "Passé Composé": [
+    "J'ai donné mes vieux vêtements à une association.",
+    "Tu as donné une excellente présentation.",
+    "Elle a donné naissance à un beau garçon.",
+    "Nous avons donné notre accord pour la proposition.",
+    "Vous avez donné beaucoup de votre temps pour ce projet."
+  ],
+  "Futur Proche": [
+    "Je vais donner mon avis sur ce sujet.",
+    "Tu vas donner ta démission demain matin.",
+    "Il va donner un concert exceptionnel ce soir.",
+    "Nous allons donner des instructions précises à l'équipe.",
+    "Vous allez donner un exemple à vos enfants."
+  ],
+  "Passé Récent": [
+    "Je viens de donner mon consentement.",
+    "Tu viens de donner une excellente réponse.",
+    "Elle vient de donner sa démission.",
+    "Nous venons de donner notre approbation au projet.",
+    "Vous venez de donner un très bon exemple."
+  ],
+  "Impératif": [
+    "Donne-moi un peu de temps pour réfléchir !",
+    "Donnons le meilleur de nous-mêmes dans ce projet.",
+    "Donnez votre avis sur cette proposition.",
+    "Ne donne pas ta réponse trop vite.",
+    "Donnez une chance à cette nouvelle recrue."
+  ],
+  "Conditionnel Présent": [
+    "Je donnerais tout pour être à ta place.",
+    "Tu donnerais de meilleures réponses avec plus de préparation.",
+    "Il donnerait son accord si les conditions étaient meilleures.",
+    "Nous donnerions plus si nous avions les moyens.",
+    "Vous donneriez une meilleure impression avec plus de calme."
+  ]
+}

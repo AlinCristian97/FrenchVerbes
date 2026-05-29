@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je discute avec mes collègues de la nouvelle stratégie.",
+    "Tu discutes souvent de politique avec ton père.",
+    "Il discute des conditions du contrat avec le client.",
+    "Nous discutons de ce projet depuis des heures.",
+    "Vous discutez trop et n'agissez pas assez."
+  ],
+  "Imparfait": [
+    "Je discutais avec mes amis jusqu'à minuit.",
+    "Tu discutais de philosophie avec ton professeur.",
+    "Elle discutait toujours calmement, sans hausser la voix.",
+    "Nous discutions des résultats lors de chaque réunion.",
+    "Vous discutiez des plans pour les vacances d'été."
+  ],
+  "Futur Simple": [
+    "Je discuterai de cette question lors de la prochaine réunion.",
+    "Tu discuteras des termes du contrat demain matin.",
+    "Il discutera de ses droits avec un avocat.",
+    "Nous discuterons de ce point en détail plus tard.",
+    "Vous discuterez de la situation avec le directeur."
+  ],
+  "Passé Composé": [
+    "J'ai discuté longuement avec mon chef de projet.",
+    "Tu as discuté de tes idées avec l'équipe.",
+    "Elle a discuté des modalités de remboursement.",
+    "Nous avons discuté pendant deux heures sans trouver d'accord.",
+    "Vous avez discuté de l'organisation de l'événement."
+  ],
+  "Futur Proche": [
+    "Je vais discuter de ce problème avec lui tout à l'heure.",
+    "Tu vas discuter des résultats avec ton équipe.",
+    "Il va discuter de ses projets d'avenir.",
+    "Nous allons discuter des changements proposés.",
+    "Vous allez discuter de la nouvelle politique salariale."
+  ],
+  "Passé Récent": [
+    "Je viens de discuter avec le responsable des ressources humaines.",
+    "Tu viens de discuter de tes options avec ton conseiller.",
+    "Elle vient de discuter de son avenir avec ses parents.",
+    "Nous venons de discuter de cette affaire en réunion.",
+    "Vous venez de discuter de la planification du projet."
+  ],
+  "Impératif": [
+    "Discute avec lui avant de prendre une décision !",
+    "Discutons de ce problème ensemble.",
+    "Discutez calmement et sans vous énerver.",
+    "Ne discute pas des ordres, exécute-les.",
+    "Discutez de vos attentes avec votre responsable."
+  ],
+  "Conditionnel Présent": [
+    "Je discuterais volontiers de ce sujet avec toi.",
+    "Tu discuterais mieux si tu écoutais davantage.",
+    "Il discuterait des conditions si on lui donnait la chance.",
+    "Nous discuterions de meilleures solutions si nous avions le temps.",
+    "Vous discuteriez moins si vous étiez mieux organisés."
+  ]
+}

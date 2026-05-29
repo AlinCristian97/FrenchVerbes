@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je demande une explication à mon professeur.",
+    "Tu demandes la permission de sortir.",
+    "Il demande son chemin à un passant.",
+    "Nous demandons une augmentation de salaire.",
+    "Vous demandez trop d'efforts à vos employés."
+  ],
+  "Imparfait": [
+    "Je demandais toujours de l'aide quand j'étais enfant.",
+    "Tu demandais des conseils à tes parents.",
+    "Elle demandait régulièrement des nouvelles de ses amis.",
+    "Nous demandions la parole avant de parler.",
+    "Vous demandiez souvent des précisions sur les règles."
+  ],
+  "Futur Simple": [
+    "Je demanderai un rendez-vous dès demain.",
+    "Tu demanderas une faveur à ton ami.",
+    "Il demandera la main de sa petite amie.",
+    "Nous demanderons des explications lors de la réunion.",
+    "Vous demanderez une réduction à la caisse."
+  ],
+  "Passé Composé": [
+    "J'ai demandé l'avis de mes collègues.",
+    "Tu as demandé une prolongation du délai.",
+    "Elle a demandé son chemin à un policier.",
+    "Nous avons demandé des billets pour le concert.",
+    "Vous avez demandé une chambre avec vue sur la mer."
+  ],
+  "Futur Proche": [
+    "Je vais demander une faveur à mon chef.",
+    "Tu vas demander des précisions sur le projet.",
+    "Il va demander la permission d'entrer.",
+    "Nous allons demander une table pour quatre personnes.",
+    "Vous allez demander l'avis d'un expert."
+  ],
+  "Passé Récent": [
+    "Je viens de demander une augmentation.",
+    "Tu viens de demander une explication.",
+    "Elle vient de demander son chemin.",
+    "Nous venons de demander l'addition.",
+    "Vous venez de demander un renseignement."
+  ],
+  "Impératif": [
+    "Demande de l'aide si tu en as besoin !",
+    "Demandons l'avis de l'assemblée.",
+    "Demandez la permission avant d'entrer.",
+    "Ne demande pas ce qui ne te regarde pas.",
+    "Demandez toujours poliment ce dont vous avez besoin."
+  ],
+  "Conditionnel Présent": [
+    "Je demanderais un délai supplémentaire si possible.",
+    "Tu demanderais une réduction avec plus de confiance.",
+    "Il demanderait des renseignements avant de décider.",
+    "Nous demanderions l'avis du médecin en premier.",
+    "Vous demanderiez une chambre plus calme à l'hôtel."
+  ]
+}

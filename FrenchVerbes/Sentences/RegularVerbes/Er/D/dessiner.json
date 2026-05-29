@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je dessine un portrait de mon ami.",
+    "Tu dessines des paysages avec beaucoup de talent.",
+    "Il dessine des plans pour le nouvel immeuble.",
+    "Nous dessinons des bandes dessinées pendant notre temps libre.",
+    "Vous dessinez des illustrations pour ce livre pour enfants."
+  ],
+  "Imparfait": [
+    "Je dessinais des animaux quand j'étais petit.",
+    "Tu dessinais dans les marges de ton cahier pendant les cours.",
+    "Elle dessinait des robes pour sa collection de mode.",
+    "Nous dessinions des affiches pour le spectacle de l'école.",
+    "Vous dessiniez des cartes pour vos proches à chaque anniversaire."
+  ],
+  "Futur Simple": [
+    "Je dessinerai le logo de la nouvelle entreprise.",
+    "Tu dessineras le plan de la maison demain.",
+    "Il dessinera des illustrations pour le prochain album.",
+    "Nous dessinerons une fresque murale pour la salle de réunion.",
+    "Vous dessinerez des maquettes pour le client la semaine prochaine."
+  ],
+  "Passé Composé": [
+    "J'ai dessiné un plan du quartier pour les touristes.",
+    "Tu as dessiné un superbe portrait de ta grand-mère.",
+    "Elle a dessiné tous les personnages du roman graphique.",
+    "Nous avons dessiné des décors pour la pièce de théâtre.",
+    "Vous avez dessiné des modèles innovants pour l'exposition."
+  ],
+  "Futur Proche": [
+    "Je vais dessiner un schéma pour expliquer le processus.",
+    "Tu vas dessiner les premières esquisses du projet.",
+    "Il va dessiner une carte pour illustrer le trajet.",
+    "Nous allons dessiner les plans du nouveau parc.",
+    "Vous allez dessiner les prototypes du produit."
+  ],
+  "Passé Récent": [
+    "Je viens de dessiner le logo définitif.",
+    "Tu viens de dessiner une magnifique aquarelle.",
+    "Elle vient de dessiner les plans de la nouvelle salle.",
+    "Nous venons de dessiner les premières ébauches.",
+    "Vous venez de dessiner un schéma très clair."
+  ],
+  "Impératif": [
+    "Dessine un cercle au centre de la feuille !",
+    "Dessinons ensemble les grandes lignes du projet.",
+    "Dessinez un plan précis avant de commencer.",
+    "Ne dessine pas sur les murs !",
+    "Dessinez des formes simples pour commencer."
+  ],
+  "Conditionnel Présent": [
+    "Je dessinerais un portrait de toi si tu posais pour moi.",
+    "Tu dessinerais mieux avec un bon crayon.",
+    "Il dessinerait davantage s'il avait plus de temps libre.",
+    "Nous dessinerions une nouvelle affiche si on nous le demandait.",
+    "Vous dessineriez de meilleurs plans avec un logiciel adapté."
+  ]
+}
