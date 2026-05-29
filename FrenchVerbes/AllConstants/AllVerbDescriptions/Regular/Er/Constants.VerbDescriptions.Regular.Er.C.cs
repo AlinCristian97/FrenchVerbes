@@ -58,6 +58,10 @@ public static partial class Constants
                 public const string Se_Connecter = "Se connecter est la forme pronominale de connecter. Elle exprime le fait de s'identifier et d'accéder à un système, un réseau ou un service numérique.";
                 public const string Considerer = "Considérer signifie examiner attentivement quelque chose, estimer ou tenir compte de quelqu'un. C'est un verbe régulier en -er avec un changement d'accent sur la dernière syllabe du radical.";
                 public const string Consulter = "Consulter signifie demander l'avis d'un expert, chercher une information dans un document ou prendre conseil. C'est un verbe régulier du premier groupe en -er.";
+                public const string Contracter = "Contracter signifie contracter une maladie, un emprunt ou une habitude, ou réduire un muscle. C'est un verbe régulier du premier groupe en -er.";
+                public const string Consommer = "Consommer signifie utiliser une ressource, manger ou boire quelque chose, ou accomplir un acte de manière définitive. C'est un verbe régulier du premier groupe en -er.";
+                public const string Choper = "Choper signifie attraper quelqu'un ou quelque chose, ou contracter une maladie (familier). C'est un verbe régulier du premier groupe en -er.";
+                public const string Contacter = "Contacter signifie entrer en communication avec quelqu'un, prendre contact. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

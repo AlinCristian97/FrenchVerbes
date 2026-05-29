@@ -58,12 +58,11 @@ public static partial class Constants
                 public const string Connecter = "connecter";
                 public const string Se_Connecter = "se connecter";
                 public const string Considerer = "considérer";
-                public const string Consulter = "consulter"; // <-- you are here
-                public const string Contractér = "contracter";
+                public const string Consulter = "consulter";
+                public const string Contracter = "contracter";
                 public const string Consommer = "consommer";
-                public const string Se_Consommer = "se consommer";
                 public const string Choper = "choper";
-                public const string Contacter = "contacter";
+                public const string Contacter = "contacter"; // <-- you are here
                 public const string Circuler = "circuler";
                 public const string Caracteriser = "caractériser";
                 public const string Couler = "couler";

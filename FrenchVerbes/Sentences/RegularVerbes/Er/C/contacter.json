@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je contacte le service client pour signaler un problème.",
+    "Tu contactes ton médecin pour prendre rendez-vous.",
+    "Il contacte ses anciens collègues pour un projet commun.",
+    "Nous contactons nos partenaires pour organiser la réunion.",
+    "Vous contactez l'entreprise par courriel."
+  ],
+  "Imparfait": [
+    "Je contactais souvent mes fournisseurs par téléphone.",
+    "Tu contactais tes amis uniquement par courrier à l'époque.",
+    "Elle contactait ses clients chaque semaine.",
+    "Nous contactions l'ambassade chaque fois que nécessaire.",
+    "Ils contactaient leurs proches depuis l'étranger."
+  ],
+  "Futur Simple": [
+    "Je contacterai l'agence dès lundi matin.",
+    "Tu contacteras le responsable si le problème persiste.",
+    "Il contactera les autorités en cas d'urgence.",
+    "Nous contacterons tous les participants avant l'événement.",
+    "Vous contacterez le prestataire pour confirmer la commande."
+  ],
+  "Passé Composé": [
+    "J'ai contacté le support technique hier soir.",
+    "Tu as contacté l'école pour inscrire ton enfant.",
+    "Elle a contacté son avocat dès que possible.",
+    "Nous avons contacté tous les invités par téléphone.",
+    "Ils ont contacté la mairie pour obtenir un permis."
+  ],
+  "Futur Proche": [
+    "Je vais contacter mon banquier cette semaine.",
+    "Tu vas contacter le propriétaire pour visiter l'appartement.",
+    "Il va contacter l'équipe pour fixer une date.",
+    "Nous allons contacter nos clients pour les informer du changement.",
+    "Vous allez contacter le fournisseur pour négocier les prix."
+  ],
+  "Passé Récent": [
+    "Je viens de contacter le service des ressources humaines.",
+    "Tu viens de contacter ton ancien professeur.",
+    "Elle vient de contacter l'hôpital pour les résultats.",
+    "Nous venons de contacter l'équipe technique.",
+    "Ils viennent de contacter les autorités compétentes."
+  ],
+  "Impératif": [
+    "Contacte le service client dès maintenant !",
+    "Contactons nos partenaires avant la fin de la journée !",
+    "Contactez l'organisateur pour confirmer votre présence !",
+    "Ne contacte pas cet individu suspect !",
+    "Ne contactez pas nos clients sans notre accord !"
+  ],
+  "Conditionnel Présent": [
+    "Je contacterais le médecin si les symptômes persistaient.",
+    "Tu contacterais l'ambassade si tu perdais ton passeport.",
+    "Il contacterait la presse si l'affaire était confirmée.",
+    "Nous contacterions plus souvent nos clients si nous avions plus de temps.",
+    "Ils contacteraient les autorités s'ils découvraient quelque chose."
+  ]
+}

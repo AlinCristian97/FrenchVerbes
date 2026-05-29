@@ -57,6 +57,10 @@ public static partial class VerbRepository
         _verbs.Add(CreateSe_Connecter());
         _verbs.Add(CreateConsiderer());
         _verbs.Add(CreateConsulter());
+        _verbs.Add(CreateContracter());
+        _verbs.Add(CreateConsommer());
+        _verbs.Add(CreateChoper());
+        _verbs.Add(CreateContacter());
     }
 
     #region FactoryMethods
@@ -472,6 +476,35 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Consulter,
             Constants.VerbDescriptions.Regular.Er.Consulter);
+    }
+
+    private static RegularErVerb CreateContracter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Contracter,
+            Constants.VerbDescriptions.Regular.Er.Contracter);
+    }
+
+    private static RegularErVerb CreateConsommer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Consommer,
+            Constants.VerbDescriptions.Regular.Er.Consommer,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateChoper()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Choper,
+            Constants.VerbDescriptions.Regular.Er.Choper);
+    }
+
+    private static RegularErVerb CreateContacter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Contacter,
+            Constants.VerbDescriptions.Regular.Er.Contacter);
     }
 
     #endregion

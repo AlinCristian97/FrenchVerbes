@@ -18,6 +18,7 @@ If the user says **"add next X"** (e.g. "add next 5"), interpret it as:
    - `FrenchVerbes/AllConstants/AllVerbs/...`
 3. Confirm the verb constant is not duplicated.
 4. If missing, add it in the correct letter file.
+   - **⚠️ C# identifiers (constant names, method names) must never contain accented characters.** Strip accents from the identifier only: `é → e`, `è → e`, `ê → e`, `à → a`, `â → a`, `ô → o`, `î → i`, `û → u`, etc. The constant *value* string keeps the correct French spelling. Example: `public const string Contracter = "contracter";` — **not** `Contractér`.
 5. After adding the verb implementation, append a `// <-- you are here` comment in its appropriate Constants file on the same line (e.g., `public const string Accrocher = "accrocher"; // <-- you are here`).
 
 ## 2) Add the verb description constant
