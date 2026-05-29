@@ -33,6 +33,10 @@ public static partial class VerbRepository
         _verbs.Add(CreateDurer());
         _verbs.Add(CreateDechainer());
         _verbs.Add(CreateSe_Dechainer());
+        _verbs.Add(CreateDecider());
+        _verbs.Add(CreateDejeuner());
+        _verbs.Add(CreateDevelopper());
+        _verbs.Add(CreateDeposer());
     }
 
     #region FactoryMethods
@@ -231,6 +235,34 @@ public static partial class VerbRepository
             Constants.VerbDescriptions.Regular.Er.Se_Dechainer,
             usesEtre: true,
             isReflexive: true);
+    }
+
+    private static RegularErVerb CreateDecider()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Decider,
+            Constants.VerbDescriptions.Regular.Er.Decider);
+    }
+
+    private static RegularErVerb CreateDejeuner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Dejeuner,
+            Constants.VerbDescriptions.Regular.Er.Dejeuner);
+    }
+
+    private static RegularErVerb CreateDevelopper()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Developper,
+            Constants.VerbDescriptions.Regular.Er.Developper);
+    }
+
+    private static RegularErVerb CreateDeposer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Deposer,
+            Constants.VerbDescriptions.Regular.Er.Deposer);
     }
 
     #endregion

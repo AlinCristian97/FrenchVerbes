@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je déjeune avec mes collègues tous les midis.",
+    "Tu déjeunes toujours à midi et demi.",
+    "Il déjeune seul devant son ordinateur.",
+    "Nous déjeunons au restaurant ce midi.",
+    "Vous déjeunez à quelle heure en général ?"
+  ],
+  "Imparfait": [
+    "Je déjeunais souvent à la cantine.",
+    "Tu déjeunais avec ta mère le dimanche.",
+    "Elle déjeunait d'un simple sandwich.",
+    "Nous déjeunions ensemble chaque vendredi.",
+    "Ils déjeunaient dehors quand il faisait beau."
+  ],
+  "Futur Simple": [
+    "Je déjeunerai avec toi demain si tu veux.",
+    "Tu déjeuneras après la réunion.",
+    "Il déjeunera en ville avec ses associés.",
+    "Nous déjeunerons en terrasse s'il fait beau.",
+    "Vous déjeunerez chez nous dimanche."
+  ],
+  "Passé Composé": [
+    "J'ai déjeuné trop vite aujourd'hui.",
+    "Tu as déjeuné avec le directeur hier.",
+    "Elle a déjeuné d'une salade légère.",
+    "Nous avons déjeuné au bord de la mer.",
+    "Ils ont déjeuné avant de prendre le train."
+  ],
+  "Futur Proche": [
+    "Je vais déjeuner dans cinq minutes.",
+    "Tu vas déjeuner avec tes parents.",
+    "Il va déjeuner sur le pouce.",
+    "Nous allons déjeuner ensemble ce midi.",
+    "Vous allez déjeuner avant de partir ?"
+  ],
+  "Passé Récent": [
+    "Je viens de déjeuner, je n'ai plus faim.",
+    "Tu viens de déjeuner sans moi.",
+    "Elle vient de déjeuner avec une amie.",
+    "Nous venons de déjeuner à la brasserie.",
+    "Ils viennent de déjeuner et repartent au bureau."
+  ],
+  "Impératif": [
+    "Déjeune avant de partir, tu auras faim.",
+    "Déjeunons ensemble plutôt que séparément.",
+    "Déjeunez à l'heure, s'il vous plaît.",
+    "Déjeune vite, on n'a pas le temps.",
+    "Déjeunons tranquillement sans se presser."
+  ],
+  "Conditionnel Présent": [
+    "Je déjeunerais dehors s'il ne pleuvait pas.",
+    "Tu déjeunerais plus sainement si tu avais le temps.",
+    "Il déjeunerait avec nous s'il était en ville.",
+    "Nous déjeunerions en terrasse par beau temps.",
+    "Vous déjeuneriez plus tôt si vous pouviez."
+  ]
+}

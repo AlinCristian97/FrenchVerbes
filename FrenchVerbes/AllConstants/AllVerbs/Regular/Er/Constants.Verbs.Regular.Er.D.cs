@@ -33,12 +33,12 @@ public static partial class Constants
                 public const string Deferler = "déferler";
                 public const string Detester = "détester";
                 public const string Durer = "durer";
-                public const string Dechainer = "déchaîner"; // <-- you are here
+                public const string Dechainer = "déchaîner";
                 public const string Se_Dechainer = "se déchaîner";
                 public const string Decider = "décider";
                 public const string Dejeuner = "déjeuner";
                 public const string Developper = "développer";
-                public const string Deposer = "déposer";
+                public const string Deposer = "déposer"; // <-- you are here
                 public const string Derouler = "dérouler";
                 public const string Demarrer = "démarrer";
                 public const string Diminuer = "diminuer";

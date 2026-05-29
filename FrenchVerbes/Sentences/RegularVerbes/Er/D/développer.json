@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je développe une nouvelle application mobile.",
+    "Tu développes tes compétences chaque jour.",
+    "Il développe un projet ambitieux.",
+    "Nous développons notre réseau professionnel.",
+    "Vous développez des solutions innovantes."
+  ],
+  "Imparfait": [
+    "Je développais des logiciels pour les entreprises.",
+    "Tu développais ton sens artistique en cours.",
+    "Elle développait des stratégies de vente.",
+    "Nous développions des partenariats solides.",
+    "Ils développaient leurs arguments avec soin."
+  ],
+  "Futur Simple": [
+    "Je développerai ce projet l'année prochaine.",
+    "Tu développeras tes talents si tu travailles.",
+    "Il développera une nouvelle gamme de produits.",
+    "Nous développerons notre activité à l'international.",
+    "Vous développerez vos compétences en formation."
+  ],
+  "Passé Composé": [
+    "J'ai développé une passion pour la musique.",
+    "Tu as développé une excellente technique.",
+    "Elle a développé un vaccin contre la maladie.",
+    "Nous avons développé un nouveau procédé.",
+    "Ils ont développé leur entreprise très vite."
+  ],
+  "Futur Proche": [
+    "Je vais développer ce point plus tard.",
+    "Tu vas développer une nouvelle idée.",
+    "Il va développer une appli révolutionnaire.",
+    "Nous allons développer notre offre de services.",
+    "Vous allez développer ce projet en équipe."
+  ],
+  "Passé Récent": [
+    "Je viens de développer une nouvelle fonctionnalité.",
+    "Tu viens de développer un argument convaincant.",
+    "Elle vient de développer une allergie.",
+    "Nous venons de développer un prototype.",
+    "Ils viennent de développer une stratégie commune."
+  ],
+  "Impératif": [
+    "Développe ton idée, elle est intéressante.",
+    "Développons une solution ensemble.",
+    "Développez vos compétences en permanence.",
+    "Développe ce point dans ton rapport.",
+    "Développons notre réseau de contacts."
+  ],
+  "Conditionnel Présent": [
+    "Je développerais ce projet avec plus de budget.",
+    "Tu développerais mieux avec un bon mentor.",
+    "Il développerait une solution si on lui donnait le temps.",
+    "Nous développerions davantage si nous avions les ressources.",
+    "Vous développeriez votre activité si le marché le permettait."
+  ]
+}

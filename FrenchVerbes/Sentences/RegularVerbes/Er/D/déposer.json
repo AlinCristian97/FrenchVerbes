@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je dépose mes clés sur la table en rentrant.",
+    "Tu déposes ta candidature en ligne.",
+    "Il dépose une plainte au commissariat.",
+    "Nous déposons les bagages à l'hôtel.",
+    "Vous déposez les enfants à l'école chaque matin."
+  ],
+  "Imparfait": [
+    "Je déposais toujours mon manteau à l'entrée.",
+    "Tu déposais ta fille à la garderie le matin.",
+    "Elle déposait les dossiers sur le bureau du chef.",
+    "Nous déposions les offrandes sur l'autel.",
+    "Ils déposaient leurs valises et repartaient aussitôt."
+  ],
+  "Futur Simple": [
+    "Je déposerai le rapport avant vendredi.",
+    "Tu déposeras ta demande auprès du service compétent.",
+    "Il déposera les clés chez le gardien.",
+    "Nous déposerons notre bilan annuel en temps voulu.",
+    "Vous déposerez les documents à la mairie."
+  ],
+  "Passé Composé": [
+    "J'ai déposé ma valise à la consigne.",
+    "Tu as déposé une réclamation hier.",
+    "Elle a déposé son manteau sur le canapé.",
+    "Nous avons déposé les enfants chez leurs grands-parents.",
+    "Ils ont déposé leur brevet d'invention."
+  ],
+  "Futur Proche": [
+    "Je vais déposer ce colis à la poste.",
+    "Tu vas déposer ta candidature ce soir.",
+    "Il va déposer une plainte contre son voisin.",
+    "Nous allons déposer les affaires dans le coffre.",
+    "Vous allez déposer les documents avant midi."
+  ],
+  "Passé Récent": [
+    "Je viens de déposer les clés sous le paillasson.",
+    "Tu viens de déposer ta demande de visa.",
+    "Elle vient de déposer un signalement.",
+    "Nous venons de déposer les bagages à la réception.",
+    "Ils viennent de déposer leur dossier de financement."
+  ],
+  "Impératif": [
+    "Dépose tes affaires à l'entrée, s'il te plaît.",
+    "Déposons le dossier avant la fermeture.",
+    "Déposez votre candidature sans tarder.",
+    "Dépose cette valise ici, je m'en occupe.",
+    "Déposons les clés chez le voisin avant de partir."
+  ],
+  "Conditionnel Présent": [
+    "Je déposerais ma candidature si j'étais plus qualifié.",
+    "Tu déposerais une plainte si tu avais des preuves.",
+    "Il déposerait les enfants s'il avait une voiture.",
+    "Nous déposerions le dossier si on nous le demandait.",
+    "Vous déposeriez vos bagages à l'hôtel avant la visite."
+  ]
+}

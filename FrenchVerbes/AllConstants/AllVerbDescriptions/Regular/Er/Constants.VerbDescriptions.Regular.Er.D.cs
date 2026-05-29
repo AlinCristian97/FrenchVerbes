@@ -34,6 +34,10 @@ public static partial class Constants
                 public const string Durer = "Durer signifie continuer dans le temps, persister, avoir une certaine durée. C'est un verbe régulier du premier groupe en -er.";
                 public const string Dechainer = "Déchaîner signifie libérer avec violence une force ou une passion, provoquer une explosion de colère ou d'enthousiasme. C'est un verbe régulier du premier groupe en -er.";
                 public const string Se_Dechainer = "Se déchaîner signifie se laisser aller à une violence ou une passion incontrôlée, perdre tout frein. C'est le verbe réfléchi de déchaîner.";
+                public const string Decider = "Décider signifie prendre une résolution, faire un choix après réflexion, ou déterminer le résultat d'une situation. C'est un verbe régulier du premier groupe en -er.";
+                public const string Dejeuner = "Déjeuner signifie prendre le repas du midi, ou parfois le petit-déjeuner selon la région. C'est un verbe régulier du premier groupe en -er.";
+                public const string Developper = "Développer signifie faire croître, élargir ou approfondir quelque chose, ou mettre au point un projet. C'est un verbe régulier du premier groupe en -er.";
+                public const string Deposer = "Déposer signifie poser quelque chose quelque part, remettre officiellement un document, ou destituer quelqu'un de ses fonctions. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

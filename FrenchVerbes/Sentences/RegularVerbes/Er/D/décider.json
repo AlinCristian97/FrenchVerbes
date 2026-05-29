@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je décide de partir demain matin.",
+    "Tu décides toujours au dernier moment.",
+    "Il décide de changer de travail.",
+    "Nous décidons ensemble du menu.",
+    "Vous décidez de rester à la maison."
+  ],
+  "Imparfait": [
+    "Je décidais souvent sur un coup de tête.",
+    "Tu décidais sans consulter personne.",
+    "Elle décidait seule de tout dans la famille.",
+    "Nous décidions en groupe lors des réunions.",
+    "Ils décidaient toujours après de longues discussions."
+  ],
+  "Futur Simple": [
+    "Je déciderai avant la fin de la semaine.",
+    "Tu décideras quand tu seras prêt.",
+    "Il décidera en connaissance de cause.",
+    "Nous déciderons ensemble de la stratégie.",
+    "Vous déciderez lors de la prochaine réunion."
+  ],
+  "Passé Composé": [
+    "J'ai décidé de recommencer à zéro.",
+    "Tu as décidé de déménager en province.",
+    "Elle a décidé d'accepter l'offre.",
+    "Nous avons décidé de voter oui.",
+    "Ils ont décidé de fermer le dossier."
+  ],
+  "Futur Proche": [
+    "Je vais décider ce soir sans faute.",
+    "Tu vas décider après la réunion.",
+    "Il va décider ce qu'il faut faire.",
+    "Nous allons décider du budget ensemble.",
+    "Vous allez décider de la date du voyage."
+  ],
+  "Passé Récent": [
+    "Je viens de décider de changer de coiffure.",
+    "Tu viens de décider d'arrêter de fumer.",
+    "Elle vient de décider de s'inscrire au cours.",
+    "Nous venons de décider de la destination.",
+    "Ils viennent de décider d'annuler la réunion."
+  ],
+  "Impératif": [
+    "Décide-toi maintenant, on attend !",
+    "Décidons ensemble ce qui est juste.",
+    "Décidez avant demain matin.",
+    "Décide vite, le temps presse.",
+    "Décidons d'un commun accord."
+  ],
+  "Conditionnel Présent": [
+    "Je déciderais autrement si j'avais le choix.",
+    "Tu déciderais plus vite avec plus d'informations.",
+    "Il déciderait de partir s'il pouvait.",
+    "Nous déciderions ensemble dans l'idéal.",
+    "Vous décideriez différemment à ma place."
+  ]
+}
