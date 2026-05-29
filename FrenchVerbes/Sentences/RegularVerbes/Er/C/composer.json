@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je compose une mélodie au piano.",
+    "Tu composes ton numéro de téléphone.",
+    "Il compose un message pour son client.",
+    "Nous composons une équipe équilibrée.",
+    "Elles composent des poèmes le soir."
+  ],
+  "Imparfait": [
+    "Je composais de petites chansons enfant.",
+    "Tu composais les numéros sans regarder.",
+    "Elle composait ses discours avec soin.",
+    "Nous composions des menus variés chaque semaine.",
+    "Ils composaient avec des contraintes budgétaires."
+  ],
+  "Futur Simple": [
+    "Je composerai une nouvelle pièce musicale.",
+    "Tu composeras ce numéro demain matin.",
+    "Il composera son équipe avant midi.",
+    "Nous composerons un texte commun.",
+    "Elles composeront avec les imprévus."
+  ],
+  "Passé Composé": [
+    "J'ai composé une chanson pour l'événement.",
+    "Tu as composé le code trop vite.",
+    "Il a composé un long courriel d'excuse.",
+    "Nous avons composé un jury indépendant.",
+    "Ils ont composé avec des moyens limités."
+  ],
+  "Futur Proche": [
+    "Je vais composer une bande sonore.",
+    "Tu vas composer ce numéro maintenant.",
+    "Elle va composer un message de remerciement.",
+    "Nous allons composer avec cette contrainte.",
+    "Ils vont composer une équipe mixte."
+  ],
+  "Passé Récent": [
+    "Je viens de composer le refrain final.",
+    "Tu viens de composer le numéro du standard.",
+    "Il vient de composer un texte clair.",
+    "Nous venons de composer la commission d'enquête.",
+    "Elles viennent de composer avec une panne réseau."
+  ],
+  "Impératif": [
+    "Compose ce numéro immédiatement.",
+    "Ne compose pas ce message sous la colère.",
+    "Composons une équipe plus diversifiée.",
+    "Ne composons pas avec des données incomplètes.",
+    "Composez votre texte en trois parties."
+  ],
+  "Conditionnel Présent": [
+    "Je composerais une chanson si j'avais plus de temps.",
+    "Tu composerais ce numéro de mémoire.",
+    "Il composerait un meilleur message avec de l'aide.",
+    "Nous composerions une équipe plus large.",
+    "Elles composeraient avec cette situation difficile."
+  ]
+}

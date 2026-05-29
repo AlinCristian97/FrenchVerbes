@@ -77,6 +77,10 @@ public static partial class Constants
                 public const string Concentrer = "Concentrer signifie rassembler en un point, focaliser l'attention ou les efforts sur un objectif précis. C'est un verbe régulier du premier groupe en -er.";
                 public const string Se_Concentrer = "Se concentrer est la forme pronominale de concentrer. Elle exprime le fait de focaliser son attention ou ses efforts sur une tâche précise.";
                 public const string Chasser = "Chasser signifie poursuivre du gibier, faire partir quelqu'un d'un lieu, ou rechercher activement quelque chose. C'est un verbe régulier du premier groupe en -er.";
+                public const string Ceder = "Céder signifie abandonner, transmettre ou concéder quelque chose à quelqu'un. C'est un verbe régulier en -er avec un changement d'accent sur la dernière syllabe du radical.";
+                public const string Charger = "Charger signifie mettre une charge, remplir, confier une mission à quelqu'un ou attaquer. C'est un verbe régulier en -ger avec un changement orthographique devant certaines terminaisons.";
+                public const string Completer = "Compléter signifie rendre complet, ajouter ce qui manque ou finir un ensemble. C'est un verbe régulier en -er avec un changement d'accent sur la dernière syllabe du radical.";
+                public const string Composer = "Composer signifie créer une œuvre, former un ensemble, ou agir avec compromis selon le contexte. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

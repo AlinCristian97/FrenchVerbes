@@ -8,7 +8,7 @@ public static partial class Constants
         {
             public static partial class Er
             {
-                public const string Denoncer = "dénoncer";
+                public const string Denoncer = "dénoncer"; // <-- you are here
                 public const string Denaturer = "dénaturer";
                 public const string Defigurer = "défigurer";
                 public const string Debloquer = "debloquer";

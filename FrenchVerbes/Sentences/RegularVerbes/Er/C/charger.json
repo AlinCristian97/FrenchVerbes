@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je charge mon téléphone avant de sortir.",
+    "Tu charges les cartons dans la camionnette.",
+    "Il charge son avocat de l'affaire.",
+    "Nous chargeons les données sur le serveur.",
+    "Elles chargent la batterie chaque soir."
+  ],
+  "Imparfait": [
+    "Je chargeais l'imprimante en papier.",
+    "Tu chargeais souvent ce collègue de la logistique.",
+    "Elle chargeait les valises dans le coffre.",
+    "Nous chargions les marchandises au dépôt.",
+    "Ils chargeaient les fichiers avant la réunion."
+  ],
+  "Futur Simple": [
+    "Je chargerai la voiture demain matin.",
+    "Tu chargeras ce dossier prioritaire.",
+    "Il chargera son équipe de la maintenance.",
+    "Nous chargerons les palettes au lever du jour.",
+    "Elles chargeront le document sur la plateforme."
+  ],
+  "Passé Composé": [
+    "J'ai chargé mon ordinateur toute la nuit.",
+    "Tu as chargé les valises trop vite.",
+    "Il a chargé son adjoint de cette mission.",
+    "Nous avons chargé le camion avant midi.",
+    "Ils ont chargé les photos sur le cloud."
+  ],
+  "Futur Proche": [
+    "Je vais charger la batterie maintenant.",
+    "Tu vas charger ce colis dans le fourgon.",
+    "Elle va charger son assistant de la préparation.",
+    "Nous allons charger les marchandises après déjeuner.",
+    "Ils vont charger leurs documents en ligne."
+  ],
+  "Passé Récent": [
+    "Je viens de charger mon téléphone.",
+    "Tu viens de charger les meubles dans le camion.",
+    "Il vient de charger son équipe d'un audit.",
+    "Nous venons de charger les données clients.",
+    "Elles viennent de charger les vidéos sur le site."
+  ],
+  "Impératif": [
+    "Charge cette batterie avant le départ.",
+    "Ne charge pas trop le coffre.",
+    "Chargeons les caisses ensemble.",
+    "Ne chargeons pas ce serveur inutilement.",
+    "Chargez ces documents immédiatement."
+  ],
+  "Conditionnel Présent": [
+    "Je chargerais cette mission avec plaisir.",
+    "Tu chargerais le camion plus rapidement avec de l'aide.",
+    "Il chargerait son collègue de cette tâche.",
+    "Nous chargerions les données en une heure.",
+    "Elles chargeraient leurs appareils avant le voyage."
+  ]
+}

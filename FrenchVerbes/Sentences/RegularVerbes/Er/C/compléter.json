@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je complète ce formulaire en ligne.",
+    "Tu complètes ton dossier aujourd'hui.",
+    "Il complète sa collection de timbres.",
+    "Nous complétons la liste des participants.",
+    "Elles complètent le rapport avec des annexes."
+  ],
+  "Imparfait": [
+    "Je complétais mes notes après chaque cours.",
+    "Tu complétais régulièrement les tableaux de suivi.",
+    "Elle complétait son CV avec de nouvelles compétences.",
+    "Nous complétions les fiches techniques chaque semaine.",
+    "Ils complétaient l'inventaire avant fermeture."
+  ],
+  "Futur Simple": [
+    "Je compléterai ce chapitre demain.",
+    "Tu compléteras la section manquante.",
+    "Il complétera l'équipe dès lundi.",
+    "Nous compléterons la base de données ce mois-ci.",
+    "Elles compléteront le questionnaire avant midi."
+  ],
+  "Passé Composé": [
+    "J'ai complété mon profil hier soir.",
+    "Tu as complété la demande sans erreur.",
+    "Il a complété le devis avec les frais annexes.",
+    "Nous avons complété le dossier administratif.",
+    "Ils ont complété la liste des invités."
+  ],
+  "Futur Proche": [
+    "Je vais compléter ce tableau tout de suite.",
+    "Tu vas compléter ton inscription en ligne.",
+    "Elle va compléter sa présentation avec un graphique.",
+    "Nous allons compléter le document ensemble.",
+    "Ils vont compléter la procédure avant audit."
+  ],
+  "Passé Récent": [
+    "Je viens de compléter le formulaire officiel.",
+    "Tu viens de compléter la fiche client.",
+    "Il vient de compléter sa candidature.",
+    "Nous venons de compléter les pièces justificatives.",
+    "Elles viennent de compléter la liste de contrôle."
+  ],
+  "Impératif": [
+    "Complète ce champ obligatoire.",
+    "Ne complète pas cette section sans vérification.",
+    "Complétons le rapport avant la réunion.",
+    "Ne complétons pas ce tableau à la hâte.",
+    "Complétez le dossier avant ce soir."
+  ],
+  "Conditionnel Présent": [
+    "Je compléterais ce document avec plus de temps.",
+    "Tu compléterais mieux le rapport avec ces données.",
+    "Il compléterait son équipe avec un expert.",
+    "Nous compléterions le projet en deux semaines.",
+    "Elles compléteraient leur formation l'an prochain."
+  ]
+}
