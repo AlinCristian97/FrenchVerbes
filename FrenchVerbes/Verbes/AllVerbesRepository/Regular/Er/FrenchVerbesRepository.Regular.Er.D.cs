@@ -15,6 +15,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateDebrouiller());
         _verbs.Add(CreateSe_Debrouiller());
         _verbs.Add(CreateDivaguer());
+        _verbs.Add(CreateDebuter());
+        _verbs.Add(CreateDevorer());
+        _verbs.Add(CreateDiner());
+        _verbs.Add(CreateDetonner());
+        _verbs.Add(CreateDeclencher());
     }
 
     #region FactoryMethods
@@ -78,6 +83,41 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Divaguer,
             Constants.VerbDescriptions.Regular.Er.Divaguer);
+    }
+
+    private static RegularErVerb CreateDebuter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Debuter,
+            Constants.VerbDescriptions.Regular.Er.Debuter);
+    }
+
+    private static RegularErVerb CreateDevorer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Devorer,
+            Constants.VerbDescriptions.Regular.Er.Devorer);
+    }
+
+    private static RegularErVerb CreateDiner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Diner,
+            Constants.VerbDescriptions.Regular.Er.Diner);
+    }
+
+    private static RegularErVerb CreateDetonner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Detonner,
+            Constants.VerbDescriptions.Regular.Er.Detonner);
+    }
+
+    private static RegularErVerb CreateDeclencher()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Declencher,
+            Constants.VerbDescriptions.Regular.Er.Declencher);
     }
 
     #endregion

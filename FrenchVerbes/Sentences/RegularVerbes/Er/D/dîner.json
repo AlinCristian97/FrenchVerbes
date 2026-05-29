@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Il dîne avec sa famille chaque soir.",
+    "Elle dîne au restaurant ce vendredi.",
+    "Nous dînons ensemble tous les dimanches.",
+    "Tu dînes toujours à la même heure.",
+    "Ils dînent en terrasse quand il fait beau."
+  ],
+  "Imparfait": [
+    "Il dînait tard le soir après le travail.",
+    "Elle dînait souvent chez ses parents.",
+    "Nous dînions ensemble chaque semaine.",
+    "Tu dînais toujours en regardant la télévision.",
+    "Ils dînaient à la bougie lors de leurs anniversaires."
+  ],
+  "Futur Simple": [
+    "Il dînera avec ses collègues vendredi.",
+    "Elle dînera chez ses amis ce week-end.",
+    "Nous dînerons au bord de la mer cet été.",
+    "Tu dîneras avec nous si tu es disponible.",
+    "Ils dîneront dans ce nouveau restaurant."
+  ],
+  "Passé Composé": [
+    "Il a dîné très tard hier soir.",
+    "Elle a dîné en tête-à-tête avec lui.",
+    "Nous avons dîné dans un très bon restaurant.",
+    "Tu as dîné avant de partir, j'espère.",
+    "Ils ont dîné ensemble pour fêter l'occasion."
+  ],
+  "Futur Proche": [
+    "Il va dîner chez sa mère ce soir.",
+    "Elle va dîner en ville avec ses amies.",
+    "Nous allons dîner ensemble après le cinéma.",
+    "Tu vas dîner bientôt, non ?",
+    "Ils vont dîner au restaurant pour l'anniversaire."
+  ],
+  "Passé Récent": [
+    "Il vient de dîner et il est rassasié.",
+    "Elle vient de dîner avec ses parents.",
+    "Nous venons de dîner ensemble.",
+    "Tu viens de dîner sans m'attendre.",
+    "Ils viennent de dîner avant le spectacle."
+  ],
+  "Impératif": [
+    "Dîne avant de sortir ce soir.",
+    "Dînons ensemble pour célébrer ça.",
+    "Dînez à l'heure pour une bonne santé.",
+    "Ne dîne pas trop tard, c'est mauvais pour toi.",
+    "Ne dînez pas sans nous."
+  ],
+  "Conditionnel Présent": [
+    "Il dînerait plus tôt s'il rentrait à l'heure.",
+    "Elle dînerait au restaurant si elle avait le budget.",
+    "Nous dînerions ensemble si tu étais disponible.",
+    "Tu dînerais mieux si tu cuisinais toi-même.",
+    "Ils dîneraient dehors s'il ne pleuvait pas."
+  ]
+}

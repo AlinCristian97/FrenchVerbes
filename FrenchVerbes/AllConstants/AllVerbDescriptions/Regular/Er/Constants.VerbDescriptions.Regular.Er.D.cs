@@ -16,6 +16,11 @@ public static partial class Constants
                 public const string Debrouiller = "Débrouiller signifie démêler, clarifier quelque chose d'embrouillé ou d'obscur. C'est un verbe régulier du premier groupe en -er.";
                 public const string Se_Debrouiller = "Se débrouiller signifie se tirer d'affaire, trouver des solutions par soi-même, s'arranger malgré les difficultés. C'est le verbe réfléchi de débrouiller.";
                 public const string Divaguer = "Divaguer signifie s'écarter du sujet, parler ou raisonner de façon décousu et sans suite. C'est un verbe régulier du premier groupe en -er.";
+                public const string Debuter = "Débuter signifie commencer quelque chose, faire ses premiers pas dans une activité ou une carrière. C'est un verbe régulier du premier groupe en -er.";
+                public const string Devorer = "Dévorer signifie manger avec avidité et voracité, ou s'approprier quelque chose avec intensité. C'est un verbe régulier du premier groupe en -er.";
+                public const string Diner = "Dîner signifie prendre le repas du soir, le dîner. C'est un verbe régulier du premier groupe en -er.";
+                public const string Detonner = "Détonner signifie produire une détonation, ou au sens figuré, contraster de manière choquante avec son environnement. C'est un verbe régulier du premier groupe en -er.";
+                public const string Declencher = "Déclencher signifie mettre en marche un mécanisme, provoquer le début d'une action ou d'un processus. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }
