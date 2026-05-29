@@ -71,6 +71,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateCaresser());
         _verbs.Add(CreateChoquer());
         _verbs.Add(CreateConsterner());
+        _verbs.Add(CreateClaquer());
+        _verbs.Add(CreateCracher());
+        _verbs.Add(CreateConcentrer());
+        _verbs.Add(CreateSe_Concentrer());
+        _verbs.Add(CreateChasser());
     }
 
     #region FactoryMethods
@@ -588,6 +593,44 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Consterner,
             Constants.VerbDescriptions.Regular.Er.Consterner);
+    }
+
+    private static RegularErVerb CreateClaquer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Claquer,
+            Constants.VerbDescriptions.Regular.Er.Claquer);
+    }
+
+    private static RegularErVerb CreateCracher()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Cracher,
+            Constants.VerbDescriptions.Regular.Er.Cracher);
+    }
+
+    private static RegularErVerb CreateConcentrer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Concentrer,
+            Constants.VerbDescriptions.Regular.Er.Concentrer,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Concentrer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Concentrer,
+            Constants.VerbDescriptions.Regular.Er.Se_Concentrer,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateChasser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Chasser,
+            Constants.VerbDescriptions.Regular.Er.Chasser);
     }
 
     #endregion

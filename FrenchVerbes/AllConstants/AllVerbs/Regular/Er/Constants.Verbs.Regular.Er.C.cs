@@ -72,12 +72,12 @@ public static partial class Constants
                 public const string Chavirer = "chavirer";
                 public const string Caresser = "caresser";
                 public const string Choquer = "choquer";
-                public const string Consterner = "consterner"; // <-- you are here
+                public const string Consterner = "consterner";
                 public const string Claquer = "claquer";
                 public const string Cracher = "cracher";
                 public const string Concentrer = "concentrer";
                 public const string Se_Concentrer = "se concentrer";
-                public const string Chasser = "chasser";
+                public const string Chasser = "chasser"; // <-- you are here
                 public const string Censer = "censer";
                 public const string Ceder = "céder";
                 public const string Charger = "charger";

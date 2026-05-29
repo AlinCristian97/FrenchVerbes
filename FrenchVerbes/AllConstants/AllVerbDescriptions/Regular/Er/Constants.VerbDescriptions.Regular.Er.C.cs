@@ -72,6 +72,11 @@ public static partial class Constants
                 public const string Caresser = "Caresser signifie toucher doucement quelqu'un ou quelque chose avec affection, ou entretenir un espoir ou un projet. C'est un verbe régulier du premier groupe en -er.";
                 public const string Choquer = "Choquer signifie provoquer une réaction de surprise ou d'indignation, heurter moralement ou physiquement. C'est un verbe régulier du premier groupe en -er.";
                 public const string Consterner = "Consterner signifie plonger quelqu'un dans un état de stupeur et d'abattement profond. C'est un verbe régulier du premier groupe en -er.";
+                public const string Claquer = "Claquer signifie fermer brusquement, produire un bruit sec, ou dépenser rapidement une somme d'argent (familier). C'est un verbe régulier du premier groupe en -er.";
+                public const string Cracher = "Cracher signifie rejeter de la salive, projeter une substance hors de la bouche, ou exprimer quelque chose avec force (familier). C'est un verbe régulier du premier groupe en -er.";
+                public const string Concentrer = "Concentrer signifie rassembler en un point, focaliser l'attention ou les efforts sur un objectif précis. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Concentrer = "Se concentrer est la forme pronominale de concentrer. Elle exprime le fait de focaliser son attention ou ses efforts sur une tâche précise.";
+                public const string Chasser = "Chasser signifie poursuivre du gibier, faire partir quelqu'un d'un lieu, ou rechercher activement quelque chose. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

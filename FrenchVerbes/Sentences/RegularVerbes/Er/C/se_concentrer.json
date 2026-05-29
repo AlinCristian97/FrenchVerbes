@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je me concentre mieux le matin.",
+    "Tu te concentres sur les consignes du professeur.",
+    "Il se concentre sur sa respiration.",
+    "Nous nous concentrons sur les tâches prioritaires.",
+    "Elles se concentrent avant la compétition."
+  ],
+  "Imparfait": [
+    "Je me concentrais difficilement avec ce bruit.",
+    "Tu te concentrais sur chaque détail du texte.",
+    "Elle se concentrait pendant de longues heures.",
+    "Nous nous concentrions sur la stratégie d'équipe.",
+    "Ils se concentraient avant chaque examen."
+  ],
+  "Futur Simple": [
+    "Je me concentrerai sur ce chapitre ce soir.",
+    "Tu te concentreras sur ton entretien demain.",
+    "Il se concentrera davantage après la pause.",
+    "Nous nous concentrerons sur les points essentiels.",
+    "Elles se concentreront jusqu'à la fin de l'épreuve."
+  ],
+  "Passé Composé": [
+    "Je me suis concentré sur l'introduction du dossier.",
+    "Tu t'es concentré sur les exercices difficiles.",
+    "Elle s'est concentrée sur sa présentation.",
+    "Nous nous sommes concentrés sur les objectifs du trimestre.",
+    "Ils se sont concentrés malgré le bruit."
+  ],
+  "Futur Proche": [
+    "Je vais me concentrer sur la lecture.",
+    "Tu vas te concentrer sur ce problème.",
+    "Il va se concentrer sur son discours.",
+    "Nous allons nous concentrer sur la phase finale.",
+    "Elles vont se concentrer avant de commencer."
+  ],
+  "Passé Récent": [
+    "Je viens de me concentrer pendant trente minutes.",
+    "Tu viens de te concentrer sur la conclusion.",
+    "Elle vient de se concentrer sur sa respiration.",
+    "Nous venons de nous concentrer sur les priorités.",
+    "Ils viennent de se concentrer avant le départ."
+  ],
+  "Impératif": [
+    "Concentre-toi sur cette phrase.",
+    "Ne te concentre pas sur les distractions.",
+    "Concentrons-nous sur l'essentiel.",
+    "Ne nous concentrons pas sur les rumeurs.",
+    "Concentrez-vous sur vos objectifs."
+  ],
+  "Conditionnel Présent": [
+    "Je me concentrerais mieux dans le silence.",
+    "Tu te concentrerais plus facilement avec une méthode.",
+    "Il se concentrerait davantage après une pause.",
+    "Nous nous concentrerions mieux avec un planning clair.",
+    "Elles se concentreraient sur leurs priorités."
+  ]
+}
