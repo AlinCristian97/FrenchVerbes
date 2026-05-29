@@ -62,6 +62,11 @@ public static partial class Constants
                 public const string Consommer = "Consommer signifie utiliser une ressource, manger ou boire quelque chose, ou accomplir un acte de manière définitive. C'est un verbe régulier du premier groupe en -er.";
                 public const string Choper = "Choper signifie attraper quelqu'un ou quelque chose, ou contracter une maladie (familier). C'est un verbe régulier du premier groupe en -er.";
                 public const string Contacter = "Contacter signifie entrer en communication avec quelqu'un, prendre contact. C'est un verbe régulier du premier groupe en -er.";
+                public const string Circuler = "Circuler signifie se déplacer, passer ou aller d'un endroit à un autre, ou être diffusé. C'est un verbe régulier du premier groupe en -er.";
+                public const string Caracteriser = "Caractériser signifie définir les traits distinctifs de quelque chose ou quelqu'un, ou constituer la caractéristique principale. C'est un verbe régulier du premier groupe en -er.";
+                public const string Couler = "Couler signifie s'écouler (liquide), sombrer (bateau) ou couler du métal en fusion. C'est un verbe régulier du premier groupe en -er.";
+                public const string Caler = "Caler signifie bloquer quelque chose pour l'empêcher de bouger, ou caler un moteur. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Caler = "Se caler est la forme pronominale de caler. Elle exprime le fait de s'installer confortablement ou de se stabiliser.";
             }
         }
     }

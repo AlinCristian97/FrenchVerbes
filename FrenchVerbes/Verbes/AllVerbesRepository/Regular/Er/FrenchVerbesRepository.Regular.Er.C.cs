@@ -61,6 +61,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateConsommer());
         _verbs.Add(CreateChoper());
         _verbs.Add(CreateContacter());
+        _verbs.Add(CreateCirculer());
+        _verbs.Add(CreateCaracteriser());
+        _verbs.Add(CreateCouler());
+        _verbs.Add(CreateCaler());
+        _verbs.Add(CreateSe_Caler());
     }
 
     #region FactoryMethods
@@ -505,6 +510,44 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Contacter,
             Constants.VerbDescriptions.Regular.Er.Contacter);
+    }
+
+    private static RegularErVerb CreateCirculer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Circuler,
+            Constants.VerbDescriptions.Regular.Er.Circuler);
+    }
+
+    private static RegularErVerb CreateCaracteriser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Caracteriser,
+            Constants.VerbDescriptions.Regular.Er.Caracteriser);
+    }
+
+    private static RegularErVerb CreateCouler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Couler,
+            Constants.VerbDescriptions.Regular.Er.Couler);
+    }
+
+    private static RegularErVerb CreateCaler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Caler,
+            Constants.VerbDescriptions.Regular.Er.Caler,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Caler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Caler,
+            Constants.VerbDescriptions.Regular.Er.Se_Caler,
+            usesEtre: true,
+            isReflexive: true);
     }
 
     #endregion

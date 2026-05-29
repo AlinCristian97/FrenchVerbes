@@ -62,12 +62,12 @@ public static partial class Constants
                 public const string Contracter = "contracter";
                 public const string Consommer = "consommer";
                 public const string Choper = "choper";
-                public const string Contacter = "contacter"; // <-- you are here
+                public const string Contacter = "contacter";
                 public const string Circuler = "circuler";
                 public const string Caracteriser = "caractériser";
                 public const string Couler = "couler";
                 public const string Caler = "caler";
-                public const string Se_Caler = "se caler";
+                public const string Se_Caler = "se caler"; // <-- you are here
                 public const string Cesser = "cesser";
                 public const string Chavirer = "chavirer";
                 public const string Caresser = "caresser";
