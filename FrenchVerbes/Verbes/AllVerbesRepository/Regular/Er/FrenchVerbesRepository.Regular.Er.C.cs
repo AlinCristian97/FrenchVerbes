@@ -66,6 +66,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateCouler());
         _verbs.Add(CreateCaler());
         _verbs.Add(CreateSe_Caler());
+        _verbs.Add(CreateCesser());
+        _verbs.Add(CreateChavirer());
+        _verbs.Add(CreateCaresser());
+        _verbs.Add(CreateChoquer());
+        _verbs.Add(CreateConsterner());
     }
 
     #region FactoryMethods
@@ -548,6 +553,41 @@ public static partial class VerbRepository
             Constants.VerbDescriptions.Regular.Er.Se_Caler,
             usesEtre: true,
             isReflexive: true);
+    }
+
+    private static RegularErVerb CreateCesser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Cesser,
+            Constants.VerbDescriptions.Regular.Er.Cesser);
+    }
+
+    private static RegularErVerb CreateChavirer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Chavirer,
+            Constants.VerbDescriptions.Regular.Er.Chavirer);
+    }
+
+    private static RegularErVerb CreateCaresser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Caresser,
+            Constants.VerbDescriptions.Regular.Er.Caresser);
+    }
+
+    private static RegularErVerb CreateChoquer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Choquer,
+            Constants.VerbDescriptions.Regular.Er.Choquer);
+    }
+
+    private static RegularErVerb CreateConsterner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Consterner,
+            Constants.VerbDescriptions.Regular.Er.Consterner);
     }
 
     #endregion

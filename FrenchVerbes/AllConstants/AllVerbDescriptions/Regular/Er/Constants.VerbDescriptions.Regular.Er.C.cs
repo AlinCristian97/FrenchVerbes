@@ -67,6 +67,11 @@ public static partial class Constants
                 public const string Couler = "Couler signifie s'écouler (liquide), sombrer (bateau) ou couler du métal en fusion. C'est un verbe régulier du premier groupe en -er.";
                 public const string Caler = "Caler signifie bloquer quelque chose pour l'empêcher de bouger, ou caler un moteur. C'est un verbe régulier du premier groupe en -er.";
                 public const string Se_Caler = "Se caler est la forme pronominale de caler. Elle exprime le fait de s'installer confortablement ou de se stabiliser.";
+                public const string Cesser = "Cesser signifie arrêter, mettre fin à quelque chose ou s'interrompre. C'est un verbe régulier du premier groupe en -er.";
+                public const string Chavirer = "Chavirer signifie se retourner (bateau), perdre l'équilibre ou être profondément ému. C'est un verbe régulier du premier groupe en -er.";
+                public const string Caresser = "Caresser signifie toucher doucement quelqu'un ou quelque chose avec affection, ou entretenir un espoir ou un projet. C'est un verbe régulier du premier groupe en -er.";
+                public const string Choquer = "Choquer signifie provoquer une réaction de surprise ou d'indignation, heurter moralement ou physiquement. C'est un verbe régulier du premier groupe en -er.";
+                public const string Consterner = "Consterner signifie plonger quelqu'un dans un état de stupeur et d'abattement profond. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }
