@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'évite les conflits autant que possible.",
+    "Tu évites de parler à ton voisin.",
+    "Il évite les rues dangereuses la nuit.",
+    "Nous évitons de manger trop de sucre.",
+    "Ils évitent les situations stressantes."
+  ],
+  "Imparfait": [
+    "J'évitais de croiser son regard.",
+    "Tu évitais les grandes foules.",
+    "Elle évitait de parler de son passé.",
+    "Nous évitions les routes encombrées.",
+    "Ils évitaient les sujets sensibles."
+  ],
+  "Futur Simple": [
+    "J'éviterai toute confrontation inutile.",
+    "Tu éviteras les erreurs si tu te concentres.",
+    "Il évitera ce chemin pour ne pas être en retard.",
+    "Nous éviterons les dépenses inutiles ce mois-ci.",
+    "Ils éviteront la zone de travaux."
+  ],
+  "Passé Composé": [
+    "J'ai évité un accident de justesse.",
+    "Tu as évité de répondre à cette question difficile.",
+    "Elle a évité de mentionner cet incident.",
+    "Nous avons évité les embouteillages grâce au GPS.",
+    "Ils ont évité une confrontation embarrassante."
+  ],
+  "Futur Proche": [
+    "Je vais éviter les aliments gras.",
+    "Tu vas éviter de lui parler aujourd'hui.",
+    "Il va éviter la route principale.",
+    "Nous allons éviter de faire du bruit ce soir.",
+    "Ils vont éviter le quartier bondé."
+  ],
+  "Passé Récent": [
+    "Je viens d'éviter un accident.",
+    "Tu viens d'éviter une grosse erreur.",
+    "Elle vient d'éviter une confrontation.",
+    "Nous venons d'éviter les embouteillages.",
+    "Ils viennent d'éviter un malentendu."
+  ],
+  "Impératif": [
+    "Évite de faire du bruit après minuit.",
+    "Évitons les conflits inutiles.",
+    "Évitez les zones dangereuses.",
+    "N'évite pas tes responsabilités.",
+    "N'évitez pas les questions importantes."
+  ],
+  "Conditionnel Présent": [
+    "J'éviterais ce restaurant si j'étais toi.",
+    "Tu éviterais bien des problèmes avec plus de prudence.",
+    "Il éviterait cette route s'il connaissait les travaux.",
+    "Nous éviterions ces erreurs avec une meilleure planification.",
+    "Ils éviteraient le stress en partant plus tôt."
+  ]
+}

@@ -54,6 +54,10 @@ public static partial class Constants
                 public const string Emerger = "Émerger signifie sortir d'un milieu liquide, apparaître progressivement ou se distinguer parmi d'autres. C'est un verbe régulier du premier groupe en -er.";
                 public const string Epeler = "Épeler signifie nommer les lettres d'un mot une à une. C'est un verbe régulier du premier groupe en -er avec doublement du l devant une syllabe muette.";
                 public const string Epouser = "Épouser signifie se marier avec quelqu'un, ou adopter pleinement une idée ou une cause. C'est un verbe régulier du premier groupe en -er.";
+                public const string Eprouver = "Éprouver signifie ressentir une émotion ou une sensation, ou mettre quelque chose à l'épreuve. C'est un verbe régulier du premier groupe en -er.";
+                public const string Eviter = "Éviter signifie chercher à ne pas rencontrer quelqu'un ou quelque chose, se soustraire à un danger ou une situation désagréable. C'est un verbe régulier du premier groupe en -er.";
+                public const string Evoluer = "Évoluer signifie changer progressivement, se développer ou se transformer au fil du temps. C'est un verbe régulier du premier groupe en -er.";
+                public const string Elaborer = "Élaborer signifie préparer avec soin, développer ou mettre au point quelque chose de manière méthodique. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

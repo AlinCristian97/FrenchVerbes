@@ -53,6 +53,10 @@ public static partial class VerbRepository
         _verbs.Add(CreateEmerger());
         _verbs.Add(CreateEpeler());
         _verbs.Add(CreateEpouser());
+        _verbs.Add(CreateEprouver());
+        _verbs.Add(CreateEviter());
+        _verbs.Add(CreateEvoluer());
+        _verbs.Add(CreateElaborer());
     }
 
     #region FactoryMethods
@@ -410,6 +414,34 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Epouser,
             Constants.VerbDescriptions.Regular.Er.Epouser);
+    }
+
+    private static RegularErVerb CreateEprouver()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Eprouver,
+            Constants.VerbDescriptions.Regular.Er.Eprouver);
+    }
+
+    private static RegularErVerb CreateEviter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Eviter,
+            Constants.VerbDescriptions.Regular.Er.Eviter);
+    }
+
+    private static RegularErVerb CreateEvoluer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Evoluer,
+            Constants.VerbDescriptions.Regular.Er.Evoluer);
+    }
+
+    private static RegularErVerb CreateElaborer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Elaborer,
+            Constants.VerbDescriptions.Regular.Er.Elaborer);
     }
 
     #endregion

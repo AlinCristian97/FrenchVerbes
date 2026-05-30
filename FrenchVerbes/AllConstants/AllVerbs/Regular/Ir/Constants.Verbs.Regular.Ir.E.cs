@@ -8,6 +8,7 @@ public static partial class Constants
         {
             public static partial class Ir
             {
+                public const string Elargir = "élargir";
                 public const string Se_Evanouir = "s'évanouir";
                 public const string Enrichir = "enrichir";
                 public const string Etablir = "établir";
