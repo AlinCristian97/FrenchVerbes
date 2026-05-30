@@ -32,12 +32,18 @@ public static class PrintUtils
 
     #region Private Methods
 
-    // Apply elision only for Je + stem starting with a vowel/mute h
+    // Apply elision only for Je + verb starting with a vowel or h muet
     private static string ElideJeIfNeeded(string nextWord)
     {
-        if (!string.IsNullOrEmpty(nextWord) && Constants.Vowels.Contains(nextWord[0]))
+        if (string.IsNullOrEmpty(nextWord))
+            return Constants.Pronouns.Je;
+
+        if (Constants.Vowels.Contains(nextWord[0]))
             return Constants.Pronouns.Je_Contracted;
-        
+
+        if (nextWord[0] == 'h' && Constants.HMuetVerbs.Contains(nextWord))
+            return Constants.Pronouns.Je_Contracted;
+
         return Constants.Pronouns.Je;
     }
 

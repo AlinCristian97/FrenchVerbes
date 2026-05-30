@@ -95,7 +95,20 @@ public static partial class Constants
         public const string LeGuillementFermant = "»";
     }
     
-    public const string Vowels = "aeiouéêëàâîïôûùh";
+    public const string Vowels = "aeiouéêëàâîïôûù";
+
+    // Verbs beginning with h muet — elision applies (je → j')
+    // Verbs beginning with h aspiré are NOT listed here — no elision (je hurle, je heurte...)
+    public static readonly HashSet<string> HMuetVerbs =
+    [
+        Verbs.Regular.Er.Harceler,
+        Verbs.Regular.Er.Habiter,
+        Verbs.Regular.Er.Habituer,
+        Verbs.Regular.Er.Hésiter,
+        Verbs.Regular.Er.Honorer,
+        Verbs.Regular.Er.Hériter,
+        Verbs.Regular.Er.Habiller,
+    ];
     public const string SectionDivider = "--------------------------------------------------";
     public const string SmallDivider = "---";
 

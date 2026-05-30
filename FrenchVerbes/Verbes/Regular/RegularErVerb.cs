@@ -6,6 +6,7 @@ using FrenchVerbes.Verbes.Regular.StemRules.Er.D;
 using FrenchVerbes.Verbes.Regular.StemRules.Er.E;
 using FrenchVerbes.Verbes.Regular.StemRules.Er.F;
 using FrenchVerbes.Verbes.Regular.StemRules.Er.G;
+using FrenchVerbes.Verbes.Regular.StemRules.Er.H;
 using FrenchVerbes.Verbes.Regular.StemRules.Er.M;
 
 namespace FrenchVerbes.Verbes.Regular;
@@ -46,6 +47,7 @@ public class RegularErVerb : RegularVerb
         AddRules(rules, RegularErStemRulesE.Rules);
         AddRules(rules, RegularErStemRulesF.Rules);
         AddRules(rules, RegularErStemRulesG.Rules);
+        AddRules(rules, RegularErStemRulesH.Rules);
         AddRules(rules, RegularErStemRulesM.Rules);
 
         return rules;
