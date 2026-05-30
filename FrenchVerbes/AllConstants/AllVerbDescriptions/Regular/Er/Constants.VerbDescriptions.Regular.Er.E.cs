@@ -63,6 +63,11 @@ public static partial class Constants
                 public const string Enregistrer = "Enregistrer signifie inscrire officiellement quelque chose, conserver un son ou une image, ou mémoriser une information. C'est un verbe régulier du premier groupe en -er.";
                 public const string Enlever = "Enlever signifie ôter quelque chose de sa place, retirer ou faire disparaître. C'est un verbe régulier du premier groupe en -er avec alternance e / è au présent.";
                 public const string Ecarter = "Écarter signifie mettre à distance, séparer ou éloigner des éléments les uns des autres. C'est un verbe régulier du premier groupe en -er.";
+                public const string Enserrer = "Enserrer signifie entourer étroitement, serrer de toutes parts ou maintenir dans un espace restreint. C'est un verbe régulier du premier groupe en -er.";
+                public const string Enfiler = "Enfiler signifie passer un fil dans le trou d'une aiguille, mettre un vêtement rapidement ou s'engager dans un couloir. C'est un verbe régulier du premier groupe en -er.";
+                public const string Ensanglanter = "Ensanglanter signifie couvrir ou tacher de sang, ou provoquer des violences sanglantes. C'est un verbe régulier du premier groupe en -er.";
+                public const string Enfermer = "Enfermer signifie mettre quelqu'un ou quelque chose dans un espace fermé, emprisonner ou contenir. C'est un verbe régulier du premier groupe en -er.";
+                public const string Egaler = "Égaler signifie être de même valeur, de même quantité ou de même niveau qu'une autre chose, atteindre le niveau de quelqu'un. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

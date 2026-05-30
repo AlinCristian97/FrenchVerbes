@@ -62,12 +62,12 @@ public static partial class Constants
                 public const string Emprunter = "emprunter";
                 public const string Enregistrer = "enregistrer";
                 public const string Enlever = "enlever";
-                public const string Ecarter = "écarter"; // <-- you are here
+                public const string Ecarter = "écarter";
                 public const string Enserrer = "enserrer";
                 public const string Enfiler = "enfiler";
                 public const string Ensanglanter = "ensanglanter";
                 public const string Enfermer = "enfermer";
-                public const string Egaler = "égaler";
+                public const string Egaler = "égaler"; // <-- you are here
                 public const string Entrainer = "entraîner";
                 public const string Se_Entrainer = "s'entraîner";
                 public const string Encadrer = "encadrer";

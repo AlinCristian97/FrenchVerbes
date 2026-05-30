@@ -62,6 +62,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateEnregistrer());
         _verbs.Add(CreateEnlever());
         _verbs.Add(CreateEcarter());
+        _verbs.Add(CreateEnserrer());
+        _verbs.Add(CreateEnfiler());
+        _verbs.Add(CreateEnsanglanter());
+        _verbs.Add(CreateEnfermer());
+        _verbs.Add(CreateEgaler());
     }
 
     #region FactoryMethods
@@ -482,6 +487,41 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Ecarter,
             Constants.VerbDescriptions.Regular.Er.Ecarter);
+    }
+
+    private static RegularErVerb CreateEnserrer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Enserrer,
+            Constants.VerbDescriptions.Regular.Er.Enserrer);
+    }
+
+    private static RegularErVerb CreateEnfiler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Enfiler,
+            Constants.VerbDescriptions.Regular.Er.Enfiler);
+    }
+
+    private static RegularErVerb CreateEnsanglanter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Ensanglanter,
+            Constants.VerbDescriptions.Regular.Er.Ensanglanter);
+    }
+
+    private static RegularErVerb CreateEnfermer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Enfermer,
+            Constants.VerbDescriptions.Regular.Er.Enfermer);
+    }
+
+    private static RegularErVerb CreateEgaler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Egaler,
+            Constants.VerbDescriptions.Regular.Er.Egaler);
     }
 
     #endregion
