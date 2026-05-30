@@ -18,6 +18,9 @@ public static partial class Constants
                 public const string Former = "Former signifie donner une forme à quelque chose, créer ou constituer un ensemble, ou éduquer et entraîner quelqu'un pour développer ses compétences. C'est un verbe régulier du premier groupe en -er.";
                 public const string Fermer = "Fermer signifie mettre en position fermée, clore quelque chose qui était ouvert, ou bloquer l'accès à un lieu ou à un objet. C'est un verbe régulier du premier groupe en -er.";
                 public const string Freiner = "Freiner signifie réduire la vitesse d'un véhicule ou d'un mouvement, ou au sens figuré, ralentir ou limiter le développement de quelque chose. C'est un verbe régulier du premier groupe en -er.";
+                public const string Fabriquer = "Fabriquer signifie produire ou confectionner quelque chose en transformant des matières premières, ou au sens figuré, inventer ou construire quelque chose de toutes pièces. C'est un verbe régulier du premier groupe en -er.";
+                public const string Feter = "Fêter signifie célébrer un événement ou une occasion particulière, organiser une fête en l'honneur de quelqu'un ou de quelque chose. C'est un verbe régulier du premier groupe en -er.";
+                public const string Fixer = "Fixer signifie attacher solidement quelque chose à un endroit, déterminer ou établir quelque chose de manière précise, ou regarder quelqu'un ou quelque chose avec insistance. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

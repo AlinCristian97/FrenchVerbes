@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Il fixe une étagère au mur du salon.",
+    "Nous fixons un rendez-vous pour la semaine prochaine.",
+    "Tu fixes l'écran sans dire un mot.",
+    "Elle fixe les règles du jeu dès le début.",
+    "Je fixe mon regard sur l'horizon."
+  ],
+  "Imparfait": [
+    "Il fixait les étoiles depuis son balcon chaque soir.",
+    "Nous fixions les détails du contrat à cette époque.",
+    "Tu fixais les passants depuis ta fenêtre.",
+    "Elle fixait toujours des objectifs très ambitieux.",
+    "Je fixais le plafond sans pouvoir dormir."
+  ],
+  "Futur Simple": [
+    "Il fixera une date pour la réunion la semaine prochaine.",
+    "Nous fixerons les nouvelles règles lors de l'assemblée.",
+    "Tu fixeras les photos sur le panneau d'affichage.",
+    "Elle fixera les conditions du contrat demain.",
+    "Je fixerai un rendez-vous chez le médecin."
+  ],
+  "Passé Composé": [
+    "Il a fixé un tableau sur le mur du bureau.",
+    "Nous avons fixé une date pour la réunion.",
+    "Tu as fixé ton interlocuteur pendant toute la discussion.",
+    "Elle a fixé les modalités de l'accord.",
+    "J'ai fixé une limite à ne pas dépasser."
+  ],
+  "Futur Proche": [
+    "Il va fixer les derniers détails du projet.",
+    "Nous allons fixer l'heure de départ demain matin.",
+    "Tu vas fixer une lampe au plafond de la cuisine.",
+    "Elle va fixer les priorités pour le mois suivant.",
+    "Je vais fixer mon attention sur ce problème."
+  ],
+  "Passé Récent": [
+    "Il vient de fixer un rendez-vous avec le client.",
+    "Nous venons de fixer les règles du nouveau règlement.",
+    "Tu viens de fixer une photo sur le réfrigérateur.",
+    "Elle vient de fixer les objectifs du trimestre.",
+    "Je viens de fixer la date de l'événement."
+  ],
+  "Impératif": [
+    "Fixe cette étagère avant qu'elle tombe !",
+    "Fixons une date pour notre prochaine réunion !",
+    "Fixez les priorités dès maintenant !",
+    "Ne fixe pas les gens avec insistance, c'est impoli !",
+    "Fixons les règles clairement pour éviter les malentendus !"
+  ],
+  "Conditionnel Présent": [
+    "Il fixerait la réunion à lundi si tout le monde était disponible.",
+    "Nous fixerions des objectifs plus clairs avec plus de temps.",
+    "Tu fixerais ce tableau si tu avais les bons outils.",
+    "Elle fixerait les conditions si elle était en charge.",
+    "Je fixerais une limite plus stricte dans cette situation."
+  ]
+}

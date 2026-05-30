@@ -17,6 +17,9 @@ public static partial class VerbRepository
         _verbs.Add(CreateFormer());
         _verbs.Add(CreateFermer());
         _verbs.Add(CreateFreiner());
+        _verbs.Add(CreateFabriquer());
+        _verbs.Add(CreateFeter());
+        _verbs.Add(CreateFixer());
     }
 
     #region FactoryMethods
@@ -95,6 +98,27 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Freiner,
             Constants.VerbDescriptions.Regular.Er.Freiner);
+    }
+
+    private static RegularErVerb CreateFabriquer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Fabriquer,
+            Constants.VerbDescriptions.Regular.Er.Fabriquer);
+    }
+
+    private static RegularErVerb CreateFeter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Feter,
+            Constants.VerbDescriptions.Regular.Er.Feter);
+    }
+
+    private static RegularErVerb CreateFixer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Fixer,
+            Constants.VerbDescriptions.Regular.Er.Fixer);
     }
 
     #endregion

@@ -17,10 +17,10 @@ public static partial class Constants
                 public const string Se_Forger = "se forger";
                 public const string Former = "former";
                 public const string Fermer = "fermer";
-                public const string Freiner = "freiner"; // <-- you are here
+                public const string Freiner = "freiner";
                 public const string Fabriquer = "fabriquer";
-                public const string Fêter = "fêter";
-                public const string Fixer = "fixer";
+                public const string Feter = "fêter";
+                public const string Fixer = "fixer"; // <-- you are here
                 public const string Figurer = "figurer";
                 public const string Flotter = "flotter";
                 public const string Frapper = "frapper";
