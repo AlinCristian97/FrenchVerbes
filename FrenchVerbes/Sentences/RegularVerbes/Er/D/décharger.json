@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je décharge les cartons du camion.",
+    "Tu décharges ton téléphone chaque soir.",
+    "Il décharge sa colère sur ses collègues.",
+    "Nous déchargeons les marchandises au quai.",
+    "Vous déchargez la batterie trop vite."
+  ],
+  "Imparfait": [
+    "Je déchargeais les valises à l'aéroport.",
+    "Tu déchargeais ton stress en faisant du sport.",
+    "Il déchargeait les caisses chaque matin.",
+    "Nous déchargions le bateau avant la nuit.",
+    "Vous déchargiez les camions toute la journée."
+  ],
+  "Futur Simple": [
+    "Je déchargerai les courses en rentrant.",
+    "Tu déchargeras la batterie si tu laisses la lumière allumée.",
+    "Il déchargera le camion demain matin.",
+    "Nous déchargerons les conteneurs à l'arrivée.",
+    "Vous déchargerez les bagages à l'hôtel."
+  ],
+  "Passé Composé": [
+    "J'ai déchargé les courses de la voiture.",
+    "Tu as déchargé la batterie de ton téléphone.",
+    "Il a déchargé sa responsabilité sur son assistant.",
+    "Nous avons déchargé le bateau en deux heures.",
+    "Vous avez déchargé les caisses rapidement."
+  ],
+  "Futur Proche": [
+    "Je vais décharger les cartons tout de suite.",
+    "Tu vas décharger la batterie si tu continues.",
+    "Il va décharger le camion cet après-midi.",
+    "Nous allons décharger les bagages à l'arrivée.",
+    "Vous allez décharger les marchandises maintenant."
+  ],
+  "Passé Récent": [
+    "Je viens de décharger les courses.",
+    "Tu viens de décharger la batterie complètement.",
+    "Il vient de décharger sa frustration.",
+    "Nous venons de décharger le camion.",
+    "Vous venez de décharger les conteneurs."
+  ],
+  "Impératif": [
+    "Décharge les valises immédiatement !",
+    "Déchargeons le camion ensemble !",
+    "Déchargez les caisses avec précaution !",
+    "Décharge ta colère autrement !",
+    "Déchargeons les marchandises avant la pluie !"
+  ],
+  "Conditionnel Présent": [
+    "Je déchargerais les colis si j'avais le temps.",
+    "Tu déchargerais la batterie si tu laissais tout allumé.",
+    "Il déchargerait le camion si on lui demandait.",
+    "Nous déchargerions les bagages plus vite avec de l'aide.",
+    "Vous déchargeriez la responsabilité sur quelqu'un d'autre."
+  ]
+}

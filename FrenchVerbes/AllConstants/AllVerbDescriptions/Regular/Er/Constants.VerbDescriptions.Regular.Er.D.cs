@@ -58,6 +58,10 @@ public static partial class Constants
                 public const string Defier = "Défier signifie lancer un défi à quelqu'un, provoquer ou braver quelque chose. C'est un verbe régulier du premier groupe en -er.";
                 public const string Depecher = "Dépêcher signifie envoyer rapidement quelqu'un quelque part, ou faire quelque chose en toute hâte. C'est un verbe régulier du premier groupe en -er.";
                 public const string Se_Depecher = "Se dépêcher signifie se hâter, agir rapidement pour ne pas perdre de temps. C'est le verbe réfléchi de dépêcher.";
+                public const string Decharger = "Décharger signifie enlever la charge de quelque chose ou de quelqu'un, libérer d'un poids ou d'une responsabilité. C'est un verbe régulier en -ger avec un changement orthographique devant certaines terminaisons.";
+                public const string Se_Decharger = "Se décharger signifie se libérer d'un poids, d'une responsabilité ou d'une tension accumulée. C'est le verbe réfléchi de décharger.";
+                public const string Detailer = "Détailler signifie décrire ou exposer quelque chose avec précision et dans ses moindres détails. C'est un verbe régulier du premier groupe en -er.";
+                public const string Dresser = "Dresser signifie mettre debout, établir, préparer quelque chose, ou dresser un animal. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

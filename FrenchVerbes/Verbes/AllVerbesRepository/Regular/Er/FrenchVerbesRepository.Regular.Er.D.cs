@@ -57,6 +57,10 @@ public static partial class VerbRepository
         _verbs.Add(CreateDefier());
         _verbs.Add(CreateDepecher());
         _verbs.Add(CreateSe_Depecher());
+        _verbs.Add(CreateDecharger());
+        _verbs.Add(CreateSe_Decharger());
+        _verbs.Add(CreateDetailer());
+        _verbs.Add(CreateDresser());
     }
 
     #region FactoryMethods
@@ -426,6 +430,37 @@ public static partial class VerbRepository
             Constants.VerbDescriptions.Regular.Er.Se_Depecher,
             usesEtre: true,
             isReflexive: true);
+    }
+
+    private static RegularErVerb CreateDecharger()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Decharger,
+            Constants.VerbDescriptions.Regular.Er.Decharger,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Decharger()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Decharger,
+            Constants.VerbDescriptions.Regular.Er.Se_Decharger,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateDetailer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Detailer,
+            Constants.VerbDescriptions.Regular.Er.Detailer);
+    }
+
+    private static RegularErVerb CreateDresser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Dresser,
+            Constants.VerbDescriptions.Regular.Er.Dresser);
     }
 
     #endregion

@@ -58,11 +58,11 @@ public static partial class Constants
                 public const string Devaster = "dévaster";
                 public const string Defier = "défier";
                 public const string Depecher = "dépêcher";
-                public const string Se_Depecher = "se dépêcher"; // <-- you are here
+                public const string Se_Depecher = "se dépêcher";
                 public const string Decharger = "décharger";
                 public const string Se_Decharger = "se décharger";
                 public const string Detailer = "détailler";
-                public const string Dresser = "dresser";
+                public const string Dresser = "dresser"; // <-- you are here
             }
         }
     }

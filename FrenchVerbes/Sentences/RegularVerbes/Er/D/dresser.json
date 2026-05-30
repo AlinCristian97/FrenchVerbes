@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je dresse la table pour le dîner.",
+    "Tu dresses un bilan de la situation.",
+    "Il dresse son chien avec patience.",
+    "Nous dressons la liste des invités.",
+    "Vous dressez un plan détaillé du projet."
+  ],
+  "Imparfait": [
+    "Je dressais la table chaque soir.",
+    "Tu dressais ton chien avec beaucoup de soin.",
+    "Il dressait un portrait de la situation.",
+    "Nous dressions la liste des tâches à accomplir.",
+    "Vous dressiez les tentes dans le camping."
+  ],
+  "Futur Simple": [
+    "Je dresserai la table avant l'arrivée des invités.",
+    "Tu dresseras un rapport complet demain.",
+    "Il dressera un inventaire de tous les biens.",
+    "Nous dresserons une liste des priorités.",
+    "Vous dresserez les tentes avant la nuit."
+  ],
+  "Passé Composé": [
+    "J'ai dressé la table pour le déjeuner.",
+    "Tu as dressé un bilan très précis.",
+    "Il a dressé son cheval pendant des mois.",
+    "Nous avons dressé la liste des participants.",
+    "Vous avez dressé un plan d'action efficace."
+  ],
+  "Futur Proche": [
+    "Je vais dresser la table maintenant.",
+    "Tu vas dresser un rapport sur la situation.",
+    "Il va dresser son chien cet après-midi.",
+    "Nous allons dresser la liste des besoins.",
+    "Vous allez dresser un procès-verbal de la réunion."
+  ],
+  "Passé Récent": [
+    "Je viens de dresser la table.",
+    "Tu viens de dresser un bilan de la semaine.",
+    "Il vient de dresser un plan d'urgence.",
+    "Nous venons de dresser la liste des invités.",
+    "Vous venez de dresser un inventaire complet."
+  ],
+  "Impératif": [
+    "Dresse la table avant que les invités arrivent !",
+    "Dressons un plan d'action ensemble !",
+    "Dressez la liste des priorités immédiatement !",
+    "Dresse un rapport complet de l'incident !",
+    "Dressons les tentes avant qu'il fasse nuit !"
+  ],
+  "Conditionnel Présent": [
+    "Je dresserais la table si j'avais le temps.",
+    "Tu dresserais un meilleur rapport avec plus de données.",
+    "Il dresserait son chien si il avait de la patience.",
+    "Nous dresserions la liste si on nous le demandait.",
+    "Vous dresseriez un plan plus efficace avec de l'aide."
+  ]
+}
