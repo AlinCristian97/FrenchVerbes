@@ -17,12 +17,12 @@ public static partial class Constants
                 public const string Empoisonner = "empoisonner";
                 public const string Se_Empoisonner = "s'empoisonner";
                 public const string Enflammer = "enflammer";
-                public const string Se_Enflammer = "s'enflammer"; // <-- you are here
+                public const string Se_Enflammer = "s'enflammer";
                 public const string Ecraser = "écraser";
                 public const string Se_Ecraser = "s'écraser";
                 public const string Estimer = "estimer";
                 public const string Expedier = "expédier";
-                public const string Embrasser = "embrasser";
+                public const string Embrasser = "embrasser"; // <-- you are here
                 public const string Se_Embrasser = "se embrasser";
                 public const string Eclairer = "éclairer";
                 public const string Exploser = "exploser";

@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'estime ce tableau à plusieurs milliers d'euros.",
+    "Tu estimes beaucoup tes collègues de travail.",
+    "Elle estime que la situation est grave.",
+    "Nous estimons les dommages causés par la tempête.",
+    "Vous estimez cet employé à sa juste valeur."
+  ],
+  "Imparfait": [
+    "J'estimais ce professeur pour sa pédagogie.",
+    "Tu estimais les coûts avant de lancer le projet.",
+    "Il estimait que la décision était injuste.",
+    "Nous estimions les risques avant d'agir.",
+    "Vous estimiez cette œuvre d'art à dix mille euros."
+  ],
+  "Futur Simple": [
+    "J'estimerai les dégâts après l'inspection.",
+    "Tu estimeras mieux la situation avec plus d'expérience.",
+    "Il estimera la durée des travaux demain.",
+    "Nous estimerons les coûts du projet la semaine prochaine.",
+    "Vous estimerez ce livre à sa juste valeur après lecture."
+  ],
+  "Passé Composé": [
+    "J'ai estimé le prix de cette voiture ancienne.",
+    "Tu as estimé que le travail était bien fait.",
+    "Elle a estimé la distance entre les deux villes.",
+    "Nous avons estimé les risques avant de décider.",
+    "Vous avez estimé cet artiste à sa vraie valeur."
+  ],
+  "Futur Proche": [
+    "Je vais estimer la valeur de cette maison.",
+    "Tu vas estimer le temps nécessaire pour finir.",
+    "Il va estimer les dommages causés par l'inondation.",
+    "Nous allons estimer le budget du projet.",
+    "Vous allez estimer les bénéfices de cette stratégie."
+  ],
+  "Passé Récent": [
+    "Je viens d'estimer la valeur de ce bijou.",
+    "Tu viens d'estimer que le trajet durerait deux heures.",
+    "Il vient d'estimer les dégâts causés par la tempête.",
+    "Nous venons d'estimer les coûts de la rénovation.",
+    "Vous venez d'estimer que ce plan est trop risqué."
+  ],
+  "Impératif": [
+    "Estime la valeur de ce tableau avant de le vendre.",
+    "N'estime pas les efforts des autres à la légère.",
+    "Estimons les coûts avant de nous engager.",
+    "N'estimons pas les risques trop vite.",
+    "Estimez vos ressources avant de commencer."
+  ],
+  "Conditionnel Présent": [
+    "J'estimerais cette peinture à cinquante mille euros.",
+    "Tu estimerais mieux si tu avais plus de données.",
+    "Il estimerait les travaux à six mois.",
+    "Nous estimerions les pertes à plusieurs millions.",
+    "Vous estimeriez ce collaborateur plus s'il communiquait mieux."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'expédie ce colis à ma famille ce matin.",
+    "Tu expédies les commandes avant la fermeture.",
+    "Elle expédie le rapport en deux heures.",
+    "Nous expédions les marchandises chaque semaine.",
+    "Vous expédiez les dossiers sans les relire."
+  ],
+  "Imparfait": [
+    "J'expédiais des lettres à mes amis pendant les vacances.",
+    "Tu expédiais les commandes depuis l'entrepôt.",
+    "Il expédiait les réunions en un quart d'heure.",
+    "Nous expédiions les colis chaque lundi matin.",
+    "Vous expédiiez les tâches sans y accorder d'attention."
+  ],
+  "Futur Simple": [
+    "J'expédierai le colis dès demain matin.",
+    "Tu expédieras les documents par courrier express.",
+    "Il expédiera toutes les commandes avant midi.",
+    "Nous expédierons les marchandises en priorité.",
+    "Vous expédierez les formalités rapidement."
+  ],
+  "Passé Composé": [
+    "J'ai expédié le paquet hier après-midi.",
+    "Tu as expédié les affaires courantes en une heure.",
+    "Elle a expédié la réunion sans laisser parler personne.",
+    "Nous avons expédié toutes les commandes du jour.",
+    "Vous avez expédié les formalités d'inscription."
+  ],
+  "Futur Proche": [
+    "Je vais expédier ce colis à l'étranger.",
+    "Tu vas expédier les formulaires avant la date limite.",
+    "Il va expédier la réunion le plus vite possible.",
+    "Nous allons expédier les produits dès leur arrivée.",
+    "Vous allez expédier ces tâches rapidement."
+  ],
+  "Passé Récent": [
+    "Je viens d'expédier le dossier par email.",
+    "Tu viens d'expédier la dernière commande.",
+    "Il vient d'expédier l'affaire en quelques minutes.",
+    "Nous venons d'expédier les colis de la semaine.",
+    "Vous venez d'expédier les formalités administratives."
+  ],
+  "Impératif": [
+    "Expédie ce colis avant seize heures.",
+    "N'expédie pas ces documents sans les vérifier.",
+    "Expédions toutes les commandes ce soir.",
+    "N'expédions pas cette décision importante.",
+    "Expédiez les formulaires avant la fin de journée."
+  ],
+  "Conditionnel Présent": [
+    "J'expédierais ce colis aujourd'hui si j'avais l'adresse.",
+    "Tu expédierais les commandes plus vite avec un meilleur logiciel.",
+    "Il expédierait la réunion en dix minutes.",
+    "Nous expédierions toutes les livraisons en une journée.",
+    "Vous expédieriez les tâches plus efficacement en équipe."
+  ]
+}

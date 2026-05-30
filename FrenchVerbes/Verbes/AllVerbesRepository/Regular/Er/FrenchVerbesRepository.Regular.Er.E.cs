@@ -17,6 +17,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateSe_Empoisonner());
         _verbs.Add(CreateEnflammer());
         _verbs.Add(CreateSe_Enflammer());
+        _verbs.Add(CreateEcraser());
+        _verbs.Add(CreateSe_Ecraser());
+        _verbs.Add(CreateEstimer());
+        _verbs.Add(CreateExpedier());
+        _verbs.Add(CreateEmbrasser());
     }
 
     #region FactoryMethods
@@ -98,6 +103,45 @@ public static partial class VerbRepository
             Constants.VerbDescriptions.Regular.Er.Se_Enflammer,
             usesEtre: true,
             isReflexive: true);
+    }
+
+    private static RegularErVerb CreateEcraser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Ecraser,
+            Constants.VerbDescriptions.Regular.Er.Ecraser,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Ecraser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Ecraser,
+            Constants.VerbDescriptions.Regular.Er.Se_Ecraser,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateEstimer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Estimer,
+            Constants.VerbDescriptions.Regular.Er.Estimer);
+    }
+
+    private static RegularErVerb CreateExpedier()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Expedier,
+            Constants.VerbDescriptions.Regular.Er.Expedier);
+    }
+
+    private static RegularErVerb CreateEmbrasser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Embrasser,
+            Constants.VerbDescriptions.Regular.Er.Embrasser,
+            hasReflexive: true);
     }
 
     #endregion
