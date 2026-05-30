@@ -23,10 +23,10 @@ public static partial class Constants
                 public const string Imaginer = "imaginer";
                 public const string Inviter = "inviter";
                 public const string Installer = "installer";
-                public const string Importer = "importer"; // <-- you are here
+                public const string Importer = "importer";
                 public const string Infliger = "infliger";
                 public const string Incarner = "incarner";
-                public const string Inspecter = "inspecter";
+                public const string Inspecter = "inspecter"; // <-- you are here
                 public const string Controler = "contrôler";
                 public const string Irriter = "irriter";
                 public const string Se_Irriter = "s'irriter";

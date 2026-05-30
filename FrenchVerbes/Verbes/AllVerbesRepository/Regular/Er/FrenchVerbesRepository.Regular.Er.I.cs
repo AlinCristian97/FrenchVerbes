@@ -23,6 +23,9 @@ public static partial class VerbRepository
         _verbs.Add(CreateInviter());
         _verbs.Add(CreateInstaller());
         _verbs.Add(CreateImporter());
+        _verbs.Add(CreateInfliger());
+        _verbs.Add(CreateIncarner());
+        _verbs.Add(CreateInspecter());
     }
 
     #region FactoryMethods
@@ -140,6 +143,27 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Importer,
             Constants.VerbDescriptions.Regular.Er.Importer);
+    }
+
+    private static RegularErVerb CreateInfliger()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Infliger,
+            Constants.VerbDescriptions.Regular.Er.Infliger);
+    }
+
+    private static RegularErVerb CreateIncarner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Incarner,
+            Constants.VerbDescriptions.Regular.Er.Incarner);
+    }
+
+    private static RegularErVerb CreateInspecter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Inspecter,
+            Constants.VerbDescriptions.Regular.Er.Inspecter);
     }
 
     #endregion

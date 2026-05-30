@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "L'inspecteur inspecte les locaux de l'usine.",
+    "Elle inspecte chaque document avec soin.",
+    "Nous inspectons les installations avant l'ouverture.",
+    "Vous inspectez les bagages à l'entrée de l'aéroport.",
+    "Les contrôleurs inspectent les billets dans le train."
+  ],
+  "Imparfait": [
+    "L'ingénieur inspectait les machines chaque semaine.",
+    "Elle inspectait les salles de classe régulièrement.",
+    "Nous inspections les véhicules avant chaque départ.",
+    "Vous inspectiez les marchandises à la douane.",
+    "Les soldats inspectaient les frontières chaque nuit."
+  ],
+  "Futur Simple": [
+    "L'inspecteur inspectera les restaurants de la ville demain.",
+    "Elle inspectera les dossiers avant la réunion.",
+    "Nous inspecterons les nouveaux locaux la semaine prochaine.",
+    "Vous inspecterez les équipements de sécurité.",
+    "Ils inspecteront les chantiers en cours de construction."
+  ],
+  "Passé Composé": [
+    "L'agent a inspecté le véhicule suspect.",
+    "Elle a inspecté tous les documents de l'entreprise.",
+    "Nous avons inspecté les cuisines de l'hôtel.",
+    "Vous avez inspecté les installations électriques.",
+    "Ils ont inspecté le bâtiment après l'incident."
+  ],
+  "Futur Proche": [
+    "L'inspecteur va inspecter les nouvelles installations.",
+    "Elle va inspecter les livres de comptes de la société.",
+    "Nous allons inspecter les équipements sportifs.",
+    "Vous allez inspecter le site avant la cérémonie.",
+    "Ils vont inspecter les chambres d'hôtel."
+  ],
+  "Passé Récent": [
+    "L'agent vient d'inspecter le colis suspect.",
+    "Elle vient d'inspecter les pièces du moteur.",
+    "Nous venons d'inspecter les locaux de l'association.",
+    "Vous venez d'inspecter l'ensemble des dossiers.",
+    "Ils viennent d'inspecter les entrepôts de l'entreprise."
+  ],
+  "Impératif": [
+    "Inspecte cet équipement avant de l'utiliser !",
+    "Inspectons les locaux dès maintenant !",
+    "Inspectez chaque détail avec attention !"
+  ],
+  "Conditionnel Présent": [
+    "L'inspecteur inspecterait les lieux s'il avait plus de temps.",
+    "Elle inspecterait les comptes si elle en avait l'autorisation.",
+    "Nous inspecterions les bâtiments si nous étions mandatés.",
+    "Vous inspecteriez les dossiers si vous aviez accès.",
+    "Ils inspecteraient davantage les chantiers s'ils avaient les ressources."
+  ]
+}

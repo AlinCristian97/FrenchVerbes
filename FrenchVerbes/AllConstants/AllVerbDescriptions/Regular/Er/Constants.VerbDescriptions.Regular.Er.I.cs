@@ -24,6 +24,9 @@ public static partial class Constants
                 public const string Inviter = "Inviter signifie demander à quelqu'un de venir, de participer à quelque chose ou de faire quelque chose, souvent de manière amicale ou formelle. C'est un verbe régulier du premier groupe en -er.";
                 public const string Installer = "Installer signifie mettre en place quelque chose ou quelqu'un dans un endroit ou une position déterminée, ou configurer un système ou un logiciel. C'est un verbe régulier du premier groupe en -er.";
                 public const string Importer = "Importer signifie faire entrer des marchandises ou des données d'un pays ou d'un système vers un autre, ou avoir de l'importance, de la valeur. C'est un verbe régulier du premier groupe en -er.";
+                public const string Infliger = "Infliger signifie faire subir quelque chose de pénible ou de désagréable à quelqu'un, imposer une sanction, une punition ou une souffrance. C'est un verbe régulier du premier groupe en -er.";
+                public const string Incarner = "Incarner signifie représenter ou symboliser quelque chose de manière concrète, ou jouer le rôle d'un personnage dans une œuvre artistique. C'est un verbe régulier du premier groupe en -er.";
+                public const string Inspecter = "Inspecter signifie examiner attentivement quelque chose ou quelqu'un afin de vérifier, contrôler ou surveiller son état ou sa conformité. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }
