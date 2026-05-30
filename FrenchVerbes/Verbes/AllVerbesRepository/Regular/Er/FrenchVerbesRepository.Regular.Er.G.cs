@@ -17,6 +17,10 @@ public static partial class VerbRepository
         _verbs.Add(CreateGratifier());
         _verbs.Add(CreateGratter());
         _verbs.Add(CreateGuider());
+        _verbs.Add(CreateGerer());
+        _verbs.Add(CreateGenerer());
+        _verbs.Add(CreateGonfler());
+        _verbs.Add(CreateGriffonner());
     }
 
     #region FactoryMethods
@@ -92,6 +96,34 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Guider,
             Constants.VerbDescriptions.Regular.Er.Guider);
+    }
+
+    private static RegularErVerb CreateGerer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Gerer,
+            Constants.VerbDescriptions.Regular.Er.Gerer);
+    }
+
+    private static RegularErVerb CreateGenerer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Generer,
+            Constants.VerbDescriptions.Regular.Er.Generer);
+    }
+
+    private static RegularErVerb CreateGonfler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Gonfler,
+            Constants.VerbDescriptions.Regular.Er.Gonfler);
+    }
+
+    private static RegularErVerb CreateGriffonner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Griffonner,
+            Constants.VerbDescriptions.Regular.Er.Griffonner);
     }
 
     #endregion

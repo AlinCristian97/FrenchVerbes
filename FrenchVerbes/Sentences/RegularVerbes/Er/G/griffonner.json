@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je griffonne des notes dans mon carnet.",
+    "Tu griffonnes trop vite et on ne te comprend pas.",
+    "Il griffonne quelques idées sur un bout de papier.",
+    "Nous griffonnons des schémas pour illustrer nos propos.",
+    "Vous griffonnez des mots illisibles à chaque réunion."
+  ],
+  "Imparfait": [
+    "Je griffonnais des dessins pendant le cours.",
+    "Tu griffonnais des formules dans les marges.",
+    "Elle griffonnait ses pensées dans un journal.",
+    "Nous griffonnions des croquis rapides.",
+    "Vous griffonniez des notes à la va-vite."
+  ],
+  "Futur Simple": [
+    "Je griffonnerai quelques idées ce soir.",
+    "Tu griffonneras tes premières impressions.",
+    "Il griffonnera un plan sommaire.",
+    "Nous griffonnerons des schémas pour la présentation.",
+    "Vous griffonnerez vos remarques sur le document."
+  ],
+  "Passé Composé": [
+    "J'ai griffonné une adresse sur un papier.",
+    "Tu as griffonné des notes pendant la conférence.",
+    "Elle a griffonné un message illisible.",
+    "Nous avons griffonné des idées au tableau.",
+    "Vous avez griffonné des corrections dans les marges."
+  ],
+  "Futur Proche": [
+    "Je vais griffonner quelques mots.",
+    "Tu vas griffonner ton numéro de téléphone.",
+    "Il va griffonner un plan rapide.",
+    "Nous allons griffonner quelques idées ensemble.",
+    "Vous allez griffonner des notes sur ce sujet."
+  ],
+  "Passé Récent": [
+    "Je viens de griffonner une note.",
+    "Tu viens de griffonner ton idée.",
+    "Elle vient de griffonner un message.",
+    "Nous venons de griffonner un schéma.",
+    "Vous venez de griffonner des corrections."
+  ],
+  "Impératif": [
+    "Griffonne tes idées rapidement.",
+    "Griffonnons un plan avant de commencer.",
+    "Griffonnez vos remarques sur la feuille.",
+    "Griffonne quelque chose pour ne pas oublier.",
+    "Griffonnons nos premières intuitions."
+  ],
+  "Conditionnel Présent": [
+    "Je griffonnerais des notes si j'avais un stylo.",
+    "Tu griffonnerais un plan plus clair avec du temps.",
+    "Il griffonnerait ses idées s'il avait de quoi écrire.",
+    "Nous griffonnerions un croquis si on nous le demandait.",
+    "Vous griffonneriez moins si vous tapiez vos notes."
+  ]
+}
