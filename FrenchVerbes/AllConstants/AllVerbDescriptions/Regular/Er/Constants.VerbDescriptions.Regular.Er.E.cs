@@ -83,6 +83,11 @@ public static partial class Constants
                 public const string Embusquer = "Embusquer signifie placer quelqu'un en embuscade, le cacher pour qu'il puisse surprendre l'ennemi. C'est un verbe régulier du premier groupe en -er.";
                 public const string Electrifier = "Électrifier signifie équiper d'un réseau électrique, alimenter en électricité ou, au sens figuré, remplir d'enthousiasme ou d'émotion intense. C'est un verbe régulier du premier groupe en -er.";
                 public const string Se_Electrifier = "S'électrifier signifie devenir électrifié, se charger d'électricité ou, au sens figuré, se remplir d'enthousiasme ou d'émotion intense. C'est un verbe pronominal régulier du premier groupe en -er.";
+                public const string Se_Enteter = "S'entêter signifie persister obstinément dans ses opinions ou ses actions malgré les obstacles ou les conseils contraires. C'est un verbe pronominal régulier du premier groupe en -er.";
+                public const string Effondrer = "Effondrer signifie faire s'écrouler quelque chose, provoquer son effondrement ou sa destruction. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Effondrer = "S'effondrer signifie s'écrouler, tomber en ruine ou perdre toute résistance physique ou morale. C'est un verbe pronominal régulier du premier groupe en -er.";
+                public const string Egarer = "Égarer signifie perdre quelque chose, ne plus savoir où on l'a mis, ou faire perdre son chemin à quelqu'un. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Egarer = "S'égarer signifie perdre son chemin, se tromper de direction ou s'écarter du sujet principal. C'est un verbe pronominal régulier du premier groupe en -er.";
             }
         }
     }

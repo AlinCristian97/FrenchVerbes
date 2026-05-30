@@ -82,6 +82,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateEmbusquer());
         _verbs.Add(CreateElectrifier());
         _verbs.Add(CreateSe_Electrifier());
+        _verbs.Add(CreateSe_Enteter());
+        _verbs.Add(CreateEffondrer());
+        _verbs.Add(CreateSe_Effondrer());
+        _verbs.Add(CreateEgarer());
+        _verbs.Add(CreateSe_Egarer());
     }
 
     #region FactoryMethods
@@ -658,6 +663,49 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Se_Electrifier,
             Constants.VerbDescriptions.Regular.Er.Se_Electrifier,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Enteter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Enteter,
+            Constants.VerbDescriptions.Regular.Er.Se_Enteter,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateEffondrer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Effondrer,
+            Constants.VerbDescriptions.Regular.Er.Effondrer,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Effondrer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Effondrer,
+            Constants.VerbDescriptions.Regular.Er.Se_Effondrer,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateEgarer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Egarer,
+            Constants.VerbDescriptions.Regular.Er.Egarer,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Egarer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Egarer,
+            Constants.VerbDescriptions.Regular.Er.Se_Egarer,
             usesEtre: true,
             isReflexive: true);
     }
