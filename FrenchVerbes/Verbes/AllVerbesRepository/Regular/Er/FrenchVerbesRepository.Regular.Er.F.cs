@@ -28,6 +28,9 @@ public static partial class VerbRepository
         _verbs.Add(CreateFusionner());
         _verbs.Add(CreateFeuilleter());
         _verbs.Add(CreateFoudroyer());
+        _verbs.Add(CreateFlairer());
+        _verbs.Add(CreateFeliciter());
+        _verbs.Add(CreateSeFeliciter());
     }
 
     #region FactoryMethods
@@ -183,6 +186,30 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Foudroyer,
             Constants.VerbDescriptions.Regular.Er.Foudroyer);
+    }
+
+    private static RegularErVerb CreateFlairer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Flairer,
+            Constants.VerbDescriptions.Regular.Er.Flairer);
+    }
+
+    private static RegularErVerb CreateFeliciter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Feliciter,
+            Constants.VerbDescriptions.Regular.Er.Feliciter,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSeFeliciter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Feliciter,
+            Constants.VerbDescriptions.Regular.Er.Se_Feliciter,
+            usesEtre: true,
+            isReflexive: true);
     }
 
     #endregion

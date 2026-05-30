@@ -29,6 +29,9 @@ public static partial class Constants
                 public const string Fusionner = "Fusionner signifie s'unir ou unir deux entités en une seule, combiner des éléments distincts pour former un ensemble cohérent. C'est un verbe régulier du premier groupe en -er.";
                 public const string Feuilleter = "Feuilleter signifie tourner rapidement les pages d'un livre ou d'un document, parcourir un texte de manière superficielle sans le lire en détail. C'est un verbe régulier du premier groupe en -er.";
                 public const string Foudroyer = "Foudroyer signifie frapper par la foudre, tuer ou détruire instantanément, ou au sens figuré, stupéfier ou accabler quelqu'un brutalement. C'est un verbe régulier du premier groupe en -er.";
+                public const string Flairer = "Flairer signifie sentir quelque chose avec le nez, percevoir une odeur, ou au sens figuré, pressentir ou deviner quelque chose intuitivement. C'est un verbe régulier du premier groupe en -er.";
+                public const string Feliciter = "Féliciter signifie exprimer sa satisfaction ou son admiration à quelqu'un pour quelque chose qu'il a accompli, lui adresser des compliments ou des félicitations. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Feliciter = "Se féliciter signifie s'estimer heureux de quelque chose, se réjouir d'une situation ou se congratuler soi-même pour un résultat obtenu. C'est un verbe pronominal régulier du premier groupe en -er.";
             }
         }
     }

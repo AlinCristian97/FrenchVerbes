@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "Je me félicite d'avoir pris cette décision.",
+    "Tu te félicites de ton excellent travail.",
+    "Elle se félicite d'avoir choisi ce métier.",
+    "Nous nous félicitons des résultats obtenus.",
+    "Vous vous félicitez de cette belle réussite."
+  ],
+  "Imparfait": [
+    "Je me félicitais d'avoir anticipé le problème.",
+    "Tu te félicitais de ton choix chaque jour.",
+    "Il se félicitait d'avoir investi dans ce projet.",
+    "Nous nous félicitions d'avoir pris les bonnes décisions.",
+    "Vous vous félicitiez de votre collaboration fructueuse."
+  ],
+  "Futur Simple": [
+    "Je me féliciterai d'avoir suivi ce conseil.",
+    "Tu te féliciteras de cette décision courageuse.",
+    "Elle se félicitera d'avoir persévéré dans ses efforts.",
+    "Nous nous féliciterons de notre travail d'équipe.",
+    "Vous vous féliciterez de ce choix dans quelques années."
+  ],
+  "Passé Composé": [
+    "Je me suis félicité d'avoir réussi cet examen.",
+    "Tu t'es félicité de ta réaction calme.",
+    "Elle s'est félicitée d'avoir anticipé les difficultés.",
+    "Nous nous sommes félicités de notre organisation.",
+    "Vous vous êtes félicités d'avoir terminé à temps."
+  ],
+  "Futur Proche": [
+    "Je vais me féliciter d'avoir pris ce risque.",
+    "Tu vas te féliciter de cette belle initiative.",
+    "Elle va se féliciter de sa patience.",
+    "Nous allons nous féliciter de notre persévérance.",
+    "Vous allez vous féliciter de cette décision."
+  ],
+  "Passé Récent": [
+    "Je viens de me féliciter d'avoir trouvé la solution.",
+    "Tu viens de te féliciter de ton initiative.",
+    "Elle vient de se féliciter d'avoir évité ce problème.",
+    "Nous venons de nous féliciter de notre succès.",
+    "Vous venez de vous féliciter de ce travail accompli."
+  ],
+  "Impératif": [
+    "Félicite-toi de cet accomplissement remarquable !",
+    "Félicitons-nous de notre réussite collective.",
+    "Félicitez-vous de vos progrès accomplis."
+  ],
+  "Conditionnel Présent": [
+    "Je me féliciterais d'avoir fait ce choix difficile.",
+    "Tu te féliciterais de cette opportunité si tu la saisissais.",
+    "Elle se féliciterait d'avoir agi plus tôt.",
+    "Nous nous féliciterions de cette collaboration réussie.",
+    "Vous vous féliciteriez de votre prévoyance dans cette situation."
+  ]
+}
