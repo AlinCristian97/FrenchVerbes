@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "J'échappe à la surveillance.",
+    "Tu échappes à la punition cette fois.",
+    "Il échappe au contrôle de la situation.",
+    "Nous échappons au danger de justesse.",
+    "Vous échappez à la règle."
+  ],
+  "Imparfait": [
+    "J'échappais souvent à la réalité.",
+    "Tu échappais à ses regards insistants.",
+    "Il échappait toujours à la punition.",
+    "Nous échappions à la routine quotidienne.",
+    "Vous échappiez aux obligations du travail."
+  ],
+  "Futur Simple": [
+    "J'échapperai à cette situation difficile.",
+    "Tu échapperas à la punition encore une fois.",
+    "Il échappera au danger.",
+    "Nous échapperons à cette crise.",
+    "Vous échapperez aux conséquences."
+  ],
+  "Passé Composé": [
+    "J'ai échappé à un accident de justesse.",
+    "Tu as échappé à la punition.",
+    "Il a échappé au contrôle.",
+    "Nous avons échappé au danger.",
+    "Vous avez échappé à la règle."
+  ],
+  "Futur Proche": [
+    "Je vais échapper à cette situation.",
+    "Tu vas échapper à la surveillance.",
+    "Il va échapper au piège.",
+    "Nous allons échapper au danger.",
+    "Vous allez échapper aux conséquences."
+  ],
+  "Passé Récent": [
+    "Je viens d'échapper à un accident.",
+    "Tu viens d'échapper à la punition.",
+    "Il vient d'échapper au contrôle.",
+    "Nous venons d'échapper au danger.",
+    "Vous venez d'échapper à la règle."
+  ],
+  "Impératif": [
+    "Échappe à cette situation maintenant !",
+    "Échappons à la routine ensemble !",
+    "Échappez au danger immédiatement !"
+  ],
+  "Conditionnel Présent": [
+    "J'échapperais à la punition si je partais.",
+    "Tu échapperais au danger facilement.",
+    "Il échapperait à la surveillance.",
+    "Nous échapperions à la routine avec un voyage.",
+    "Vous échapperiez aux conséquences en agissant vite."
+  ]
+}

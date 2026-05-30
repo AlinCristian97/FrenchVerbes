@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "J'exécute le plan prévu.",
+    "Tu exécutes les instructions avec précision.",
+    "Il exécute la tâche sans hésiter.",
+    "Nous exécutons le programme.",
+    "Vous exécutez les ordres."
+  ],
+  "Imparfait": [
+    "J'exécutais le programme chaque soir.",
+    "Tu exécutais les commandes correctement.",
+    "Il exécutait le plan avec soin.",
+    "Nous exécutions les instructions données.",
+    "Vous exécutiez les tâches sans problème."
+  ],
+  "Futur Simple": [
+    "J'exécuterai la mission demain.",
+    "Tu exécuteras le code ce soir.",
+    "Il exécutera le plan à la lettre.",
+    "Nous exécuterons les ordres donnés.",
+    "Vous exécuterez le programme sans erreur."
+  ],
+  "Passé Composé": [
+    "J'ai exécuté le plan parfaitement.",
+    "Tu as exécuté les instructions reçues.",
+    "Il a exécuté la tâche rapidement.",
+    "Nous avons exécuté le programme.",
+    "Vous avez exécuté les ordres du chef."
+  ],
+  "Futur Proche": [
+    "Je vais exécuter la commande.",
+    "Tu vas exécuter le plan.",
+    "Il va exécuter les instructions.",
+    "Nous allons exécuter le programme.",
+    "Vous allez exécuter la mission."
+  ],
+  "Passé Récent": [
+    "Je viens d'exécuter le programme.",
+    "Tu viens d'exécuter la commande.",
+    "Il vient d'exécuter le plan.",
+    "Nous venons d'exécuter les instructions.",
+    "Vous venez d'exécuter la tâche."
+  ],
+  "Impératif": [
+    "Exécute les instructions sans tarder !",
+    "Exécutons le plan ensemble !",
+    "Exécutez les ordres immédiatement !"
+  ],
+  "Conditionnel Présent": [
+    "J'exécuterais le plan si j'avais les ressources.",
+    "Tu exécuterais les instructions sans hésiter.",
+    "Il exécuterait la mission avec plaisir.",
+    "Nous exécuterions le programme si nécessaire.",
+    "Vous exécuteriez les ordres à temps."
+  ]
+}

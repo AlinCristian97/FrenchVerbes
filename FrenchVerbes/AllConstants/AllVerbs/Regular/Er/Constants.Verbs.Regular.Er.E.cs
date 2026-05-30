@@ -43,12 +43,12 @@ public static partial class Constants
                 public const string Exister = "exister";
                 public const string Examiner = "examiner";
                 public const string Exercer = "exercer";
-                public const string Exagerer = "exagérer"; // <-- you are here
+                public const string Exagerer = "exagérer";
                 public const string Executer = "exécuter";
                 public const string Echanger = "échanger";
                 public const string Echapper = "échapper";
                 public const string Se_Echapper = "s'échapper";
-                public const string Elever = "élever";
+                public const string Elever = "élever"; // <-- you are here
                 public const string Eloigner = "éloigner";
                 public const string Se_Eloigner = "s'éloigner";
                 public const string Emerger = "émerger";

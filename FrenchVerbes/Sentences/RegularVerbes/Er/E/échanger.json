@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "J'échange des messages avec mes amis.",
+    "Tu échanges des idées avec tes collègues.",
+    "Il échange des cadeaux avec sa famille.",
+    "Nous échangeons nos opinions librement.",
+    "Vous échangez des livres entre vous."
+  ],
+  "Imparfait": [
+    "J'échangeais souvent des lettres avec elle.",
+    "Tu échangeais des informations utiles.",
+    "Il échangeait des regards complices.",
+    "Nous échangions des nouvelles chaque semaine.",
+    "Vous échangiez vos expériences régulièrement."
+  ],
+  "Futur Simple": [
+    "J'échangerai mes euros contre des dollars.",
+    "Tu échangeras tes idées avec l'équipe.",
+    "Il échangera son appartement cet été.",
+    "Nous échangerons nos coordonnées.",
+    "Vous échangerez vos points de vue demain."
+  ],
+  "Passé Composé": [
+    "J'ai échangé mon billet contre un autre.",
+    "Tu as échangé des mots avec lui.",
+    "Il a échangé ses chaussures.",
+    "Nous avons échangé nos numéros de téléphone.",
+    "Vous avez échangé vos impressions."
+  ],
+  "Futur Proche": [
+    "Je vais échanger mon ancien téléphone.",
+    "Tu vas échanger des idées avec elle.",
+    "Il va échanger des cadeaux.",
+    "Nous allons échanger nos rôles.",
+    "Vous allez échanger vos billets."
+  ],
+  "Passé Récent": [
+    "Je viens d'échanger quelques mots avec lui.",
+    "Tu viens d'échanger ton livre.",
+    "Il vient d'échanger ses coordonnées.",
+    "Nous venons d'échanger nos opinions.",
+    "Vous venez d'échanger vos billets."
+  ],
+  "Impératif": [
+    "Échange ton billet avant ce soir !",
+    "Échangeons nos idées librement !",
+    "Échangez vos numéros de téléphone !"
+  ],
+  "Conditionnel Présent": [
+    "J'échangerais volontiers ma place.",
+    "Tu échangerais ton appartement cet été.",
+    "Il échangerait ses dollars contre des euros.",
+    "Nous échangerions nos rôles si possible.",
+    "Vous échangeriez vos impressions après la réunion."
+  ]
+}

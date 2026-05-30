@@ -43,6 +43,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateExaminer());
         _verbs.Add(CreateExercer());
         _verbs.Add(CreateExagerer());
+        _verbs.Add(CreateExecuter());
+        _verbs.Add(CreateEchanger());
+        _verbs.Add(CreateEchapper());
+        _verbs.Add(CreateSe_Echapper());
+        _verbs.Add(CreateElever());
     }
 
     #region FactoryMethods
@@ -324,6 +329,44 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Exagerer,
             Constants.VerbDescriptions.Regular.Er.Exagerer);
+    }
+
+    private static RegularErVerb CreateExecuter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Executer,
+            Constants.VerbDescriptions.Regular.Er.Executer);
+    }
+
+    private static RegularErVerb CreateEchanger()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Echanger,
+            Constants.VerbDescriptions.Regular.Er.Echanger);
+    }
+
+    private static RegularErVerb CreateEchapper()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Echapper,
+            Constants.VerbDescriptions.Regular.Er.Echapper,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Echapper()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Echapper,
+            Constants.VerbDescriptions.Regular.Er.Se_Echapper,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateElever()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Elever,
+            Constants.VerbDescriptions.Regular.Er.Elever);
     }
 
     #endregion

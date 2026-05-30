@@ -44,6 +44,11 @@ public static partial class Constants
                 public const string Examiner = "Examiner signifie observer attentivement, étudier avec soin ou soumettre quelqu'un à un examen. C'est un verbe régulier du premier groupe en -er.";
                 public const string Exercer = "Exercer signifie pratiquer une activité régulièrement, s'entraîner ou exercer une profession. C'est un verbe régulier du premier groupe en -er.";
                 public const string Exagerer = "Exagérer signifie dépasser les limites de la vérité ou de la mesure, amplifier démesurément quelque chose. C'est un verbe régulier du premier groupe en -er avec alternance é / è au présent.";
+                public const string Executer = "Exécuter signifie réaliser ou accomplir quelque chose, mettre en œuvre un plan ou une décision. C'est un verbe régulier du premier groupe en -er avec alternance é / è au présent.";
+                public const string Echanger = "Échanger signifie donner quelque chose en recevant autre chose en retour, partager ou troquer. C'est un verbe régulier du premier groupe en -er.";
+                public const string Echapper = "Échapper signifie se soustraire à un danger, fuir ou éviter quelque chose de nuisible. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Echapper = "S'échapper signifie fuir ou se soustraire à une contrainte, s'évader ou se libérer d'un lieu ou d'une situation. C'est un verbe pronominal régulier du premier groupe en -er.";
+                public const string Elever = "Élever signifie hausser, porter à un niveau supérieur, éduquer ou élever des animaux. C'est un verbe régulier du premier groupe en -er avec alternance è / e au présent.";
             }
         }
     }

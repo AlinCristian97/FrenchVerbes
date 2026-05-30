@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "Je m'échappe du bureau à midi.",
+    "Tu t'échappes de la réunion discrètement.",
+    "Il s'échappe de la foule.",
+    "Nous nous échappons du quotidien le week-end.",
+    "Vous vous échappez de la situation difficile."
+  ],
+  "Imparfait": [
+    "Je m'échappais souvent dans mes rêves.",
+    "Tu t'échappais du travail tôt le vendredi.",
+    "Il s'échappait de sa routine chaque soir.",
+    "Nous nous échappions de la ville le week-end.",
+    "Vous vous échappiez de la réunion trop longue."
+  ],
+  "Futur Simple": [
+    "Je m'échapperai de ce piège.",
+    "Tu t'échapperas de la situation à temps.",
+    "Il s'échappera de la prison.",
+    "Nous nous échapperons du bureau ce soir.",
+    "Vous vous échapperez de la routine demain."
+  ],
+  "Passé Composé": [
+    "Je me suis échappé de la réunion.",
+    "Tu t'es échappé du bureau tôt.",
+    "Il s'est échappé de la prison.",
+    "Nous nous sommes échappés de la ville.",
+    "Vous vous êtes échappés de la situation."
+  ],
+  "Futur Proche": [
+    "Je vais m'échapper du bureau.",
+    "Tu vas t'échapper de la réunion.",
+    "Il va s'échapper de la foule.",
+    "Nous allons nous échapper de la ville.",
+    "Vous allez vous échapper de la situation."
+  ],
+  "Passé Récent": [
+    "Je viens de m'échapper du bureau.",
+    "Tu viens de t'échapper de la réunion.",
+    "Il vient de s'échapper de la prison.",
+    "Nous venons de nous échapper de la ville.",
+    "Vous venez de vous échapper de la situation."
+  ],
+  "Impératif": [
+    "Échappe-toi de cette situation !",
+    "Échappons-nous de la routine !",
+    "Échappez-vous de ce piège !"
+  ],
+  "Conditionnel Présent": [
+    "Je m'échapperais si je le pouvais.",
+    "Tu t'échapperais de cette routine facilement.",
+    "Il s'échapperait de la situation difficile.",
+    "Nous nous échapperions de la ville ce week-end.",
+    "Vous vous échappériez de la réunion si c'était possible."
+  ]
+}
