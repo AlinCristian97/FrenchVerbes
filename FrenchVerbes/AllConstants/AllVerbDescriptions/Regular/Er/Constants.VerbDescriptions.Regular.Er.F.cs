@@ -13,6 +13,8 @@ public static partial class Constants
                 public const string Se_Forcer = "Se forcer signifie se contraindre à faire quelque chose que l'on n'a pas envie de faire, surmonter sa propre résistance ou réticence. C'est un verbe pronominal régulier du premier groupe en -er.";
                 public const string Frequenter = "Fréquenter signifie rendre visite régulièrement à quelqu'un ou aller souvent dans un lieu, avoir des contacts habituels avec des personnes. C'est un verbe régulier du premier groupe en -er.";
                 public const string Fissurer = "Fissurer signifie créer une fissure dans quelque chose, provoquer une fracture ou une crevasse dans une surface, ou affaiblir quelque chose en le divisant. C'est un verbe régulier du premier groupe en -er.";
+                public const string Forger = "Forger signifie façonner un métal par martelage ou par pression, ou au sens figuré, créer, élaborer ou construire quelque chose avec soin et effort. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Forger = "Se forger signifie se construire ou se former quelque chose par un effort personnel, comme se forger une opinion, une réputation ou un caractère. C'est un verbe pronominal régulier du premier groupe en -er.";
             }
         }
     }

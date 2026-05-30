@@ -12,6 +12,8 @@ public static partial class VerbRepository
         _verbs.Add(CreateSeForcer());
         _verbs.Add(CreateFrequenter());
         _verbs.Add(CreateFissurer());
+        _verbs.Add(CreateForger());
+        _verbs.Add(CreateSeForger());
     }
 
     #region FactoryMethods
@@ -52,6 +54,23 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Fissurer,
             Constants.VerbDescriptions.Regular.Er.Fissurer);
+    }
+
+    private static RegularErVerb CreateForger()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Forger,
+            Constants.VerbDescriptions.Regular.Er.Forger,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSeForger()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Forger,
+            Constants.VerbDescriptions.Regular.Er.Se_Forger,
+            usesEtre: true,
+            isReflexive: true);
     }
 
     #endregion
