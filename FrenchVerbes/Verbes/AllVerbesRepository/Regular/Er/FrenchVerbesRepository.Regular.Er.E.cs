@@ -38,6 +38,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateEsperer());
         _verbs.Add(CreateEssayer());
         _verbs.Add(CreateEtudier());
+        _verbs.Add(CreateExpliquer());
+        _verbs.Add(CreateExister());
+        _verbs.Add(CreateExaminer());
+        _verbs.Add(CreateExercer());
+        _verbs.Add(CreateExagerer());
     }
 
     #region FactoryMethods
@@ -280,6 +285,45 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Etudier,
             Constants.VerbDescriptions.Regular.Er.Etudier);
+    }
+
+    private static RegularErVerb CreateExpliquer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Expliquer,
+            Constants.VerbDescriptions.Regular.Er.Expliquer);
+    }
+
+    private static RegularErVerb CreateExister()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Exister,
+            Constants.VerbDescriptions.Regular.Er.Exister,
+            tensesNotes: new NotesObject
+            {
+                PasseRecentNotes = "Le passé récent ne s'applique pas à « exister » — on n'utilise pas « venir d'exister »."
+            });
+    }
+
+    private static RegularErVerb CreateExaminer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Examiner,
+            Constants.VerbDescriptions.Regular.Er.Examiner);
+    }
+
+    private static RegularErVerb CreateExercer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Exercer,
+            Constants.VerbDescriptions.Regular.Er.Exercer);
+    }
+
+    private static RegularErVerb CreateExagerer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Exagerer,
+            Constants.VerbDescriptions.Regular.Er.Exagerer);
     }
 
     #endregion

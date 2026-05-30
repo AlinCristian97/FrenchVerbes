@@ -39,6 +39,11 @@ public static partial class Constants
                 public const string Esperer = "Espérer signifie attendre avec confiance la réalisation de quelque chose de souhaité, avoir de l'espoir. C'est un verbe régulier du premier groupe en -er avec alternance é / è au présent.";
                 public const string Essayer = "Essayer signifie faire l'expérience de quelque chose pour en connaître les effets, tenter ou mettre à l'épreuve. C'est un verbe régulier du premier groupe en -er avec alternance y/i.";
                 public const string Etudier = "Étudier signifie s'appliquer à l'acquisition de connaissances, examiner attentivement un sujet ou faire des études. C'est un verbe régulier du premier groupe en -er.";
+                public const string Expliquer = "Expliquer signifie donner des éclaircissements sur quelque chose, rendre compréhensible ou justifier une action. C'est un verbe régulier du premier groupe en -er.";
+                public const string Exister = "Exister signifie avoir une existence réelle, être présent dans la réalité ou dans la vie. C'est un verbe régulier du premier groupe en -er.";
+                public const string Examiner = "Examiner signifie observer attentivement, étudier avec soin ou soumettre quelqu'un à un examen. C'est un verbe régulier du premier groupe en -er.";
+                public const string Exercer = "Exercer signifie pratiquer une activité régulièrement, s'entraîner ou exercer une profession. C'est un verbe régulier du premier groupe en -er.";
+                public const string Exagerer = "Exagérer signifie dépasser les limites de la vérité ou de la mesure, amplifier démesurément quelque chose. C'est un verbe régulier du premier groupe en -er avec alternance é / è au présent.";
             }
         }
     }

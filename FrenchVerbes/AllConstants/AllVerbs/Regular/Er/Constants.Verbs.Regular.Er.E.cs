@@ -38,12 +38,12 @@ public static partial class Constants
                 public const string Eparpiller = "éparpiller";
                 public const string Esperer = "espérer";
                 public const string Essayer = "essayer";
-                public const string Etudier = "étudier"; // <-- you are here
+                public const string Etudier = "étudier";
                 public const string Expliquer = "expliquer";
                 public const string Exister = "exister";
                 public const string Examiner = "examiner";
                 public const string Exercer = "exercer";
-                public const string Exagerer = "exagérer";
+                public const string Exagerer = "exagérer"; // <-- you are here
                 public const string Executer = "exécuter";
                 public const string Echanger = "échanger";
                 public const string Echapper = "échapper";

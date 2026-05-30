@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'explique la leçon à mes élèves.",
+    "Tu expliques très bien les mathématiques.",
+    "Il explique son retard à son patron.",
+    "Nous expliquons nos choix à la famille.",
+    "Ils expliquent la situation avec calme."
+  ],
+  "Imparfait": [
+    "J'expliquais toujours mes décisions.",
+    "Tu expliquais la recette étape par étape.",
+    "Elle expliquait la théorie avec patience.",
+    "Nous expliquions les règles aux nouveaux.",
+    "Ils expliquaient leurs intentions clairement."
+  ],
+  "Futur Simple": [
+    "J'expliquerai mon absence demain.",
+    "Tu expliqueras le plan à l'équipe.",
+    "Il expliquera la procédure aux stagiaires.",
+    "Nous expliquerons nos résultats en réunion.",
+    "Ils expliqueront comment fonctionne le système."
+  ],
+  "Passé Composé": [
+    "J'ai expliqué mon point de vue.",
+    "Tu as expliqué la situation à tes parents.",
+    "Elle a expliqué comment faire l'exercice.",
+    "Nous avons expliqué le problème au technicien.",
+    "Ils ont expliqué leurs erreurs à la commission."
+  ],
+  "Futur Proche": [
+    "Je vais expliquer ce que j'ai compris.",
+    "Tu vas expliquer ton projet à la classe.",
+    "Il va expliquer les nouvelles règles.",
+    "Nous allons expliquer notre démarche.",
+    "Ils vont expliquer comment utiliser l'outil."
+  ],
+  "Passé Récent": [
+    "Je viens d'expliquer la consigne.",
+    "Tu viens d'expliquer ce que tu voulais.",
+    "Elle vient d'expliquer la procédure.",
+    "Nous venons d'expliquer notre position.",
+    "Ils viennent d'expliquer leur plan."
+  ],
+  "Impératif": [
+    "Explique-moi pourquoi tu es en retard.",
+    "Expliquons les règles avant de commencer.",
+    "Expliquez votre raisonnement clairement.",
+    "N'explique pas ce qui est évident.",
+    "Expliquez-lui comment cela fonctionne."
+  ],
+  "Conditionnel Présent": [
+    "J'expliquerais mieux avec un exemple.",
+    "Tu expliquerais plus clairement si tu ralentissais.",
+    "Il expliquerait volontiers mais il n'a pas le temps.",
+    "Nous expliquerions nos choix si on nous le demandait.",
+    "Ils expliqueraient la situation différemment."
+  ]
+}

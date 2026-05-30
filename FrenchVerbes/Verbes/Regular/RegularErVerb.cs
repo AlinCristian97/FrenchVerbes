@@ -18,6 +18,11 @@ public class RegularErVerb : RegularVerb
 
     protected override string Ending => "er";
 
+    protected override IReadOnlyList<string> PasseRecentExcludedVerbs =>
+    [
+        Constants.Verbs.Regular.Er.Exister,
+    ];
+
     private const string specialCerEnding = "cer";
     private const string specialGerEnding = "ger";
     

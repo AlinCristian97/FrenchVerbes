@@ -1,5 +1,4 @@
 ﻿using FrenchVerbes.AllConstants;
-using FrenchVerbes.Extensions;
 
 namespace FrenchVerbes.Verbes;
 
@@ -31,6 +30,8 @@ public abstract class Verb
     }
 
     protected abstract string GetStemForTense(string tense);
+
+    protected virtual IReadOnlyList<string> PasseRecentExcludedVerbs => [];
 
     protected virtual string BareInfinitive => IsReflexive
         ? Infinitive.StartsWith("s'")
@@ -64,7 +65,7 @@ public abstract class Verb
         PrintUtils.PrintSectionDivider();
         PrintTenseWithExamples(Constants.Tenses.FuturProche, PrintFuturProche);
         PrintUtils.PrintSectionDivider();
-        PrintTenseWithExamples(Constants.Tenses.PasseRecent, PrintPasseRecent);
+        PrintTenseWithExamples(Constants.Tenses.PasseRecent, () => PrintPasseRecent(PasseRecentExcludedVerbs));
         PrintUtils.PrintSectionDivider();
         PrintTenseWithExamples(Constants.Tenses.Imperative, PrintImperative);
         PrintUtils.PrintSectionDivider();
@@ -316,13 +317,16 @@ public abstract class Verb
         }
     }
 
-    private void PrintPasseRecent()
+    private void PrintPasseRecent(IReadOnlyList<string> excludedVerbs)
     {
         string tense = Constants.Tenses.PasseRecent;
         
         PrintUtils.PrintHeadline(tense);
         PrintNotesForTenseIfAny(tense);
-        
+
+        if (excludedVerbs.Contains(Infinitive))
+            return;
+
         string[] aux = Constants.Tenses.Auxiliaries.PasseRecent_Auxiliary;
         string connector = "de";
 

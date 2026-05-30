@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'examine les documents avec soin.",
+    "Tu examines la blessure du patient.",
+    "Le médecin examine chaque cas individuellement.",
+    "Nous examinons les résultats de l'enquête.",
+    "Ils examinent les preuves avant de décider."
+  ],
+  "Imparfait": [
+    "J'examinais les contrats un par un.",
+    "Tu examinais chaque détail du tableau.",
+    "Elle examinait les échantillons au microscope.",
+    "Nous examinions les données soigneusement.",
+    "Ils examinaient les candidats toute la journée."
+  ],
+  "Futur Simple": [
+    "J'examinerai le dossier dès demain.",
+    "Tu examineras les résultats avec l'équipe.",
+    "Le jury examinera les œuvres présentées.",
+    "Nous examinerons chaque proposition.",
+    "Ils examineront les témoins demain matin."
+  ],
+  "Passé Composé": [
+    "J'ai examiné toutes les options possibles.",
+    "Tu as examiné le rapport en détail.",
+    "Elle a examiné le patient pendant une heure.",
+    "Nous avons examiné les pièces à conviction.",
+    "Ils ont examiné les demandes reçues."
+  ],
+  "Futur Proche": [
+    "Je vais examiner ce contrat aujourd'hui.",
+    "Tu vas examiner les résultats du test.",
+    "Il va examiner la situation de plus près.",
+    "Nous allons examiner les preuves ensemble.",
+    "Ils vont examiner chaque candidature."
+  ],
+  "Passé Récent": [
+    "Je viens d'examiner le rapport.",
+    "Tu viens d'examiner les résultats.",
+    "Elle vient d'examiner le blessé.",
+    "Nous venons d'examiner les propositions.",
+    "Ils viennent d'examiner les dossiers."
+  ],
+  "Impératif": [
+    "Examine bien les conditions du contrat.",
+    "Examinons chaque option avant de décider.",
+    "Examinez les preuves attentivement.",
+    "N'examine pas les résultats trop vite.",
+    "Examinez-les avec un regard critique."
+  ],
+  "Conditionnel Présent": [
+    "J'examinerais ce cas plus attentivement.",
+    "Tu examinerais mieux avec de bons outils.",
+    "Il examinerait les données si on lui donnait accès.",
+    "Nous examinerions la situation ensemble.",
+    "Ils examineraient chaque point en détail."
+  ]
+}
