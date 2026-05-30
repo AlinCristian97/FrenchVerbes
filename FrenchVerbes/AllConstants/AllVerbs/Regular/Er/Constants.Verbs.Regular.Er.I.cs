@@ -17,10 +17,10 @@ public static partial class Constants
                 public const string Se_Inspirer = "s'inspirer";
                 public const string Indiquer = "indiquer";
                 public const string Injurer = "injurer";
-                public const string Insulter = "insulter"; // <-- you are here
+                public const string Insulter = "insulter";
                 public const string Informer = "informer";
                 public const string Imprimer = "imprimer";
-                public const string Imaginer = "imaginer";
+                public const string Imaginer = "imaginer"; // <-- you are here
                 public const string Inviter = "inviter";
                 public const string Installer = "installer";
                 public const string Importer = "importer";

@@ -17,6 +17,9 @@ public static partial class VerbRepository
         _verbs.Add(CreateIndiquer());
         _verbs.Add(CreateInjurer());
         _verbs.Add(CreateInsulter());
+        _verbs.Add(CreateInformer());
+        _verbs.Add(CreateImprimer());
+        _verbs.Add(CreateImaginer());
     }
 
     #region FactoryMethods
@@ -92,6 +95,27 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Insulter,
             Constants.VerbDescriptions.Regular.Er.Insulter);
+    }
+
+    private static RegularErVerb CreateInformer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Informer,
+            Constants.VerbDescriptions.Regular.Er.Informer);
+    }
+
+    private static RegularErVerb CreateImprimer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Imprimer,
+            Constants.VerbDescriptions.Regular.Er.Imprimer);
+    }
+
+    private static RegularErVerb CreateImaginer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Imaginer,
+            Constants.VerbDescriptions.Regular.Er.Imaginer);
     }
 
     #endregion

@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Il imprime les documents nécessaires pour la réunion.",
+    "Tu imprimes tes billets d'avion avant de partir.",
+    "Elle imprime ses photos préférées pour les encadrer.",
+    "Nous imprimons le rapport annuel en couleur.",
+    "Vous imprimez les formulaires pour les distribuer aux élèves."
+  ],
+  "Imparfait": [
+    "Il imprimait les affiches pour le festival chaque année.",
+    "Tu imprimais tes cours pour mieux les réviser.",
+    "Elle imprimait les contrats avant chaque signature.",
+    "Nous imprimions les bulletins de vote la veille des élections.",
+    "Vous imprimiez les étiquettes manuellement à l'époque."
+  ],
+  "Futur Simple": [
+    "Il imprimera les invitations dès que le design sera approuvé.",
+    "Tu imprimeras ton CV avant l'entretien d'embauche.",
+    "Elle imprimera les fiches de révision pour ses étudiants.",
+    "Nous imprimerons les menus pour le banquet de samedi.",
+    "Vous imprimerez les plans de l'architecte pour la réunion."
+  ],
+  "Passé Composé": [
+    "Il a imprimé tous les rapports en double exemplaire.",
+    "Tu as imprimé le contrat avant de le signer.",
+    "Elle a imprimé les photos du voyage pour ses parents.",
+    "Nous avons imprimé les badges pour la conférence.",
+    "Vous avez imprimé les dossiers en avance pour gagner du temps."
+  ],
+  "Futur Proche": [
+    "Il va imprimer les brochures pour la foire commerciale.",
+    "Tu vas imprimer ton billet de train avant de partir.",
+    "Elle va imprimer les exercices pour ses élèves.",
+    "Nous allons imprimer les affiches de la campagne.",
+    "Vous allez imprimer les documents pour la signature."
+  ],
+  "Passé Récent": [
+    "Il vient d'imprimer le rapport final pour le directeur.",
+    "Tu viens d'imprimer ta confirmation de réservation.",
+    "Elle vient d'imprimer les fiches de paie du mois.",
+    "Nous venons d'imprimer les programmes de la cérémonie.",
+    "Vous venez d'imprimer les cartes d'invitation."
+  ],
+  "Impératif": [
+    "Imprime le document en deux exemplaires.",
+    "Imprimons les billets avant de quitter la maison.",
+    "Imprimez les formulaires et distribuez-les aux participants.",
+    "N'imprime pas trop de pages inutilement.",
+    "N'imprimez pas ce fichier, il n'est pas encore finalisé."
+  ],
+  "Conditionnel Présent": [
+    "Il imprimerait les plans si l'imprimante fonctionnait.",
+    "Tu imprimerais tes notes si tu avais une imprimante.",
+    "Elle imprimerait les affiches si le budget le permettait.",
+    "Nous imprimerions les documents en couleur si c'était moins cher.",
+    "Vous imprimeriez les catalogues si vous aviez le bon papier."
+  ]
+}

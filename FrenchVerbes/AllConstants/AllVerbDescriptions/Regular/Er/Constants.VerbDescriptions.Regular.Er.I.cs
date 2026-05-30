@@ -18,6 +18,9 @@ public static partial class Constants
                 public const string Indiquer = "Indiquer signifie montrer, signaler ou faire savoir quelque chose à quelqu'un, donner une indication ou une direction. C'est un verbe régulier du premier groupe en -er.";
                 public const string Injurer = "Injurer signifie offenser quelqu'un par des paroles blessantes ou insultantes, adresser des injures à quelqu'un. C'est un verbe régulier du premier groupe en -er.";
                 public const string Insulter = "Insulter signifie offenser gravement quelqu'un par des paroles ou des actes méprisants, traiter avec insolence ou dédain. C'est un verbe régulier du premier groupe en -er.";
+                public const string Informer = "Informer signifie communiquer des informations ou des renseignements à quelqu'un, mettre quelqu'un au courant d'une situation ou d'un fait. C'est un verbe régulier du premier groupe en -er.";
+                public const string Imprimer = "Imprimer signifie reproduire un texte ou une image sur un support matériel à l'aide d'une imprimante ou d'une presse, ou laisser une marque durable. C'est un verbe régulier du premier groupe en -er.";
+                public const string Imaginer = "Imaginer signifie former des images mentales, concevoir quelque chose dans son esprit, ou supposer quelque chose. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }
