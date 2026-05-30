@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je m'intéresse à la littérature française.",
+    "Tu t'intéresses à la politique depuis peu.",
+    "Elle s'intéresse aux nouvelles technologies.",
+    "Nous nous intéressons à ce projet depuis le début.",
+    "Ils s'intéressent à toutes les formes d'art."
+  ],
+  "Imparfait": [
+    "Je m'intéressais à la photographie quand j'étais jeune.",
+    "Tu t'intéressais déjà à l'astronomie à l'école.",
+    "Il s'intéressait à la musique classique depuis l'enfance.",
+    "Nous nous intéressions à ce domaine depuis longtemps.",
+    "Ils s'intéressaient à tout ce qui touchait à la nature."
+  ],
+  "Futur Simple": [
+    "Je m'intéresserai davantage à ce sujet plus tard.",
+    "Tu t'intéresseras à d'autres cultures en voyageant.",
+    "Elle s'intéressera aux sciences en grandissant.",
+    "Nous nous intéresserons à ce projet dès demain.",
+    "Ils s'intéresseront à cette offre si les conditions changent."
+  ],
+  "Passé Composé": [
+    "Je me suis intéressé à la cuisine pendant le confinement.",
+    "Tu t'es intéressé à ce livre dès la couverture.",
+    "Elle s'est intéressée à la peinture après sa visite au musée.",
+    "Nous nous sommes intéressés à ce sujet lors de la conférence.",
+    "Ils se sont intéressés à notre proposition immédiatement."
+  ],
+  "Futur Proche": [
+    "Je vais m'intéresser à ce domaine très bientôt.",
+    "Tu vas t'intéresser à ce film, j'en suis sûr.",
+    "Il va s'intéresser à cette idée si on lui explique bien.",
+    "Nous allons nous intéresser à ces nouvelles recherches.",
+    "Elles vont s'intéresser à ce projet dès qu'elles le verront."
+  ],
+  "Passé Récent": [
+    "Je viens de m'intéresser à ce sujet fascinant.",
+    "Tu viens de t'intéresser à la philosophie.",
+    "Elle vient de s'intéresser à cette cause sociale.",
+    "Nous venons de nous intéresser à ce nouveau domaine.",
+    "Ils viennent de s'intéresser à notre offre."
+  ],
+  "Impératif": [
+    "Intéresse-toi davantage à ce qui se passe autour de toi.",
+    "Intéressons-nous à des sujets qui nous enrichissent.",
+    "Intéressez-vous à la culture locale lors de vos voyages.",
+    "Ne t'intéresse pas seulement à ce qui te profite.",
+    "Ne nous intéressons pas uniquement aux résultats immédiats."
+  ],
+  "Conditionnel Présent": [
+    "Je m'intéresserais à ce projet si j'avais plus de temps.",
+    "Tu t'intéresserais à la musique si tu essayais.",
+    "Il s'intéresserait à cette offre s'il en avait connaissance.",
+    "Nous nous intéresserions à cette cause si on nous expliquait mieux.",
+    "Ils s'intéresseraient à ce sujet avec plus de ressources."
+  ]
+}

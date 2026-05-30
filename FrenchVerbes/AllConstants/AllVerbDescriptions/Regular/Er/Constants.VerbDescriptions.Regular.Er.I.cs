@@ -29,6 +29,9 @@ public static partial class Constants
                 public const string Inspecter = "Inspecter signifie examiner attentivement quelque chose ou quelqu'un afin de vérifier, contrôler ou surveiller son état ou sa conformité. C'est un verbe régulier du premier groupe en -er.";
                 public const string Irriter = "Irriter signifie provoquer de l'irritation, de l'agacement ou de la colère chez quelqu'un, ou causer une inflammation ou une sensation de brûlure sur une partie du corps. C'est un verbe régulier du premier groupe en -er.";
                 public const string Se_Irriter = "S'irriter signifie éprouver de l'irritation, de l'agacement ou de la colère, ou ressentir une inflammation ou une gêne physique. C'est un verbe pronominal régulier du premier groupe en -er.";
+                public const string Interesser = "Intéresser signifie susciter la curiosité, l'attention ou l'intérêt de quelqu'un envers quelque chose, ou concerner une personne. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Interesser = "S'intéresser signifie porter de l'intérêt, de la curiosité ou de l'attention à quelque chose ou à quelqu'un, se passionner pour un sujet. C'est un verbe pronominal régulier du premier groupe en -er.";
+                public const string Imiter = "Imiter signifie reproduire les gestes, les paroles ou le comportement de quelqu'un ou de quelque chose, prendre pour modèle. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

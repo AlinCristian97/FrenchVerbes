@@ -28,6 +28,9 @@ public static partial class VerbRepository
         _verbs.Add(CreateInspecter());
         _verbs.Add(CreateIrriter());
         _verbs.Add(CreateSe_Irriter());
+        _verbs.Add(CreateInteresser());
+        _verbs.Add(CreateSe_Interesser());
+        _verbs.Add(CreateImiter());
     }
 
     #region FactoryMethods
@@ -183,6 +186,30 @@ public static partial class VerbRepository
             Constants.VerbDescriptions.Regular.Er.Se_Irriter,
             usesEtre: true,
             isReflexive: true);
+    }
+
+    private static RegularErVerb CreateInteresser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Interesser,
+            Constants.VerbDescriptions.Regular.Er.Interesser,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Interesser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Interesser,
+            Constants.VerbDescriptions.Regular.Er.Se_Interesser,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateImiter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Imiter,
+            Constants.VerbDescriptions.Regular.Er.Imiter);
     }
 
     #endregion
