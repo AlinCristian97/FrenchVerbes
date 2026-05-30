@@ -23,7 +23,6 @@ public static partial class Constants
                 public const string Estimer = "estimer";
                 public const string Expedier = "expédier";
                 public const string Embrasser = "embrasser";
-                public const string Se_Embrasser = "s'embrasser";
                 public const string Eclairer = "éclairer";
                 public const string Exploser = "exploser";
                 public const string Experimenter = "expérimenter";
