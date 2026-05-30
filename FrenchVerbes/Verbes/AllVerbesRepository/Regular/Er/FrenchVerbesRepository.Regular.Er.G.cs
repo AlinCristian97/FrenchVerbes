@@ -21,6 +21,9 @@ public static partial class VerbRepository
         _verbs.Add(CreateGenerer());
         _verbs.Add(CreateGonfler());
         _verbs.Add(CreateGriffonner());
+        _verbs.Add(CreateGeler());
+        _verbs.Add(CreateGlacer());
+        _verbs.Add(CreateGriller());
     }
 
     #region FactoryMethods
@@ -124,6 +127,27 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Griffonner,
             Constants.VerbDescriptions.Regular.Er.Griffonner);
+    }
+
+    private static RegularErVerb CreateGeler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Geler,
+            Constants.VerbDescriptions.Regular.Er.Geler);
+    }
+
+    private static RegularErVerb CreateGlacer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Glacer,
+            Constants.VerbDescriptions.Regular.Er.Glacer);
+    }
+
+    private static RegularErVerb CreateGriller()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Griller,
+            Constants.VerbDescriptions.Regular.Er.Griller);
     }
 
     #endregion

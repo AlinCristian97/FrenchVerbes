@@ -21,10 +21,10 @@ public static partial class Constants
                 public const string Gerer = "gérer";
                 public const string Generer = "générer";
                 public const string Gonfler = "gonfler";
-                public const string Griffonner = "griffonner"; // <-- you are here
+                public const string Griffonner = "griffonner";
                 public const string Geler = "geler";
                 public const string Glacer = "glacer";
-                public const string Griller = "griller";
+                public const string Griller = "griller"; // <-- you are here
             }
         }
     }

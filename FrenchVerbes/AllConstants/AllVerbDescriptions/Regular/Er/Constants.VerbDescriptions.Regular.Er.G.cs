@@ -22,6 +22,9 @@ public static partial class Constants
                 public const string Generer = "Générer signifie produire, créer ou provoquer quelque chose, comme un résultat, un revenu ou un effet. C'est un verbe régulier du premier groupe en -er.";
                 public const string Gonfler = "Gonfler signifie augmenter le volume de quelque chose en y introduisant de l'air ou un gaz, ou s'élargir sous l'effet d'une pression. C'est un verbe régulier du premier groupe en -er.";
                 public const string Griffonner = "Griffonner signifie écrire ou dessiner rapidement et de façon peu soignée, de manière illisible ou brouillonne. C'est un verbe régulier du premier groupe en -er.";
+                public const string Geler = "Geler signifie transformer un liquide en glace sous l'effet du froid, ou exposer quelque chose à des températures glaciales au point de le solidifier ou de l'endommager. C'est un verbe régulier du premier groupe en -er.";
+                public const string Glacer = "Glacer signifie rendre très froid, couvrir d'une couche de glace ou de sucre, ou provoquer une sensation de froid intense ou de saisissement. C'est un verbe régulier du premier groupe en -er.";
+                public const string Griller = "Griller signifie cuire un aliment sur une grille ou à feu vif, exposer quelque chose à une chaleur intense, ou brûler légèrement sous l'effet de la chaleur. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

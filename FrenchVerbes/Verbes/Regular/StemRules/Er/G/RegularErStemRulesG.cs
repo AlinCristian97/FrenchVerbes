@@ -9,5 +9,6 @@ public static class RegularErStemRulesG
         {
             [Constants.Verbs.Regular.Er.Gerer] = new GererRegularErStemRule(),
             [Constants.Verbs.Regular.Er.Generer] = new GenererRegularErStemRule(),
+            [Constants.Verbs.Regular.Er.Geler] = new GelerRegularErStemRule(),
         };
 }

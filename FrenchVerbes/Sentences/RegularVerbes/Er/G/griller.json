@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je grille des tranches de pain pour le petit-déjeuner.",
+    "Tu grilles des légumes sur le barbecue.",
+    "Il grille une sardine sur le feu de bois.",
+    "Nous grillons des saucisses pour le repas.",
+    "Vous grillez des côtelettes d'agneau ce soir."
+  ],
+  "Imparfait": [
+    "Je grillais du pain chaque matin.",
+    "Tu grillais des poivrons sur la braise.",
+    "Elle grillait du poulet dans le jardin.",
+    "Nous grillions des merguez le week-end.",
+    "Vous grilliez des champignons à la poêle."
+  ],
+  "Futur Simple": [
+    "Je grillerai des steaks pour nos invités.",
+    "Tu grilleras des tomates pour l'entrée.",
+    "Il grillera des poissons sur le barbecue.",
+    "Nous grillerons des brochettes au dîner.",
+    "Vous grillerez des légumes pour l'accompagnement."
+  ],
+  "Passé Composé": [
+    "J'ai grillé des tranches de baguette.",
+    "Tu as grillé des saucisses ce midi.",
+    "Il a grillé du maïs sur le feu.",
+    "Nous avons grillé des côtes de porc au barbecue.",
+    "Vous avez grillé des poivrons pour la salade."
+  ],
+  "Futur Proche": [
+    "Je vais griller des sardines ce soir.",
+    "Tu vas griller des tomates cerises.",
+    "Il va griller un steak pour le dîner.",
+    "Nous allons griller des brochettes de poulet.",
+    "Vous allez griller des légumes pour l'apéritif."
+  ],
+  "Passé Récent": [
+    "Je viens de griller du pain.",
+    "Tu viens de griller des saucisses.",
+    "Elle vient de griller des poivrons.",
+    "Nous venons de griller des steaks.",
+    "Vous venez de griller des merguez."
+  ],
+  "Impératif": [
+    "Grille ces tranches de pain.",
+    "Grillons des légumes pour ce soir.",
+    "Grillez des brochettes pour tout le monde.",
+    "Grille le poisson à feu vif.",
+    "Grillons des côtelettes pour le repas."
+  ],
+  "Conditionnel Présent": [
+    "Je grillerais des steaks si j'avais un barbecue.",
+    "Tu grillerais des légumes avec un peu d'huile d'olive.",
+    "Elle grillerait du poulet si elle avait le temps.",
+    "Nous grillerions des brochettes avec plaisir.",
+    "Vous grilleriez des sardines si vous aviez du feu."
+  ]
+}
