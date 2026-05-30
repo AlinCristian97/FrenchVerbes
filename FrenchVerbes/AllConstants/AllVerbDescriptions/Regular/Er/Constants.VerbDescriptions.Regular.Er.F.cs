@@ -15,6 +15,9 @@ public static partial class Constants
                 public const string Fissurer = "Fissurer signifie créer une fissure dans quelque chose, provoquer une fracture ou une crevasse dans une surface, ou affaiblir quelque chose en le divisant. C'est un verbe régulier du premier groupe en -er.";
                 public const string Forger = "Forger signifie façonner un métal par martelage ou par pression, ou au sens figuré, créer, élaborer ou construire quelque chose avec soin et effort. C'est un verbe régulier du premier groupe en -er.";
                 public const string Se_Forger = "Se forger signifie se construire ou se former quelque chose par un effort personnel, comme se forger une opinion, une réputation ou un caractère. C'est un verbe pronominal régulier du premier groupe en -er.";
+                public const string Former = "Former signifie donner une forme à quelque chose, créer ou constituer un ensemble, ou éduquer et entraîner quelqu'un pour développer ses compétences. C'est un verbe régulier du premier groupe en -er.";
+                public const string Fermer = "Fermer signifie mettre en position fermée, clore quelque chose qui était ouvert, ou bloquer l'accès à un lieu ou à un objet. C'est un verbe régulier du premier groupe en -er.";
+                public const string Freiner = "Freiner signifie réduire la vitesse d'un véhicule ou d'un mouvement, ou au sens figuré, ralentir ou limiter le développement de quelque chose. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

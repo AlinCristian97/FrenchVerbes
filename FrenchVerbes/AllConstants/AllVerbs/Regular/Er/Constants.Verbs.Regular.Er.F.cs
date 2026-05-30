@@ -14,10 +14,10 @@ public static partial class Constants
                 public const string Frequenter = "fréquenter";
                 public const string Fissurer = "fissurer";
                 public const string Forger = "forger";
-                public const string Se_Forger = "se forger"; // <-- you are here
+                public const string Se_Forger = "se forger";
                 public const string Former = "former";
                 public const string Fermer = "fermer";
-                public const string Freiner = "freiner";
+                public const string Freiner = "freiner"; // <-- you are here
                 public const string Fabriquer = "fabriquer";
                 public const string Fêter = "fêter";
                 public const string Fixer = "fixer";

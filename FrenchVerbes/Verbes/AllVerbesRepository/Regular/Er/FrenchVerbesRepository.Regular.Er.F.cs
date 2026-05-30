@@ -14,6 +14,9 @@ public static partial class VerbRepository
         _verbs.Add(CreateFissurer());
         _verbs.Add(CreateForger());
         _verbs.Add(CreateSeForger());
+        _verbs.Add(CreateFormer());
+        _verbs.Add(CreateFermer());
+        _verbs.Add(CreateFreiner());
     }
 
     #region FactoryMethods
@@ -71,6 +74,27 @@ public static partial class VerbRepository
             Constants.VerbDescriptions.Regular.Er.Se_Forger,
             usesEtre: true,
             isReflexive: true);
+    }
+
+    private static RegularErVerb CreateFormer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Former,
+            Constants.VerbDescriptions.Regular.Er.Former);
+    }
+
+    private static RegularErVerb CreateFermer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Fermer,
+            Constants.VerbDescriptions.Regular.Er.Fermer);
+    }
+
+    private static RegularErVerb CreateFreiner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Freiner,
+            Constants.VerbDescriptions.Regular.Er.Freiner);
     }
 
     #endregion
