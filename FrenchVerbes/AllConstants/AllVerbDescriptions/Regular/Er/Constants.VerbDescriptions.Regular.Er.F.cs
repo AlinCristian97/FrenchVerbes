@@ -24,6 +24,8 @@ public static partial class Constants
                 public const string Figurer = "Figurer signifie apparaître ou être représenté quelque part, figurer dans une liste ou un document, ou au sens figuré, représenter ou symboliser quelque chose. C'est un verbe régulier du premier groupe en -er.";
                 public const string Flotter = "Flotter signifie rester en suspension sur la surface d'un liquide, se déplacer au gré du vent ou du courant, ou au sens figuré, être dans un état d'indécision ou d'incertitude. C'est un verbe régulier du premier groupe en -er.";
                 public const string Frapper = "Frapper signifie donner un coup à quelqu'un ou quelque chose, heurter avec force, ou au sens figuré, impressionner vivement ou affecter profondément quelqu'un. C'est un verbe régulier du premier groupe en -er.";
+                public const string Frissonner = "Frissonner signifie éprouver un frisson, trembler légèrement sous l'effet du froid, de la peur ou d'une émotion intense. C'est un verbe régulier du premier groupe en -er.";
+                public const string Fumer = "Fumer signifie dégager de la fumée, consommer du tabac en l'inhalant, ou faire fumer un aliment pour le conserver ou lui donner un arôme particulier. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }
