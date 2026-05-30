@@ -61,6 +61,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateSe_Decharger());
         _verbs.Add(CreateDetailer());
         _verbs.Add(CreateDresser());
+        _verbs.Add(CreateDenoncer());
     }
 
     #region FactoryMethods
@@ -461,6 +462,13 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Dresser,
             Constants.VerbDescriptions.Regular.Er.Dresser);
+    }
+
+    private static RegularErVerb CreateDenoncer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Denoncer,
+            Constants.VerbDescriptions.Regular.Er.Denoncer);
     }
 
     #endregion

@@ -62,6 +62,7 @@ public static partial class Constants
                 public const string Se_Decharger = "Se décharger signifie se libérer d'un poids, d'une responsabilité ou d'une tension accumulée. C'est le verbe réfléchi de décharger.";
                 public const string Detailer = "Détailler signifie décrire ou exposer quelque chose avec précision et dans ses moindres détails. C'est un verbe régulier du premier groupe en -er.";
                 public const string Dresser = "Dresser signifie mettre debout, établir, préparer quelque chose, ou dresser un animal. C'est un verbe régulier du premier groupe en -er.";
+                public const string Denoncer = "Dénoncer signifie signaler publiquement ou aux autorités quelqu'un ou quelque chose de répréhensible, ou résilier un accord. C'est un verbe régulier en -cer avec un changement orthographique (c → ç devant a/o/u).";
             }
         }
     }
