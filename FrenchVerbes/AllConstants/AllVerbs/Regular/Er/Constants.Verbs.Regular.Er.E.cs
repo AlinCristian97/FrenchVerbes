@@ -22,12 +22,12 @@ public static partial class Constants
                 public const string Se_Ecraser = "s'écraser";
                 public const string Estimer = "estimer";
                 public const string Expedier = "expédier";
-                public const string Embrasser = "embrasser"; // <-- you are here
-                public const string Se_Embrasser = "se embrasser";
+                public const string Embrasser = "embrasser";
+                public const string Se_Embrasser = "s'embrasser";
                 public const string Eclairer = "éclairer";
                 public const string Exploser = "exploser";
                 public const string Experimenter = "expérimenter";
-                public const string Equiper = "équiper";
+                public const string Equiper = "équiper"; // <-- you are here
                 public const string Se_Equiper = "s'équiper";
                 public const string Ecouter = "écouter";
                 public const string Ennuyer = "ennuyer";

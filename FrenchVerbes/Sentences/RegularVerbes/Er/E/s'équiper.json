@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je m'équipe d'un bon imperméable avant de partir.",
+    "Tu t'équipes de tout le nécessaire pour la randonnée.",
+    "Il s'équipe d'un casque avant de monter à vélo.",
+    "Nous nous équipons de matériel professionnel pour le tournage.",
+    "Vous vous équipez d'outils adaptés avant de commencer les travaux."
+  ],
+  "Imparfait": [
+    "Je m'équipais toujours avec soin avant chaque expédition.",
+    "Tu t'équipais progressivement pour ta nouvelle activité.",
+    "Il s'équipait d'une tenue imperméable avant chaque sortie en mer.",
+    "Nous nous équipions de protection avant chaque entraînement.",
+    "Vous vous équipiez de matériel de sécurité avant chaque chantier."
+  ],
+  "Futur Simple": [
+    "Je m'équiperai d'un nouveau sac à dos pour le voyage.",
+    "Tu t'équiperas d'une combinaison de plongée pour les vacances.",
+    "Il s'équipera d'un nouveau casque avant la compétition.",
+    "Nous nous équiperons d'appareils de mesure pour l'expérience.",
+    "Vous vous équiperez de vêtements chauds pour l'expédition."
+  ],
+  "Passé Composé": [
+    "Je me suis équipé d'un bon imperméable avant l'orage.",
+    "Tu t'es équipé de pied en cap pour ton premier trek.",
+    "Il s'est équipé d'une caméra pour documenter le voyage.",
+    "Nous nous sommes équipés de tout le nécessaire avant le départ.",
+    "Vous vous êtes équipés de protections avant le match."
+  ],
+  "Futur Proche": [
+    "Je vais m'équiper d'un vélo électrique pour mes trajets.",
+    "Tu vas t'équiper de nouveaux skis pour la saison.",
+    "Il va s'équiper d'une lampe frontale pour la randonnée nocturne.",
+    "Nous allons nous équiper de tablettes pour le télétravail.",
+    "Vous allez vous équiper de gilets de sauvetage avant l'excursion."
+  ],
+  "Passé Récent": [
+    "Je viens de m'équiper d'un nouveau matelas de camping.",
+    "Tu viens de t'équiper d'un casque de réalité virtuelle.",
+    "Il vient de s'équiper d'une tenue de protection complète.",
+    "Nous venons de nous équiper de nouveaux outils pour l'atelier.",
+    "Vous venez de vous équiper de smartphones pour votre équipe."
+  ],
+  "Impératif": [
+    "Équipe-toi correctement avant de partir en montagne.",
+    "Ne t'équipe pas avec du matériel de mauvaise qualité.",
+    "Équipons-nous des meilleures protections disponibles.",
+    "Ne nous équipons pas à la dernière minute, anticipons.",
+    "Équipez-vous de lampes de poche avant d'entrer dans la grotte."
+  ],
+  "Conditionnel Présent": [
+    "Je m'équiperais d'un meilleur matériel si j'avais le budget.",
+    "Tu t'équiperais différemment si tu connaissais le terrain.",
+    "Il s'équiperait de protections supplémentaires s'il pouvait.",
+    "Nous nous équiperions mieux si les ressources étaient disponibles.",
+    "Vous vous équiperies de tenues adaptées si le projet était validé."
+  ]
+}

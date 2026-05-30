@@ -23,6 +23,11 @@ public static partial class Constants
                 public const string Estimer = "Estimer signifie évaluer la valeur ou l'importance de quelque chose, ou avoir une opinion favorable sur quelqu'un. C'est un verbe régulier du premier groupe en -er.";
                 public const string Expedier = "Expédier signifie envoyer quelque chose à destination, ou accomplir une tâche rapidement. C'est un verbe régulier du premier groupe en -er.";
                 public const string Embrasser = "Embrasser signifie serrer quelqu'un dans ses bras ou déposer un baiser sur sa joue, ou encore adopter une idée largement. C'est un verbe régulier du premier groupe en -er.";
+                public const string Eclairer = "Éclairer signifie fournir de la lumière, illuminer un endroit ou aider quelqu'un à comprendre quelque chose. C'est un verbe régulier du premier groupe en -er.";
+                public const string Exploser = "Exploser signifie éclater avec une grande violence, ou manifester brusquement une émotion intense. C'est un verbe régulier du premier groupe en -er.";
+                public const string Experimenter = "Expérimenter signifie faire des expériences pour tester ou découvrir quelque chose, ou vivre quelque chose de nouveau. C'est un verbe régulier du premier groupe en -er.";
+                public const string Equiper = "Équiper signifie fournir à quelqu'un ou à quelque chose le matériel ou les outils nécessaires. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Equiper = "S'équiper signifie se munir du matériel ou des outils nécessaires pour une activité. C'est un verbe pronominal régulier du premier groupe en -er.";
             }
         }
     }

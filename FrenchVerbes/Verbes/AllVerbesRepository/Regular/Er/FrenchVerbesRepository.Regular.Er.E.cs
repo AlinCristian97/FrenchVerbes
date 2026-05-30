@@ -22,6 +22,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateEstimer());
         _verbs.Add(CreateExpedier());
         _verbs.Add(CreateEmbrasser());
+        _verbs.Add(CreateEclairer());
+        _verbs.Add(CreateExploser());
+        _verbs.Add(CreateExperimenter());
+        _verbs.Add(CreateEquiper());
+        _verbs.Add(CreateSe_Equiper());
     }
 
     #region FactoryMethods
@@ -142,6 +147,44 @@ public static partial class VerbRepository
             Constants.Verbs.Regular.Er.Embrasser,
             Constants.VerbDescriptions.Regular.Er.Embrasser,
             hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateEclairer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Eclairer,
+            Constants.VerbDescriptions.Regular.Er.Eclairer);
+    }
+
+    private static RegularErVerb CreateExploser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Exploser,
+            Constants.VerbDescriptions.Regular.Er.Exploser);
+    }
+
+    private static RegularErVerb CreateExperimenter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Experimenter,
+            Constants.VerbDescriptions.Regular.Er.Experimenter);
+    }
+
+    private static RegularErVerb CreateEquiper()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Equiper,
+            Constants.VerbDescriptions.Regular.Er.Equiper,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Equiper()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Equiper,
+            Constants.VerbDescriptions.Regular.Er.Se_Equiper,
+            usesEtre: true,
+            isReflexive: true);
     }
 
     #endregion
