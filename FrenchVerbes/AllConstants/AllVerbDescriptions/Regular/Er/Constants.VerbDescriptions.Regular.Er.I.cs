@@ -15,6 +15,9 @@ public static partial class Constants
                 public const string Insister = "Insister signifie maintenir fermement une position, une demande ou une opinion, ou mettre l'accent sur quelque chose avec persistance. C'est un verbe régulier du premier groupe en -er.";
                 public const string Inspirer = "Inspirer signifie stimuler la créativité ou l'enthousiasme de quelqu'un, ou aspirer de l'air dans les poumons. C'est un verbe régulier du premier groupe en -er.";
                 public const string Se_Inspirer = "S'inspirer signifie puiser ses idées ou sa créativité dans quelque chose ou quelqu'un, prendre exemple sur une source d'inspiration. C'est un verbe pronominal régulier du premier groupe en -er.";
+                public const string Indiquer = "Indiquer signifie montrer, signaler ou faire savoir quelque chose à quelqu'un, donner une indication ou une direction. C'est un verbe régulier du premier groupe en -er.";
+                public const string Injurer = "Injurer signifie offenser quelqu'un par des paroles blessantes ou insultantes, adresser des injures à quelqu'un. C'est un verbe régulier du premier groupe en -er.";
+                public const string Insulter = "Insulter signifie offenser gravement quelqu'un par des paroles ou des actes méprisants, traiter avec insolence ou dédain. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

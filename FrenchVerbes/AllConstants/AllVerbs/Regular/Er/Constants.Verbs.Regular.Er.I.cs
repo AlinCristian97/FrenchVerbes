@@ -14,10 +14,10 @@ public static partial class Constants
                 public const string Identifier = "identifier";
                 public const string Insister = "insister";
                 public const string Inspirer = "inspirer";
-                public const string Se_Inspirer = "s'inspirer"; // <-- you are here
+                public const string Se_Inspirer = "s'inspirer";
                 public const string Indiquer = "indiquer";
                 public const string Injurer = "injurer";
-                public const string Insulter = "insulter";
+                public const string Insulter = "insulter"; // <-- you are here
                 public const string Informer = "informer";
                 public const string Imprimer = "imprimer";
                 public const string Imaginer = "imaginer";

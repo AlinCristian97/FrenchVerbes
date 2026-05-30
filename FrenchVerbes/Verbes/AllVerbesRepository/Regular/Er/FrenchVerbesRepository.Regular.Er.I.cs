@@ -14,6 +14,9 @@ public static partial class VerbRepository
         _verbs.Add(CreateInsister());
         _verbs.Add(CreateInspirer());
         _verbs.Add(CreateSe_Inspirer());
+        _verbs.Add(CreateIndiquer());
+        _verbs.Add(CreateInjurer());
+        _verbs.Add(CreateInsulter());
     }
 
     #region FactoryMethods
@@ -68,6 +71,27 @@ public static partial class VerbRepository
             Constants.VerbDescriptions.Regular.Er.Se_Inspirer,
             usesEtre: true,
             isReflexive: true);
+    }
+
+    private static RegularErVerb CreateIndiquer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Indiquer,
+            Constants.VerbDescriptions.Regular.Er.Indiquer);
+    }
+
+    private static RegularErVerb CreateInjurer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Injurer,
+            Constants.VerbDescriptions.Regular.Er.Injurer);
+    }
+
+    private static RegularErVerb CreateInsulter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Insulter,
+            Constants.VerbDescriptions.Regular.Er.Insulter);
     }
 
     #endregion

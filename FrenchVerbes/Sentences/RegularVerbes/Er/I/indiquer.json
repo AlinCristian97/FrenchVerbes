@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'indique la direction à suivre sur la carte.",
+    "Tu indiques l'entrée principale aux visiteurs.",
+    "Il indique les étapes du processus à l'équipe.",
+    "Nous indiquons les règles du jeu aux nouveaux participants.",
+    "Vous indiquez l'heure du rendez-vous à vos collègues."
+  ],
+  "Imparfait": [
+    "J'indiquais toujours la bonne route aux touristes.",
+    "Tu indiquais les erreurs à corriger dans le document.",
+    "Elle indiquait la sortie de secours à chaque début de vol.",
+    "Nous indiquions les priorités lors des réunions hebdomadaires.",
+    "Vous indiquiez les consignes de sécurité aux employés."
+  ],
+  "Futur Simple": [
+    "J'indiquerai l'adresse exacte dans mon prochain message.",
+    "Tu indiqueras les conditions d'accès à l'événement.",
+    "Il indiquera les changements apportés au programme.",
+    "Nous indiquerons les résultats dès que possible.",
+    "Vous indiquerez le chemin aux participants perdus."
+  ],
+  "Passé Composé": [
+    "J'ai indiqué le mauvais chemin par inadvertance.",
+    "Tu as indiqué la solution au problème rapidement.",
+    "Elle a indiqué l'emplacement du trésor sur la carte.",
+    "Nous avons indiqué nos préférences dans le formulaire.",
+    "Vous avez indiqué les modifications nécessaires dans le rapport."
+  ],
+  "Futur Proche": [
+    "Je vais indiquer les consignes avant de commencer.",
+    "Tu vas indiquer le lieu de rendez-vous à tes amis.",
+    "Il va indiquer les étapes à suivre pour résoudre le problème.",
+    "Nous allons indiquer les nouvelles règles à toute l'équipe.",
+    "Vous allez indiquer les horaires d'ouverture sur l'affiche."
+  ],
+  "Passé Récent": [
+    "Je viens d'indiquer la bonne direction au conducteur.",
+    "Tu viens d'indiquer les conditions du contrat au client.",
+    "Elle vient d'indiquer l'heure de la réunion à ses collègues.",
+    "Nous venons d'indiquer les changements dans le planning.",
+    "Vous venez d'indiquer les modalités d'inscription aux candidats."
+  ],
+  "Impératif": [
+    "Indique la sortie aux visiteurs, s'il te plaît.",
+    "Indiquons clairement nos attentes avant de commencer.",
+    "Indiquez votre nom et prénom en haut du formulaire.",
+    "N'indique pas une fausse adresse sur le document.",
+    "N'indiquez pas des informations incorrectes dans le rapport."
+  ],
+  "Conditionnel Présent": [
+    "J'indiquerais volontiers le chemin si je connaissais la ville.",
+    "Tu indiquerais la solution si tu avais plus d'informations.",
+    "Elle indiquerait la bonne réponse si elle était sûre d'elle.",
+    "Nous indiquerions les étapes plus clairement avec plus de temps.",
+    "Vous indiqueriez les conditions si vous étiez responsable du projet."
+  ]
+}
