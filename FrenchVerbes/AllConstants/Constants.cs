@@ -101,7 +101,6 @@ public static partial class Constants
     // Verbs beginning with h aspiré are NOT listed here — no elision (je hurle, je heurte...)
     public static readonly HashSet<string> HMuetVerbs =
     [
-        Verbs.Regular.Er.Harceler,
         Verbs.Regular.Er.Habiter,
         Verbs.Regular.Er.Habituer,
         Verbs.Regular.Er.Hésiter,

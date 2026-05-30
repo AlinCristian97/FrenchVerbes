@@ -144,7 +144,7 @@ public abstract class Verb
             Console.ForegroundColor = ConsoleColor.DarkCyan;
         
             string connector = "de";
-            if (Constants.Vowels.Contains(Infinitive[0]))
+            if (Constants.Vowels.Contains(Infinitive[0]) || Constants.HMuetVerbs.Contains(Infinitive))
             {
                 connector = "d'";
             }
@@ -330,9 +330,9 @@ public abstract class Verb
         string[] aux = Constants.Tenses.Auxiliaries.PasseRecent_Auxiliary;
         string connector = "de";
 
-        // Contract 'de' to 'd'' if the (bare) infinitive starts with a vowel,
+        // Contract 'de' to 'd'' if the (bare) infinitive starts with a vowel or is h muet,
         // but NOT for reflexive verbs — 'de' is followed by the reflexive pronoun (me/te/se…)
-        if (!IsReflexive && Constants.Vowels.Contains(BareInfinitive[0]))
+        if (!IsReflexive && (Constants.Vowels.Contains(BareInfinitive[0]) || Constants.HMuetVerbs.Contains(BareInfinitive)))
         {
             connector = "d'";
         }
