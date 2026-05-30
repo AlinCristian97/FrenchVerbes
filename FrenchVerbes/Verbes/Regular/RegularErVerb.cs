@@ -2,6 +2,7 @@
 using FrenchVerbes.Verbes.Regular.StemRules.Er;
 using FrenchVerbes.Verbes.Regular.StemRules.Er.A;
 using FrenchVerbes.Verbes.Regular.StemRules.Er.C;
+using FrenchVerbes.Verbes.Regular.StemRules.Er.D;
 using FrenchVerbes.Verbes.Regular.StemRules.Er.M;
 
 namespace FrenchVerbes.Verbes.Regular;
@@ -33,6 +34,7 @@ public class RegularErVerb : RegularVerb
 
         AddRules(rules, RegularErStemRulesA.Rules);
         AddRules(rules, RegularErStemRulesC.Rules);
+        AddRules(rules, RegularErStemRulesD.Rules);
         AddRules(rules, RegularErStemRulesM.Rules);
 
         return rules;

@@ -52,6 +52,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateDenommer());
         _verbs.Add(CreateDiriger());
         _verbs.Add(CreateDemontrer());
+        _verbs.Add(CreateDeceler());
+        _verbs.Add(CreateDevaster());
+        _verbs.Add(CreateDefier());
+        _verbs.Add(CreateDepecher());
+        _verbs.Add(CreateSe_Depecher());
     }
 
     #region FactoryMethods
@@ -383,6 +388,44 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Demontrer,
             Constants.VerbDescriptions.Regular.Er.Demontrer);
+    }
+
+    private static RegularErVerb CreateDeceler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Deceler,
+            Constants.VerbDescriptions.Regular.Er.Deceler);
+    }
+
+    private static RegularErVerb CreateDevaster()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Devaster,
+            Constants.VerbDescriptions.Regular.Er.Devaster);
+    }
+
+    private static RegularErVerb CreateDefier()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Defier,
+            Constants.VerbDescriptions.Regular.Er.Defier);
+    }
+
+    private static RegularErVerb CreateDepecher()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Depecher,
+            Constants.VerbDescriptions.Regular.Er.Depecher,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Depecher()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Depecher,
+            Constants.VerbDescriptions.Regular.Er.Se_Depecher,
+            usesEtre: true,
+            isReflexive: true);
     }
 
     #endregion

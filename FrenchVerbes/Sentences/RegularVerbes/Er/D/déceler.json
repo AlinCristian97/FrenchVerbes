@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "Je décèle une légère odeur de fumée dans la pièce.",
+    "Tu décèles des anomalies dans les données du rapport.",
+    "Il décèle une certaine tristesse dans son regard.",
+    "Nous décelons des signes d'usure sur la machine.",
+    "Vous décelez la présence d'un problème technique."
+  ],
+  "Imparfait": [
+    "Je décelais une hésitation dans sa voix.",
+    "Tu décelais des indices suspects dans le dossier.",
+    "Elle décelait une légère ironie dans ses paroles.",
+    "Nous décelions des fissures dans le mur depuis des semaines.",
+    "Vous déceliez des incohérences dans le témoignage."
+  ],
+  "Futur Simple": [
+    "Je décèlerai la cause du dysfonctionnement demain.",
+    "Tu décèleras facilement l'erreur dans le code.",
+    "Il décèlera la vérité derrière ses mensonges.",
+    "Nous décèlerons les signes de la maladie à temps.",
+    "Vous décèlerez les problèmes lors de l'audit."
+  ],
+  "Passé Composé": [
+    "J'ai décelé une fuite d'eau sous l'évier.",
+    "Tu as décelé une erreur dans le contrat.",
+    "Elle a décelé une fraude dans les comptes.",
+    "Nous avons décelé un défaut de fabrication.",
+    "Vous avez décelé des traces d'infiltration dans la cave."
+  ],
+  "Futur Proche": [
+    "Je vais déceler la source du problème.",
+    "Tu vas déceler des indices importants dans le rapport.",
+    "Il va déceler une anomalie dans le système.",
+    "Nous allons déceler des irrégularités dans les comptes.",
+    "Vous allez déceler la vérité très bientôt."
+  ],
+  "Passé Récent": [
+    "Je viens de déceler une erreur dans le fichier.",
+    "Tu viens de déceler un problème avec la connexion.",
+    "Elle vient de déceler une incohérence dans le texte.",
+    "Nous venons de déceler des signes inquiétants.",
+    "Vous venez de déceler la cause de la panne."
+  ],
+  "Impératif": [
+    "Décèle les anomalies avant de soumettre le rapport.",
+    "Décelons les problèmes ensemble avant qu'ils s'aggravent.",
+    "Décelez les erreurs dans le document avant impression."
+  ],
+  "Conditionnel Présent": [
+    "Je décèlerais le problème si j'avais plus de temps.",
+    "Tu décèlerais l'erreur en relisant attentivement.",
+    "Il décèlerait la menace s'il était plus vigilant.",
+    "Nous décèlerions les risques avec une meilleure analyse.",
+    "Vous décèleriez des indices si vous cherchiez bien."
+  ]
+}

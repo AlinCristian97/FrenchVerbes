@@ -53,6 +53,11 @@ public static partial class Constants
                 public const string Denommer = "Dénommer signifie donner un nom à quelqu'un ou quelque chose, désigner par un nom. C'est un verbe régulier du premier groupe en -er.";
                 public const string Diriger = "Diriger signifie conduire, administrer ou orienter quelque chose ou quelqu'un vers un but. C'est un verbe régulier en -ger avec un changement orthographique devant certaines terminaisons.";
                 public const string Demontrer = "Démontrer signifie prouver par des arguments ou des faits, ou montrer clairement le fonctionnement de quelque chose. C'est un verbe régulier du premier groupe en -er.";
+                public const string Deceler = "Déceler signifie découvrir, percevoir quelque chose de caché ou de difficile à voir. C'est un verbe régulier du premier groupe en -er avec un changement orthographique (e → è devant une syllabe muette).";
+                public const string Devaster = "Dévaster signifie ravager, détruire complètement un lieu ou causer de grands dommages. C'est un verbe régulier du premier groupe en -er.";
+                public const string Defier = "Défier signifie lancer un défi à quelqu'un, provoquer ou braver quelque chose. C'est un verbe régulier du premier groupe en -er.";
+                public const string Depecher = "Dépêcher signifie envoyer rapidement quelqu'un quelque part, ou faire quelque chose en toute hâte. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Depecher = "Se dépêcher signifie se hâter, agir rapidement pour ne pas perdre de temps. C'est le verbe réfléchi de dépêcher.";
             }
         }
     }

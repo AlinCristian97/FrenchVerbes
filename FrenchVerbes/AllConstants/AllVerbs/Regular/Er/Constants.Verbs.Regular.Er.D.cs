@@ -53,12 +53,12 @@ public static partial class Constants
                 public const string Degager = "dégager";
                 public const string Denommer = "dénommer";
                 public const string Diriger = "diriger";
-                public const string Demontrer = "démontrer"; // <-- you are here
+                public const string Demontrer = "démontrer";
                 public const string Deceler = "déceler";
                 public const string Devaster = "dévaster";
                 public const string Defier = "défier";
                 public const string Depecher = "dépêcher";
-                public const string Se_Depecher = "se dépêcher";
+                public const string Se_Depecher = "se dépêcher"; // <-- you are here
                 public const string Decharger = "décharger";
                 public const string Se_Decharger = "se décharger";
                 public const string Detailer = "détailler";

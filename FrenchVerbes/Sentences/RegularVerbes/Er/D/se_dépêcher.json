@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "Je me dépêche pour ne pas rater le train.",
+    "Tu te dépêches d'aller chercher tes affaires.",
+    "Il se dépêche de finir son travail avant la réunion.",
+    "Nous nous dépêchons de rentrer avant la pluie.",
+    "Vous vous dépêchez de répondre aux messages urgents."
+  ],
+  "Imparfait": [
+    "Je me dépêchais chaque matin pour arriver à l'heure.",
+    "Tu te dépêchais de terminer tes devoirs avant le dîner.",
+    "Elle se dépêchait de quitter le bureau à 18 heures.",
+    "Nous nous dépêchions pour prendre le dernier bus.",
+    "Vous vous dépêchiez de finir avant que les invités arrivent."
+  ],
+  "Futur Simple": [
+    "Je me dépêcherai pour arriver avant toi.",
+    "Tu te dépêcheras de tout préparer avant son arrivée.",
+    "Il se dépêchera de rentrer après la réunion.",
+    "Nous nous dépêcherons pour ne pas faire attendre nos clients.",
+    "Vous vous dépêcherez de finir le projet avant la date limite."
+  ],
+  "Passé Composé": [
+    "Je me suis dépêché d'appeler le médecin.",
+    "Tu t'es dépêché de partir avant la fin de la réunion.",
+    "Elle s'est dépêchée de finir son rapport.",
+    "Nous nous sommes dépêchés pour attraper le dernier train.",
+    "Vous vous êtes dépêchés de rentrer avant l'orage."
+  ],
+  "Futur Proche": [
+    "Je vais me dépêcher pour être à l'heure au rendez-vous.",
+    "Tu vas te dépêcher de terminer ton travail.",
+    "Il va se dépêcher de fermer la boutique.",
+    "Nous allons nous dépêcher de préparer le repas.",
+    "Vous allez vous dépêcher si vous ne voulez pas être en retard."
+  ],
+  "Passé Récent": [
+    "Je viens de me dépêcher pour attraper le métro.",
+    "Tu viens de te dépêcher de finir ta présentation.",
+    "Elle vient de se dépêcher pour répondre aux courriels urgents.",
+    "Nous venons de nous dépêcher pour arriver avant la fermeture.",
+    "Vous venez de vous dépêcher d'envoyer le rapport."
+  ],
+  "Impératif": [
+    "Dépêche-toi, nous allons être en retard !",
+    "Dépêchons-nous avant que le magasin ferme.",
+    "Dépêchez-vous de prendre vos places avant qu'elles soient toutes prises."
+  ],
+  "Conditionnel Présent": [
+    "Je me dépêcherais si je savais que c'était urgent.",
+    "Tu te dépêcherais si tu connaissais les conséquences.",
+    "Il se dépêcherait s'il avait moins de travail.",
+    "Nous nous dépêcherions si nous avions moins de temps.",
+    "Vous vous dépêcheriez si vous étiez au courant du délai."
+  ]
+}
