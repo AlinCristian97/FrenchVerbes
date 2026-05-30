@@ -20,6 +20,9 @@ public static partial class VerbRepository
         _verbs.Add(CreateInformer());
         _verbs.Add(CreateImprimer());
         _verbs.Add(CreateImaginer());
+        _verbs.Add(CreateInviter());
+        _verbs.Add(CreateInstaller());
+        _verbs.Add(CreateImporter());
     }
 
     #region FactoryMethods
@@ -116,6 +119,27 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Imaginer,
             Constants.VerbDescriptions.Regular.Er.Imaginer);
+    }
+
+    private static RegularErVerb CreateInviter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Inviter,
+            Constants.VerbDescriptions.Regular.Er.Inviter);
+    }
+
+    private static RegularErVerb CreateInstaller()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Installer,
+            Constants.VerbDescriptions.Regular.Er.Installer);
+    }
+
+    private static RegularErVerb CreateImporter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Importer,
+            Constants.VerbDescriptions.Regular.Er.Importer);
     }
 
     #endregion

@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'invite mes amis à dîner ce soir.",
+    "Tu invites toujours beaucoup de monde à tes fêtes.",
+    "Il invite sa famille pour les fêtes.",
+    "Nous invitons nos collègues à la réunion.",
+    "Vous invitez vos voisins à la fête de quartier."
+  ],
+  "Imparfait": [
+    "J'invitais souvent mes amis le week-end.",
+    "Tu invitais tes camarades après l'école.",
+    "Elle invitait toujours ses parents pour Noël.",
+    "Nous invitions nos proches chaque été.",
+    "Vous invitiez régulièrement des conférenciers."
+  ],
+  "Futur Simple": [
+    "J'inviterai tous mes amis à mon mariage.",
+    "Tu inviteras tes parents pour ton anniversaire.",
+    "Il invitera ses collègues à la soirée.",
+    "Nous inviterons le directeur à la cérémonie.",
+    "Vous inviterez vos clients au déjeuner."
+  ],
+  "Passé Composé": [
+    "J'ai invité mes amis à une soirée.",
+    "Tu as invité ta famille pour le repas.",
+    "Elle a invité ses collègues au restaurant.",
+    "Nous avons invité nos voisins à la fête.",
+    "Vous avez invité un expert à la conférence."
+  ],
+  "Futur Proche": [
+    "Je vais inviter mes amis ce week-end.",
+    "Tu vas inviter tes parents demain.",
+    "Il va inviter toute l'équipe au déjeuner.",
+    "Nous allons inviter nos professeurs à la cérémonie.",
+    "Vous allez inviter vos clients à la présentation."
+  ],
+  "Passé Récent": [
+    "Je viens d'inviter mes amis à la fête.",
+    "Tu viens d'inviter ta famille pour le dîner.",
+    "Elle vient d'inviter ses collègues à la réunion.",
+    "Nous venons d'inviter nos voisins.",
+    "Vous venez d'inviter un conférencier."
+  ],
+  "Impératif": [
+    "Invite tes amis à la fête !",
+    "Invitons tous nos collègues à la réunion !",
+    "Invitez vos parents pour le dîner !",
+    "N'invite pas trop de monde !",
+    "Invitez-les à s'asseoir !"
+  ],
+  "Conditionnel Présent": [
+    "J'inviterais mes amis si j'avais une grande maison.",
+    "Tu inviterais plus de monde si tu pouvais.",
+    "Il inviterait ses parents s'ils habitaient plus près.",
+    "Nous inviterions toute l'équipe si le budget le permettait.",
+    "Vous inviteriez vos clients si vous aviez un bureau plus grand."
+  ]
+}

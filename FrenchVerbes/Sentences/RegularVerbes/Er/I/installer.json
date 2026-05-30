@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'installe un nouveau logiciel sur mon ordinateur.",
+    "Tu installes les meubles dans le salon.",
+    "Il installe une application sur son téléphone.",
+    "Nous installons la nouvelle imprimante au bureau.",
+    "Vous installez les équipements dans la salle."
+  ],
+  "Imparfait": [
+    "J'installais toujours mes programmes moi-même.",
+    "Tu installais les étagères dans ta chambre.",
+    "Elle installait les décorations pour la fête.",
+    "Nous installions les tentes au camping.",
+    "Vous installiez le matériel avant chaque événement."
+  ],
+  "Futur Simple": [
+    "J'installerai le nouveau système demain.",
+    "Tu installeras les rideaux dans le salon.",
+    "Il installera les panneaux solaires sur le toit.",
+    "Nous installerons les serveurs la semaine prochaine.",
+    "Vous installerez les équipements avant l'ouverture."
+  ],
+  "Passé Composé": [
+    "J'ai installé un nouveau programme sur mon ordinateur.",
+    "Tu as installé les étagères dans la cuisine.",
+    "Elle a installé une alarme dans sa maison.",
+    "Nous avons installé les tables pour la réunion.",
+    "Vous avez installé le réseau wifi dans tout le bâtiment."
+  ],
+  "Futur Proche": [
+    "Je vais installer une mise à jour ce soir.",
+    "Tu vas installer les meubles dans ta chambre.",
+    "Il va installer le climatiseur cet après-midi.",
+    "Nous allons installer le nouveau logiciel demain.",
+    "Vous allez installer les équipements avant le match."
+  ],
+  "Passé Récent": [
+    "Je viens d'installer une nouvelle application.",
+    "Tu viens d'installer les étagères.",
+    "Elle vient d'installer son nouveau bureau.",
+    "Nous venons d'installer les serveurs.",
+    "Vous venez d'installer le système de sécurité."
+  ],
+  "Impératif": [
+    "Installe le logiciel avant la réunion !",
+    "Installons les meubles dans le salon !",
+    "Installez les équipements maintenant !",
+    "N'installe pas ce programme douteux !",
+    "Installez-vous confortablement !"
+  ],
+  "Conditionnel Présent": [
+    "J'installerais un système d'alarme si j'avais les moyens.",
+    "Tu installerais une piscine si tu avais un grand jardin.",
+    "Il installerait un bureau à domicile s'il télétravaillait.",
+    "Nous installerions des panneaux solaires si c'était moins cher.",
+    "Vous installeriez une nouvelle cuisine si vous rénov iez."
+  ]
+}

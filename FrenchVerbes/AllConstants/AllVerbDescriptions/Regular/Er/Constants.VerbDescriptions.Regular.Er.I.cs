@@ -21,6 +21,9 @@ public static partial class Constants
                 public const string Informer = "Informer signifie communiquer des informations ou des renseignements à quelqu'un, mettre quelqu'un au courant d'une situation ou d'un fait. C'est un verbe régulier du premier groupe en -er.";
                 public const string Imprimer = "Imprimer signifie reproduire un texte ou une image sur un support matériel à l'aide d'une imprimante ou d'une presse, ou laisser une marque durable. C'est un verbe régulier du premier groupe en -er.";
                 public const string Imaginer = "Imaginer signifie former des images mentales, concevoir quelque chose dans son esprit, ou supposer quelque chose. C'est un verbe régulier du premier groupe en -er.";
+                public const string Inviter = "Inviter signifie demander à quelqu'un de venir, de participer à quelque chose ou de faire quelque chose, souvent de manière amicale ou formelle. C'est un verbe régulier du premier groupe en -er.";
+                public const string Installer = "Installer signifie mettre en place quelque chose ou quelqu'un dans un endroit ou une position déterminée, ou configurer un système ou un logiciel. C'est un verbe régulier du premier groupe en -er.";
+                public const string Importer = "Importer signifie faire entrer des marchandises ou des données d'un pays ou d'un système vers un autre, ou avoir de l'importance, de la valeur. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

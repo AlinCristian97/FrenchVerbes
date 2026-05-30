@@ -20,10 +20,10 @@ public static partial class Constants
                 public const string Insulter = "insulter";
                 public const string Informer = "informer";
                 public const string Imprimer = "imprimer";
-                public const string Imaginer = "imaginer"; // <-- you are here
+                public const string Imaginer = "imaginer";
                 public const string Inviter = "inviter";
                 public const string Installer = "installer";
-                public const string Importer = "importer";
+                public const string Importer = "importer"; // <-- you are here
                 public const string Infliger = "infliger";
                 public const string Incarner = "incarner";
                 public const string Inspecter = "inspecter";

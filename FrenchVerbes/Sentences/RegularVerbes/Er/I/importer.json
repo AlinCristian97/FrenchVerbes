@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "La France importe beaucoup de pétrole chaque année.",
+    "Tu importes des fichiers depuis ton ancien ordinateur.",
+    "Il importe des produits exotiques pour son restaurant.",
+    "Nous importons des données depuis la base de données externe.",
+    "Vous importez des marchandises de l'étranger."
+  ],
+  "Imparfait": [
+    "La France importait davantage de charbon autrefois.",
+    "Tu importais des fichiers chaque semaine.",
+    "Il importait des épices rares d'Asie.",
+    "Nous importions des voitures d'Allemagne.",
+    "Vous importiez des logiciels depuis les États-Unis."
+  ],
+  "Futur Simple": [
+    "Le pays importera plus de gaz naturel l'année prochaine.",
+    "Tu importeras les données dans le nouveau système.",
+    "Il importera des vêtements pour sa boutique.",
+    "Nous importerons ces produits si la demande augmente.",
+    "Vous importerez les fichiers avant la mise à jour."
+  ],
+  "Passé Composé": [
+    "La France a importé des millions de tonnes de blé.",
+    "Tu as importé les contacts dans ta messagerie.",
+    "Elle a importé des tissus pour sa collection.",
+    "Nous avons importé les données depuis l'ancien logiciel.",
+    "Vous avez importé ces marchandises sans payer les taxes."
+  ],
+  "Futur Proche": [
+    "Le gouvernement va importer davantage de médicaments.",
+    "Tu vas importer les fichiers dans le nouveau programme.",
+    "Il va importer des produits frais pour le marché.",
+    "Nous allons importer les données ce soir.",
+    "Vous allez importer ces composants depuis l'étranger."
+  ],
+  "Passé Récent": [
+    "Le pays vient d'importer un lot de vaccins.",
+    "Tu viens d'importer les données dans le tableau.",
+    "Elle vient d'importer une collection de vêtements.",
+    "Nous venons d'importer les fichiers nécessaires.",
+    "Vous venez d'importer les marchandises du port."
+  ],
+  "Impératif": [
+    "Importe les données dans le nouveau système !",
+    "Importons davantage de produits locaux étrangers !",
+    "Importez les fichiers avant de commencer !",
+    "N'importe pas de produits non conformes !",
+    "Importez ces données dès que possible !"
+  ],
+  "Conditionnel Présent": [
+    "Le pays importerait moins si sa production locale augmentait.",
+    "Tu importerais les fichiers si tu avais les droits d'accès.",
+    "Il importerait davantage de produits bio s'ils étaient moins chers.",
+    "Nous importerions ces composants si nous en avions besoin.",
+    "Vous importeriez les données si le système le permettait."
+  ]
+}
