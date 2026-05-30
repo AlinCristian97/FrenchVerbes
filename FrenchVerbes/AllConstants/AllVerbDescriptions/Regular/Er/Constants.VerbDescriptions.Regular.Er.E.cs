@@ -49,6 +49,11 @@ public static partial class Constants
                 public const string Echapper = "Échapper signifie se soustraire à un danger, fuir ou éviter quelque chose de nuisible. C'est un verbe régulier du premier groupe en -er.";
                 public const string Se_Echapper = "S'échapper signifie fuir ou se soustraire à une contrainte, s'évader ou se libérer d'un lieu ou d'une situation. C'est un verbe pronominal régulier du premier groupe en -er.";
                 public const string Elever = "Élever signifie hausser, porter à un niveau supérieur, éduquer ou élever des animaux. C'est un verbe régulier du premier groupe en -er avec alternance è / e au présent.";
+                public const string Eloigner = "Éloigner signifie mettre à distance, écarter ou séparer quelque chose ou quelqu'un d'un lieu ou d'une personne. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Eloigner = "S'éloigner signifie s'écarter, partir dans une direction opposée ou prendre de la distance par rapport à quelque chose ou quelqu'un. C'est un verbe pronominal régulier du premier groupe en -er.";
+                public const string Emerger = "Émerger signifie sortir d'un milieu liquide, apparaître progressivement ou se distinguer parmi d'autres. C'est un verbe régulier du premier groupe en -er.";
+                public const string Epeler = "Épeler signifie nommer les lettres d'un mot une à une. C'est un verbe régulier du premier groupe en -er avec doublement du l devant une syllabe muette.";
+                public const string Epouser = "Épouser signifie se marier avec quelqu'un, ou adopter pleinement une idée ou une cause. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

@@ -48,6 +48,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateEchapper());
         _verbs.Add(CreateSe_Echapper());
         _verbs.Add(CreateElever());
+        _verbs.Add(CreateEloigner());
+        _verbs.Add(CreateSe_Eloigner());
+        _verbs.Add(CreateEmerger());
+        _verbs.Add(CreateEpeler());
+        _verbs.Add(CreateEpouser());
     }
 
     #region FactoryMethods
@@ -367,6 +372,44 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Elever,
             Constants.VerbDescriptions.Regular.Er.Elever);
+    }
+
+    private static RegularErVerb CreateEloigner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Eloigner,
+            Constants.VerbDescriptions.Regular.Er.Eloigner,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Eloigner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Eloigner,
+            Constants.VerbDescriptions.Regular.Er.Se_Eloigner,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateEmerger()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Emerger,
+            Constants.VerbDescriptions.Regular.Er.Emerger);
+    }
+
+    private static RegularErVerb CreateEpeler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Epeler,
+            Constants.VerbDescriptions.Regular.Er.Epeler);
+    }
+
+    private static RegularErVerb CreateEpouser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Epouser,
+            Constants.VerbDescriptions.Regular.Er.Epouser);
     }
 
     #endregion
