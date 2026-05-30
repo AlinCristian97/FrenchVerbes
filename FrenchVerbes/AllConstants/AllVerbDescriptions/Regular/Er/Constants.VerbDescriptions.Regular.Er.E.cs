@@ -88,6 +88,10 @@ public static partial class Constants
                 public const string Se_Effondrer = "S'effondrer signifie s'écrouler, tomber en ruine ou perdre toute résistance physique ou morale. C'est un verbe pronominal régulier du premier groupe en -er.";
                 public const string Egarer = "Égarer signifie perdre quelque chose, ne plus savoir où on l'a mis, ou faire perdre son chemin à quelqu'un. C'est un verbe régulier du premier groupe en -er.";
                 public const string Se_Egarer = "S'égarer signifie perdre son chemin, se tromper de direction ou s'écarter du sujet principal. C'est un verbe pronominal régulier du premier groupe en -er.";
+                public const string Ecumer = "Écumer signifie produire de l'écume, mousser abondamment ou, au sens figuré, être très en colère. C'est un verbe régulier du premier groupe en -er.";
+                public const string Echouer = "Échouer signifie ne pas réussir, ne pas atteindre son but, ou s'arrêter involontairement sur un obstacle. C'est un verbe régulier du premier groupe en -er.";
+                public const string Entourer = "Entourer signifie placer autour de quelque chose ou de quelqu'un, encercler ou être présent tout autour. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Entourer = "S'entourer signifie se placer des personnes ou des choses autour de soi, s'entourer de soins ou de précautions. C'est un verbe pronominal régulier du premier groupe en -er.";
             }
         }
     }

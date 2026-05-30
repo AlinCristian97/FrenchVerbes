@@ -87,11 +87,11 @@ public static partial class Constants
                 public const string Effondrer = "effondrer";
                 public const string Se_Effondrer = "s'effondrer";
                 public const string Egarer = "égarer";
-                public const string Se_Egarer = "s'égarer"; // <-- you are here
+                public const string Se_Egarer = "s'égarer";
                 public const string Ecumer = "écumer";
                 public const string Echouer = "échouer";
                 public const string Entourer = "entourer";
-                public const string Se_Entourer = "s'entourer";
+                public const string Se_Entourer = "s'entourer"; // <-- you are here
             }
         }
     }

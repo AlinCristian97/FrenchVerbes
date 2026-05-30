@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Il échoue à son examen pour la deuxième fois.",
+    "Le navire échoue sur les rochers par temps de brouillard.",
+    "Elle échoue à convaincre son patron.",
+    "Le projet échoue faute de financement.",
+    "Nous échouons à trouver une solution."
+  ],
+  "Imparfait": [
+    "Il échouait à son examen pour la deuxième fois.",
+    "Le navire échouait sur les rochers par temps de brouillard.",
+    "Elle échouait à convaincre son patron.",
+    "Le projet échouait faute de financement.",
+    "Nous échouions à trouver une solution."
+  ],
+  "Futur Simple": [
+    "Il échouera à son examen pour la deuxième fois.",
+    "Le navire échouera sur les rochers par temps de brouillard.",
+    "Elle échouera à convaincre son patron.",
+    "Le projet échouera faute de financement.",
+    "Nous échouerons à trouver une solution."
+  ],
+  "Passé Composé": [
+    "Il a échoué à son examen pour la deuxième fois.",
+    "Le navire a échoué sur les rochers par temps de brouillard.",
+    "Elle a échoué à convaincre son patron.",
+    "Le projet a échoué faute de financement.",
+    "Nous avons échoué à trouver une solution."
+  ],
+  "Futur Proche": [
+    "Il va échouer à son examen pour la deuxième fois.",
+    "Le navire va échouer sur les rochers par temps de brouillard.",
+    "Elle va échouer à convaincre son patron.",
+    "Le projet va échouer faute de financement.",
+    "Nous allons échouer à trouver une solution."
+  ],
+  "Passé Récent": [
+    "Il vient d'échouer à son examen pour la deuxième fois.",
+    "Le navire vient d'échouer sur les rochers par temps de brouillard.",
+    "Elle vient d'échouer à convaincre son patron.",
+    "Le projet vient d'échouer faute de financement.",
+    "Nous venons d'échouer à trouver une solution."
+  ],
+  "Impératif": [
+    "N'échoue pas à cet examen !",
+    "N'échouez pas dans votre mission.",
+    "Échouons ensemble plutôt que de ne pas essayer.",
+    "N'échoue pas à cette épreuve importante.",
+    "N'échouez pas à saisir cette opportunité."
+  ],
+  "Conditionnel Présent": [
+    "Il échouerait à son examen pour la deuxième fois.",
+    "Le navire échouerait sur les rochers par temps de brouillard.",
+    "Elle échouerait à convaincre son patron.",
+    "Le projet échouerait faute de financement.",
+    "Nous échouerions à trouver une solution."
+  ]
+}

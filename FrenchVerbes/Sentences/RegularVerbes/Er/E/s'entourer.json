@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Elle s'entoure de personnes bienveillantes.",
+    "Il s'entoure de précautions avant de prendre une décision.",
+    "Nous nous entourons de bons amis.",
+    "Tu t'entoures de mystère.",
+    "Ils s'entourent de collaborateurs compétents."
+  ],
+  "Imparfait": [
+    "Elle s'entourait de personnes bienveillantes.",
+    "Il s'entourait de précautions avant de prendre une décision.",
+    "Nous nous entourions de bons amis.",
+    "Tu t'entourais de mystère.",
+    "Ils s'entouraient de collaborateurs compétents."
+  ],
+  "Futur Simple": [
+    "Elle s'entourera de personnes bienveillantes.",
+    "Il s'entourera de précautions avant de prendre une décision.",
+    "Nous nous entourerons de bons amis.",
+    "Tu t'entoureras de mystère.",
+    "Ils s'entoureront de collaborateurs compétents."
+  ],
+  "Passé Composé": [
+    "Elle s'est entourée de personnes bienveillantes.",
+    "Il s'est entouré de précautions avant de prendre une décision.",
+    "Nous nous sommes entourés de bons amis.",
+    "Tu t'es entouré de mystère.",
+    "Ils se sont entourés de collaborateurs compétents."
+  ],
+  "Futur Proche": [
+    "Elle va s'entourer de personnes bienveillantes.",
+    "Il va s'entourer de précautions avant de prendre une décision.",
+    "Nous allons nous entourer de bons amis.",
+    "Tu vas t'entourer de mystère.",
+    "Ils vont s'entourer de collaborateurs compétents."
+  ],
+  "Passé Récent": [
+    "Elle vient de s'entourer de personnes bienveillantes.",
+    "Il vient de s'entourer de précautions avant de prendre une décision.",
+    "Nous venons de nous entourer de bons amis.",
+    "Tu viens de t'entourer de mystère.",
+    "Ils viennent de s'entourer de collaborateurs compétents."
+  ],
+  "Impératif": [
+    "Entoure-toi de personnes positives.",
+    "Entourons-nous de précautions.",
+    "Entourez-vous de bonnes influences.",
+    "Entoure-toi d'experts pour ce projet.",
+    "Entourons-nous de soutien avant de commencer."
+  ],
+  "Conditionnel Présent": [
+    "Elle s'entourerait de personnes bienveillantes.",
+    "Il s'entourerait de précautions avant de prendre une décision.",
+    "Nous nous entourerait de bons amis.",
+    "Tu t'entourerait de mystère.",
+    "Ils s'entourerait de collaborateurs compétents."
+  ]
+}

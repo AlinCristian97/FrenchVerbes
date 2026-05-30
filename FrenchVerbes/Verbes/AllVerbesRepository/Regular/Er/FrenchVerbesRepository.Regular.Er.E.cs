@@ -87,6 +87,10 @@ public static partial class VerbRepository
         _verbs.Add(CreateSe_Effondrer());
         _verbs.Add(CreateEgarer());
         _verbs.Add(CreateSe_Egarer());
+        _verbs.Add(CreateEcumer());
+        _verbs.Add(CreateEchouer());
+        _verbs.Add(CreateEntourer());
+        _verbs.Add(CreateSe_Entourer());
     }
 
     #region FactoryMethods
@@ -706,6 +710,37 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Se_Egarer,
             Constants.VerbDescriptions.Regular.Er.Se_Egarer,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateEcumer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Ecumer,
+            Constants.VerbDescriptions.Regular.Er.Ecumer);
+    }
+
+    private static RegularErVerb CreateEchouer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Echouer,
+            Constants.VerbDescriptions.Regular.Er.Echouer);
+    }
+
+    private static RegularErVerb CreateEntourer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Entourer,
+            Constants.VerbDescriptions.Regular.Er.Entourer,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Entourer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Entourer,
+            Constants.VerbDescriptions.Regular.Er.Se_Entourer,
             usesEtre: true,
             isReflexive: true);
     }

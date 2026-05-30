@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "La mer écume sous la tempête.",
+    "Le cheval écume après la course.",
+    "Il écume de rage en apprenant la nouvelle.",
+    "La bière écume dans le verre.",
+    "Elle écume les marchés aux puces chaque dimanche."
+  ],
+  "Imparfait": [
+    "La mer écumait sous la tempête.",
+    "Le cheval écumait après la course.",
+    "Il écumait de rage en apprenant la nouvelle.",
+    "La bière écumait dans le verre.",
+    "Elle écumait les marchés aux puces chaque dimanche."
+  ],
+  "Futur Simple": [
+    "La mer écumera sous la tempête.",
+    "Le cheval écumera après la course.",
+    "Il écumera de rage en apprenant la nouvelle.",
+    "La bière écumera dans le verre.",
+    "Elle écumera les marchés aux puces chaque dimanche."
+  ],
+  "Passé Composé": [
+    "La mer a écumé sous la tempête.",
+    "Le cheval a écumé après la course.",
+    "Il a écumé de rage en apprenant la nouvelle.",
+    "La bière a écumé dans le verre.",
+    "Elle a écumé les marchés aux puces chaque dimanche."
+  ],
+  "Futur Proche": [
+    "La mer va écumer sous la tempête.",
+    "Le cheval va écumer après la course.",
+    "Il va écumer de rage en apprenant la nouvelle.",
+    "La bière va écumer dans le verre.",
+    "Elle va écumer les marchés aux puces chaque dimanche."
+  ],
+  "Passé Récent": [
+    "La mer vient d'écumer sous la tempête.",
+    "Le cheval vient d'écumer après la course.",
+    "Il vient d'écumer de rage en apprenant la nouvelle.",
+    "La bière vient d'écumer dans le verre.",
+    "Elle vient d'écumer les marchés aux puces chaque dimanche."
+  ],
+  "Impératif": [
+    "Écume la soupe avant de la servir !",
+    "N'écume pas de rage, calme-toi.",
+    "Écumons les meilleures adresses de la ville.",
+    "Écumez les musées pendant votre séjour.",
+    "Écume le bouillon pour qu'il soit clair."
+  ],
+  "Conditionnel Présent": [
+    "La mer écumerait sous la tempête.",
+    "Le cheval écumerait après la course.",
+    "Il écumerait de rage en apprenant la nouvelle.",
+    "La bière écumerait dans le verre.",
+    "Elle écumerait les marchés aux puces chaque dimanche."
+  ]
+}
