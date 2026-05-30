@@ -27,13 +27,13 @@ public static partial class Constants
                 public const string Exploser = "exploser";
                 public const string Experimenter = "expérimenter";
                 public const string Equiper = "équiper";
-                public const string Se_Equiper = "s'équiper"; // <-- you are here
+                public const string Se_Equiper = "s'équiper";
                 public const string Ecouter = "écouter";
                 public const string Ennuyer = "ennuyer";
                 public const string Se_Ennuyer = "s'ennuyer";
                 public const string Empecher = "empêcher";
                 public const string Enerver = "énerver";
-                public const string Se_Enerver = "s'énerver";
+                public const string Se_Enerver = "s'énerver"; // <-- you are here
                 public const string Entrer = "entrer";
                 public const string Eparpiller = "éparpiller";
                 public const string Esperer = "espérer";

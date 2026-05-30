@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Ce film m'ennuie profondément.",
+    "Tu ennuies tout le monde avec tes histoires répétitives.",
+    "Il ennuie ses collègues avec ses longs monologues.",
+    "Nous ennuyons les invités avec ces sujets sans intérêt.",
+    "Vous ennuyez la classe avec vos plaisanteries usées."
+  ],
+  "Imparfait": [
+    "Ce cours m'ennuyait tellement que je m'endormais.",
+    "Tu ennuyais tout le monde avec tes questions hors sujet.",
+    "Il ennuyait les clients avec ses explications interminables.",
+    "Nous ennuyions les voisins avec notre musique répétitive.",
+    "Vous ennuyiez les enfants avec des activités inadaptées."
+  ],
+  "Futur Simple": [
+    "Ce discours ennuiera sûrement le public.",
+    "Tu ennuieras les recruteurs si tu répètes les mêmes arguments.",
+    "Il ennuiera ses lecteurs avec des descriptions trop longues.",
+    "Nous ennuierons les participants si le programme ne change pas.",
+    "Vous ennuierez tout le monde si vous parlez pendant une heure."
+  ],
+  "Passé Composé": [
+    "Ce roman m'a ennuyé du début à la fin.",
+    "Tu as ennuyé tout le monde avec ta présentation.",
+    "Il a ennuyé ses élèves avec des exercices monotones.",
+    "Nous avons ennuyé les convives avec une conversation sans relief.",
+    "Vous avez ennuyé les spectateurs avec un spectacle trop long."
+  ],
+  "Futur Proche": [
+    "Ce sujet va ennuyer les étudiants.",
+    "Tu vas ennuyer tes amis si tu parles encore de ça.",
+    "Il va ennuyer ses clients avec ce discours prévisible.",
+    "Nous allons ennuyer les visiteurs avec une visite trop longue.",
+    "Vous allez ennuyer tout le monde avec ce diaporama interminable."
+  ],
+  "Passé Récent": [
+    "Ce conférencier vient d'ennuyer toute la salle.",
+    "Tu viens d'ennuyer tes collègues avec cette réunion inutile.",
+    "Il vient d'ennuyer ses élèves avec un cours sans dynamisme.",
+    "Nous venons d'ennuyer nos amis avec nos problèmes.",
+    "Vous venez d'ennuyer les clients avec une attente trop longue."
+  ],
+  "Impératif": [
+    "N'ennuie pas tes amis avec tes soucis constants.",
+    "N'ennuyons pas les enfants avec des activités inadaptées.",
+    "N'ennuyez pas vos lecteurs avec des détails inutiles.",
+    "Essaie de ne pas ennuyer ton public.",
+    "N'ennuyez pas vos collègues avec des réunions sans agenda."
+  ],
+  "Conditionnel Présent": [
+    "Ce film ennuierait n'importe qui.",
+    "Tu ennuierais moins si tu variait tes sujets.",
+    "Il ennuierait moins ses étudiants avec plus d'exemples concrets.",
+    "Nous ennuierions moins si nous adaptions notre présentation.",
+    "Vous ennuieriez moins vos clients avec un service plus rapide."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je m'énerve quand les choses ne se passent pas comme prévu.",
+    "Tu t'énerves pour des détails sans importance.",
+    "Il s'énerve dès qu'il est sous pression.",
+    "Nous nous énervons facilement dans les embouteillages.",
+    "Vous vous énervez trop vite dans les situations de stress."
+  ],
+  "Imparfait": [
+    "Je m'énervais souvent quand j'étais plus jeune.",
+    "Tu t'énervais pour un rien à cette époque.",
+    "Il s'énervait facilement quand les choses allaient mal.",
+    "Nous nous énervions lors des longues réunions.",
+    "Vous vous énerviez à chaque contrariété."
+  ],
+  "Futur Simple": [
+    "Je m'énerverai si tu continues à m'ignorer.",
+    "Tu t'énerveras si la situation ne change pas.",
+    "Elle s'énervera si on ne la respecte pas.",
+    "Nous nous énerverons si les délais ne sont pas tenus.",
+    "Vous vous énerverez si vous ne dormez pas suffisamment."
+  ],
+  "Passé Composé": [
+    "Je me suis énervé pendant la réunion.",
+    "Tu t'es énervé sans raison valable.",
+    "Il s'est énervé contre son collègue.",
+    "Nous nous sommes énervés face à cette injustice.",
+    "Vous vous êtes énervés lors de cette dispute."
+  ],
+  "Futur Proche": [
+    "Je vais m'énerver si tu recommences.",
+    "Tu vas t'énerver si tu écoutes ces commentaires.",
+    "Elle va s'énerver si on ne la prévient pas.",
+    "Nous allons nous énerver si le train est encore en retard.",
+    "Vous allez vous énerver si rien ne change."
+  ],
+  "Passé Récent": [
+    "Je viens de m'énerver contre mon ordinateur.",
+    "Tu viens de t'énerver pour rien.",
+    "Il vient de s'énerver en apprenant la nouvelle.",
+    "Nous venons de nous énerver lors de cette discussion.",
+    "Vous venez de vous énerver sans raison valable."
+  ],
+  "Impératif": [
+    "Énerve-toi si tu veux, mais ça ne changera rien.",
+    "Ne t'énerve pas pour si peu.",
+    "Énervons-nous ensemble contre cette injustice.",
+    "Ne nous énervons pas, gardons notre calme.",
+    "Ne vous énervez pas, la situation va s'arranger."
+  ],
+  "Conditionnel Présent": [
+    "Je m'énerverais aussi à ta place.",
+    "Tu t'énerverais moins si tu dormais mieux.",
+    "Il s'énerverait moins avec moins de pression.",
+    "Nous nous énerverions moins avec une meilleure organisation.",
+    "Vous vous énerveriez moins si vous preniez du recul."
+  ]
+}

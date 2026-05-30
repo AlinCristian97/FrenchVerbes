@@ -27,6 +27,12 @@ public static partial class VerbRepository
         _verbs.Add(CreateExperimenter());
         _verbs.Add(CreateEquiper());
         _verbs.Add(CreateSe_Equiper());
+        _verbs.Add(CreateEcouter());
+        _verbs.Add(CreateEnnuyer());
+        _verbs.Add(CreateSe_Ennuyer());
+        _verbs.Add(CreateEmpecher());
+        _verbs.Add(CreateEnerver());
+        _verbs.Add(CreateSe_Enerver());
     }
 
     #region FactoryMethods
@@ -183,6 +189,54 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Se_Equiper,
             Constants.VerbDescriptions.Regular.Er.Se_Equiper,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateEcouter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Ecouter,
+            Constants.VerbDescriptions.Regular.Er.Ecouter);
+    }
+
+    private static RegularErVerb CreateEnnuyer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Ennuyer,
+            Constants.VerbDescriptions.Regular.Er.Ennuyer,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Ennuyer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Ennuyer,
+            Constants.VerbDescriptions.Regular.Er.Se_Ennuyer,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateEmpecher()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Empecher,
+            Constants.VerbDescriptions.Regular.Er.Empecher);
+    }
+
+    private static RegularErVerb CreateEnerver()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Enerver,
+            Constants.VerbDescriptions.Regular.Er.Enerver,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Enerver()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Enerver,
+            Constants.VerbDescriptions.Regular.Er.Se_Enerver,
             usesEtre: true,
             isReflexive: true);
     }

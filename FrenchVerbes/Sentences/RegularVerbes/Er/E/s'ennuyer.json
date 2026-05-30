@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je m'ennuie quand il n'y a rien à faire.",
+    "Tu t'ennuies pendant les longues réunions.",
+    "Il s'ennuie à mourir dans ce village.",
+    "Nous nous ennuyons sans activités le week-end.",
+    "Vous vous ennuyez sans vos amis autour de vous."
+  ],
+  "Imparfait": [
+    "Je m'ennuyais pendant les vacances d'été.",
+    "Tu t'ennuyais à l'école les lundis matin.",
+    "Il s'ennuyait à la campagne sans distraction.",
+    "Nous nous ennuyions sans nos jouets habituels.",
+    "Vous vous ennuyiez dans cette ville trop calme."
+  ],
+  "Futur Simple": [
+    "Je m'ennuierai si tu ne viens pas.",
+    "Tu t'ennuieras vite sans quelque chose à faire.",
+    "Elle s'ennuiera pendant le long trajet.",
+    "Nous nous ennuierons si le programme ne change pas.",
+    "Vous vous ennuierez sans activités supplémentaires."
+  ],
+  "Passé Composé": [
+    "Je me suis ennuyé pendant toute la cérémonie.",
+    "Tu t'es ennuyé lors de cette conférence.",
+    "Il s'est ennuyé tout l'après-midi à la maison.",
+    "Nous nous sommes ennuyés sans connexion internet.",
+    "Vous vous êtes ennuyés pendant l'attente à l'aéroport."
+  ],
+  "Futur Proche": [
+    "Je vais m'ennuyer sans toi cette semaine.",
+    "Tu vas t'ennuyer si tu ne prends pas un livre.",
+    "Elle va s'ennuyer seule toute la journée.",
+    "Nous allons nous ennuyer sans activités prévues.",
+    "Vous allez vous ennuyer si vous restez à la maison."
+  ],
+  "Passé Récent": [
+    "Je viens de m'ennuyer pendant cette réunion.",
+    "Tu viens de t'ennuyer lors de ce cours.",
+    "Il vient de s'ennuyer pendant le spectacle.",
+    "Nous venons de nous ennuyer lors de cette sortie.",
+    "Vous venez de vous ennuyer pendant cette présentation."
+  ],
+  "Impératif": [
+    "Ennuie-toi si tu ne veux rien faire.",
+    "Ne t'ennuie pas, il y a plein d'activités ici.",
+    "Ennuyons-nous ensemble, au moins on sera de bonne compagnie.",
+    "Ne nous ennuyons pas, trouvons quelque chose à faire.",
+    "Ennuyez-vous si vous ne voulez pas participer."
+  ],
+  "Conditionnel Présent": [
+    "Je m'ennuierais sans mes hobbies.",
+    "Tu t'ennuierais si tu n'avais pas d'amis.",
+    "Il s'ennuierait sans son travail.",
+    "Nous nous ennuierions si nous n'avions rien à faire.",
+    "Vous vous ennuieriez sans vos loisirs habituels."
+  ]
+}

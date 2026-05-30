@@ -28,6 +28,12 @@ public static partial class Constants
                 public const string Experimenter = "Expérimenter signifie faire des expériences pour tester ou découvrir quelque chose, ou vivre quelque chose de nouveau. C'est un verbe régulier du premier groupe en -er.";
                 public const string Equiper = "Équiper signifie fournir à quelqu'un ou à quelque chose le matériel ou les outils nécessaires. C'est un verbe régulier du premier groupe en -er.";
                 public const string Se_Equiper = "S'équiper signifie se munir du matériel ou des outils nécessaires pour une activité. C'est un verbe pronominal régulier du premier groupe en -er.";
+                public const string Ecouter = "Écouter signifie prêter attention à un son, à une personne qui parle, ou suivre un conseil. C'est un verbe régulier du premier groupe en -er.";
+                public const string Ennuyer = "Ennuyer signifie causer de l'ennui, irriter légèrement ou déplaire à quelqu'un. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Ennuyer = "S'ennuyer signifie éprouver de l'ennui, ne pas trouver d'intérêt à ce que l'on fait ou à la situation dans laquelle on se trouve. C'est un verbe pronominal régulier du premier groupe en -er.";
+                public const string Empecher = "Empêcher signifie mettre obstacle à quelque chose, rendre impossible ou interdire une action. C'est un verbe régulier du premier groupe en -er.";
+                public const string Enerver = "Énerver signifie irriter quelqu'un, le mettre en état d'agitation nerveuse ou le contrarier. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Enerver = "S'énerver signifie perdre son calme, devenir irritable ou agité sous l'effet de la nervosité. C'est un verbe pronominal régulier du premier groupe en -er.";
             }
         }
     }
