@@ -34,6 +34,11 @@ public static partial class Constants
                 public const string Empecher = "Empêcher signifie mettre obstacle à quelque chose, rendre impossible ou interdire une action. C'est un verbe régulier du premier groupe en -er.";
                 public const string Enerver = "Énerver signifie irriter quelqu'un, le mettre en état d'agitation nerveuse ou le contrarier. C'est un verbe régulier du premier groupe en -er.";
                 public const string Se_Enerver = "S'énerver signifie perdre son calme, devenir irritable ou agité sous l'effet de la nervosité. C'est un verbe pronominal régulier du premier groupe en -er.";
+                public const string Entrer = "Entrer signifie passer de l'extérieur à l'intérieur d'un lieu, franchir un seuil ou commencer à faire partie d'un groupe. C'est un verbe régulier du premier groupe en -er.";
+                public const string Eparpiller = "Éparpiller signifie disperser des objets ou des personnes en différents endroits, disséminer ou disperser. C'est un verbe régulier du premier groupe en -er.";
+                public const string Esperer = "Espérer signifie attendre avec confiance la réalisation de quelque chose de souhaité, avoir de l'espoir. C'est un verbe régulier du premier groupe en -er avec alternance é / è au présent.";
+                public const string Essayer = "Essayer signifie faire l'expérience de quelque chose pour en connaître les effets, tenter ou mettre à l'épreuve. C'est un verbe régulier du premier groupe en -er avec alternance y/i.";
+                public const string Etudier = "Étudier signifie s'appliquer à l'acquisition de connaissances, examiner attentivement un sujet ou faire des études. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

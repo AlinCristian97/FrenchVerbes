@@ -33,12 +33,12 @@ public static partial class Constants
                 public const string Se_Ennuyer = "s'ennuyer";
                 public const string Empecher = "empêcher";
                 public const string Enerver = "énerver";
-                public const string Se_Enerver = "s'énerver"; // <-- you are here
+                public const string Se_Enerver = "s'énerver";
                 public const string Entrer = "entrer";
                 public const string Eparpiller = "éparpiller";
                 public const string Esperer = "espérer";
                 public const string Essayer = "essayer";
-                public const string Etudier = "étudier";
+                public const string Etudier = "étudier"; // <-- you are here
                 public const string Expliquer = "expliquer";
                 public const string Exister = "exister";
                 public const string Examiner = "examiner";

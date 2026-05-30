@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "J'étudie le français depuis deux ans.",
+    "Tu études la biologie à l'université.",
+    "Il étudie le dossier attentivement.",
+    "Nous étudions les conséquences de cette décision.",
+    "Vous étudiez le marché avant d'investir."
+  ],
+  "Imparfait": [
+    "J'étudiais tard le soir avant les examens.",
+    "Tu étudiais la philosophie avec passion.",
+    "Il étudiait les étoiles depuis son enfance.",
+    "Nous étudiions ensemble à la bibliothèque.",
+    "Vous étudiiez cette question depuis des mois."
+  ],
+  "Futur Simple": [
+    "J'étudierai le droit l'année prochaine.",
+    "Tu étudieras la proposition avec soin.",
+    "Il étudiera les options disponibles.",
+    "Nous étudierons ce rapport en détail.",
+    "Vous étudierez la faisabilité du projet."
+  ],
+  "Passé Composé": [
+    "J'ai étudié toute la nuit pour l'examen.",
+    "Tu as étudié ce problème en profondeur.",
+    "Il a étudié la médecine pendant six ans.",
+    "Nous avons étudié les résultats de l'enquête.",
+    "Vous avez étudié la question sous tous les angles."
+  ],
+  "Futur Proche": [
+    "Je vais étudier ce contrat avant de signer.",
+    "Tu vas étudier la langue japonaise.",
+    "Il va étudier les effets secondaires du traitement.",
+    "Nous allons étudier cette proposition ensemble.",
+    "Vous allez étudier le dossier ce soir."
+  ],
+  "Passé Récent": [
+    "Je viens d'étudier les derniers résultats.",
+    "Tu viens d'étudier cette section du cours.",
+    "Il vient d'étudier le rapport financier.",
+    "Nous venons d'étudier la situation actuelle.",
+    "Vous venez d'étudier les différentes options."
+  ],
+  "Impératif": [
+    "Étudie ta leçon avant demain !",
+    "Étudions ce problème ensemble.",
+    "Étudiez le dossier attentivement !"
+  ],
+  "Conditionnel Présent": [
+    "J'étudierais cette langue si j'avais plus de temps.",
+    "Tu étudierais ce sujet avec passion si tu le choisissais.",
+    "Il étudierait les astres si c'était son métier.",
+    "Nous étudierions ce problème plus en détail si nécessaire.",
+    "Vous étudieriez ce marché avant d'investir."
+  ]
+}

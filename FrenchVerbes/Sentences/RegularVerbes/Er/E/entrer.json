@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "J'entre dans la maison.",
+    "Tu entres dans la salle de classe.",
+    "Il entre dans le bureau sans frapper.",
+    "Nous entrons dans le musée.",
+    "Vous entrez dans la pièce avec discrétion."
+  ],
+  "Imparfait": [
+    "J'entrais dans la bibliothèque tous les matins.",
+    "Tu entrais toujours par la porte de derrière.",
+    "Il entrait dans la cuisine quand le téléphone sonna.",
+    "Nous entrions dans l'immeuble avec nos badges.",
+    "Vous entriez dans la salle de réunion en retard."
+  ],
+  "Futur Simple": [
+    "J'entrerai dans l'université l'année prochaine.",
+    "Tu entreras dans la compétition si tu t'entraînes.",
+    "Il entrera dans l'histoire pour ses découvertes.",
+    "Nous entrerons dans le bâtiment dès son ouverture.",
+    "Vous entrerez dans la salle quand ce sera votre tour."
+  ],
+  "Passé Composé": [
+    "Je suis entré dans le magasin à midi.",
+    "Tu es entré dans la pièce sans bruit.",
+    "Il est entré dans l'équipe la semaine dernière.",
+    "Nous sommes entrés dans la forêt au coucher du soleil.",
+    "Vous êtes entrés dans le restaurant trop tôt."
+  ],
+  "Futur Proche": [
+    "Je vais entrer dans la salle de conférence.",
+    "Tu vas entrer dans une nouvelle phase de ta vie.",
+    "Il va entrer dans le débat politique.",
+    "Nous allons entrer dans le vif du sujet.",
+    "Vous allez entrer dans le théâtre dans cinq minutes."
+  ],
+  "Passé Récent": [
+    "Je viens d'entrer dans cet immeuble.",
+    "Tu viens d'entrer dans la bonne voie.",
+    "Il vient d'entrer dans la pièce.",
+    "Nous venons d'entrer dans l'ère numérique.",
+    "Vous venez d'entrer dans l'équipe."
+  ],
+  "Impératif": [
+    "Entre dans le salon !",
+    "Entrons dans la discussion.",
+    "Entrez dans la salle, s'il vous plaît !"
+  ],
+  "Conditionnel Présent": [
+    "J'entrerais dans ce programme si j'avais les qualifications.",
+    "Tu entrerais dans le bâtiment par cette porte.",
+    "Il entrerait dans la légende avec ce match.",
+    "Nous entrerions dans la négociation avec de bonnes intentions.",
+    "Vous entreriez dans l'histoire si vous réussissiez."
+  ]
+}

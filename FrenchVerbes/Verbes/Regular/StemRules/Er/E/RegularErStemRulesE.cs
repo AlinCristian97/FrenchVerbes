@@ -10,5 +10,7 @@ public static class RegularErStemRulesE
         {
             [Constants.Verbs.Regular.Er.Ennuyer] = new AppuyerRegularErStemRule(Constants.Verbs.Regular.Er.Ennuyer),
             [Constants.Verbs.Regular.Er.Se_Ennuyer] = new AppuyerRegularErStemRule(Constants.Verbs.Regular.Er.Se_Ennuyer),
+            [Constants.Verbs.Regular.Er.Esperer] = new EspererRegularErStemRule(),
+            [Constants.Verbs.Regular.Er.Essayer] = new EssayerRegularErStemRule(),
         };
 }

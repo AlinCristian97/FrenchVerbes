@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "J'essaie ce nouveau restaurant ce soir.",
+    "Tu essaies de comprendre la leçon.",
+    "Il essaie de réparer la voiture.",
+    "Nous essayons une nouvelle approche.",
+    "Vous essayez d'améliorer votre technique."
+  ],
+  "Imparfait": [
+    "J'essayais de finir mon travail avant minuit.",
+    "Tu essayais de convaincre ton ami.",
+    "Il essayait de trouver ses clés.",
+    "Nous essayions différentes méthodes.",
+    "Vous essayiez de rester calmes."
+  ],
+  "Futur Simple": [
+    "J'essaierai ce plat la prochaine fois.",
+    "Tu essaieras de mieux t'organiser.",
+    "Il essaiera de venir à la réunion.",
+    "Nous essaierons une nouvelle stratégie.",
+    "Vous essaierez de comprendre leur point de vue."
+  ],
+  "Passé Composé": [
+    "J'ai essayé plusieurs solutions sans succès.",
+    "Tu as essayé de le joindre par téléphone.",
+    "Il a essayé de calmer la situation.",
+    "Nous avons essayé ce restaurant hier soir.",
+    "Vous avez essayé de trouver un accord."
+  ],
+  "Futur Proche": [
+    "Je vais essayer ce nouvel exercice.",
+    "Tu vas essayer de te lever plus tôt.",
+    "Il va essayer de régler le problème.",
+    "Nous allons essayer une nouvelle recette.",
+    "Vous allez essayer de communiquer mieux."
+  ],
+  "Passé Récent": [
+    "Je viens d'essayer ce nouveau logiciel.",
+    "Tu viens d'essayer de le contacter.",
+    "Il vient d'essayer de résoudre le problème.",
+    "Nous venons d'essayer une nouvelle approche.",
+    "Vous venez d'essayer de joindre le client."
+  ],
+  "Impératif": [
+    "Essaie encore une fois !",
+    "Essayons quelque chose de différent.",
+    "Essayez de rester concentrés !"
+  ],
+  "Conditionnel Présent": [
+    "J'essaierais cette recette si j'avais les ingrédients.",
+    "Tu essaierais de négocier à ma place.",
+    "Il essaierait de te convaincre si tu lui parlais.",
+    "Nous essaierions une autre approche si cela échouait.",
+    "Vous essaieriez de comprendre si vous étiez à sa place."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "J'espère avoir de bonnes nouvelles bientôt.",
+    "Tu espères réussir ton examen.",
+    "Il espère que tout se passera bien.",
+    "Nous espérons que la situation va s'améliorer.",
+    "Vous espérez trouver une solution rapidement."
+  ],
+  "Imparfait": [
+    "J'espérais pouvoir partir en vacances cet été.",
+    "Tu espérais que tes amis viendraient.",
+    "Il espérait obtenir une promotion.",
+    "Nous espérions arriver à temps.",
+    "Vous espériez recevoir une réponse positive."
+  ],
+  "Futur Simple": [
+    "J'espérerai toujours le meilleur pour toi.",
+    "Tu espéreras un jour réaliser tes rêves.",
+    "Il espérera une réconciliation jusqu'au bout.",
+    "Nous espérerons des jours meilleurs.",
+    "Vous espérerez un changement dans votre situation."
+  ],
+  "Passé Composé": [
+    "J'ai espéré recevoir une bonne nouvelle.",
+    "Tu as espéré qu'il viendrait.",
+    "Il a espéré obtenir le poste jusqu'à la dernière minute.",
+    "Nous avons espéré que la pluie cesserait.",
+    "Vous avez espéré trop longtemps sans agir."
+  ],
+  "Futur Proche": [
+    "Je vais espérer que tout s'arrange.",
+    "Tu vas espérer une amélioration rapide.",
+    "Il va espérer une réponse favorable.",
+    "Nous allons espérer le meilleur.",
+    "Vous allez espérer un miracle."
+  ],
+  "Passé Récent": [
+    "Je viens d'espérer une bonne nouvelle.",
+    "Tu viens d'espérer que la situation change.",
+    "Il vient d'espérer une réconciliation.",
+    "Nous venons d'espérer un résultat positif.",
+    "Vous venez d'espérer une issue favorable."
+  ],
+  "Impératif": [
+    "Espère toujours le meilleur !",
+    "Espérons des jours meilleurs !",
+    "Espérez encore un peu !"
+  ],
+  "Conditionnel Présent": [
+    "J'espérerais un signe de sa part.",
+    "Tu espérerais un geste de réconciliation.",
+    "Il espérerait une seconde chance si c'était possible.",
+    "Nous espérerions une réponse rapide.",
+    "Vous espéreriez une issue favorable."
+  ]
+}

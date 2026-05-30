@@ -33,6 +33,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateEmpecher());
         _verbs.Add(CreateEnerver());
         _verbs.Add(CreateSe_Enerver());
+        _verbs.Add(CreateEntrer());
+        _verbs.Add(CreateEparpiller());
+        _verbs.Add(CreateEsperer());
+        _verbs.Add(CreateEssayer());
+        _verbs.Add(CreateEtudier());
     }
 
     #region FactoryMethods
@@ -239,6 +244,42 @@ public static partial class VerbRepository
             Constants.VerbDescriptions.Regular.Er.Se_Enerver,
             usesEtre: true,
             isReflexive: true);
+    }
+
+    private static RegularErVerb CreateEntrer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Entrer,
+            Constants.VerbDescriptions.Regular.Er.Entrer,
+            usesEtre: true);
+    }
+
+    private static RegularErVerb CreateEparpiller()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Eparpiller,
+            Constants.VerbDescriptions.Regular.Er.Eparpiller);
+    }
+
+    private static RegularErVerb CreateEsperer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Esperer,
+            Constants.VerbDescriptions.Regular.Er.Esperer);
+    }
+
+    private static RegularErVerb CreateEssayer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Essayer,
+            Constants.VerbDescriptions.Regular.Er.Essayer);
+    }
+
+    private static RegularErVerb CreateEtudier()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Etudier,
+            Constants.VerbDescriptions.Regular.Er.Etudier);
     }
 
     #endregion
