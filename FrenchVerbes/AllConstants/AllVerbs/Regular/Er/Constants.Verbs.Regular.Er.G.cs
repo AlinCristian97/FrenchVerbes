@@ -14,10 +14,10 @@ public static partial class Constants
                 public const string Grincer = "grincer";
                 public const string Garder = "garder";
                 public const string Gagner = "gagner";
-                public const string Gouter = "goûter"; // <-- you are here
+                public const string Gouter = "goûter";
                 public const string Gratifier = "gratifier";
                 public const string Gratter = "gratter";
-                public const string Guider = "guider";
+                public const string Guider = "guider"; // <-- you are here
                 public const string Gerer = "gérer";
                 public const string Generer = "générer";
                 public const string Gonfler = "gonfler";

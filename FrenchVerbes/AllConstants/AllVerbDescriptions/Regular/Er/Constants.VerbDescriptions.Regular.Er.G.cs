@@ -15,6 +15,9 @@ public static partial class Constants
                 public const string Garder = "Garder signifie conserver quelque chose en sa possession, surveiller ou protéger quelqu'un ou quelque chose, ou maintenir un état. C'est un verbe régulier du premier groupe en -er.";
                 public const string Gagner = "Gagner signifie obtenir une victoire, remporter un prix ou un avantage, ou percevoir un revenu en échange d'un travail. C'est un verbe régulier du premier groupe en -er.";
                 public const string Gouter = "Goûter signifie percevoir la saveur d'un aliment ou d'une boisson en le mettant en bouche, ou apprécier quelque chose avec plaisir. C'est un verbe régulier du premier groupe en -er.";
+                public const string Gratifier = "Gratifier signifie procurer une satisfaction, une récompense ou un plaisir à quelqu'un, lui donner un sentiment de contentement ou de reconnaissance. C'est un verbe régulier du premier groupe en -er.";
+                public const string Gratter = "Gratter signifie frotter une surface avec les ongles ou un objet pour en enlever quelque chose, soulager une démangeaison ou produire un bruit de frottement. C'est un verbe régulier du premier groupe en -er.";
+                public const string Guider = "Guider signifie conduire quelqu'un ou quelque chose vers un but, indiquer la bonne direction ou orienter une personne dans ses choix ou ses actions. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "Je guide les touristes dans la vieille ville.",
+    "Tu guides ton ami à travers la forêt.",
+    "Il guide ses élèves vers une meilleure compréhension.",
+    "Nous guidons les visiteurs dans le musée.",
+    "Ils guident les randonneurs sur les sentiers de montagne."
+  ],
+  "Imparfait": [
+    "Je guidais les clients dans le magasin.",
+    "Tu guidais ton frère dans ses choix professionnels.",
+    "Il guidait les pèlerins sur le chemin de Compostelle.",
+    "Nous guidions les nouveaux employés lors de leur intégration.",
+    "Ils guidaient les enfants dans l'élaboration de leurs projets."
+  ],
+  "Futur Simple": [
+    "Je guiderai les participants lors de la visite guidée.",
+    "Tu guideras les touristes jusqu'au sommet.",
+    "Il guidera son équipe vers la victoire.",
+    "Nous guiderons les étudiants dans leur recherche de stage.",
+    "Ils guideront les voyageurs à travers les ruelles du quartier historique."
+  ],
+  "Passé Composé": [
+    "J'ai guidé le groupe à travers la exposition.",
+    "Tu as guidé tes amis jusqu'au restaurant.",
+    "Il a guidé son équipe vers un résultat remarquable.",
+    "Nous avons guidé les randonneurs sur le sentier balisé.",
+    "Ils ont guidé les enfants dans la réalisation de leur projet."
+  ],
+  "Futur Proche": [
+    "Je vais guider les visiteurs dans la cathédrale.",
+    "Tu vas guider ton collègue dans sa prise en main du logiciel.",
+    "Il va guider son équipe dans cette nouvelle mission.",
+    "Nous allons guider les étudiants dans leurs révisions.",
+    "Ils vont guider les marcheurs sur le nouveau sentier."
+  ],
+  "Passé Récent": [
+    "Je viens de guider un groupe de touristes étrangers.",
+    "Tu viens de guider ton ami jusqu'à la gare.",
+    "Il vient de guider ses collègues dans la nouvelle procédure.",
+    "Nous venons de guider les visiteurs à travers l'exposition.",
+    "Ils viennent de guider les randonneurs jusqu'au refuge."
+  ],
+  "Impératif": [
+    "Guide-moi jusqu'à la sortie, s'il te plaît !",
+    "Guidons les visiteurs avec bienveillance !",
+    "Guidez les participants vers la salle de conférence !"
+  ],
+  "Conditionnel Présent": [
+    "Je guiderais volontiers les touristes si j'avais plus de temps.",
+    "Tu guiderais mieux ton équipe si tu connaissais le sujet.",
+    "Il guiderait ses élèves plus efficacement avec de meilleurs outils.",
+    "Nous guiderions les visiteurs avec plaisir si on nous le demandait.",
+    "Ils guideraient les jeunes mieux s'ils avaient une formation adaptée."
+  ]
+}

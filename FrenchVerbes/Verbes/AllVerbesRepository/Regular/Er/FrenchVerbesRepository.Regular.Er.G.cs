@@ -14,6 +14,9 @@ public static partial class VerbRepository
         _verbs.Add(CreateGarder());
         _verbs.Add(CreateGagner());
         _verbs.Add(CreateGouter());
+        _verbs.Add(CreateGratifier());
+        _verbs.Add(CreateGratter());
+        _verbs.Add(CreateGuider());
     }
 
     #region FactoryMethods
@@ -68,6 +71,27 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Gouter,
             Constants.VerbDescriptions.Regular.Er.Gouter);
+    }
+
+    private static RegularErVerb CreateGratifier()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Gratifier,
+            Constants.VerbDescriptions.Regular.Er.Gratifier);
+    }
+
+    private static RegularErVerb CreateGratter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Gratter,
+            Constants.VerbDescriptions.Regular.Er.Gratter);
+    }
+
+    private static RegularErVerb CreateGuider()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Guider,
+            Constants.VerbDescriptions.Regular.Er.Guider);
     }
 
     #endregion
