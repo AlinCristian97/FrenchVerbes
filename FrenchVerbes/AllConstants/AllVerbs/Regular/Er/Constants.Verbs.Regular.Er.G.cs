@@ -11,10 +11,10 @@ public static partial class Constants
                 public const string Gesticuler = "gesticuler";
                 public const string Gener = "gêner";
                 public const string Se_Gener = "se gêner";
-                public const string Grincer = "grincer"; // <-- you are here
+                public const string Grincer = "grincer";
                 public const string Garder = "garder";
                 public const string Gagner = "gagner";
-                public const string Gouter = "goûter";
+                public const string Gouter = "goûter"; // <-- you are here
                 public const string Gratifier = "gratifier";
                 public const string Gratter = "gratter";
                 public const string Guider = "guider";

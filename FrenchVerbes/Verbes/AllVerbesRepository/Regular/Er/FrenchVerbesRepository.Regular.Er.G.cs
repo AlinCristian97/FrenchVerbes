@@ -11,6 +11,9 @@ public static partial class VerbRepository
         _verbs.Add(CreateGener());
         _verbs.Add(CreateSeGener());
         _verbs.Add(CreateGrincer());
+        _verbs.Add(CreateGarder());
+        _verbs.Add(CreateGagner());
+        _verbs.Add(CreateGouter());
     }
 
     #region FactoryMethods
@@ -44,6 +47,27 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Grincer,
             Constants.VerbDescriptions.Regular.Er.Grincer);
+    }
+
+    private static RegularErVerb CreateGarder()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Garder,
+            Constants.VerbDescriptions.Regular.Er.Garder);
+    }
+
+    private static RegularErVerb CreateGagner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Gagner,
+            Constants.VerbDescriptions.Regular.Er.Gagner);
+    }
+
+    private static RegularErVerb CreateGouter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Gouter,
+            Constants.VerbDescriptions.Regular.Er.Gouter);
     }
 
     #endregion
