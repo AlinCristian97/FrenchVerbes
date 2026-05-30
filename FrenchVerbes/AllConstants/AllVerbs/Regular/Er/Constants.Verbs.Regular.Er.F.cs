@@ -10,9 +10,9 @@ public static partial class Constants
             {
                 public const string Facher = "fâcher";
                 public const string Forcer = "forcer";
-                public const string Se_Forcer = "se forcer"; // <-- you are here
+                public const string Se_Forcer = "se forcer";
                 public const string Frequenter = "fréquenter";
-                public const string Fissurer = "fissurer";
+                public const string Fissurer = "fissurer"; // <-- you are here
                 public const string Forger = "forger";
                 public const string Se_Forger = "se forger";
                 public const string Former = "former";
