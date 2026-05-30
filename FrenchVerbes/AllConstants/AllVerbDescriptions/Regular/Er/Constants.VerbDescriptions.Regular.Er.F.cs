@@ -8,7 +8,7 @@ public static partial class Constants
         {
             public static partial class Er
             {
-
+                public const string Facher = "Fâcher signifie mettre quelqu'un en colère, contrarier ou offenser quelqu'un. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

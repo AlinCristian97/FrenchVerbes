@@ -27,6 +27,13 @@ If the user says **"add next X"** (e.g. "add next 5"), interpret it as:
    - `FrenchVerbes/AllConstants/AllVerbDescriptions/...`
 2. Add `public const string <VerbName> = "...";` in the correct letter file.
 3. Keep naming aligned with the verb constant.
+4. The description **must be written in French** and follow this exact pattern:
+   - Start with the infinitive (with accents): `"<Infinitive> signifie ..."`
+   - Explain the meaning in French using a full sentence.
+   - End with the group classification sentence, e.g.: `"C'est un verbe régulier du premier groupe en -er."`
+   - For reflexive verbs, end with: `"C'est un verbe pronominal régulier du premier groupe en -er."`
+   - Example: `public const string Envisager = "Envisager signifie considérer quelque chose comme possible ou probable, imaginer une situation future ou envisager une possibilité. C'est un verbe régulier du premier groupe en -er.";`
+   - **Never** use an English translation as the description value (e.g. `"To anger, to annoy"` is wrong).
 
 ## 3) Register the verb in repository
 
