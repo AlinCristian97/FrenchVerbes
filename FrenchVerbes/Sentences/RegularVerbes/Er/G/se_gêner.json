@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "Je ne me gêne pas pour dire ce que je pense.",
+    "Tu ne te gênes pas pour prendre les meilleures places.",
+    "Il ne se gêne pas pour critiquer le travail des autres.",
+    "Nous ne nous gênons pas pour exprimer notre opinion.",
+    "Vous ne vous gênez pas pour utiliser les affaires des autres."
+  ],
+  "Imparfait": [
+    "Je ne me gênais pas pour poser des questions en classe.",
+    "Tu te gênais parfois trop pour demander de l'aide.",
+    "Il ne se gênait pas pour manger la part des autres.",
+    "Nous nous gênions pour déranger nos parents la nuit.",
+    "Vous ne vous gêniez pas pour faire du bruit à toute heure."
+  ],
+  "Futur Simple": [
+    "Je ne me gênerai pas pour exprimer mon désaccord.",
+    "Tu te gêneras sûrement pour demander une augmentation.",
+    "Il ne se gênera pas pour profiter de la situation.",
+    "Nous ne nous gênerons pas pour réclamer nos droits.",
+    "Vous ne vous gênerez pas pour occuper tout l'espace."
+  ],
+  "Passé Composé": [
+    "Je ne me suis pas gêné pour refuser cette proposition.",
+    "Tu t'es gêné inutilement en n'osant pas parler.",
+    "Il ne s'est pas gêné pour prendre ma place.",
+    "Nous nous sommes gênés pour ne pas déranger le conférencier.",
+    "Vous ne vous êtes pas gênés pour utiliser notre matériel."
+  ],
+  "Futur Proche": [
+    "Je ne vais pas me gêner pour dire ce que je pense.",
+    "Tu vas te gêner pour demander ce service.",
+    "Il ne va pas se gêner pour prendre ce qu'il veut.",
+    "Nous allons nous gêner pour ne pas déranger les voisins.",
+    "Vous n'allez pas vous gêner pour occuper toute la table."
+  ],
+  "Passé Récent": [
+    "Je viens de me gêner pour ne pas le déranger.",
+    "Tu viens de te gêner inutilement en gardant le silence.",
+    "Il vient de ne pas se gêner pour couper la file.",
+    "Nous venons de nous gêner pour laisser passer les autres.",
+    "Vous venez de ne pas vous gêner pour prendre les meilleures parts."
+  ],
+  "Impératif": [
+    "Ne te gêne pas, tu es chez toi ici !",
+    "Ne nous gênons pas pour demander de l'aide !",
+    "Ne vous gênez pas, servez-vous !"
+  ],
+  "Conditionnel Présent": [
+    "Je ne me gênerais pas pour réclamer un remboursement.",
+    "Tu te gênerais sûrement pour parler devant tout le monde.",
+    "Il ne se gênerait pas pour utiliser les ressources de l'entreprise.",
+    "Nous nous gênerions pour faire du bruit si des enfants dormaient.",
+    "Vous ne vous gêneriez pas pour prendre plus que votre part."
+  ]
+}

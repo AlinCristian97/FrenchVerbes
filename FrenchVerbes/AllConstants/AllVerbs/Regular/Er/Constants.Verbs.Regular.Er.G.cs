@@ -8,10 +8,10 @@ public static partial class Constants
         {
             public static partial class Er
             {
-                public const string Gesticuler = "gesticuler"; // <-- you are here
+                public const string Gesticuler = "gesticuler";
                 public const string Gener = "gêner";
                 public const string Se_Gener = "se gêner";
-                public const string Grincer = "grincer";
+                public const string Grincer = "grincer"; // <-- you are here
                 public const string Garder = "garder";
                 public const string Gagner = "gagner";
                 public const string Gouter = "goûter";
