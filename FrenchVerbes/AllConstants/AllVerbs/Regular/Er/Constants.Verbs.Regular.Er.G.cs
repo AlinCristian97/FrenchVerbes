@@ -24,7 +24,7 @@ public static partial class Constants
                 public const string Griffonner = "griffonner";
                 public const string Geler = "geler";
                 public const string Glacer = "glacer";
-                public const string Griller = "griller"; // <-- you are here
+                public const string Griller = "griller";
             }
         }
     }
