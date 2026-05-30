@@ -62,7 +62,7 @@ public static partial class Constants
                 public const string Decharger = "décharger";
                 public const string Se_Decharger = "se décharger";
                 public const string Detailer = "détailler";
-                public const string Dresser = "dresser"; // <-- you are here
+                public const string Dresser = "dresser";
             }
         }
     }
