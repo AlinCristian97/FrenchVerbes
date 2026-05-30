@@ -32,6 +32,9 @@ public static partial class Constants
                 public const string Interesser = "Intéresser signifie susciter la curiosité, l'attention ou l'intérêt de quelqu'un envers quelque chose, ou concerner une personne. C'est un verbe régulier du premier groupe en -er.";
                 public const string Se_Interesser = "S'intéresser signifie porter de l'intérêt, de la curiosité ou de l'attention à quelque chose ou à quelqu'un, se passionner pour un sujet. C'est un verbe pronominal régulier du premier groupe en -er.";
                 public const string Imiter = "Imiter signifie reproduire les gestes, les paroles ou le comportement de quelqu'un ou de quelque chose, prendre pour modèle. C'est un verbe régulier du premier groupe en -er.";
+                public const string Interroger = "Interroger signifie poser des questions à quelqu'un afin d'obtenir des informations, ou examiner quelque chose de manière critique et approfondie. C'est un verbe régulier du premier groupe en -er.";
+                public const string Implorer = "Implorer signifie supplier quelqu'un avec insistance et humilité de faire quelque chose, demander avec ferveur et désespoir. C'est un verbe régulier du premier groupe en -er.";
+                public const string Ignorer = "Ignorer signifie ne pas savoir quelque chose, ou ne pas tenir compte de quelqu'un ou de quelque chose de manière délibérée. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

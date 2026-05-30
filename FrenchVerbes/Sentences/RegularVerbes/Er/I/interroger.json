@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Le policier interroge le suspect dans la salle d'audition.",
+    "Tu interroges souvent tes collègues sur leurs méthodes de travail.",
+    "Elle interroge les témoins pour reconstituer les faits.",
+    "Nous interrogeons les participants sur leurs expériences.",
+    "Les journalistes interrogent le ministre après la conférence."
+  ],
+  "Imparfait": [
+    "Le détective interrogeait les voisins chaque soir.",
+    "Tu interrogeais tes camarades avant chaque examen.",
+    "Elle interrogeait les données pour trouver une anomalie.",
+    "Nous interrogions les experts pour mieux comprendre la situation.",
+    "Ils interrogeaient les clients pour améliorer le service."
+  ],
+  "Futur Simple": [
+    "Le juge interrogera les témoins demain matin.",
+    "Tu interrogeras tes professeurs sur les résultats.",
+    "Elle interrogera les archives pour retrouver la vérité.",
+    "Nous interrogerons tous les candidats avant de décider.",
+    "Ils interrogeront les habitants du quartier sur l'incident."
+  ],
+  "Passé Composé": [
+    "Le commissaire a interrogé le principal suspect.",
+    "Tu as interrogé tes amis sur leur avis.",
+    "Elle a interrogé la base de données pour trouver les informations.",
+    "Nous avons interrogé plusieurs experts sur ce sujet.",
+    "Ils ont interrogé les employés après la découverte du vol."
+  ],
+  "Futur Proche": [
+    "Le procureur va interroger le témoin clé.",
+    "Tu vas interroger ton médecin sur ce traitement.",
+    "Elle va interroger les données de vente pour le rapport.",
+    "Nous allons interroger chaque membre de l'équipe.",
+    "Ils vont interroger les passants pour leur enquête."
+  ],
+  "Passé Récent": [
+    "Le détective vient d'interroger le dernier suspect.",
+    "Tu viens d'interroger ton directeur sur ta promotion.",
+    "Elle vient d'interroger les statistiques pour son analyse.",
+    "Nous venons d'interroger les riverains au sujet du bruit.",
+    "Ils viennent d'interroger le porte-parole de la société."
+  ],
+  "Impératif": [
+    "Interroge chaque témoin avec soin et méthode.",
+    "Interrogeons les données avant de tirer des conclusions.",
+    "Interrogez les sources pour vérifier l'information.",
+    "N'interroge pas quelqu'un sans lui expliquer ses droits.",
+    "N'interrogeons pas sans avoir préparé nos questions."
+  ],
+  "Conditionnel Présent": [
+    "Il interrogerait davantage de témoins s'il avait plus de temps.",
+    "Tu interrogerais les experts si tu voulais plus de précisions.",
+    "Elle interrogerait les archives si elles étaient accessibles.",
+    "Nous interrogerions les équipes si nous étions mandatés.",
+    "Ils interrogeraient tous les suspects si la loi le permettait."
+  ]
+}

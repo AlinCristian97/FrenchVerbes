@@ -31,10 +31,10 @@ public static partial class Constants
                 public const string Se_Irriter = "s'irriter";
                 public const string Interesser = "intéresser";
                 public const string Se_Interesser = "s'intéresser";
-                public const string Imiter = "imiter"; // <-- you are here
+                public const string Imiter = "imiter";
                 public const string Interroger = "interroger";
                 public const string Implorer = "implorer";
-                public const string Ignorer = "ignorer";
+                public const string Ignorer = "ignorer"; // <-- you are here
                 public const string Impliquer = "impliquer";
             }
         }

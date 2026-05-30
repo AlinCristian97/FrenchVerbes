@@ -31,6 +31,9 @@ public static partial class VerbRepository
         _verbs.Add(CreateInteresser());
         _verbs.Add(CreateSe_Interesser());
         _verbs.Add(CreateImiter());
+        _verbs.Add(CreateInterroger());
+        _verbs.Add(CreateImplorer());
+        _verbs.Add(CreateIgnorer());
     }
 
     #region FactoryMethods
@@ -210,6 +213,27 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Imiter,
             Constants.VerbDescriptions.Regular.Er.Imiter);
+    }
+
+    private static RegularErVerb CreateInterroger()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Interroger,
+            Constants.VerbDescriptions.Regular.Er.Interroger);
+    }
+
+    private static RegularErVerb CreateImplorer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Implorer,
+            Constants.VerbDescriptions.Regular.Er.Implorer);
+    }
+
+    private static RegularErVerb CreateIgnorer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Ignorer,
+            Constants.VerbDescriptions.Regular.Er.Ignorer);
     }
 
     #endregion
