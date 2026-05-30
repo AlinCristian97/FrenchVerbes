@@ -17,11 +17,10 @@ public static partial class Constants
                 public const string Honorer = "honorer";
                 public const string Heriter = "hériter";
                 public const string Harmoniser = "harmoniser";
-                public const string Happer = "happer"; // <-- you are here
+                public const string Happer = "happer";
                 public const string Hocher = "hocher";
                 public const string Hausser = "hausser";
-                public const string Se_Hausser = "se hausser";
-                public const string Habiller = "habiller";
+                public const string Habiller = "habiller"; // <-- you are here
             }
         }
     }

@@ -18,6 +18,8 @@ public static partial class Constants
                 public const string Heriter = "Hériter signifie recevoir quelque chose d'une personne décédée par voie de succession, ou obtenir quelque chose en héritage au sens figuré. C'est un verbe régulier du premier groupe en -er.";
                 public const string Harmoniser = "Harmoniser signifie mettre en accord ou en harmonie des éléments différents, les rendre compatibles ou cohérents entre eux. C'est un verbe régulier du premier groupe en -er.";
                 public const string Happer = "Happer signifie saisir brusquement quelque chose avec la bouche ou avec les mains, ou attraper violemment quelqu'un ou quelque chose. C'est un verbe régulier du premier groupe en -er.";
+                public const string Hocher = "Hocher signifie faire un mouvement de haut en bas ou de côté avec la tête pour exprimer un accord, un refus ou une hésitation. C'est un verbe régulier du premier groupe en -er.";
+                public const string Hausser = "Hausser signifie élever ou soulever quelque chose, notamment les épaules pour exprimer l'indifférence ou l'ignorance, ou augmenter le niveau de quelque chose. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }
