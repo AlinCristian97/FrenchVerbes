@@ -7,6 +7,7 @@ public static partial class VerbRepository
 {
     private static void AddRegularErAVerbs()
     {
+        _verbs.Add(CreateAusculter());
         _verbs.Add(CreateAtteler());
         _verbs.Add(CreateApaiser());
         _verbs.Add(CreateApprouver());
@@ -79,6 +80,13 @@ public static partial class VerbRepository
     }
 
     #region FactoryMethods
+
+    private static RegularErVerb CreateAusculter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Ausculter,
+            Constants.VerbDescriptions.Regular.Er.Ausculter);
+    }
 
     private static RegularErVerb CreateAtteler()
     {

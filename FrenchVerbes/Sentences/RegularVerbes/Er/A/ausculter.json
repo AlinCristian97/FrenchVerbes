@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Le médecin ausculte le patient avec son stéthoscope.",
+    "Tu auscultes le malade pour détecter une anomalie.",
+    "Elle ausculte ses poumons attentivement.",
+    "Nous auscultions les patients à la clinique.",
+    "Vous auscultez l'enfant pour vérifier sa respiration."
+  ],
+  "Imparfait": [
+    "Le médecin auscultait chaque patient avec soin.",
+    "Tu auscultais les personnes âgées chaque semaine.",
+    "Elle auscultait les poumons avant de poser un diagnostic.",
+    "Nous auscultions les malades à l'hôpital.",
+    "Vous auscultiez les patients pendant la garde de nuit."
+  ],
+  "Futur Simple": [
+    "Le médecin auscultera le bébé demain matin.",
+    "Tu ausculteras le patient avant de lui prescrire des médicaments.",
+    "Elle auscultera les poumons pour écarter une pneumonie.",
+    "Nous ausculterons tous les patients hospitalisés.",
+    "Vous ausculterez les nouvelles admissions ce soir."
+  ],
+  "Passé Composé": [
+    "Le médecin a ausculté le patient ce matin.",
+    "Tu as ausculté l'enfant malade à la consultation.",
+    "Elle a ausculté ses poumons et a trouvé une anomalie.",
+    "Nous avons ausculté tous les membres de la famille.",
+    "Vous avez ausculté le vieillard avec beaucoup de soin."
+  ],
+  "Futur Proche": [
+    "Le médecin va ausculter le nouveau patient.",
+    "Tu vas ausculter l'enfant pour vérifier son cœur.",
+    "Il va ausculter le blessé avant de l'opérer.",
+    "Nous allons ausculter les patients de la salle trois.",
+    "Vous allez ausculter le malade avant de prendre une décision."
+  ],
+  "Passé Récent": [
+    "Le médecin vient d'ausculter le patient.",
+    "Tu viens d'ausculter l'enfant fiévreux.",
+    "Elle vient d'ausculter ses poumons.",
+    "Nous venons d'ausculter le malade aux urgences.",
+    "Vous venez d'ausculter le bébé à la maternité."
+  ],
+  "Impératif": [
+    "Ausculte le patient attentivement !",
+    "Auscultons tous les malades avant le diagnostic !",
+    "Auscultez l'enfant pour vérifier sa respiration !",
+    "N'ausculte pas sans son consentement !",
+    "Auscultons le blessé avant de le transporter !"
+  ],
+  "Conditionnel Présent": [
+    "Le médecin ausculterait le patient s'il était disponible.",
+    "Tu ausculterais l'enfant si tu avais un stéthoscope.",
+    "Elle ausculterait les poumons si elle le soupçonnait.",
+    "Nous ausculterions les malades si nous avions le temps.",
+    "Vous ausculteriezles patients si on vous le demandait."
+  ]
+}

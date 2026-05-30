@@ -8,14 +8,11 @@ public static partial class Constants
         {
             public static partial class Er
             {
-                public const string Envisager = "envisager"; // <-- you are here
+                public const string Envisager = "envisager";
                 public const string Exiger = "exiger";
                 public const string Engueuler = "engueuler";
-                public const string Ausculter = "ausculter";
                 public const string Emprisonner = "emprisonner";
-                public const string Se_Emprisonner = "s'emprisonner";
-                public const string Enfurier = "enfurier";
-                public const string Se_Enfurier = "s'enfurier";
+                public const string Se_Emprisonner = "s'emprisonner"; // <-- you are here
                 public const string Evoquer = "évoquer";
                 public const string Empoisonner = "empoisonner";
                 public const string Se_Empoisonner = "s'empoisonner";

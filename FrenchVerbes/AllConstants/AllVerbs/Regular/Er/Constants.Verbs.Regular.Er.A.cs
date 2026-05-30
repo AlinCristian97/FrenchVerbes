@@ -8,6 +8,7 @@ public static partial class Constants
         {
             public static partial class Er
             {
+                public const string Ausculter = "ausculter";
                 public const string Atteler = "atteler";
                 public const string Apaiser = "apaiser";
                 public const string Approuver = "approuver";

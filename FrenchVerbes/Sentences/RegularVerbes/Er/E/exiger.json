@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'exige une réponse immédiate.",
+    "Tu exiges trop de tes employés.",
+    "Il exige le respect de tous.",
+    "Nous exigeons une explication claire.",
+    "Vous exigez des résultats concrets."
+  ],
+  "Imparfait": [
+    "J'exigeais toujours la ponctualité.",
+    "Tu exigeais beaucoup de toi-même.",
+    "Elle exigeait un travail impeccable.",
+    "Nous exigions la transparence dans les décisions.",
+    "Vous exigiez des preuves avant d'agir."
+  ],
+  "Futur Simple": [
+    "J'exigerai une compensation pour ce préjudice.",
+    "Tu exigeras des garanties supplémentaires.",
+    "Il exigera une révision complète du contrat.",
+    "Nous exigerons de meilleures conditions de travail.",
+    "Vous exigerez une réponse avant la fin de la semaine."
+  ],
+  "Passé Composé": [
+    "J'ai exigé un remboursement complet.",
+    "Tu as exigé des excuses officielles.",
+    "Elle a exigé que le projet soit livré à temps.",
+    "Nous avons exigé une réunion d'urgence.",
+    "Vous avez exigé des changements importants."
+  ],
+  "Futur Proche": [
+    "Je vais exiger une amélioration immédiate.",
+    "Tu vas exiger des comptes à ton directeur.",
+    "Il va exiger que les règles soient respectées.",
+    "Nous allons exiger une réponse claire.",
+    "Vous allez exiger de meilleures conditions."
+  ],
+  "Passé Récent": [
+    "Je viens d'exiger une révision du dossier.",
+    "Tu viens d'exiger des explications.",
+    "Elle vient d'exiger que les travaux soient arrêtés.",
+    "Nous venons d'exiger un rapport complet.",
+    "Vous venez d'exiger une réunion avec la direction."
+  ],
+  "Impératif": [
+    "Exige le respect qui t'est dû !",
+    "Exigeons de meilleures conditions de travail !",
+    "Exigez une réponse avant demain !",
+    "N'exige pas l'impossible !",
+    "Exigeons la transparence dans ce projet !"
+  ],
+  "Conditionnel Présent": [
+    "J'exigerais une indemnité si cela arrivait.",
+    "Tu exigerais des preuves avant de croire cette histoire.",
+    "Il exigerait des excuses publiques.",
+    "Nous exigerions de meilleures garanties.",
+    "Vous exigeriez une compensation financière."
+  ]
+}

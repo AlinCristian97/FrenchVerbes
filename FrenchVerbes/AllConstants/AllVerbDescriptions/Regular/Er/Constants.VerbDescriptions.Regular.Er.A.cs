@@ -8,6 +8,7 @@ public static partial class Constants
         {
             public static partial class Er
             {
+                public const string Ausculter = "Ausculter signifie écouter les bruits internes du corps à l'aide d'un stéthoscope, souvent dans un contexte médical. C'est un verbe régulier du premier groupe en -er.";
                 public const string Atteler = "Atteler est un verbe du premier groupe (-er) qui signifie mettre un animal de trait à un véhicule ou, par extension, associer ou mobiliser des moyens pour une action.";
                 public const string Apaiser = "Apaiser est un verbe régulier du premier groupe (-er) qui signifie calmer, adoucir ou réduire une tension, une douleur ou un conflit. Il s'emploie aussi de façon pronominale (s'apaiser) pour exprimer le fait de se calmer.";
                 public const string Approuver = "Approuver est un verbe régulier du premier groupe (-er) qui signifie exprimer son accord, juger favorablement une idée, une décision ou le comportement de quelqu'un.";
