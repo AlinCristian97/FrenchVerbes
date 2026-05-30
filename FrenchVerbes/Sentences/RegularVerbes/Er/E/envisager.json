@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'envisage de partir en voyage l'année prochaine.",
+    "Tu envisages une carrière dans la médecine.",
+    "Il envisage de changer de travail.",
+    "Nous envisageons plusieurs solutions au problème.",
+    "Vous envisagez une collaboration avec cette entreprise."
+  ],
+  "Imparfait": [
+    "J'envisageais de déménager à Paris.",
+    "Tu envisageais une retraite anticipée.",
+    "Elle envisageait de reprendre ses études.",
+    "Nous envisagions un voyage en Asie.",
+    "Vous envisagiez de vendre votre maison."
+  ],
+  "Futur Simple": [
+    "J'envisagerai toutes les possibilités avant de décider.",
+    "Tu envisageras une nouvelle carrière après tes études.",
+    "Il envisagera une solution alternative.",
+    "Nous envisagerons de nouveaux projets l'année prochaine.",
+    "Vous envisagerez une expansion de votre entreprise."
+  ],
+  "Passé Composé": [
+    "J'ai envisagé de tout abandonner.",
+    "Tu as envisagé plusieurs options.",
+    "Elle a envisagé une reconversion professionnelle.",
+    "Nous avons envisagé de partir vivre à l'étranger.",
+    "Vous avez envisagé toutes les conséquences."
+  ],
+  "Futur Proche": [
+    "Je vais envisager une nouvelle approche.",
+    "Tu vas envisager de changer d'école.",
+    "Il va envisager toutes les options disponibles.",
+    "Nous allons envisager un partenariat.",
+    "Vous allez envisager une restructuration."
+  ],
+  "Passé Récent": [
+    "Je viens d'envisager une solution innovante.",
+    "Tu viens d'envisager de te reconvertir.",
+    "Elle vient d'envisager de quitter son poste.",
+    "Nous venons d'envisager plusieurs stratégies.",
+    "Vous venez d'envisager une fusion d'entreprises."
+  ],
+  "Impératif": [
+    "Envisage toutes les options avant de décider !",
+    "Envisageons une nouvelle direction pour notre projet !",
+    "Envisagez sérieusement cette proposition !",
+    "N'envisage pas l'échec comme une fin !",
+    "Envisageons l'avenir avec optimisme !"
+  ],
+  "Conditionnel Présent": [
+    "J'envisagerais un changement de carrière si j'en avais l'occasion.",
+    "Tu envisagerais de voyager si tu avais plus de temps.",
+    "Il envisagerait de déménager s'il trouvait un bon emploi.",
+    "Nous envisagerions une solution plus économique.",
+    "Vous envisageriez une autre approche dans ce cas."
+  ]
+}
