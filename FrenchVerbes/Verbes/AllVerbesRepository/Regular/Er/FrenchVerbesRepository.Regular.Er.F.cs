@@ -20,6 +20,9 @@ public static partial class VerbRepository
         _verbs.Add(CreateFabriquer());
         _verbs.Add(CreateFeter());
         _verbs.Add(CreateFixer());
+        _verbs.Add(CreateFigurer());
+        _verbs.Add(CreateFlotter());
+        _verbs.Add(CreateFrapper());
     }
 
     #region FactoryMethods
@@ -119,6 +122,27 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Fixer,
             Constants.VerbDescriptions.Regular.Er.Fixer);
+    }
+
+    private static RegularErVerb CreateFigurer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Figurer,
+            Constants.VerbDescriptions.Regular.Er.Figurer);
+    }
+
+    private static RegularErVerb CreateFlotter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Flotter,
+            Constants.VerbDescriptions.Regular.Er.Flotter);
+    }
+
+    private static RegularErVerb CreateFrapper()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Frapper,
+            Constants.VerbDescriptions.Regular.Er.Frapper);
     }
 
     #endregion

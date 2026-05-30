@@ -21,6 +21,9 @@ public static partial class Constants
                 public const string Fabriquer = "Fabriquer signifie produire ou confectionner quelque chose en transformant des matières premières, ou au sens figuré, inventer ou construire quelque chose de toutes pièces. C'est un verbe régulier du premier groupe en -er.";
                 public const string Feter = "Fêter signifie célébrer un événement ou une occasion particulière, organiser une fête en l'honneur de quelqu'un ou de quelque chose. C'est un verbe régulier du premier groupe en -er.";
                 public const string Fixer = "Fixer signifie attacher solidement quelque chose à un endroit, déterminer ou établir quelque chose de manière précise, ou regarder quelqu'un ou quelque chose avec insistance. C'est un verbe régulier du premier groupe en -er.";
+                public const string Figurer = "Figurer signifie apparaître ou être représenté quelque part, figurer dans une liste ou un document, ou au sens figuré, représenter ou symboliser quelque chose. C'est un verbe régulier du premier groupe en -er.";
+                public const string Flotter = "Flotter signifie rester en suspension sur la surface d'un liquide, se déplacer au gré du vent ou du courant, ou au sens figuré, être dans un état d'indécision ou d'incertitude. C'est un verbe régulier du premier groupe en -er.";
+                public const string Frapper = "Frapper signifie donner un coup à quelqu'un ou quelque chose, heurter avec force, ou au sens figuré, impressionner vivement ou affecter profondément quelqu'un. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Mon nom figure sur la liste des participants.",
+    "Ce tableau figure dans les collections du musée.",
+    "Il figure parmi les meilleurs élèves de sa classe.",
+    "Nous figurons dans le générique du film.",
+    "Ces données figurent dans le rapport annuel."
+  ],
+  "Imparfait": [
+    "Son nom ne figurait pas sur la liste initiale.",
+    "Ce détail figurait déjà dans l'ancien contrat.",
+    "Il figurait parmi les candidats retenus.",
+    "Nous figurions dans les archives de la ville.",
+    "Ces informations figuraient dans le dossier."
+  ],
+  "Futur Simple": [
+    "Ton nom figurera en tête de la liste.",
+    "Ce document figurera dans les archives officielles.",
+    "Il figurera parmi les invités d'honneur.",
+    "Nous figurerons dans les annales de l'école.",
+    "Ces résultats figureront dans le bilan final."
+  ],
+  "Passé Composé": [
+    "Mon nom a figuré dans le journal local.",
+    "Ce tableau a figuré dans plusieurs expositions.",
+    "Il a figuré parmi les finalistes du concours.",
+    "Nous avons figuré dans le reportage télévisé.",
+    "Ces données ont figuré dans le premier rapport."
+  ],
+  "Futur Proche": [
+    "Mon nom va figurer dans le prochain communiqué.",
+    "Ce détail va figurer dans le contrat final.",
+    "Il va figurer parmi les lauréats de cette année.",
+    "Nous allons figurer dans la nouvelle brochure.",
+    "Ces informations vont figurer dans le dossier mis à jour."
+  ],
+  "Passé Récent": [
+    "Mon nom vient de figurer dans la liste officielle.",
+    "Ce tableau vient de figurer dans une grande exposition.",
+    "Il vient de figurer parmi les nominés.",
+    "Nous venons de figurer dans un article de presse.",
+    "Ces données viennent de figurer dans le rapport révisé."
+  ],
+  "Impératif": [
+    "Figure sur cette liste pour être reconnu.",
+    "Figurons parmi les meilleurs cette année.",
+    "Figurez dans le prochain rapport si possible.",
+    "Figure en bonne place dans le classement.",
+    "Figurez parmi les contributeurs officiels."
+  ],
+  "Conditionnel Présent": [
+    "Mon nom figurerait en première position si j'avais gagné.",
+    "Ce détail figurerait dans le contrat si nous acceptions.",
+    "Il figurerait parmi les élus s'il se présentait.",
+    "Nous figurerions dans les archives si nous signions.",
+    "Ces informations figureraient dans le rapport si elles étaient vérifiées."
+  ]
+}

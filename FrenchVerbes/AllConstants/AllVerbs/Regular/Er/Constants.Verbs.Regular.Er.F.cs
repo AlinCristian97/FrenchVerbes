@@ -20,10 +20,10 @@ public static partial class Constants
                 public const string Freiner = "freiner";
                 public const string Fabriquer = "fabriquer";
                 public const string Feter = "fêter";
-                public const string Fixer = "fixer"; // <-- you are here
+                public const string Fixer = "fixer";
                 public const string Figurer = "figurer";
                 public const string Flotter = "flotter";
-                public const string Frapper = "frapper";
+                public const string Frapper = "frapper"; // <-- you are here
                 public const string Fréquenter = "fréquenter";
                 public const string Frissonner = "frissonner";
                 public const string Fumer = "fumer";
