@@ -20,6 +20,7 @@ public static partial class Constants
                 public const string Happer = "Happer signifie saisir brusquement quelque chose avec la bouche ou avec les mains, ou attraper violemment quelqu'un ou quelque chose. C'est un verbe régulier du premier groupe en -er.";
                 public const string Hocher = "Hocher signifie faire un mouvement de haut en bas ou de côté avec la tête pour exprimer un accord, un refus ou une hésitation. C'est un verbe régulier du premier groupe en -er.";
                 public const string Hausser = "Hausser signifie élever ou soulever quelque chose, notamment les épaules pour exprimer l'indifférence ou l'ignorance, ou augmenter le niveau de quelque chose. C'est un verbe régulier du premier groupe en -er.";
+                public const string Habiller = "Habiller signifie mettre des vêtements à quelqu'un ou s'occuper de sa tenue vestimentaire. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

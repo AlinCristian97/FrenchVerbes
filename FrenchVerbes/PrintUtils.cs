@@ -41,7 +41,7 @@ public static class PrintUtils
         if (Constants.Vowels.Contains(nextWord[0]))
             return Constants.Pronouns.Je_Contracted;
 
-        if (nextWord[0] == 'h' && Constants.HMuetVerbs.Contains(nextWord))
+        if (nextWord[0] == 'h' && Constants.HMuetVerbs.Any(v => v.StartsWith(nextWord)))
             return Constants.Pronouns.Je_Contracted;
 
         return Constants.Pronouns.Je;

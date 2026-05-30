@@ -20,7 +20,7 @@ public static partial class Constants
                 public const string Happer = "happer";
                 public const string Hocher = "hocher";
                 public const string Hausser = "hausser";
-                public const string Habiller = "habiller"; // <-- you are here
+                public const string Habiller = "habiller";
             }
         }
     }

@@ -19,6 +19,7 @@ public static partial class VerbRepository
         _verbs.Add(CreateHapper());
         _verbs.Add(CreateHocher());
         _verbs.Add(CreateHausser());
+        _verbs.Add(CreateHabiller());
     }
 
     #region FactoryMethods
@@ -106,6 +107,14 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Hausser,
             Constants.VerbDescriptions.Regular.Er.Hausser,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateHabiller()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Habiller,
+            Constants.VerbDescriptions.Regular.Er.Habiller,
             hasReflexive: true);
     }
 
