@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je m'empresse d'aller aider mes amis.",
+    "Tu t'empresses de finir ton travail avant la réunion.",
+    "Il s'empresse de répondre à chaque message.",
+    "Nous nous empressons de préparer la salle.",
+    "Vous vous empressez d'accueillir vos invités."
+  ],
+  "Imparfait": [
+    "Je m'empressais de rentrer après l'école.",
+    "Tu t'empressais de terminer tes devoirs.",
+    "Il s'empressait de servir ses clients.",
+    "Nous nous empression d'arriver à l'heure.",
+    "Vous vous empressiez de tout préparer."
+  ],
+  "Futur Simple": [
+    "Je m'empresserai de te rappeler dès que possible.",
+    "Tu t'empresseras de corriger l'erreur.",
+    "Il s'empressera d'aider son voisin.",
+    "Nous nous empresserons de tout arranger.",
+    "Vous vous empresserez de répondre à l'invitation."
+  ],
+  "Passé Composé": [
+    "Je me suis empressé d'appeler les secours.",
+    "Tu t'es empressé de prévenir ta mère.",
+    "Il s'est empressé d'ouvrir la porte.",
+    "Nous nous sommes empressés de ranger la maison.",
+    "Vous vous êtes empressés de terminer le projet."
+  ],
+  "Futur Proche": [
+    "Je vais m'empresser de finir cette tâche.",
+    "Tu vas t'empresser de répondre à son message.",
+    "Il va s'empresser d'arriver avant tout le monde.",
+    "Nous allons nous empresser de tout préparer.",
+    "Vous allez vous empresser de corriger ce rapport."
+  ],
+  "Passé Récent": [
+    "Je viens de m'empresser de rendre le document.",
+    "Tu viens de t'empresser de partir.",
+    "Il vient de s'empresser de finir son assiette.",
+    "Nous venons de nous empresser de quitter la salle.",
+    "Vous venez de vous empresser de répondre."
+  ],
+  "Impératif": [
+    "Empresse-toi de terminer tes devoirs !",
+    "Empressons-nous d'arriver à temps !",
+    "Empressez-vous d'envoyer la réponse !",
+    "Ne t'empresse pas trop, prends ton temps.",
+    "Empressons-nous avant qu'il soit trop tard."
+  ],
+  "Conditionnel Présent": [
+    "Je m'empresserais d'aider si tu me le demandais.",
+    "Tu t'empresserais de corriger si tu savais.",
+    "Il s'empresserait de venir en cas de besoin.",
+    "Nous nous empresserions de tout préparer si nécessaire.",
+    "Vous vous empressereriez de partir si l'occasion se présentait."
+  ]
+}

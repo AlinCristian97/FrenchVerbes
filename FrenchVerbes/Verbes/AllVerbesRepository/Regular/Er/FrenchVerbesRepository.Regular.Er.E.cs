@@ -72,6 +72,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateEncadrer());
         _verbs.Add(CreateExcuser());
         _verbs.Add(CreateSe_Excuser());
+        _verbs.Add(CreateEmpresser());
+        _verbs.Add(CreateSe_Empresser());
+        _verbs.Add(CreateEnquiquiner());
+        _verbs.Add(CreateSe_Enquiquiner());
+        _verbs.Add(CreateEtonner());
     }
 
     #region FactoryMethods
@@ -568,6 +573,47 @@ public static partial class VerbRepository
             Constants.VerbDescriptions.Regular.Er.Se_Excuser,
             usesEtre: true,
             isReflexive: true);
+    }
+
+    private static RegularErVerb CreateEmpresser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Empresser,
+            Constants.VerbDescriptions.Regular.Er.Empresser,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Empresser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Empresser,
+            Constants.VerbDescriptions.Regular.Er.Se_Empresser,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateEnquiquiner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Enquiquiner,
+            Constants.VerbDescriptions.Regular.Er.Enquiquiner,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Enquiquiner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Enquiquiner,
+            Constants.VerbDescriptions.Regular.Er.Se_Enquiquiner,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateEtonner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Etonner,
+            Constants.VerbDescriptions.Regular.Er.Etonner);
     }
 
     #endregion

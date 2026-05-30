@@ -73,6 +73,11 @@ public static partial class Constants
                 public const string Encadrer = "Encadrer signifie mettre dans un cadre, entourer ou superviser et diriger une équipe ou un groupe. C'est un verbe régulier du premier groupe en -er.";
                 public const string Excuser = "Excuser signifie pardonner une faute ou une erreur, ou présenter des excuses au nom de quelqu'un. C'est un verbe régulier du premier groupe en -er.";
                 public const string Se_Excuser = "S'excuser signifie présenter ses excuses, reconnaître une faute et en demander pardon. C'est un verbe pronominal régulier du premier groupe en -er.";
+                public const string Empresser = "Empresser signifie entourer quelqu'un de soins et d'attentions empressées, se montrer très attentionné. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Empresser = "S'empresser signifie se hâter de faire quelque chose, agir avec empressement ou se montrer très attentionné envers quelqu'un. C'est un verbe pronominal régulier du premier groupe en -er.";
+                public const string Enquiquiner = "Enquiquiner signifie importuner, ennuyer ou contrarier quelqu'un de façon agaçante. C'est un verbe familier régulier du premier groupe en -er.";
+                public const string Se_Enquiquiner = "S'enquiquiner signifie s'ennuyer profondément ou se donner du mal inutilement pour quelque chose. C'est un verbe pronominal familier régulier du premier groupe en -er.";
+                public const string Etonner = "Étonner signifie causer de la surprise, provoquer l'étonnement ou surprendre quelqu'un par quelque chose d'inattendu. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }
