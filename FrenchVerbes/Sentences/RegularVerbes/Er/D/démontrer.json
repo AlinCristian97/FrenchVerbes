@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je démontre la théorie.",
+    "Tu démontres le concept.",
+    "Il démontre sa compétence.",
+    "Elle démontre le résultat.",
+    "Nous démontrons l'efficacité."
+  ],
+  "Imparfait": [
+    "Je démontrais la théorie.",
+    "Tu démontrais le concept.",
+    "Il démontrait sa compétence.",
+    "Elle démontrait le résultat.",
+    "Nous démontrions l'efficacité."
+  ],
+  "Futur Simple": [
+    "Je démontrerai la théorie.",
+    "Tu démontreras le concept.",
+    "Il démontrera sa compétence.",
+    "Elle démontrera le résultat.",
+    "Nous démontrerons l'efficacité."
+  ],
+  "Passé Composé": [
+    "J'ai démontré la théorie.",
+    "Tu as démontré le concept.",
+    "Il a démontré sa compétence.",
+    "Elle a démontré le résultat.",
+    "Nous avons démontré l'efficacité."
+  ],
+  "Futur Proche": [
+    "Je vais démontrer la théorie.",
+    "Tu vas démontrer le concept.",
+    "Il va démontrer sa compétence.",
+    "Elle va démontrer le résultat.",
+    "Nous allons démontrer l'efficacité."
+  ],
+  "Passé Récent": [
+    "Je viens de démontrer la théorie.",
+    "Tu viens de démontrer le concept.",
+    "Il vient de démontrer sa compétence.",
+    "Elle vient de démontrer le résultat.",
+    "Nous venons de démontrer l'efficacité."
+  ],
+  "Impératif": [
+    "Démontre la théorie !",
+    "Démontrons le concept !",
+    "Démontrez sa compétence !",
+    "Démontre le résultat !",
+    "Démontrons l'efficacité !"
+  ],
+  "Conditionnel Présent": [
+    "Je démontrerais la théorie.",
+    "Tu démontrerais le concept.",
+    "Il démontrerait sa compétence.",
+    "Elle démontrerait le résultat.",
+    "Nous démontrerions l'efficacité."
+  ]
+}

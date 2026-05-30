@@ -48,6 +48,11 @@ public static partial class Constants
                 public const string Determiner = "Déterminer signifie définir avec précision, fixer, ou être la cause de quelque chose. C'est un verbe régulier du premier groupe en -er.";
                 public const string Distinguer = "Distinguer signifie percevoir une différence, discerner, ou reconnaître quelqu'un ou quelque chose parmi d'autres. C'est un verbe régulier du premier groupe en -er.";
                 public const string Debarrasser = "Débarrasser signifie libérer quelqu'un ou quelque chose d'une gêne, d'un encombrement ou d'une présence indésirable. C'est un verbe régulier du premier groupe en -er.";
+                public const string Detailler = "Détailler signifie décrire ou exposer quelque chose avec précision et dans ses moindres détails. C'est un verbe régulier du premier groupe en -er.";
+                public const string Degager = "Dégager signifie libérer quelque chose ou quelqu'un d'une contrainte, rendre un espace libre ou émettre quelque chose. C'est un verbe régulier en -ger avec un changement orthographique devant certaines terminaisons.";
+                public const string Denommer = "Dénommer signifie donner un nom à quelqu'un ou quelque chose, désigner par un nom. C'est un verbe régulier du premier groupe en -er.";
+                public const string Diriger = "Diriger signifie conduire, administrer ou orienter quelque chose ou quelqu'un vers un but. C'est un verbe régulier en -ger avec un changement orthographique devant certaines terminaisons.";
+                public const string Demontrer = "Démontrer signifie prouver par des arguments ou des faits, ou montrer clairement le fonctionnement de quelque chose. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

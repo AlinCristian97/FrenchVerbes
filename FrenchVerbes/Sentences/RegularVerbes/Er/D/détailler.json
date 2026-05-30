@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je détaille le rapport.",
+    "Tu détailles la procédure.",
+    "Il détaille le plan.",
+    "Elle détaille les étapes.",
+    "Nous détaillons le projet."
+  ],
+  "Imparfait": [
+    "Je détaillais le rapport.",
+    "Tu détaillais la procédure.",
+    "Il détaillait le plan.",
+    "Elle détaillait les étapes.",
+    "Nous détaillions le projet."
+  ],
+  "Futur Simple": [
+    "Je détaillerai le rapport.",
+    "Tu détailleras la procédure.",
+    "Il détaillera le plan.",
+    "Elle détaillera les étapes.",
+    "Nous détaillerons le projet."
+  ],
+  "Passé Composé": [
+    "J'ai détaillé le rapport.",
+    "Tu as détaillé la procédure.",
+    "Il a détaillé le plan.",
+    "Elle a détaillé les étapes.",
+    "Nous avons détaillé le projet."
+  ],
+  "Futur Proche": [
+    "Je vais détailler le rapport.",
+    "Tu vas détailler la procédure.",
+    "Il va détailler le plan.",
+    "Elle va détailler les étapes.",
+    "Nous allons détailler le projet."
+  ],
+  "Passé Récent": [
+    "Je viens de détailler le rapport.",
+    "Tu viens de détailler la procédure.",
+    "Il vient de détailler le plan.",
+    "Elle vient de détailler les étapes.",
+    "Nous venons de détailler le projet."
+  ],
+  "Impératif": [
+    "Détaille le rapport !",
+    "Détaillons la procédure !",
+    "Détaillez le plan !",
+    "Détaille les étapes !",
+    "Détaillons le projet !"
+  ],
+  "Conditionnel Présent": [
+    "Je détaillerais le rapport.",
+    "Tu détaillerais la procédure.",
+    "Il détaillerait le plan.",
+    "Elle détaillerait les étapes.",
+    "Nous détaillerions le projet."
+  ]
+}

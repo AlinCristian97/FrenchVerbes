@@ -47,6 +47,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateDeterminer());
         _verbs.Add(CreateDistinguer());
         _verbs.Add(CreateDebarrasser());
+        _verbs.Add(CreateDetailler());
+        _verbs.Add(CreateDegager());
+        _verbs.Add(CreateDenommer());
+        _verbs.Add(CreateDiriger());
+        _verbs.Add(CreateDemontrer());
     }
 
     #region FactoryMethods
@@ -343,6 +348,41 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Debarrasser,
             Constants.VerbDescriptions.Regular.Er.Debarrasser);
+    }
+
+    private static RegularErVerb CreateDetailler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Detailler,
+            Constants.VerbDescriptions.Regular.Er.Detailler);
+    }
+
+    private static RegularErVerb CreateDegager()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Degager,
+            Constants.VerbDescriptions.Regular.Er.Degager);
+    }
+
+    private static RegularErVerb CreateDenommer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Denommer,
+            Constants.VerbDescriptions.Regular.Er.Denommer);
+    }
+
+    private static RegularErVerb CreateDiriger()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Diriger,
+            Constants.VerbDescriptions.Regular.Er.Diriger);
+    }
+
+    private static RegularErVerb CreateDemontrer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Demontrer,
+            Constants.VerbDescriptions.Regular.Er.Demontrer);
     }
 
     #endregion

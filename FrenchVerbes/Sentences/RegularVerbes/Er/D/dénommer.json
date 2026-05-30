@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je dénomme ce projet.",
+    "Tu dénommes le fichier.",
+    "Il dénomme le lieu.",
+    "Elle dénomme l'entreprise.",
+    "Nous dénommons le produit."
+  ],
+  "Imparfait": [
+    "Je dénommais ce projet.",
+    "Tu dénommais le fichier.",
+    "Il dénommait le lieu.",
+    "Elle dénommait l'entreprise.",
+    "Nous dénommions le produit."
+  ],
+  "Futur Simple": [
+    "Je dénommerai ce projet.",
+    "Tu dénommeras le fichier.",
+    "Il dénommera le lieu.",
+    "Elle dénommera l'entreprise.",
+    "Nous dénommerons le produit."
+  ],
+  "Passé Composé": [
+    "J'ai dénommé ce projet.",
+    "Tu as dénommé le fichier.",
+    "Il a dénommé le lieu.",
+    "Elle a dénommé l'entreprise.",
+    "Nous avons dénommé le produit."
+  ],
+  "Futur Proche": [
+    "Je vais dénommer ce projet.",
+    "Tu vas dénommer le fichier.",
+    "Il va dénommer le lieu.",
+    "Elle va dénommer l'entreprise.",
+    "Nous allons dénommer le produit."
+  ],
+  "Passé Récent": [
+    "Je viens de dénommer ce projet.",
+    "Tu viens de dénommer le fichier.",
+    "Il vient de dénommer le lieu.",
+    "Elle vient de dénommer l'entreprise.",
+    "Nous venons de dénommer le produit."
+  ],
+  "Impératif": [
+    "Dénomme ce projet !",
+    "Dénommons le fichier !",
+    "Dénommez le lieu !",
+    "Dénomme l'entreprise !",
+    "Dénommons le produit !"
+  ],
+  "Conditionnel Présent": [
+    "Je dénommerais ce projet.",
+    "Tu dénommerais le fichier.",
+    "Il dénommerait le lieu.",
+    "Elle dénommerait l'entreprise.",
+    "Nous dénommerions le produit."
+  ]
+}

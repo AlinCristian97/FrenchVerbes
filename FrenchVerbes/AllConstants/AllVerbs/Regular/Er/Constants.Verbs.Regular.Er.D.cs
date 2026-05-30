@@ -48,12 +48,12 @@ public static partial class Constants
                 public const string Deguster = "déguster";
                 public const string Determiner = "déterminer";
                 public const string Distinguer = "distinguer";
-                public const string Debarrasser = "débarrasser"; // <-- you are here
+                public const string Debarrasser = "débarrasser";
                 public const string Detailler = "détailler";
                 public const string Degager = "dégager";
                 public const string Denommer = "dénommer";
                 public const string Diriger = "diriger";
-                public const string Demontrer = "démontrer";
+                public const string Demontrer = "démontrer"; // <-- you are here
                 public const string Deceler = "déceler";
                 public const string Devaster = "dévaster";
                 public const string Defier = "défier";

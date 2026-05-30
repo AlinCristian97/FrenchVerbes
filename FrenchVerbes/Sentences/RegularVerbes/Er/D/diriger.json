@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je dirige l'équipe.",
+    "Tu diriges le projet.",
+    "Il dirige l'entreprise.",
+    "Elle dirige la réunion.",
+    "Nous dirigeons les opérations."
+  ],
+  "Imparfait": [
+    "Je dirigeais l'équipe.",
+    "Tu dirigeais le projet.",
+    "Il dirigeait l'entreprise.",
+    "Elle dirigeait la réunion.",
+    "Nous dirigions les opérations."
+  ],
+  "Futur Simple": [
+    "Je dirigerai l'équipe.",
+    "Tu dirigeras le projet.",
+    "Il dirigera l'entreprise.",
+    "Elle dirigera la réunion.",
+    "Nous dirigerons les opérations."
+  ],
+  "Passé Composé": [
+    "J'ai dirigé l'équipe.",
+    "Tu as dirigé le projet.",
+    "Il a dirigé l'entreprise.",
+    "Elle a dirigé la réunion.",
+    "Nous avons dirigé les opérations."
+  ],
+  "Futur Proche": [
+    "Je vais diriger l'équipe.",
+    "Tu vas diriger le projet.",
+    "Il va diriger l'entreprise.",
+    "Elle va diriger la réunion.",
+    "Nous allons diriger les opérations."
+  ],
+  "Passé Récent": [
+    "Je viens de diriger l'équipe.",
+    "Tu viens de diriger le projet.",
+    "Il vient de diriger l'entreprise.",
+    "Elle vient de diriger la réunion.",
+    "Nous venons de diriger les opérations."
+  ],
+  "Impératif": [
+    "Dirige l'équipe !",
+    "Dirigeons le projet !",
+    "Dirigez l'entreprise !",
+    "Dirige la réunion !",
+    "Dirigeons les opérations !"
+  ],
+  "Conditionnel Présent": [
+    "Je dirigerais l'équipe.",
+    "Tu dirigerais le projet.",
+    "Il dirigerait l'entreprise.",
+    "Elle dirigerait la réunion.",
+    "Nous dirigerions les opérations."
+  ]
+}

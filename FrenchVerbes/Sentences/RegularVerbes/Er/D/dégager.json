@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je dégage la voie.",
+    "Tu dégages l'entrée.",
+    "Il dégage une odeur.",
+    "Elle dégage le passage.",
+    "Nous dégageons la salle."
+  ],
+  "Imparfait": [
+    "Je dégageais la voie.",
+    "Tu dégageais l'entrée.",
+    "Il dégageait une odeur.",
+    "Elle dégageait le passage.",
+    "Nous dégagions la salle."
+  ],
+  "Futur Simple": [
+    "Je dégagerai la voie.",
+    "Tu dégageras l'entrée.",
+    "Il dégagera une odeur.",
+    "Elle dégagera le passage.",
+    "Nous dégagerons la salle."
+  ],
+  "Passé Composé": [
+    "J'ai dégagé la voie.",
+    "Tu as dégagé l'entrée.",
+    "Il a dégagé une odeur.",
+    "Elle a dégagé le passage.",
+    "Nous avons dégagé la salle."
+  ],
+  "Futur Proche": [
+    "Je vais dégager la voie.",
+    "Tu vas dégager l'entrée.",
+    "Il va dégager une odeur.",
+    "Elle va dégager le passage.",
+    "Nous allons dégager la salle."
+  ],
+  "Passé Récent": [
+    "Je viens de dégager la voie.",
+    "Tu viens de dégager l'entrée.",
+    "Il vient de dégager une odeur.",
+    "Elle vient de dégager le passage.",
+    "Nous venons de dégager la salle."
+  ],
+  "Impératif": [
+    "Dégage la voie !",
+    "Dégageons l'entrée !",
+    "Dégagez le passage !",
+    "Dégage la salle !",
+    "Dégageons rapidement !"
+  ],
+  "Conditionnel Présent": [
+    "Je dégagerais la voie.",
+    "Tu dégagerais l'entrée.",
+    "Il dégagerait une odeur.",
+    "Elle dégagerait le passage.",
+    "Nous dégagerions la salle."
+  ]
+}
