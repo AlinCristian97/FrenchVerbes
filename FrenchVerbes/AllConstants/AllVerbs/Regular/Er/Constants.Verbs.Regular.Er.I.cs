@@ -11,10 +11,10 @@ public static partial class Constants
                 public const string Imposer = "imposer";
                 public const string Infester = "infester";
                 public const string Interpeller = "interpeller";
-                public const string Identifier = "identifier"; // <-- you are here
+                public const string Identifier = "identifier";
                 public const string Insister = "insister";
                 public const string Inspirer = "inspirer";
-                public const string Se_Inspirer = "s'inspirer";
+                public const string Se_Inspirer = "s'inspirer"; // <-- you are here
                 public const string Indiquer = "indiquer";
                 public const string Injurer = "injurer";
                 public const string Insulter = "insulter";

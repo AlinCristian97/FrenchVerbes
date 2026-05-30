@@ -12,6 +12,9 @@ public static partial class Constants
                 public const string Infester = "Infester signifie envahir un lieu en grand nombre de manière nuisible, en parlant d'animaux, de parasites ou de personnes indésirables. C'est un verbe régulier du premier groupe en -er.";
                 public const string Interpeller = "Interpeller signifie appeler quelqu'un pour lui adresser la parole de façon directe ou brusque, ou questionner officiellement quelqu'un. C'est un verbe régulier du premier groupe en -er.";
                 public const string Identifier = "Identifier signifie reconnaître quelqu'un ou quelque chose et établir son identité, ou assimiler une personne ou une chose à une autre. C'est un verbe régulier du premier groupe en -er.";
+                public const string Insister = "Insister signifie maintenir fermement une position, une demande ou une opinion, ou mettre l'accent sur quelque chose avec persistance. C'est un verbe régulier du premier groupe en -er.";
+                public const string Inspirer = "Inspirer signifie stimuler la créativité ou l'enthousiasme de quelqu'un, ou aspirer de l'air dans les poumons. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Inspirer = "S'inspirer signifie puiser ses idées ou sa créativité dans quelque chose ou quelqu'un, prendre exemple sur une source d'inspiration. C'est un verbe pronominal régulier du premier groupe en -er.";
             }
         }
     }

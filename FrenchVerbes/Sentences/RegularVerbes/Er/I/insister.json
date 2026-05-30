@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'insiste pour avoir une réponse claire.",
+    "Tu insistes sur l'importance de la ponctualité.",
+    "Il insiste pour participer à la réunion.",
+    "Nous insistons sur la qualité du travail.",
+    "Vous insistez trop sur ce point mineur."
+  ],
+  "Imparfait": [
+    "J'insistais toujours pour respecter les délais.",
+    "Tu insistais pour que tout soit parfait.",
+    "Elle insistait sur la nécessité de bien se préparer.",
+    "Nous insistions pour obtenir de meilleures conditions.",
+    "Vous insistiez sur chaque détail du contrat."
+  ],
+  "Futur Simple": [
+    "J'insisterai pour obtenir une explication.",
+    "Tu insisteras jusqu'à ce qu'on te réponde.",
+    "Elle insistera sur ce point lors de la présentation.",
+    "Nous insisterons pour que le projet soit livré à temps.",
+    "Vous insisterez sur la nécessité d'une révision complète."
+  ],
+  "Passé Composé": [
+    "J'ai insisté pour avoir un rendez-vous.",
+    "Tu as insisté sur l'urgence de la situation.",
+    "Il a insisté pour que l'on prenne le temps de réfléchir.",
+    "Nous avons insisté sur l'importance de cette décision.",
+    "Vous avez insisté jusqu'à obtenir satisfaction."
+  ],
+  "Futur Proche": [
+    "Je vais insister pour obtenir une réponse aujourd'hui.",
+    "Tu vas insister sur ce point en réunion.",
+    "Il va insister pour que les règles soient respectées.",
+    "Nous allons insister sur la qualité plutôt que la quantité.",
+    "Vous allez insister pour que le délai soit prolongé."
+  ],
+  "Passé Récent": [
+    "Je viens d'insister pour obtenir une explication.",
+    "Tu viens d'insister sur l'importance de ce projet.",
+    "Elle vient d'insister pour que la réunion soit reportée.",
+    "Nous venons d'insister sur la nécessité de changer de méthode.",
+    "Vous venez d'insister pour avoir plus de ressources."
+  ],
+  "Impératif": [
+    "Insiste pour avoir une réponse claire.",
+    "Insistons sur la qualité de notre travail.",
+    "Insistez sur les points importants du dossier.",
+    "N'insiste pas inutilement sur des détails sans importance.",
+    "N'insistez pas si la décision est déjà prise."
+  ],
+  "Conditionnel Présent": [
+    "J'insisterais pour obtenir un meilleur résultat.",
+    "Tu insisterais davantage si tu croyais vraiment en ton idée.",
+    "Il insisterait pour participer à la discussion.",
+    "Nous insisterions sur la rigueur si nous avions plus de temps.",
+    "Vous insisteriez moins si vous compreniez la situation."
+  ]
+}

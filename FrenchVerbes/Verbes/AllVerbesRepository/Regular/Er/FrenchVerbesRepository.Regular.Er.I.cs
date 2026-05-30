@@ -11,6 +11,9 @@ public static partial class VerbRepository
         _verbs.Add(CreateInfester());
         _verbs.Add(CreateInterpeller());
         _verbs.Add(CreateIdentifier());
+        _verbs.Add(CreateInsister());
+        _verbs.Add(CreateInspirer());
+        _verbs.Add(CreateSe_Inspirer());
     }
 
     #region FactoryMethods
@@ -41,6 +44,30 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Identifier,
             Constants.VerbDescriptions.Regular.Er.Identifier);
+    }
+
+    private static RegularErVerb CreateInsister()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Insister,
+            Constants.VerbDescriptions.Regular.Er.Insister);
+    }
+
+    private static RegularErVerb CreateInspirer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Inspirer,
+            Constants.VerbDescriptions.Regular.Er.Inspirer,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Inspirer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Inspirer,
+            Constants.VerbDescriptions.Regular.Er.Se_Inspirer,
+            usesEtre: true,
+            isReflexive: true);
     }
 
     #endregion
