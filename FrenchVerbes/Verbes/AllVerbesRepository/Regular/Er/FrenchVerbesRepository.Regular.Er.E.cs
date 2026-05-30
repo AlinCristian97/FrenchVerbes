@@ -67,6 +67,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateEnsanglanter());
         _verbs.Add(CreateEnfermer());
         _verbs.Add(CreateEgaler());
+        _verbs.Add(CreateEntrainer());
+        _verbs.Add(CreateSe_Entrainer());
+        _verbs.Add(CreateEncadrer());
+        _verbs.Add(CreateExcuser());
+        _verbs.Add(CreateSe_Excuser());
     }
 
     #region FactoryMethods
@@ -522,6 +527,47 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Egaler,
             Constants.VerbDescriptions.Regular.Er.Egaler);
+    }
+
+    private static RegularErVerb CreateEntrainer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Entrainer,
+            Constants.VerbDescriptions.Regular.Er.Entrainer,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Entrainer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Entrainer,
+            Constants.VerbDescriptions.Regular.Er.Se_Entrainer,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateEncadrer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Encadrer,
+            Constants.VerbDescriptions.Regular.Er.Encadrer);
+    }
+
+    private static RegularErVerb CreateExcuser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Excuser,
+            Constants.VerbDescriptions.Regular.Er.Excuser,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Excuser()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Excuser,
+            Constants.VerbDescriptions.Regular.Er.Se_Excuser,
+            usesEtre: true,
+            isReflexive: true);
     }
 
     #endregion

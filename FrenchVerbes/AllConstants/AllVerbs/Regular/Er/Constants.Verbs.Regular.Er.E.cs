@@ -67,12 +67,12 @@ public static partial class Constants
                 public const string Enfiler = "enfiler";
                 public const string Ensanglanter = "ensanglanter";
                 public const string Enfermer = "enfermer";
-                public const string Egaler = "égaler"; // <-- you are here
+                public const string Egaler = "égaler";
                 public const string Entrainer = "entraîner";
                 public const string Se_Entrainer = "s'entraîner";
                 public const string Encadrer = "encadrer";
                 public const string Excuser = "excuser";
-                public const string Se_Excuser = "s'excuser";
+                public const string Se_Excuser = "s'excuser"; // <-- you are here
                 public const string Empresser = "empresser";
                 public const string Se_Empresser = "s'empresser";
                 public const string Enquiquiner = "enquiquiner";

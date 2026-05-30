@@ -68,6 +68,11 @@ public static partial class Constants
                 public const string Ensanglanter = "Ensanglanter signifie couvrir ou tacher de sang, ou provoquer des violences sanglantes. C'est un verbe régulier du premier groupe en -er.";
                 public const string Enfermer = "Enfermer signifie mettre quelqu'un ou quelque chose dans un espace fermé, emprisonner ou contenir. C'est un verbe régulier du premier groupe en -er.";
                 public const string Egaler = "Égaler signifie être de même valeur, de même quantité ou de même niveau qu'une autre chose, atteindre le niveau de quelqu'un. C'est un verbe régulier du premier groupe en -er.";
+                public const string Entrainer = "Entraîner signifie tirer avec soi, provoquer une conséquence ou préparer quelqu'un à une activité sportive ou physique. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Entrainer = "S'entraîner signifie s'exercer régulièrement pour améliorer ses capacités physiques ou ses compétences. C'est un verbe pronominal régulier du premier groupe en -er.";
+                public const string Encadrer = "Encadrer signifie mettre dans un cadre, entourer ou superviser et diriger une équipe ou un groupe. C'est un verbe régulier du premier groupe en -er.";
+                public const string Excuser = "Excuser signifie pardonner une faute ou une erreur, ou présenter des excuses au nom de quelqu'un. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Excuser = "S'excuser signifie présenter ses excuses, reconnaître une faute et en demander pardon. C'est un verbe pronominal régulier du premier groupe en -er.";
             }
         }
     }

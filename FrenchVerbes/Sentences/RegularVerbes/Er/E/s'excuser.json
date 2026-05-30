@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je m'excuse pour mon retard.",
+    "Tu t'excuses auprès de ton ami pour ce malentendu.",
+    "Il s'excuse d'avoir oublié le rendez-vous.",
+    "Nous nous excusons pour la gêne occasionnée.",
+    "Ils s'excusent auprès de leurs clients pour l'erreur."
+  ],
+  "Imparfait": [
+    "Je m'excusais souvent sans vraie raison.",
+    "Tu t'excusais toujours quand tu te trompais.",
+    "Elle s'excusait auprès de ses collègues à chaque retard.",
+    "Nous nous excusions à la moindre erreur.",
+    "Ils s'excusaient sans cesse pour leurs oublis."
+  ],
+  "Futur Simple": [
+    "Je m'excuserai dès que je le verrai.",
+    "Tu t'excuseras auprès de lui demain.",
+    "Il s'excusera pour son comportement d'hier.",
+    "Nous nous excuserons en personne pour ce désagrément.",
+    "Ils s'excuseront lors de la prochaine réunion."
+  ],
+  "Passé Composé": [
+    "Je me suis excusé pour mon impolitesse.",
+    "Tu t'es excusé auprès de tes amis.",
+    "Elle s'est excusée d'avoir été en retard.",
+    "Nous nous sommes excusés pour l'inconvénient causé.",
+    "Ils se sont excusés auprès de la direction."
+  ],
+  "Futur Proche": [
+    "Je vais m'excuser auprès de lui tout à l'heure.",
+    "Tu vas t'excuser pour ce que tu as dit.",
+    "Il va s'excuser dès qu'il le pourra.",
+    "Nous allons nous excuser pour le retard pris.",
+    "Ils vont s'excuser auprès des clients mécontents."
+  ],
+  "Passé Récent": [
+    "Je viens de m'excuser pour mon erreur.",
+    "Tu viens de t'excuser auprès de ton chef.",
+    "Il vient de s'excuser pour son absence.",
+    "Nous venons de nous excuser auprès de l'équipe.",
+    "Ils viennent de s'excuser pour les problèmes causés."
+  ],
+  "Impératif": [
+    "Excuse-toi auprès de lui, tu as eu tort.",
+    "Excusons-nous pour ce malentendu.",
+    "Excusez-vous immédiatement pour ce comportement.",
+    "Ne t'excuse pas si tu n'as rien fait de mal.",
+    "Excusons-nous avant qu'il soit trop tard."
+  ],
+  "Conditionnel Présent": [
+    "Je m'excuserais si je savais que j'ai eu tort.",
+    "Tu t'excuserais si tu étais à ma place.",
+    "Il s'excuserait mais il ne sait pas comment l'aborder.",
+    "Nous nous excuserions si cela pouvait arranger les choses.",
+    "Ils s'excuseraient s'ils réalisaient leur erreur."
+  ]
+}
