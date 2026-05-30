@@ -25,10 +25,10 @@ public static partial class Constants
                 public const string Flotter = "flotter";
                 public const string Frapper = "frapper";
                 public const string Frissonner = "frissonner";
-                public const string Fumer = "fumer"; // <-- you are here
+                public const string Fumer = "fumer";
                 public const string Fusionner = "fusionner";
                 public const string Feuilleter = "feuilleter";
-                public const string Foudroyer = "foudroyer";
+                public const string Foudroyer = "foudroyer"; // <-- you are here
                 public const string Flairer = "flairer";
                 public const string Feliciter = "féliciter";
                 public const string Se_Feliciter = "se féliciter";

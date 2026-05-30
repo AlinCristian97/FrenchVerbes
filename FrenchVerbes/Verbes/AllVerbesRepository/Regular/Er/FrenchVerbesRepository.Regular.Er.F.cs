@@ -25,6 +25,9 @@ public static partial class VerbRepository
         _verbs.Add(CreateFrapper());
         _verbs.Add(CreateFrissonner());
         _verbs.Add(CreateFumer());
+        _verbs.Add(CreateFusionner());
+        _verbs.Add(CreateFeuilleter());
+        _verbs.Add(CreateFoudroyer());
     }
 
     #region FactoryMethods
@@ -159,6 +162,27 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Fumer,
             Constants.VerbDescriptions.Regular.Er.Fumer);
+    }
+
+    private static RegularErVerb CreateFusionner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Fusionner,
+            Constants.VerbDescriptions.Regular.Er.Fusionner);
+    }
+
+    private static RegularErVerb CreateFeuilleter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Feuilleter,
+            Constants.VerbDescriptions.Regular.Er.Feuilleter);
+    }
+
+    private static RegularErVerb CreateFoudroyer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Foudroyer,
+            Constants.VerbDescriptions.Regular.Er.Foudroyer);
     }
 
     #endregion

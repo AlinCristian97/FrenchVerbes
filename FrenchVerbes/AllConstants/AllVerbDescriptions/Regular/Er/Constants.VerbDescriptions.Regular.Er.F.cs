@@ -26,6 +26,9 @@ public static partial class Constants
                 public const string Frapper = "Frapper signifie donner un coup à quelqu'un ou quelque chose, heurter avec force, ou au sens figuré, impressionner vivement ou affecter profondément quelqu'un. C'est un verbe régulier du premier groupe en -er.";
                 public const string Frissonner = "Frissonner signifie éprouver un frisson, trembler légèrement sous l'effet du froid, de la peur ou d'une émotion intense. C'est un verbe régulier du premier groupe en -er.";
                 public const string Fumer = "Fumer signifie dégager de la fumée, consommer du tabac en l'inhalant, ou faire fumer un aliment pour le conserver ou lui donner un arôme particulier. C'est un verbe régulier du premier groupe en -er.";
+                public const string Fusionner = "Fusionner signifie s'unir ou unir deux entités en une seule, combiner des éléments distincts pour former un ensemble cohérent. C'est un verbe régulier du premier groupe en -er.";
+                public const string Feuilleter = "Feuilleter signifie tourner rapidement les pages d'un livre ou d'un document, parcourir un texte de manière superficielle sans le lire en détail. C'est un verbe régulier du premier groupe en -er.";
+                public const string Foudroyer = "Foudroyer signifie frapper par la foudre, tuer ou détruire instantanément, ou au sens figuré, stupéfier ou accabler quelqu'un brutalement. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }
