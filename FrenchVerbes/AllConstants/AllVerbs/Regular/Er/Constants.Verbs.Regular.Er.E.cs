@@ -27,8 +27,8 @@ public static partial class Constants
                 public const string Exploser = "exploser";
                 public const string Experimenter = "expérimenter";
                 public const string Equiper = "équiper";
-                public const string Se_Equiper = "s'équiper";
-                public const string Ecouter = "écouter"; // <-- you are here
+                public const string Se_Equiper = "s'équiper"; // <-- you are here
+                public const string Ecouter = "écouter";
                 public const string Ennuyer = "ennuyer";
                 public const string Se_Ennuyer = "s'ennuyer";
                 public const string Empecher = "empêcher";
