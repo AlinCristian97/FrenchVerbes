@@ -77,6 +77,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateEnquiquiner());
         _verbs.Add(CreateSe_Enquiquiner());
         _verbs.Add(CreateEtonner());
+        _verbs.Add(CreateSe_Etonner());
+        _verbs.Add(CreateEplucher());
+        _verbs.Add(CreateEmbusquer());
+        _verbs.Add(CreateElectrifier());
+        _verbs.Add(CreateSe_Electrifier());
     }
 
     #region FactoryMethods
@@ -613,7 +618,48 @@ public static partial class VerbRepository
     {
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Etonner,
-            Constants.VerbDescriptions.Regular.Er.Etonner);
+            Constants.VerbDescriptions.Regular.Er.Etonner,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Etonner()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Etonner,
+            Constants.VerbDescriptions.Regular.Er.Se_Etonner,
+            usesEtre: true,
+            isReflexive: true);
+    }
+
+    private static RegularErVerb CreateEplucher()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Eplucher,
+            Constants.VerbDescriptions.Regular.Er.Eplucher);
+    }
+
+    private static RegularErVerb CreateEmbusquer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Embusquer,
+            Constants.VerbDescriptions.Regular.Er.Embusquer);
+    }
+
+    private static RegularErVerb CreateElectrifier()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Electrifier,
+            Constants.VerbDescriptions.Regular.Er.Electrifier,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Electrifier()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Electrifier,
+            Constants.VerbDescriptions.Regular.Er.Se_Electrifier,
+            usesEtre: true,
+            isReflexive: true);
     }
 
     #endregion

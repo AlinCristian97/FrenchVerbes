@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "Le général embusque ses soldats derrière les collines.",
+    "Tu embusques tes hommes près de la route.",
+    "Elle embusque les agents dans l'entrepôt abandonné.",
+    "Nous embusquons nos troupes avant l'aube.",
+    "Ils embusquent leurs tireurs d'élite sur les toits."
+  ],
+  "Imparfait": [
+    "Le commandant embusquait ses hommes chaque nuit.",
+    "Tu embusquais tes alliés le long de la frontière.",
+    "Elle embusquait les espions près du palais.",
+    "Nous embusquions nos soldats dans les bois.",
+    "Ils embusquaient leurs forces à l'abri des regards."
+  ],
+  "Futur Simple": [
+    "Le colonel embusquera ses troupes à l'aube.",
+    "Tu embusqueras tes hommes derrière le mur.",
+    "Il embusquera les agents avant l'opération.",
+    "Nous embusquerons nos soldats en position avancée.",
+    "Ils embusqueront leurs forces dans la forêt."
+  ],
+  "Passé Composé": [
+    "Le général a embusqué ses soldats dans le ravin.",
+    "Tu as embusqué tes hommes la nuit dernière.",
+    "Elle a embusqué les agents près du pont.",
+    "Nous avons embusqué nos troupes avant l'attaque.",
+    "Ils ont embusqué leurs tireurs à des points stratégiques."
+  ],
+  "Futur Proche": [
+    "Le commandant va embusquer ses soldats immédiatement.",
+    "Tu vas embusquer tes hommes dans les buissons.",
+    "Il va embusquer les agents avant la tombée de la nuit.",
+    "Nous allons embusquer nos forces en position.",
+    "Ils vont embusquer leurs troupes sur les flancs."
+  ],
+  "Passé Récent": [
+    "Le général vient d'embusquer ses soldats dans les collines.",
+    "Tu viens d'embusquer tes hommes le long du chemin.",
+    "Elle vient d'embusquer les agents dans l'immeuble.",
+    "Nous venons d'embusquer nos troupes en lisière de forêt.",
+    "Ils viennent d'embusquer leurs forces en position d'attente."
+  ],
+  "Impératif": [
+    "Embusque tes hommes maintenant !",
+    "Embusquons nos soldats avant l'aube !",
+    "Embusquez vos troupes sans bruit !"
+  ],
+  "Conditionnel Présent": [
+    "Je l'embusquerais derrière les arbres si j'en avais l'ordre.",
+    "Tu embusquerais tes hommes mieux avec plus de temps.",
+    "Il embusquerait ses agents si la situation l'exigeait.",
+    "Nous embusquerions nos soldats plus loin si possible.",
+    "Ils embusqueraient leurs forces dès la nuit tombée."
+  ]
+}

@@ -78,6 +78,11 @@ public static partial class Constants
                 public const string Enquiquiner = "Enquiquiner signifie importuner, ennuyer ou contrarier quelqu'un de façon agaçante. C'est un verbe familier régulier du premier groupe en -er.";
                 public const string Se_Enquiquiner = "S'enquiquiner signifie s'ennuyer profondément ou se donner du mal inutilement pour quelque chose. C'est un verbe pronominal familier régulier du premier groupe en -er.";
                 public const string Etonner = "Étonner signifie causer de la surprise, provoquer l'étonnement ou surprendre quelqu'un par quelque chose d'inattendu. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Etonner = "S'étonner signifie être surpris par quelque chose, ressentir de l'étonnement face à une situation inattendue. C'est un verbe pronominal régulier du premier groupe en -er.";
+                public const string Eplucher = "Éplucher signifie enlever la peau ou l'enveloppe d'un légume ou d'un fruit, ou examiner quelque chose avec soin et minutie. C'est un verbe régulier du premier groupe en -er.";
+                public const string Embusquer = "Embusquer signifie placer quelqu'un en embuscade, le cacher pour qu'il puisse surprendre l'ennemi. C'est un verbe régulier du premier groupe en -er.";
+                public const string Electrifier = "Électrifier signifie équiper d'un réseau électrique, alimenter en électricité ou, au sens figuré, remplir d'enthousiasme ou d'émotion intense. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Electrifier = "S'électrifier signifie devenir électrifié, se charger d'électricité ou, au sens figuré, se remplir d'enthousiasme ou d'émotion intense. C'est un verbe pronominal régulier du premier groupe en -er.";
             }
         }
     }

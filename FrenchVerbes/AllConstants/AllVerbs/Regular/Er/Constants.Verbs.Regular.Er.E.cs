@@ -77,12 +77,12 @@ public static partial class Constants
                 public const string Se_Empresser = "s'empresser";
                 public const string Enquiquiner = "enquiquiner";
                 public const string Se_Enquiquiner = "s'enquiquiner";
-                public const string Etonner = "étonner"; // <-- you are here
+                public const string Etonner = "étonner";
                 public const string Se_Etonner = "s'étonner";
                 public const string Eplucher = "éplucher";
                 public const string Embusquer = "embusquer";
                 public const string Electrifier = "électrifier";
-                public const string Se_Electrifier = "s'électrifier";
+                public const string Se_Electrifier = "s'électrifier"; // <-- you are here
                 public const string Se_Enteter = "s'entêter";
                 public const string Effondrer = "effondrer";
                 public const string Se_Effondrer = "s'effondrer";
