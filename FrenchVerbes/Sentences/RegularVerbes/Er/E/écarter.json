@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "J'écarte les rideaux pour laisser entrer la lumière.",
+    "Tu écartes les branches pour avancer.",
+    "Il écarte toute idée de compromis.",
+    "Nous écartons les risques inutiles.",
+    "Ils écartent les candidats qui ne correspondent pas."
+  ],
+  "Imparfait": [
+    "J'écartais les hypothèses trop hasardeuses.",
+    "Tu écartais les obstacles de ton chemin.",
+    "Elle écartait les mauvaises nouvelles de son esprit.",
+    "Nous écartions les solutions inefficaces.",
+    "Ils écartaient les candidats sans expérience."
+  ],
+  "Futur Simple": [
+    "J'écarterai cette option si elle est trop risquée.",
+    "Tu écarteras les branches pour passer.",
+    "Il écartera toute proposition non viable.",
+    "Nous écarterons les hypothèses incorrectes.",
+    "Ils écarteront les joueurs blessés de la liste."
+  ],
+  "Passé Composé": [
+    "J'ai écarté cette solution dès le début.",
+    "Tu as écarté les rideaux pour voir dehors.",
+    "Elle a écarté les bras pour accueillir l'enfant.",
+    "Nous avons écarté cette option lors de la réunion.",
+    "Ils ont écarté les candidats non qualifiés."
+  ],
+  "Futur Proche": [
+    "Je vais écarter cette idée.",
+    "Tu vas écarter les obstacles.",
+    "Il va écarter cette possibilité.",
+    "Nous allons écarter les risques inutiles.",
+    "Ils vont écarter les mauvaises propositions."
+  ],
+  "Passé Récent": [
+    "Je viens d'écarter cette option.",
+    "Tu viens d'écarter les rideaux.",
+    "Il vient d'écarter cette hypothèse.",
+    "Nous venons d'écarter ces solutions.",
+    "Ils viennent d'écarter les candidats insuffisants."
+  ],
+  "Impératif": [
+    "Écarte les branches pour passer !",
+    "Écartons les hypothèses inutiles.",
+    "Écartez les risques avant de prendre une décision."
+  ],
+  "Conditionnel Présent": [
+    "J'écarterais cette option si elle était trop coûteuse.",
+    "Tu écarterais les obstacles plus vite avec de l'aide.",
+    "Il écarterait cette hypothèse s'il avait plus de données.",
+    "Nous écarterions les solutions inefficaces dès le début.",
+    "Ils écarteraient les candidats non qualifiés lors de la présélection."
+  ]
+}

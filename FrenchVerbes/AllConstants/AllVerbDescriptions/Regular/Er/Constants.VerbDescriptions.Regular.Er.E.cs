@@ -58,6 +58,11 @@ public static partial class Constants
                 public const string Eviter = "Éviter signifie chercher à ne pas rencontrer quelqu'un ou quelque chose, se soustraire à un danger ou une situation désagréable. C'est un verbe régulier du premier groupe en -er.";
                 public const string Evoluer = "Évoluer signifie changer progressivement, se développer ou se transformer au fil du temps. C'est un verbe régulier du premier groupe en -er.";
                 public const string Elaborer = "Élaborer signifie préparer avec soin, développer ou mettre au point quelque chose de manière méthodique. C'est un verbe régulier du premier groupe en -er.";
+                public const string Emporter = "Emporter signifie prendre quelque chose avec soi en partant, entraîner ou remporter une victoire. C'est un verbe régulier du premier groupe en -er.";
+                public const string Emprunter = "Emprunter signifie prendre quelque chose à quelqu'un avec l'intention de le rendre, ou suivre un chemin. C'est un verbe régulier du premier groupe en -er.";
+                public const string Enregistrer = "Enregistrer signifie inscrire officiellement quelque chose, conserver un son ou une image, ou mémoriser une information. C'est un verbe régulier du premier groupe en -er.";
+                public const string Enlever = "Enlever signifie ôter quelque chose de sa place, retirer ou faire disparaître. C'est un verbe régulier du premier groupe en -er avec alternance e / è au présent.";
+                public const string Ecarter = "Écarter signifie mettre à distance, séparer ou éloigner des éléments les uns des autres. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

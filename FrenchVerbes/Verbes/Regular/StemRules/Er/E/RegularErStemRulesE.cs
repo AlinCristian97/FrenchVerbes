@@ -15,5 +15,6 @@ public static class RegularErStemRulesE
             [Constants.Verbs.Regular.Er.Exagerer] = new ExagererRegularErStemRule(),
             [Constants.Verbs.Regular.Er.Elever] = new EleverRegularErStemRule(),
             [Constants.Verbs.Regular.Er.Epeler] = new EpelerRegularErStemRule(),
+            [Constants.Verbs.Regular.Er.Enlever] = new EnleverRegularErStemRule(),
         };
 }

@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "J'enlève mes chaussures en entrant.",
+    "Tu enlèves la poussière des meubles.",
+    "Il enlève son manteau dès qu'il entre.",
+    "Nous enlevons les mauvaises herbes du jardin.",
+    "Ils enlèvent les obstacles sur la route."
+  ],
+  "Imparfait": [
+    "J'enlevais mes chaussures à la porte.",
+    "Tu enlevais toujours ton chapeau en intérieur.",
+    "Elle enlevait la saleté avec une éponge.",
+    "Nous enlevions les feuilles mortes chaque automne.",
+    "Ils enlevaient les décorations après les fêtes."
+  ],
+  "Futur Simple": [
+    "J'enlèverai la tache demain matin.",
+    "Tu enlèveras les clous du mur.",
+    "Il enlèvera les mauvaises herbes ce week-end.",
+    "Nous enlèverons les décorations après la fête.",
+    "Ils enlèveront les barrières après l'événement."
+  ],
+  "Passé Composé": [
+    "J'ai enlevé la poussière sur l'étagère.",
+    "Tu as enlevé ton manteau en entrant.",
+    "Elle a enlevé la tache avec du savon.",
+    "Nous avons enlevé les cartons du couloir.",
+    "Ils ont enlevé les vieilles tuiles du toit."
+  ],
+  "Futur Proche": [
+    "Je vais enlever mes bottes.",
+    "Tu vas enlever cette étiquette.",
+    "Il va enlever le vernis de la table.",
+    "Nous allons enlever les meubles pour repeindre.",
+    "Ils vont enlever les affiches du mur."
+  ],
+  "Passé Récent": [
+    "Je viens d'enlever mes chaussures.",
+    "Tu viens d'enlever la tache.",
+    "Il vient d'enlever son manteau.",
+    "Nous venons d'enlever les cartons.",
+    "Ils viennent d'enlever les barrières."
+  ],
+  "Impératif": [
+    "Enlève tes chaussures avant d'entrer !",
+    "Enlevons ces cartons du couloir.",
+    "Enlevez vos manteaux et asseyez-vous."
+  ],
+  "Conditionnel Présent": [
+    "J'enlèverais cette tache si j'avais le bon produit.",
+    "Tu enlèverais tes chaussures si le sol était propre.",
+    "Il enlèverait les mauvaises herbes s'il avait le temps.",
+    "Nous enlèverions les meubles pour refaire le parquet.",
+    "Ils enlèveraient les vieilles peintures s'ils rénovaient."
+  ]
+}

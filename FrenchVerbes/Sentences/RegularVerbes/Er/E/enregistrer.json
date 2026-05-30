@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "J'enregistre la réunion sur mon téléphone.",
+    "Tu enregistres tes bagages à l'aéroport.",
+    "Il enregistre une nouvelle chanson en studio.",
+    "Nous enregistrons nos observations dans un carnet.",
+    "Ils enregistrent le contrat chez le notaire."
+  ],
+  "Imparfait": [
+    "J'enregistrais mes cours pour les réécouter.",
+    "Tu enregistrais les émissions de radio.",
+    "Elle enregistrait les données dans la base de données.",
+    "Nous enregistrions nos résultats chaque semaine.",
+    "Ils enregistraient toutes les transactions."
+  ],
+  "Futur Simple": [
+    "J'enregistrerai l'émission ce soir.",
+    "Tu enregistreras tes bagages avant d'embarquer.",
+    "Il enregistrera l'album dans un mois.",
+    "Nous enregistrerons la conférence pour les absents.",
+    "Ils enregistreront les nouvelles données demain."
+  ],
+  "Passé Composé": [
+    "J'ai enregistré la conversation téléphonique.",
+    "Tu as enregistré tes bagages au comptoir.",
+    "Elle a enregistré un message vocal.",
+    "Nous avons enregistré toutes les commandes.",
+    "Ils ont enregistré le document officiel."
+  ],
+  "Futur Proche": [
+    "Je vais enregistrer cette séance.",
+    "Tu vas enregistrer tes valises à l'aéroport.",
+    "Il va enregistrer une vidéo pour son blog.",
+    "Nous allons enregistrer nos progrès.",
+    "Ils vont enregistrer l'acte de vente."
+  ],
+  "Passé Récent": [
+    "Je viens d'enregistrer le fichier.",
+    "Tu viens d'enregistrer tes bagages.",
+    "Il vient d'enregistrer sa voix.",
+    "Nous venons d'enregistrer les résultats.",
+    "Ils viennent d'enregistrer le contrat."
+  ],
+  "Impératif": [
+    "Enregistre ce fichier avant de fermer !",
+    "Enregistrons nos données maintenant.",
+    "Enregistrez vos bagages au comptoir dès votre arrivée."
+  ],
+  "Conditionnel Présent": [
+    "J'enregistrerais la réunion si j'avais mon téléphone.",
+    "Tu enregistrerais tes bagages plus tôt pour éviter la queue.",
+    "Il enregistrerait cet album s'il trouvait un studio.",
+    "Nous enregistrerions la conférence si nous avions le matériel.",
+    "Ils enregistreraient toutes les données s'ils avaient le temps."
+  ]
+}

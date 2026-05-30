@@ -57,6 +57,11 @@ public static partial class VerbRepository
         _verbs.Add(CreateEviter());
         _verbs.Add(CreateEvoluer());
         _verbs.Add(CreateElaborer());
+        _verbs.Add(CreateEmporter());
+        _verbs.Add(CreateEmprunter());
+        _verbs.Add(CreateEnregistrer());
+        _verbs.Add(CreateEnlever());
+        _verbs.Add(CreateEcarter());
     }
 
     #region FactoryMethods
@@ -442,6 +447,41 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Elaborer,
             Constants.VerbDescriptions.Regular.Er.Elaborer);
+    }
+
+    private static RegularErVerb CreateEmporter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Emporter,
+            Constants.VerbDescriptions.Regular.Er.Emporter);
+    }
+
+    private static RegularErVerb CreateEmprunter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Emprunter,
+            Constants.VerbDescriptions.Regular.Er.Emprunter);
+    }
+
+    private static RegularErVerb CreateEnregistrer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Enregistrer,
+            Constants.VerbDescriptions.Regular.Er.Enregistrer);
+    }
+
+    private static RegularErVerb CreateEnlever()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Enlever,
+            Constants.VerbDescriptions.Regular.Er.Enlever);
+    }
+
+    private static RegularErVerb CreateEcarter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Ecarter,
+            Constants.VerbDescriptions.Regular.Er.Ecarter);
     }
 
     #endregion

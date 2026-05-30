@@ -1,0 +1,56 @@
+{
+  "Présent": [
+    "J'emprunte de l'argent à mon ami.",
+    "Tu empruntes le chemin de la forêt.",
+    "Il emprunte une voiture pour le week-end.",
+    "Nous empruntons des livres à la bibliothèque.",
+    "Ils empruntent la rue principale pour rentrer."
+  ],
+  "Imparfait": [
+    "J'empruntais souvent des livres au lycée.",
+    "Tu empruntais le vélo de ton frère.",
+    "Elle empruntait des vêtements à sa sœur.",
+    "Nous empruntions toujours ce raccourci.",
+    "Ils empruntaient de l'argent régulièrement."
+  ],
+  "Futur Simple": [
+    "J'emprunterai ce chemin demain matin.",
+    "Tu emprunteras de l'argent si nécessaire.",
+    "Il empruntera la voiture de ses parents.",
+    "Nous emprunterons l'autoroute pour aller plus vite.",
+    "Ils emprunteront des outils au voisin."
+  ],
+  "Passé Composé": [
+    "J'ai emprunté un livre à la médiathèque.",
+    "Tu as emprunté la route côtière.",
+    "Elle a emprunté de l'argent pour payer le loyer.",
+    "Nous avons emprunté le sentier de montagne.",
+    "Ils ont emprunté les vélos du club."
+  ],
+  "Futur Proche": [
+    "Je vais emprunter un stylo à mon collègue.",
+    "Tu vas emprunter ce livre à la bibliothèque.",
+    "Il va emprunter la voiture pour ce soir.",
+    "Nous allons emprunter le pont pour traverser.",
+    "Ils vont emprunter de l'argent à la banque."
+  ],
+  "Passé Récent": [
+    "Je viens d'emprunter ce livre.",
+    "Tu viens d'emprunter cette route.",
+    "Il vient d'emprunter de l'argent.",
+    "Nous venons d'emprunter les skis du club.",
+    "Ils viennent d'emprunter le sentier forestier."
+  ],
+  "Impératif": [
+    "Emprunte ce livre, il est passionnant !",
+    "Empruntons le chemin le plus court.",
+    "Empruntez la rue à gauche pour éviter les embouteillages."
+  ],
+  "Conditionnel Présent": [
+    "J'emprunterais volontiers ta voiture pour le week-end.",
+    "Tu emprunterais de l'argent si tu en avais besoin.",
+    "Il emprunterait ce chemin s'il connaissait le coin.",
+    "Nous emprunterions l'autoroute si la route secondaire était fermée.",
+    "Ils emprunteraient des outils s'ils n'en avaient pas."
+  ]
+}
