@@ -8,10 +8,10 @@ public static partial class Constants
         {
             public static partial class Er
             {
-                public const string Imposer = "imposer"; // <-- you are here
+                public const string Imposer = "imposer";
                 public const string Infester = "infester";
                 public const string Interpeller = "interpeller";
-                public const string Identifier = "identifier";
+                public const string Identifier = "identifier"; // <-- you are here
                 public const string Insister = "insister";
                 public const string Inspirer = "inspirer";
                 public const string Se_Inspirer = "s'inspirer";

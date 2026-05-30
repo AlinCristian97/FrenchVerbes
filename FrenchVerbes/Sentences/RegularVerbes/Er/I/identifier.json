@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'identifie les erreurs dans le rapport.",
+    "Tu identifies les plantes dans le jardin.",
+    "Elle identifie le suspect grâce aux témoignages.",
+    "Nous identifions les problèmes principaux du projet.",
+    "Vous identifiez les points faibles de la stratégie."
+  ],
+  "Imparfait": [
+    "J'identifiais les risques avant chaque mission.",
+    "Tu identifiais les clients potentiels avec facilité.",
+    "Il identifiait les sources d'erreur dans le système.",
+    "Nous identifiions les besoins de nos clients.",
+    "Vous identifiiez les tendances du marché."
+  ],
+  "Futur Simple": [
+    "J'identifierai les causes du problème demain.",
+    "Tu identifieras les responsables de cet incident.",
+    "Elle identifiera les espèces d'oiseaux sur le terrain.",
+    "Nous identifierons les priorités lors de la réunion.",
+    "Vous identifierez les obstacles avant de commencer."
+  ],
+  "Passé Composé": [
+    "J'ai identifié les erreurs dans le code.",
+    "Tu as identifié le coupable grâce aux indices.",
+    "Elle a identifié la maladie très rapidement.",
+    "Nous avons identifié les besoins de la communauté.",
+    "Vous avez identifié les failles dans le système."
+  ],
+  "Futur Proche": [
+    "Je vais identifier les sources du problème.",
+    "Tu vas identifier les candidats retenus.",
+    "Il va identifier les risques liés au projet.",
+    "Nous allons identifier les zones prioritaires.",
+    "Vous allez identifier les clients les plus importants."
+  ],
+  "Passé Récent": [
+    "Je viens d'identifier la cause de la panne.",
+    "Tu viens d'identifier l'auteur du message anonyme.",
+    "Elle vient d'identifier une nouvelle espèce animale.",
+    "Nous venons d'identifier les responsables de l'incident.",
+    "Vous venez d'identifier les points à améliorer."
+  ],
+  "Impératif": [
+    "Identifie les priorités avant de commencer.",
+    "Identifions les causes du problème ensemble.",
+    "Identifiez les risques dès le début du projet.",
+    "N'identifie pas le suspect sans preuve suffisante.",
+    "N'identifiez pas le problème sans l'analyser en profondeur."
+  ],
+  "Conditionnel Présent": [
+    "J'identifierais les erreurs plus vite avec de meilleurs outils.",
+    "Tu identifierais le problème si tu observais plus attentivement.",
+    "Il identifierait les suspects grâce aux caméras.",
+    "Nous identifierions les besoins si nous avions plus de temps.",
+    "Vous identifieriez les failles si vous faisiez un audit complet."
+  ]
+}
