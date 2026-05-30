@@ -35,6 +35,9 @@ public static partial class Constants
                 public const string Interroger = "Interroger signifie poser des questions à quelqu'un afin d'obtenir des informations, ou examiner quelque chose de manière critique et approfondie. C'est un verbe régulier du premier groupe en -er.";
                 public const string Implorer = "Implorer signifie supplier quelqu'un avec insistance et humilité de faire quelque chose, demander avec ferveur et désespoir. C'est un verbe régulier du premier groupe en -er.";
                 public const string Ignorer = "Ignorer signifie ne pas savoir quelque chose, ou ne pas tenir compte de quelqu'un ou de quelque chose de manière délibérée. C'est un verbe régulier du premier groupe en -er.";
+                public const string Impliquer = "Impliquer signifie entraîner quelque chose comme conséquence nécessaire, ou mêler quelqu'un à une affaire ou une situation. C'est un verbe régulier du premier groupe en -er.";
+                public const string Inventer = "Inventer signifie créer quelque chose de nouveau, imaginer ou concevoir quelque chose qui n'existait pas auparavant, ou forger une histoire de toutes pièces. C'est un verbe régulier du premier groupe en -er.";
+                public const string Integrer = "Intégrer signifie faire entrer quelque chose ou quelqu'un dans un ensemble, ou s'assimiler à un groupe ou une organisation. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }

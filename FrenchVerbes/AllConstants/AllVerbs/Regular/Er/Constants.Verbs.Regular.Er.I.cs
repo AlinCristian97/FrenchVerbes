@@ -34,8 +34,10 @@ public static partial class Constants
                 public const string Imiter = "imiter";
                 public const string Interroger = "interroger";
                 public const string Implorer = "implorer";
-                public const string Ignorer = "ignorer"; // <-- you are here
+                public const string Ignorer = "ignorer";
                 public const string Impliquer = "impliquer";
+                public const string Inventer = "inventer";
+                public const string Integrer = "intégrer";
             }
         }
     }
