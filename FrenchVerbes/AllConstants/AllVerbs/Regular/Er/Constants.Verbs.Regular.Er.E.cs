@@ -91,7 +91,7 @@ public static partial class Constants
                 public const string Ecumer = "écumer";
                 public const string Echouer = "échouer";
                 public const string Entourer = "entourer";
-                public const string Se_Entourer = "s'entourer"; // <-- you are here
+                public const string Se_Entourer = "s'entourer";
             }
         }
     }
