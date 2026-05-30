@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je me force à sourire malgré la fatigue.",
+    "Tu te forces à manger même si tu n'as pas faim.",
+    "Il se force à aller courir chaque matin.",
+    "Nous nous forçons à rester calmes dans cette situation.",
+    "Vous vous forcez à être polis avec lui."
+  ],
+  "Imparfait": [
+    "Je me forçais à étudier même le week-end.",
+    "Tu te forçais à te lever tôt chaque jour.",
+    "Elle se forçait à parler en public malgré sa timidité.",
+    "Nous nous forcions à finir nos assiettes.",
+    "Ils se forçaient à rire pour détendre l'atmosphère."
+  ],
+  "Futur Simple": [
+    "Je me forcerai à aller à cette réunion.",
+    "Tu te forceras à apprendre cette leçon.",
+    "Il se forcera à rester jusqu'à la fin.",
+    "Nous nous forcerons à suivre le régime.",
+    "Vous vous forcerez à respecter les délais."
+  ],
+  "Passé Composé": [
+    "Je me suis forcé à terminer le livre.",
+    "Tu t'es forcé à rester éveillé jusqu'à minuit.",
+    "Elle s'est forcée à appeler son médecin.",
+    "Nous nous sommes forcés à faire du sport.",
+    "Ils se sont forcés à travailler pendant les vacances."
+  ],
+  "Futur Proche": [
+    "Je vais me forcer à aller à la salle de sport.",
+    "Tu vas te forcer à manger des légumes.",
+    "Il va se forcer à participer à la discussion.",
+    "Nous allons nous forcer à respecter notre planning.",
+    "Vous allez vous forcer à sortir ce soir."
+  ],
+  "Passé Récent": [
+    "Je viens de me forcer à finir cette tâche.",
+    "Tu viens de te forcer à appeler ta famille.",
+    "Il vient de se forcer à sourire pour la photo.",
+    "Nous venons de nous forcer à prendre une décision.",
+    "Ils viennent de se forcer à accepter la situation."
+  ],
+  "Impératif": [
+    "Force-toi à te lever plus tôt !",
+    "Ne te force pas trop, prends soin de toi.",
+    "Forçons-nous à être plus disciplinés.",
+    "Forcez-vous à terminer ce projet avant vendredi.",
+    "Ne vous forcez pas si vous ne vous sentez pas bien."
+  ],
+  "Conditionnel Présent": [
+    "Je me forcerais à sortir si j'avais plus d'énergie.",
+    "Tu te forcerais à travailler si tu étais moins fatigué.",
+    "Il se forcerait à manger si on l'y obligeait.",
+    "Nous nous forcerions à sourire en public.",
+    "Vous vous forceriez à accepter si vous n'aviez pas le choix."
+  ]
+}
