@@ -26,6 +26,8 @@ public static partial class VerbRepository
         _verbs.Add(CreateInfliger());
         _verbs.Add(CreateIncarner());
         _verbs.Add(CreateInspecter());
+        _verbs.Add(CreateIrriter());
+        _verbs.Add(CreateSe_Irriter());
     }
 
     #region FactoryMethods
@@ -164,6 +166,23 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Inspecter,
             Constants.VerbDescriptions.Regular.Er.Inspecter);
+    }
+
+    private static RegularErVerb CreateIrriter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Irriter,
+            Constants.VerbDescriptions.Regular.Er.Irriter,
+            hasReflexive: true);
+    }
+
+    private static RegularErVerb CreateSe_Irriter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Se_Irriter,
+            Constants.VerbDescriptions.Regular.Er.Se_Irriter,
+            usesEtre: true,
+            isReflexive: true);
     }
 
     #endregion

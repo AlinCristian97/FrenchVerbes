@@ -27,6 +27,8 @@ public static partial class Constants
                 public const string Infliger = "Infliger signifie faire subir quelque chose de pénible ou de désagréable à quelqu'un, imposer une sanction, une punition ou une souffrance. C'est un verbe régulier du premier groupe en -er.";
                 public const string Incarner = "Incarner signifie représenter ou symboliser quelque chose de manière concrète, ou jouer le rôle d'un personnage dans une œuvre artistique. C'est un verbe régulier du premier groupe en -er.";
                 public const string Inspecter = "Inspecter signifie examiner attentivement quelque chose ou quelqu'un afin de vérifier, contrôler ou surveiller son état ou sa conformité. C'est un verbe régulier du premier groupe en -er.";
+                public const string Irriter = "Irriter signifie provoquer de l'irritation, de l'agacement ou de la colère chez quelqu'un, ou causer une inflammation ou une sensation de brûlure sur une partie du corps. C'est un verbe régulier du premier groupe en -er.";
+                public const string Se_Irriter = "S'irriter signifie éprouver de l'irritation, de l'agacement ou de la colère, ou ressentir une inflammation ou une gêne physique. C'est un verbe pronominal régulier du premier groupe en -er.";
             }
         }
     }

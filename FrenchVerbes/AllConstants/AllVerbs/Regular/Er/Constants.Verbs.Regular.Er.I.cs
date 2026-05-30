@@ -26,10 +26,9 @@ public static partial class Constants
                 public const string Importer = "importer";
                 public const string Infliger = "infliger";
                 public const string Incarner = "incarner";
-                public const string Inspecter = "inspecter"; // <-- you are here
-                public const string Controler = "contrôler";
+                public const string Inspecter = "inspecter";
                 public const string Irriter = "irriter";
-                public const string Se_Irriter = "s'irriter";
+                public const string Se_Irriter = "s'irriter"; // <-- you are here
                 public const string Interesser = "intéresser";
                 public const string Se_Interesser = "s'intéresser";
                 public const string Imiter = "imiter";

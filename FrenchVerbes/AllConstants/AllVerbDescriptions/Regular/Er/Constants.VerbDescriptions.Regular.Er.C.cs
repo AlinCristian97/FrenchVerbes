@@ -8,6 +8,7 @@ public static partial class Constants
         {
             public static partial class Er
             {
+                public const string Controler = "Contrôler signifie vérifier, surveiller ou maîtriser quelque chose ou quelqu'un afin de s'assurer de sa conformité, de son bon fonctionnement ou de sa régularité. C'est un verbe régulier du premier groupe en -er.";
                 public const string Chanter = "Chanter signifie produire une mélodie avec la voix, interpréter un chant ou exprimer quelque chose en musique. C'est un verbe régulier du premier groupe en -er.";
                 public const string Changer = "Changer est un verbe régulier du premier groupe (-er) qui exprime le fait de modifier, transformer ou remplacer quelque chose ou une situation.";
                 public const string Commencer = "Commencer exprime le fait d'initier ou de débuter une action. C'est un verbe régulier en -er avec un changement orthographique devant certaines terminaisons.";
