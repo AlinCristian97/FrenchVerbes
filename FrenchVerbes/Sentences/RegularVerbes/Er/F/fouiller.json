@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "Je fouille dans mes poches pour trouver mes clés.",
+    "Tu fouilles le tiroir à la recherche du document.",
+    "Il fouille la maison pour retrouver son téléphone.",
+    "Nous fouillons les archives pour des informations utiles.",
+    "Vous fouillez les bagages des passagers à l'aéroport."
+  ],
+  "Imparfait": [
+    "Je fouillais partout pour retrouver mon portefeuille.",
+    "Tu fouillais les placards à la recherche d'un outil.",
+    "Elle fouillait les décombres après le tremblement de terre.",
+    "Nous fouillions les bibliothèques pour des documents anciens.",
+    "Vous fouilliez les poches des suspects lors de l'arrestation."
+  ],
+  "Futur Simple": [
+    "Je fouillerai la cave pour trouver ces vieilles photos.",
+    "Tu fouilleras le grenier demain matin.",
+    "Il fouillera les affaires laissées derrière.",
+    "Nous fouillerons le site archéologique pendant l'été.",
+    "Vous fouillerez les dossiers pour retrouver le contrat."
+  ],
+  "Passé Composé": [
+    "J'ai fouillé tous les tiroirs sans trouver le document.",
+    "Tu as fouillé le sac à dos en cherchant tes lunettes.",
+    "Elle a fouillé la pièce de fond en comble.",
+    "Nous avons fouillé le jardin pour retrouver la clé perdue.",
+    "Vous avez fouillé les archives toute la matinée."
+  ],
+  "Futur Proche": [
+    "Je vais fouiller le sous-sol pour retrouver ces cartons.",
+    "Tu vas fouiller les poches de ton manteau.",
+    "Il va fouiller le coffre de la voiture.",
+    "Nous allons fouiller le terrain archéologique ce week-end.",
+    "Vous allez fouiller les dossiers de l'entreprise."
+  ],
+  "Passé Récent": [
+    "Je viens de fouiller toute la maison.",
+    "Tu viens de fouiller le tiroir du bureau.",
+    "Elle vient de fouiller les affaires du grenier.",
+    "Nous venons de fouiller l'ensemble des documents.",
+    "Vous venez de fouiller le site à la recherche d'indices."
+  ],
+  "Impératif": [
+    "Fouille bien dans tes poches !",
+    "Fouillez les bagages avec attention !",
+    "Fouillons cet endroit méthodiquement !",
+    "Ne fouille pas dans mes affaires !",
+    "Fouille partout avant de conclure qu'il est perdu !"
+  ],
+  "Conditionnel Présent": [
+    "Je fouillerais la maison si j'avais le temps.",
+    "Tu fouillerais les archives si tu avais l'autorisation.",
+    "Elle fouillerait les vieux cartons pour retrouver les lettres.",
+    "Nous fouillerions le terrain si nous avions les outils nécessaires.",
+    "Vous fouilleriez les dossiers si vous en aviez besoin."
+  ]
+}

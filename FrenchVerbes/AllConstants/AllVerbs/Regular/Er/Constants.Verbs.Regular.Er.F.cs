@@ -31,7 +31,7 @@ public static partial class Constants
                 public const string Foudroyer = "foudroyer";
                 public const string Flairer = "flairer";
                 public const string Feliciter = "féliciter";
-                public const string Se_Feliciter = "se féliciter"; // <-- you are here
+                public const string Se_Feliciter = "se féliciter";
                 public const string Fouiller = "fouiller";
                 public const string Fasciner = "fasciner";
             }

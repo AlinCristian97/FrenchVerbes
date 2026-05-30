@@ -32,6 +32,8 @@ public static partial class Constants
                 public const string Flairer = "Flairer signifie sentir quelque chose avec le nez, percevoir une odeur, ou au sens figuré, pressentir ou deviner quelque chose intuitivement. C'est un verbe régulier du premier groupe en -er.";
                 public const string Feliciter = "Féliciter signifie exprimer sa satisfaction ou son admiration à quelqu'un pour quelque chose qu'il a accompli, lui adresser des compliments ou des félicitations. C'est un verbe régulier du premier groupe en -er.";
                 public const string Se_Feliciter = "Se féliciter signifie s'estimer heureux de quelque chose, se réjouir d'une situation ou se congratuler soi-même pour un résultat obtenu. C'est un verbe pronominal régulier du premier groupe en -er.";
+                public const string Fouiller = "Fouiller signifie chercher en remuant, en examinant soigneusement, explorer un lieu ou un objet pour trouver quelque chose de caché. C'est un verbe régulier du premier groupe en -er.";
+                public const string Fasciner = "Fasciner signifie attirer irrésistiblement l'attention ou l'intérêt de quelqu'un, exercer une fascination ou un attrait puissant sur quelqu'un. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }
