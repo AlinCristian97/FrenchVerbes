@@ -11,6 +11,9 @@ public static partial class VerbRepository
         _verbs.Add(CreateHeurter());
         _verbs.Add(CreateHabiter());
         _verbs.Add(CreateHabituer());
+        _verbs.Add(CreateHurler());
+        _verbs.Add(CreateHesiter());
+        _verbs.Add(CreateHonorer());
     }
 
     #region FactoryMethods
@@ -41,6 +44,27 @@ public static partial class VerbRepository
         return new RegularErVerb(
             Constants.Verbs.Regular.Er.Habituer,
             Constants.VerbDescriptions.Regular.Er.Habituer);
+    }
+
+    private static RegularErVerb CreateHurler()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Hurler,
+            Constants.VerbDescriptions.Regular.Er.Hurler);
+    }
+
+    private static RegularErVerb CreateHesiter()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Hesiter,
+            Constants.VerbDescriptions.Regular.Er.Hesiter);
+    }
+
+    private static RegularErVerb CreateHonorer()
+    {
+        return new RegularErVerb(
+            Constants.Verbs.Regular.Er.Honorer,
+            Constants.VerbDescriptions.Regular.Er.Honorer);
     }
 
     #endregion

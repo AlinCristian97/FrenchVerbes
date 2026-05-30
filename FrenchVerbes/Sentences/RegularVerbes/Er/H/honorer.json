@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'honore mes engagements quoi qu'il arrive.",
+    "Tu honores ta famille par ton travail.",
+    "Il honore la mémoire de ses ancêtres.",
+    "Nous honorons nos invités avec un grand dîner.",
+    "Ils honorent leur contrat dans les délais prévus."
+  ],
+  "Imparfait": [
+    "J'honorais toujours mes promesses.",
+    "Tu honorais tes parents par ton comportement exemplaire.",
+    "Il honorait ses dettes à la fin de chaque mois.",
+    "Nous honorions les soldats tombés au champ d'honneur.",
+    "Ils honoraient leurs engagements avec sérieux."
+  ],
+  "Futur Simple": [
+    "J'honorerai ma parole, c'est une certitude.",
+    "Tu honoreras leur confiance en faisant du bon travail.",
+    "Il honorera sa dette avant la fin du mois.",
+    "Nous honorerons la mémoire de nos ancêtres.",
+    "Ils honoreront leur engagement envers l'équipe."
+  ],
+  "Passé Composé": [
+    "J'ai honoré ma promesse comme convenu.",
+    "Tu as honoré tes parents par tes succès.",
+    "Il a honoré ses dettes sans délai.",
+    "Nous avons honoré les victimes de la guerre.",
+    "Ils ont honoré leur contrat dans les délais."
+  ],
+  "Futur Proche": [
+    "Je vais honorer mon engagement dès demain.",
+    "Tu vas honorer ta parole, j'en suis sûr.",
+    "Il va honorer sa dette avant la fin de la semaine.",
+    "Nous allons honorer les héros de cette ville.",
+    "Ils vont honorer leurs obligations contractuelles."
+  ],
+  "Passé Récent": [
+    "Je viens d'honorer ma dernière facture.",
+    "Tu viens d'honorer ton contrat avec succès.",
+    "Il vient d'honorer la mémoire de son grand-père.",
+    "Nous venons d'honorer nos invités comme il se doit.",
+    "Ils viennent d'honorer leurs engagements financiers."
+  ],
+  "Impératif": [
+    "Honore ta parole, c'est essentiel.",
+    "Honorons la mémoire de ceux qui sont tombés.",
+    "Honorez vos engagements envers vos clients.",
+    "N'oublie pas d'honorer tes dettes à temps.",
+    "Honorons nos ancêtres par nos actions."
+  ],
+  "Conditionnel Présent": [
+    "J'honorerais cet engagement si j'en avais les moyens.",
+    "Tu honorerais ta famille en réussissant tes études.",
+    "Il honorerait sa dette s'il avait plus d'argent.",
+    "Nous honorerions leurs sacrifices en agissant ainsi.",
+    "Ils honoreraient leur parole s'ils étaient honnêtes."
+  ]
+}

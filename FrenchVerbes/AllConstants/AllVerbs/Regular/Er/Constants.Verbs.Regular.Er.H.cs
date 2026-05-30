@@ -11,11 +11,11 @@ public static partial class Constants
                 public const string Harceler = "harceler";
                 public const string Heurter = "heurter";
                 public const string Habiter = "habiter";
-                public const string Habituer = "habituer"; // <-- you are here
+                public const string Habituer = "habituer";
                 public const string Hurler = "hurler";
-                public const string Hésiter = "hésiter";
-                public const string Honorer = "honorer";
-                public const string Hériter = "hériter";
+                public const string Hesiter = "hésiter";
+                public const string Honorer = "honorer"; // <-- you are here
+                public const string Heriter = "hériter";
                 public const string Harmoniser = "harmoniser";
                 public const string Happer = "happer";
                 public const string Hocher = "hocher";

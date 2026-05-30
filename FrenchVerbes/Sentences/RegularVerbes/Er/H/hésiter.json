@@ -1,0 +1,58 @@
+{
+  "Présent": [
+    "J'hésite entre les deux options proposées.",
+    "Tu hésites trop longtemps avant de décider.",
+    "Il hésite à accepter cette offre d'emploi.",
+    "Nous hésitons à partir si tôt.",
+    "Ils hésitent à s'engager dans ce projet."
+  ],
+  "Imparfait": [
+    "J'hésitais toujours avant de prendre la parole.",
+    "Tu hésitais à lui dire la vérité.",
+    "Il hésitait entre deux chemins dans la forêt.",
+    "Nous hésitions à investir dans cette entreprise.",
+    "Ils hésitaient à traverser la rue sous la pluie."
+  ],
+  "Futur Simple": [
+    "J'hésiterai avant de répondre à sa question.",
+    "Tu hésiteras certainement face à ce choix difficile.",
+    "Il hésitera à signer le contrat sans le lire.",
+    "Nous hésiterons à prendre cette décision importante.",
+    "Ils hésiteront avant d'accepter l'invitation."
+  ],
+  "Passé Composé": [
+    "J'ai hésité longtemps avant de choisir.",
+    "Tu as hésité à lui poser cette question.",
+    "Il a hésité avant de sauter à l'eau.",
+    "Nous avons hésité entre les deux restaurants.",
+    "Ils ont hésité plusieurs jours avant de décider."
+  ],
+  "Futur Proche": [
+    "Je vais hésiter avant de donner ma réponse.",
+    "Tu vas hésiter si tu n'es pas préparé.",
+    "Il va hésiter à prendre cette décision seul.",
+    "Nous allons hésiter entre plusieurs destinations de voyage.",
+    "Ils vont hésiter avant de signer l'accord."
+  ],
+  "Passé Récent": [
+    "Je viens d'hésiter entre deux possibilités.",
+    "Tu viens d'hésiter avant de répondre.",
+    "Il vient d'hésiter à accepter le poste.",
+    "Nous venons d'hésiter sur la direction à prendre.",
+    "Ils viennent d'hésiter avant de s'engager."
+  ],
+  "Impératif": [
+    "Hésite avant de prendre une décision aussi importante !",
+    "N'hésite pas à me contacter si tu as besoin d'aide.",
+    "Hésitez moins et agissez davantage.",
+    "N'hésitez pas à poser des questions.",
+    "N'hésitions pas à explorer de nouvelles pistes."
+  ],
+  "Conditionnel Présent": [
+    "J'hésiterais avant de lui confier ce secret.",
+    "Tu hésiterais aussi à sa place.",
+    "Il hésiterait à refuser une telle offre.",
+    "Nous hésiterions à voyager dans des conditions pareilles.",
+    "Ils hésiteraient à se lancer sans garanties."
+  ]
+}
