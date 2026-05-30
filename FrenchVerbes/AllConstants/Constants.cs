@@ -106,6 +106,7 @@ public static partial class Constants
         Verbs.Regular.Er.Hesiter,
         Verbs.Regular.Er.Honorer,
         Verbs.Regular.Er.Heriter,
+        Verbs.Regular.Er.Harmoniser,
         Verbs.Regular.Er.Habiller,
     ];
     public const string SectionDivider = "--------------------------------------------------";

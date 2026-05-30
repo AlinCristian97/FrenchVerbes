@@ -15,6 +15,9 @@ public static partial class Constants
                 public const string Hurler = "Hurler signifie pousser des cris forts et prolongés, souvent de douleur, de peur ou de colère, ou parler très fort. C'est un verbe régulier du premier groupe en -er.";
                 public const string Hesiter = "Hésiter signifie être dans un état d'incertitude ou d'indécision avant de prendre une décision ou d'agir. C'est un verbe régulier du premier groupe en -er.";
                 public const string Honorer = "Honorer signifie témoigner du respect ou de la considération envers quelqu'un ou quelque chose, ou s'acquitter d'un engagement. C'est un verbe régulier du premier groupe en -er.";
+                public const string Heriter = "Hériter signifie recevoir quelque chose d'une personne décédée par voie de succession, ou obtenir quelque chose en héritage au sens figuré. C'est un verbe régulier du premier groupe en -er.";
+                public const string Harmoniser = "Harmoniser signifie mettre en accord ou en harmonie des éléments différents, les rendre compatibles ou cohérents entre eux. C'est un verbe régulier du premier groupe en -er.";
+                public const string Happer = "Happer signifie saisir brusquement quelque chose avec la bouche ou avec les mains, ou attraper violemment quelqu'un ou quelque chose. C'est un verbe régulier du premier groupe en -er.";
             }
         }
     }
